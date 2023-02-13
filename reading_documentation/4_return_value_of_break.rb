@@ -12,4 +12,13 @@ In the "control expressions" section search for "break".
 Read the "break" section for the answer.
 If break is not supplied a value then the return value is nil.
 The documentations says "break accepts a value that supplies the result of the expression it is “breaking” out of"
+You can also write a small ruby file or use irb with the following:
+
+result = while true
+  break
+end
+
+p result
+
+This will display "nil" as the value for result.
 =end
