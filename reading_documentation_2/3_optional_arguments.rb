@@ -50,4 +50,9 @@ That new_array was converted into a string with brackets, double quotation marks
 
 puts s.split(',', 2).inspect
 ["new_array"] = ["abc def ghi", "jkl mno pqr,stu vwx yz"]
+Explanation:
+The string "s" was split on the basis of ',' that is the comma character.
+This split happened for a limit of 2 times.
+The result was a new_array. 
+That new_array was converted into a string with brackets, double quotation marks & with special characters escaped.
 =end
