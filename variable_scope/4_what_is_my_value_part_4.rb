@@ -13,4 +13,17 @@ end
 my_value(a)
 puts a
 
+Description of Solution:
+
+Syntax:
+a = "Xyzzy"
+Explanation:
+local variable "a" = "Xyzzy"
+
+Syntax:
+def my_value(b)
+  b[2] = '-'
+end
+Explanation:
+
 =end
