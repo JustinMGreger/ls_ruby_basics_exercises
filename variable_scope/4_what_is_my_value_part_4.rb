@@ -69,8 +69,16 @@ The new string is then "Xyzzy" = X[0], y[1], '-'[2], z[3], y[4].
 In string form that is "Xy-zy".
 That string = a.
 a = "Xy-zy".
-The local variable "a" outside the method was pointing at the same string that the method was pointing at.
+The local variable "a" outside the my_value method was pointing at the same string that the my_value method was pointing at.
+This mutation of the string in the my_value also mutate the local variable "a" outside of the my_value method.
 
+Syntax:
 puts a
+Explanation:
+The local variable "a" was pointing at the string that the my_value method mutated.
+Local variable "a" is pointing at the mutated string.
+Local variable "a" = "Xy-zy".
+puts a = print string to screen "Xy-zy".
 
+The answer is "Xy-zy"
 =end
