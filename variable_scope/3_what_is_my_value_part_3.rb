@@ -15,7 +15,21 @@ puts a
 
 Description of Solution:
 Syntax: 
+a = 7
+
 Explanation:
+variable "a" is assigned to integer 7.
+
+Syntax:
+def my_value(b)
+  a = b
+end
+
+Explanation:
+my_value is a method.
+my_value accepts the argument "b".
+
+
 Answer:
 Syntax:
 Explanation: 
