@@ -63,6 +63,13 @@ Which means:
 b[2] of "Xyzzy" = X[0], y[1], z[2], z[3], y[4]
 That means b[2] is referrencing z[2].
 That means that b[2] = z[2].
+"z" = '-'
+Which means '-' replaces "z"[2].
+The new string is then "Xyzzy" = X[0], y[1], '-'[2], z[3], y[4].
+In string form that is "Xy-zy".
+That string = a.
+a = "Xy-zy".
+The local variable "a" outside the method was pointing at the same string that the method was pointing at.
 
 puts a
 
