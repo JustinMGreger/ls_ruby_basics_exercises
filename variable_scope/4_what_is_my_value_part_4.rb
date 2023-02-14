@@ -31,7 +31,18 @@ my_value accepts the argument "b".
 Method local variable "b" is accessing the character at index 2 of the string "b".
 Method loca varible "b" is reassigning that character at index 2 of string "b" to '-'.
 
+Syntax:
+my_value(a)
+Explanation:
+Local method my_value is accepting argument value of local variable "a".
+That is local variable "a" which is being accepted at method local variable "b".
 
+Syntax:
+puts a
+Explanation:
+put string local variable "a" to the screen.
+
+Answer:
 
 
 =end
