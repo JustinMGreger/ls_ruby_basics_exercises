@@ -99,4 +99,5 @@ The answer is 7.
 
 Numbers in Ruby are immutable so when "a" was initialized to 7 it could not be mutated.
 "a" was not reassigned.
+Method definitions are self-contained with respect to local variables.
 =end
