@@ -15,6 +15,14 @@ puts a
 
 
 Description of Solution:
+variable "a" is assigned to integer 7.
+
+my_value is a method.
+my_value accepts the argument "b".
+my_value is defined as incrementing "b" by 10 using the += operator. 
++= is the addition assignment operator.
+This adds 10 to "b".
+That result of 10 added to "b" is then assigned to "b".
 
 Answer:
 =end
