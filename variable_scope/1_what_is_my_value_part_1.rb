@@ -73,4 +73,30 @@ Explanation:
 Put string of "a".
 
 Answer:
+a = 7
+
+def my_value(b)
+  b += 10
+end
+
+my_value(a)
+This means my_value accepts argument "a".
+"a" = 7.
+Thus my_value(7).
+
+def my_value(7)
+b = 7 += 10
+end
+
+b = 7 + 10 = 17.
+17 which is the reassigned return value of new object b.
+That is b = 17.
+
+puts a
+a = 7
+puts 7
+The answer is 7.
+
+Numbers in Ruby are immutable so when "a" was initialized to 7 it could not be mutated.
+"a" was not reassigned.
 =end
