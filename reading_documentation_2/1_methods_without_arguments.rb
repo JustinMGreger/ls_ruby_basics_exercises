@@ -8,4 +8,10 @@ Select the API for the version of Ruby you are using.
 Search for "String".
 The first result should take you to the String Class.
 Search the word "upcase" on the String Class page.
+The documentation says string.upcase is how to create an uppercase version of string.
+Answer:
+
+result = "xyz".upcase
+p result
+
 =end
