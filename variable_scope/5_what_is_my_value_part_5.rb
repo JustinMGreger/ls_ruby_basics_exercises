@@ -13,5 +13,16 @@ end
 my_value(a)
 puts a
 
+Description of Solution:
+Syntax:
+a = "Xyzzy"
+Explanation:
+Local variable "a" is assigned to "Xyzzy".
+
+Syntax:
+Explanation:
+
+
+
 
 =end
