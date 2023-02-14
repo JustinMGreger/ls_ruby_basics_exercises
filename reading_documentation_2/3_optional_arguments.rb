@@ -35,12 +35,18 @@ s = 'abc def ghi,jkl mno pqr,stu vwx yz'
 puts s.split.inspect
 ["new_array"] = ["abc", "def", "ghi,jkl", "mno", "pqr,stu", "vwx", "yz"]
 Explanation: 
-The string "s" was split on the basis of white space as many times as white space occured without limit.
+The string "s" was split on the basis of white space.
+This split happened as many times as possible without limit.
 The result was a new_array. 
-That new_array was then converted into a string with brackets, double quotation marks & with special characters escaped.
+That new_array was converted into a string with brackets, double quotation marks & with special characters escaped.
 
 puts s.split(',').inspect
 ["new_array"] = ["abc def ghi", "jkl mno pqr", "stu vwx yz"]
+Explanation:
+The string "s" was split on the basis of ',' that is the comma character.
+This split happened as many times as possible without limit.
+The result was a new_array. 
+That new_array was converted into a string with brackets, double quotation marks & with special characters escaped.
 
 puts s.split(',', 2).inspect
 ["new_array"] = ["abc def ghi", "jkl mno pqr,stu vwx yz"]
