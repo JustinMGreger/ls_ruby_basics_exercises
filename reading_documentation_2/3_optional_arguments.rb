@@ -21,19 +21,23 @@ A delimiter is a specific character or series of characters.
 Limit is an optional integer that limits the number of splits performed. 
 If it is not specified or is nil then the string will be split as many times as possible.
 
-The inspect method converts the new array into a string representaion with brackets and quotation marks with special characters escaped.
+Search the word "inspect" on the String Class page.
+The inspect method converts the new array into a string representaion with brackets, quotation marks & with special characters escaped.
 
 Syntax:
 string.split(delimiter, limit) => new_array created
+
+string.split(delimiter, limit).inspect => ["new_array"]
 
 Answer:
 s = 'abc def ghi,jkl mno pqr,stu vwx yz'
 
 puts s.split.inspect
-new_array = ["abc", "def", "ghi,jkl", "mno", "pqr,stu", "vwx", "yz"]
+["new_array"] = ["abc", "def", "ghi,jkl", "mno", "pqr,stu", "vwx", "yz"]
 
 puts s.split(',').inspect
-new_array =
+["new_array"] =
 
 puts s.split(',', 2).inspect
+["new_array"] = 
 =end
