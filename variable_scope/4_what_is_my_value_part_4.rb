@@ -18,12 +18,20 @@ Description of Solution:
 Syntax:
 a = "Xyzzy"
 Explanation:
-local variable "a" = "Xyzzy"
+Local variable "a" = "Xyzzy"
+Local variable "a" is referencing a string which is mutatable unlike an integer.
 
 Syntax:
 def my_value(b)
   b[2] = '-'
 end
 Explanation:
+my_value is a method.
+my_value accepts the argument "b".
+Method local variable "b" is accessing the character at index 2 of the string "b".
+Method loca varible "b" is reassigning that character at index 2 of string "b" to '-'.
+
+
+
 
 =end
