@@ -70,6 +70,7 @@ Syntax:
 puts a
 
 Explanation:
+Put string of "a".
 
 Answer:
 =end
