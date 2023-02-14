@@ -43,6 +43,27 @@ Explanation:
 put string local variable "a" to the screen.
 
 Answer:
+Syntax:
+a = "Xyzzy"
 
+def my_value(b)
+  b[2] = '-'
+end
+
+my_value(a)
+Whic means a = b.
+def my_value(b)
+  b[2] = '-'
+end
+Thus:
+def my_value("Xyzzy")
+  b[2] = '-'
+end
+Which means:
+b[2] of "Xyzzy" = X[0], y[1], z[2], z[3], y[4]
+That means b[2] is referrencing z[2].
+That means that b[2] = z[2].
+
+puts a
 
 =end
