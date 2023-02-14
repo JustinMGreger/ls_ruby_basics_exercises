@@ -67,7 +67,7 @@ Which is new object "b" = 11.
 11 would be the return value.
 
 Syntax:
-puts a
+puts "a"
 
 Explanation:
 Put string of "a".
@@ -81,7 +81,7 @@ end
 
 my_value(a)
 This means my_value accepts argument "a".
-"a" = 7.
+a = 7.
 Thus my_value(7).
 
 def my_value(7)
@@ -89,7 +89,7 @@ b = 7 += 10
 end
 
 b = 7 + 10 = 17.
-17 which is the reassigned return value of new object b.
+17 which is the reassigned return value of new object "b".
 That is b = 17.
 
 puts a
