@@ -16,4 +16,14 @@ end
 my_value(array)
 puts a
 
+Description of Solution:
+Syntax:
+a = 7
+Explanation:
+Local variable "a" is assigned the value integer 7.
+
+Syntax:
+array = [1, 2, 3]
+Explanation:
+Local variable "array" is assigned [1, 2, 3].
 =end
