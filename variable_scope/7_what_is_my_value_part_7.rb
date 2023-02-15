@@ -38,5 +38,11 @@ Block variable scoping rules allow access to local variables that were initializ
 This means that for every element in "array" that [1, 2, 3] each of those elements will be assigned to "a".
 
 Syntax:
+puts a
 Explanation:
+a has been assigned to the elements inside of array. 
+Specifically the last element of "array".
+That last element has the value "3".
+"a" is assigned "3".
+puts a will print 3.
 =end
