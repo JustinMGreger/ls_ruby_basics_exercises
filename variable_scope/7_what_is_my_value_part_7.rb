@@ -29,5 +29,14 @@ array.each do |element|
   a = element
 end
 Explanation:
+array.each method is invoked on local variable array. 
+Each takes a block argument.
+As each element of the array is passed to the block it is being assigned to the block local variable element.
+Local variable "a" is being assigned to element.
+Local variable "a" can be accessed within this block inner scope.
+Block variable scoping rules allow access to local variables that were initialized in an outer scope.
+This means that for every element in "array" that [1, 2, 3] each of those elements will be assigned to "a".
 
+Syntax:
+Explanation:
 =end
