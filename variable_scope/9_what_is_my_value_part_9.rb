@@ -15,5 +15,10 @@ puts a
 
 Description of Solution:
 Syntax:
+a = 7
+Explanation:
+Local variable "a" is assigned the value integer 7.
+
+Syntax:
 Explanation:
 =end
