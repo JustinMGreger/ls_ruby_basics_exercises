@@ -7,4 +7,8 @@ loop do
   puts 'Should I stop looping?'
   answer = gets.chomp
 end
+
+Desciption of Solution:
+Syntax:
+Explanation:
 =end
