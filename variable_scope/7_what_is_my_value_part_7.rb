@@ -24,4 +24,10 @@ array = [1, 2, 3]
 Explanation:
 Local variable "array" is assigned [1, 2, 3].
 
+Syntax:
+array.each do |element|
+  a = element
+end
+Explanation:
+
 =end
