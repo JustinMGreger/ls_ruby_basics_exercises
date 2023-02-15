@@ -14,5 +14,9 @@ puts a
 
 Description of Solution:
 Syntax:
+array = [1, 2, 3]
 Explanation: 
+Local variable "array" is assigned [1, 2, 3].
+
+
 =end
