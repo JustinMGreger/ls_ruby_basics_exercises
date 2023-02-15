@@ -38,7 +38,8 @@ The array.each block is inside of the my_value method.
 Methods are entirely self-contained.
 The only way to access the intialized local variable "a" to the method is as an argument.
 This does not happen and an error occurs as "a" is not defined.
+Additionally numbers cannot be mutated in Ruby.
 
 Answer:
-
+undefined method `+' for nil:NilClass (NoMethodError)
 =end
