@@ -65,9 +65,15 @@ my_value method takes local variable "a" as arugment "b".
 def my_value(a)
   a = 'yzzyX'
 end
+The return value of this method is new object "a" =  'yzzyX'
 
-
-
+Syntax:
 puts a
 Explanation:
+puts local variable "a".
+Local variable "a" = "Xyzzy".
+The my_value method did not mutate the local variable "a" specifically the string it was pointing at.
+The original value local variable "a" remained unchanged.
+The original vlaue of local variable "a" is "Xyzzy".
+The answer is Xyzzy.
 =end
