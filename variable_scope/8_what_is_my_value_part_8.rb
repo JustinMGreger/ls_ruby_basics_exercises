@@ -12,4 +12,7 @@ end
 
 puts a
 
+Description of Solution:
+Syntax:
+Explanation: 
 =end
