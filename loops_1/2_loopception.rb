@@ -17,6 +17,21 @@ puts 'This is outside all loops.'
 
 Description of Solution:
 Syntax:
-Explanation:
+loop do
+  puts 'This is the outer loop.'
 
+  loop do
+    puts 'This is the inner loop.'
+  end
+end
+Explanation:
+There are 2 nested loops.
+The outer loop syntax is:
+loop do
+  puts 'This is the outer loop.'
+end
+The inner loop syntax is:
+  loop do
+    puts 'This is the inner loop.'
+  end
 =end
