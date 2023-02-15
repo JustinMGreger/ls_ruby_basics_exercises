@@ -14,4 +14,9 @@ loop do
 end
 
 puts 'This is outside all loops.'
+
+Description of Solution:
+Syntax:
+Explanation:
+
 =end
