@@ -48,4 +48,7 @@ Due to shadowing in the block the "a" in puts a is referencing the original "a".
 The orginal "a" is a = 7.
 When puts a is ran that "a" = 7.
 puts a prints 7 to the string.
+
+Answer:
+7
 =end
