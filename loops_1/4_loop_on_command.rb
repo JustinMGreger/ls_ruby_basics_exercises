@@ -44,4 +44,10 @@ This references the line of code above it:
 When the user is prompted with the following code:
  puts 'Should I stop looping?'
 The user has the option of responding.
+If the user responds with an input of "yes" then the variable answer is assigned equal to "yes".
+If answer == 'yes' then the break is executed.
+If the break is executed then the loop exits.
+An additional line of code is added after the break if statement:
+  puts 'Incorrect answer. Please answer "yes".'
+This code informs the user that the wrong answer entered.
 =end
