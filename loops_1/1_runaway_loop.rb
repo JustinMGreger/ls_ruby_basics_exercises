@@ -12,7 +12,12 @@ end
 
 Description of Solution:
 Syntax:
+loop do
+   puts 'Just keep printing...'
+end
 Explanation:
+This syntax means that a loop is running "puts 'Just keep printing...'".
+There is nothing in this syntax to stop the loop form running.
 
 
 =end
