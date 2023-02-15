@@ -48,12 +48,26 @@ puts local variable "a" to screen.
 Answer:
 Syntax:
 a = "Xyzzy"
+Explanaiton:
+Local variable "a" points to  "Xyzzy"
 
+Syntax:
 def my_value(b)
   b = 'yzzyX'
 end
+Explanation:
+"b" is always assigned that is it points to 'yzzyX' as a new object.
 
+Syntax:
 my_value(a)
+Explanation:
+my_value method takes local variable "a" as arugment "b".
+def my_value(a)
+  a = 'yzzyX'
+end
+
+
+
 puts a
 Explanation:
 =end
