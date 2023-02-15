@@ -45,5 +45,15 @@ puts a
 Explanation:
 puts local variable "a" to screen.
 
+Answer:
+Syntax:
+a = "Xyzzy"
 
+def my_value(b)
+  b = 'yzzyX'
+end
+
+my_value(a)
+puts a
+Explanation:
 =end
