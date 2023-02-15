@@ -36,7 +36,8 @@ Explanation:
 The only "a" in this code is within the block.
 As previously described that "a" is not accessible for the puts a.
 This means that the "a" in puts a is an undefined local variable. 
-That means that an error occurs when puts a is ran.
+That means that an error occurs when "puts a" is ran.
 
-
+Answer: 
+undefined local variable or method `a' for main:Object (NameError)
 =end
