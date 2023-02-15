@@ -36,6 +36,8 @@ Local variable "a" is being assigned to element.
 Local variable "a" can be accessed within this block inner scope.
 Block variable scoping rules allow access to local variables that were initialized in an outer scope.
 This means that for every element in "array" that [1, 2, 3] each of those elements will be assigned to "a".
+With the final element being the final assignment to "a" which is 3.
+That is a = 3.
 
 Syntax:
 puts a
@@ -45,4 +47,7 @@ Specifically the last element of "array".
 That last element has the value "3".
 "a" is assigned "3".
 puts a will print 3.
+
+Answer: 
+3
 =end
