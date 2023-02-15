@@ -39,4 +39,23 @@ Syntax:
 puts 'This is outside all loops.'
 Explanation:
 The string 'This is outside all loops.' and the "puts" are not part of the loops.
+
+Answer:
+Stopping a loop can be accomplished by adding the reserved word "break" inside of the loop.
+When loop executes "break" it stops iterating and immediately exits the block.
+Syntax:
+loop do
+  puts 'This is the outer loop.'
+
+  loop do
+    puts 'This is the inner loop.'
+    break
+  end
+
+  break
+end
+Explanation:
+The first break occurs inside the inner loop after it has run once.
+The second break occurs inside the outer loop after it has run the inner loop once.
+The puts 'This is the inner loop.' is printed.
 =end
