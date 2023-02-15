@@ -38,9 +38,10 @@ loop do
   puts 'Should I stop looping?'
   answer = gets.chomp
 Then the syntax is modified with a break if statement:
-break if answer == 'yes'
-
-
-
-
+  break if answer == 'yes'
+This references the line of code above it:
+  answer = gets.chomp
+When the user is prompted with the following code:
+ puts 'Should I stop looping?'
+The user has the option of responding.
 =end
