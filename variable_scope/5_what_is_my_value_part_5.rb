@@ -34,5 +34,16 @@ Meaning that new "b" is created at this point.
 Which can be thought of as new_b =  'yzzyX'.
 The return value of my_value regardless of argument "b" will be 'yzzyX'.
 
+Syntax:
+my_value(a)
+Explanation:
+my_value method accepts local variable "a" as argument "b".
+
+
+Syntax:
+puts a
+Explanation:
+puts local variable "a" to screen.
+
 
 =end
