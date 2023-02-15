@@ -32,4 +32,10 @@ This is a problem because the "a"s in this method have no input.
 The "a"s in this method are not able to access local variable "a" outside of the method.
 This means that within the my_value method the "a"s are undefined variables.
 This raises an error message.
+
+Answer:
+The undefined "a" inside the my_value method on raises an error. 
+This occurs when my_value(a) is run as that runs the my_value method.
+The answer is:
+`my_value': undefined local variable or method `a' for main:Object (NameError).
 =end
