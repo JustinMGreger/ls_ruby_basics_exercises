@@ -41,5 +41,11 @@ When Ruby looks for "a" it finds it inside of the block and stops looking.
 Varaible shadowing is happening because "a" is used more than once in this block as stated above.
 If the variables were named something other than "a" then Ruby could find the value.
 
-
+Syntax:
+puts a
+Explanation:
+Due to shadowing in the block the "a" in puts a is referencing the original "a".
+The orginal "a" is a = 7.
+When puts a is ran that "a" = 7.
+puts a prints 7 to the string.
 =end
