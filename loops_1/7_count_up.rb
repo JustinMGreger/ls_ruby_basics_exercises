@@ -49,5 +49,11 @@ Explanation:
 count was reassigned from 10 to 1.
 
 Syntax:
+until count > 10
+Explanation:
+The until loop was changed from "until count == 0".
+Now the until loop runs until the "count" variable is greater than 10.
+
+Syntax:
 Explanation:
 =end
