@@ -9,4 +9,9 @@ numbers = []
 while <condition>
   # ...
 end
+
+Explanation of Syntax:
+Syntax:
+Explanation:
+
 =end
