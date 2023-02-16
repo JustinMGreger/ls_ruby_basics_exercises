@@ -25,5 +25,25 @@ Empty while loop.
 
 Answer:
 Syntax:
+numbers = []
+
+while numbers.size < 5
+  numbers << rand(100)
+end
+
+puts numbers
+
+Syntax:
+numbers = []
 Explanation:
+The local variable "numbers" remains assigned an empty array.
+
+Syntax:
+while numbers.size < 5
+Explanation:
+The while loop recieved the local variable "numbers" which is an array.
+The array.size method is used to return the size of the numbers array.
+That is the amount of elements in the numbers array.
+Then comparision "<" is used so that the while loop runs until the size of the numbers array is "<" 5.
+
 =end
