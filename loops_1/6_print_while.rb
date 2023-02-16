@@ -12,6 +12,16 @@ end
 
 Explanation of Syntax:
 Syntax:
+numbers = []
 Explanation:
+local variable numbers is assigned the value of an empty array.
+
+Syntax:
+while <condition>
+  # ...
+end
+Explanation:
+Empty while loop.
+
 
 =end
