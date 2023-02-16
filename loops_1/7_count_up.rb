@@ -52,7 +52,7 @@ Syntax:
 until count > 10
 Explanation:
 The until loop was changed from "until count == 0".
-Now the until loop runs until the "count" variable is greater than 10.
+Now the until loop runs until the "count" variable is greater than 10 is true.
 
 Syntax:
   puts count
@@ -67,4 +67,9 @@ The count variable is being increased by 1 everytime the until loop runs.
 This is the opposite of the original code.
 Instead of decreasing count by 1 every time the until loop runs count is being increased by 1.
 
+Summary of answer:
+count has been assigned to 1.
+The until loop runs until count is greater than 10 is true.
+Every time the until loop is run "count" is printed to the screen with puts.
+Every time the until loop is run count is assigned to count + 1.
 =end
