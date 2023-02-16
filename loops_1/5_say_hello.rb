@@ -37,5 +37,28 @@ The printed result is "Hello!".
 
 Answer:
 Syntax:
+say_hello = true
+count = 0
+
+while say_hello
+  puts 'Hello!'
+  count += 1
+  say_hello = false if count == 5
+end
+
 Explanation:
+The first line of code is the same:
+say_hello = true
+
+Following that is the addition of a line of code:
+count = 0
+This is local variable count that is assigned to 0.
+
+The first 2 lines of the while loop remain the same:
+while say_hello
+  puts 'Hello!'
+
+  
+
+
 =end
