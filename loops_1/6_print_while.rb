@@ -46,4 +46,11 @@ The array.size method is used to return the size of the numbers array.
 That is the amount of elements in the numbers array.
 Then comparision "<" is used so that the while loop runs until the size of the numbers array is "<" 5.
 
+The next addition of code is:
+  numbers << rand(100)
+rand returns numbers between 0 and 1 less than the argument provided.
+To return random numbers between 0 and 99 (inclusive) the following syntax was used:
+rand(100)
+Those random numbers were added to the numbers array using the shovel operator which is "<<".
+
 =end
