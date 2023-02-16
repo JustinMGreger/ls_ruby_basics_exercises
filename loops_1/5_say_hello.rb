@@ -10,12 +10,12 @@ while say_hello
   say_hello = false
 end
 
-Description of Solution:
+Description of Syntax:
 Syntax:
 say_hello = true
 
 Explanation:
-Local variable set to boolean true.
+Local variable set to boolean value true.
 
 Syntax:
 while say_hello
@@ -24,4 +24,8 @@ while say_hello
 end
 
 Explanation:
+while loop has condition provided to it say_hello.
+while say_hello = true the loop will run.
+When the loop is run the following syntax will be executed:
+  puts 'Hello!'
 =end
