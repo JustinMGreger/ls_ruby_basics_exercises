@@ -9,4 +9,8 @@ while say_hello
   puts 'Hello!'
   say_hello = false
 end
+
+Description of Solution:
+Syntax:
+Explanation:
 =end
