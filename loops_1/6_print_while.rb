@@ -52,5 +52,16 @@ rand returns numbers between 0 and 1 less than the argument provided.
 To return random numbers between 0 and 99 (inclusive) the following syntax was used:
 rand(100)
 Those random numbers were added to the numbers array using the shovel operator which is "<<".
+The shovel operator mutates the array by appending the argument to the end of the array.
 
+The final new code is:
+puts numbers
+This prints to the screen the elements in the numbers array.
+
+Summary answer:
+Local variable numbers is assigned to an empty array.
+This new code loops while the numbers array has a size, that is number of elements, < 5.
+The loop generates random numbers between 0 - 99.
+Those numbers are then added to the numbers array.
+That numbers array is then printed to the screen.
 =end
