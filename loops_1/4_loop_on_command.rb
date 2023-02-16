@@ -50,4 +50,5 @@ If the break is executed then the loop exits.
 An additional line of code is added after the break if statement:
   puts 'Incorrect answer. Please answer "yes".'
 This code informs the user that the wrong answer entered.
+When answer != 'yes' the loop continues.
 =end
