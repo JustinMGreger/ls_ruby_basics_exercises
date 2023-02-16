@@ -34,4 +34,8 @@ This assigns say_hello to fasle from the original true value.
 This causes the while loop to end when it is called again at the begining of the loop.
 This results in  puts 'Hello!' being executed once.
 The printed result is "Hello!".
+
+Answer:
+Syntax:
+Explanation:
 =end
