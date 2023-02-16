@@ -23,4 +23,11 @@ Explanation:
 until loops continue until the condition evaluates as true.
 In this case that condition is count == 0.
 
+Syntax:
+  puts count
+Explanation:
+puts "count" to screen.
+
+Syntax:
+Explanation:
 =end
