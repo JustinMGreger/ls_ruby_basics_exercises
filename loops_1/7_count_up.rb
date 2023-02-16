@@ -59,4 +59,12 @@ Syntax:
 Explanation:
 This is the same syntax as from the orignal code.
 
+Syntax:
+  count += 1
+Explanation:
+This the same as count = count + 1.
+The count variable is being increased by 1 everytime the until loop runs.
+This is the opposite of the original code.
+Instead of decreasing count by 1 every time the until loop runs count is being increased by 1.
+
 =end
