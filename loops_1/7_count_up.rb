@@ -12,6 +12,11 @@ until count == 0
 end
 
 Explanation of Syntax:
+Syntax: 
+count = 10
+Explanation:
+Local variable "count" is assigned a value of 10.
+
 Syntax:
 Explanation:
 =end
