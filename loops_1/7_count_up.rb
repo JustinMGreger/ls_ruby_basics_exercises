@@ -36,5 +36,10 @@ That is count is being assigned to count = count -1 every time the until loop ru
 
 Answer:
 Syntax:
-Explanation:
+count = 1
+
+until count > 10
+  puts count
+  count += 1
+end
 =end
