@@ -26,8 +26,11 @@ In this case that condition is count == 0.
 Syntax:
   puts count
 Explanation:
-puts "count" to screen.
+puts "count" to screen every time the until loop runs.
 
 Syntax:
+  count -= 1
 Explanation:
+This is the equivalent of count = count - 1.
+That is count is being assigned to count = count -1 every time the until loop runs.
 =end
