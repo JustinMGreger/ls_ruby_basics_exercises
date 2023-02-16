@@ -42,4 +42,12 @@ until count > 10
   puts count
   count += 1
 end
+
+Syntax:
+count = 1
+Explanation:
+count was reassigned from 10 to 1.
+
+Syntax:
+Explanation:
 =end
