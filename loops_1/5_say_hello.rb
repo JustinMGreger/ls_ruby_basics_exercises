@@ -52,13 +52,21 @@ say_hello = true
 
 Following that is the addition of a line of code:
 count = 0
-This is local variable count that is assigned to 0.
+This is local variable "count" that is assigned to 0.
 
 The first 2 lines of the while loop remain the same:
 while say_hello
   puts 'Hello!'
 
-  
+Then new code is added to the while loop:
+  count += 1
+The local variable "count" is incremented by 1 each time the loop is run.
+Which is the same as count = count + 1.
 
+Next an if statement was added:
+  say_hello = false if count == 5
+if count which is incremented by 1 every time the loop is run is equal to 5 then say_hello is false.
+When say_hello is false the while loop ends.
 
+All of this new code results "Hello!" being printed 5 times.
 =end
