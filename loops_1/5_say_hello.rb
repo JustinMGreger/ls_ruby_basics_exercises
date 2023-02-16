@@ -12,5 +12,16 @@ end
 
 Description of Solution:
 Syntax:
+say_hello = true
+
+Explanation:
+Local variable set to boolean true.
+
+Syntax:
+while say_hello
+  puts 'Hello!'
+  say_hello = false
+end
+
 Explanation:
 =end
