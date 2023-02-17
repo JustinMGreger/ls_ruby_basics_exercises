@@ -11,4 +11,13 @@ Expected output:
 13
 25
 18
+
+Syntax of Solution:
+count = 0
+
+until count == numbers.size
+  puts numbers[count]
+  count += 1
+end
+
 =end
