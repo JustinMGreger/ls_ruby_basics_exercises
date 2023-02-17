@@ -23,4 +23,6 @@ end
 Explanation:
 Print i to the screen.
 
+Summary of given Syntax:
+
 =end
