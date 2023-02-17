@@ -9,5 +9,11 @@ for i in 1..100
 end
 
 Explanation of Syntax:
+Syntax:
+for i in 1..100
+Explanation:
+for loops iterate over a range of values or a collection of items.
+i is a variable that is assigned an integer in the inclusive range of 1..100.
+Inclusive ranges include the first & last numbers in this circumstance that is "1" & "100".
 
 =end
