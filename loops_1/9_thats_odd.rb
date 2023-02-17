@@ -48,4 +48,6 @@ end
 Explanation:
 Print i to the screen if i is odd.
 
+Summary of Solution Syntax:
+Run a for loop that prints i to the screen if i is odd for i in the inclusive range of 1..100.
 =end
