@@ -44,6 +44,14 @@ Syntax:
   puts numbers[count]
 Explanation:
 puts that is print to the screen the element of numbers array at the given index which is count.
+For example if count = 0 then puts numbers[count] is the same as puts numbers[0] which is 7 as 7 is at index 0 of numbers array.
+
+Syntax:
+  count += 1
+end
+Explanation:
+count += 1 is the same as count = count + 1.
+This means every time the until loop is iterated that count will be assigned count + 1.
 
 
 =end
