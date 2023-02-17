@@ -34,5 +34,9 @@ for i in 1..100
 end
 
 Explanation of Solution Syntax:
+Syntax:
+for i in 1..100
+Explanation:
+This part is the same as the original code.
 
 =end
