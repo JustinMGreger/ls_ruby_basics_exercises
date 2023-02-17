@@ -11,6 +11,7 @@ end
 Explanation of Syntax:
 Syntax:
 for i in 1..100
+
 Explanation:
 for loops iterate over a range of values or a collection of items.
 i is a variable that is assigned an integer in the inclusive range of 1..100.
@@ -36,7 +37,15 @@ end
 Explanation of Solution Syntax:
 Syntax:
 for i in 1..100
+
 Explanation:
 This part is the same as the original code.
+
+Syntax:
+  puts i if i.odd?
+end
+
+Explanation:
+Print i to the screen if i is odd.
 
 =end
