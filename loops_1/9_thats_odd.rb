@@ -16,4 +16,11 @@ for loops iterate over a range of values or a collection of items.
 i is a variable that is assigned an integer in the inclusive range of 1..100.
 Inclusive ranges include the first & last numbers in this circumstance that is "1" & "100".
 
+Syntax:
+  puts i
+end
+
+Explanation:
+Print i to the screen.
+
 =end
