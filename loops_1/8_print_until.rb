@@ -31,13 +31,16 @@ A local variable "numbers" is assigned an array.
 Syntax:
 count = 0
 Explanation:
-Local variable "count" is created and assigned to the integer "0".
+Local variable "count" is assigned to the integer "0".
 
 Syntax:
 until count == numbers.size
 Explanation:
-An until loop is created.
 An until loop runs until a condition is true.
 The condition in this until loop is the local variable "count" is equal to numbers.size
+numbers.size references the number of elements in the numbers array.
+
+Syntax:
+Explanation:
 
 =end
