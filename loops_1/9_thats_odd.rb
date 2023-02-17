@@ -24,5 +24,9 @@ Explanation:
 Print i to the screen.
 
 Summary of given Syntax:
+for loop runs for i in 1..100 print i to the screen.
+Which means print every i that is integer in the range of 1 to 100 including 1 & 100.
+The for loop ends once 100 has been printed to the screen.
+
 
 =end
