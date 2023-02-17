@@ -32,4 +32,7 @@ Solution Syntax:
 for i in 1..100
   puts i if i.odd?
 end
+
+Explanation of Solution Syntax:
+
 =end
