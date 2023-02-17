@@ -20,4 +20,9 @@ until count == numbers.size
   count += 1
 end
 
+Explanation of Solution:
+Syntax:
+count = 0
+Explanation:
+
 =end
