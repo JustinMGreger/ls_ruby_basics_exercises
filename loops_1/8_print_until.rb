@@ -53,5 +53,14 @@ Explanation:
 count += 1 is the same as count = count + 1.
 This means every time the until loop is iterated that count will be assigned count + 1.
 
-
+Summary of Answer:
+numbers is an array.
+count is assigned 0.
+until loop condition count == numbers.size is true loop.
+That is run the until loop until count is incremented to the size of the elements in numbers which is 4.
+When the until loop runs puts numbers[count] which is print to the screen the element of numbers array at the index of count.
+Then assign count to count + 1.
+That is every time the until loop runs increase count by 1.
+Then use that count number as the index of numbers array and print this to the screen.
+Continue the until loop until count is equal to the size of the numbers array.
 =end
