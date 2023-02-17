@@ -41,6 +41,9 @@ The condition in this until loop is the local variable "count" is equal to numbe
 numbers.size references the number of elements in the numbers array.
 
 Syntax:
+  puts numbers[count]
 Explanation:
+puts that is print to the screen the element of numbers array at the given index which is count.
+
 
 =end
