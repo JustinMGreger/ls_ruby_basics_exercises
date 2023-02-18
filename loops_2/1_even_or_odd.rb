@@ -37,4 +37,11 @@ loop do means run loop which means repeatedly execute a block of code until a ce
 "count" is reassigned to count + 1.
 The initial code produces an infinite loop that reassigns count which begins at the value of 1 to count + 1.
 Which means count which is intially assigned to 1 is incremented by 1 for infinity.
+
+Expected Output:
+1 is odd!
+2 is even!
+3 is odd!
+4 is even!
+5 is odd!
 =end
