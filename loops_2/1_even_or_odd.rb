@@ -44,4 +44,14 @@ Expected Output:
 3 is odd!
 4 is even!
 5 is odd!
+
+Explanation of Expected Output:
+
+Syntax:
+1 is odd!
+
+Explanation:
+puts "#{count} is odd!"
+
+
 =end
