@@ -52,6 +52,12 @@ Syntax:
 
 Explanation:
 puts "#{count} is odd!"
+Which is the same as print string interpolation "string#{count}string!"
 
+Syntax:
+2 is even!
 
+Explanation:
+puts "#{count} is even!"
+Which is the same as print string interpolation "string#{count}string!"
 =end
