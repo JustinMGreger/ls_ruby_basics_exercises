@@ -38,4 +38,18 @@ rand(100) is a method that generates a random number between 0 and 99 excluding 
 That is rand generates a random number of 1 less than the largest number in the range given.
 print number to the screen.
 What this means is run an infinite loop that prints a randomly generated number between 0 and 99 to the screen.
+
+Syntax of Solution:
+
+Syntax:
+loop do
+  number = rand(100)
+  puts number
+
+  if number.between?(0, 10)
+    break
+  end
+end
+
+
 =end
