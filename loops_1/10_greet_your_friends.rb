@@ -13,6 +13,14 @@ Hello, Hannah!
 Hello, Dave!
 
 Explanation of Intitial Syntax:
+
+Syntax:
+friends = ['Sarah', 'John', 'Hannah', 'Dave']
+Explanation:
+The local variable friends is assigned the array of elements:  ['Sarah', 'John', 'Hannah', 'Dave']
+
+Explanation of Expected Output:
+
 Syntax:
 Explanation:
 =end
