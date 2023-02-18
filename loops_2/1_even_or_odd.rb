@@ -31,4 +31,10 @@ Explanation:
 count = count + 1
 That is count is reassigned to count + 1.
 
+Summary of Initial Code:
+local variable "count" is assigne to "1".
+loop do means run loop which means repeatedly execute a block of code until a certain condition is met.
+"count" is reassigned to count + 1.
+The initial code produces an infinite loop that reassigns count which begins at the value of 1 to count + 1.
+Which means count which is intially assigned to 1 is incremented by 1 for infinity.
 =end
