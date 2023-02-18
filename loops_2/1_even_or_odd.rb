@@ -112,5 +112,11 @@ break if count == 5
 Explanation:
 break out of the loop if count == 5.
 
+Syntax:
+  count += 1
+end
 
+Explanation:
+count = count + 1.
+That is count is reassigned to count + 1.
 =end
