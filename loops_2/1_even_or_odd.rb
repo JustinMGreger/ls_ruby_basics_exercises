@@ -106,5 +106,11 @@ else
 Explanation:
 if count is not even then print the string interpolation of "string #{count} string!"
 
+Syntax:
+break if count == 5
+
+Explanation:
+break out of the loop if count == 5.
+
 
 =end
