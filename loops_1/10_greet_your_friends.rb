@@ -43,12 +43,24 @@ for friend in friends
   puts "Hello, #{friend}!"
 end
 
-Explanationf of Solution Syntax:
+Explanation of Solution Syntax:
 
 Syntax:
 friends = ['Sarah', 'John', 'Hannah', 'Dave']
 
 Explanation:
 Same as original syntax.
+
+Syntax:
+for friend in friends
+
+Explanation:
+for loop syntax added.
+In Ruby a for loop is a type of loop that allows you to iterate over a range of values or a collection of objects. 
+In this syntax for friend in friends.
+friends is the friends array.
+friend is an element in the friends array.
+Thus this is the same as for element in the array of elements.
+
 
 =end
