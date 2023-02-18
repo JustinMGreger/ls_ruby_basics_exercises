@@ -22,5 +22,15 @@ The local variable friends is assigned the array of elements:  ['Sarah', 'John',
 Explanation of Expected Output:
 
 Syntax:
+Hello, Sarah!
+Hello, John!
+Hello, Hannah!
+Hello, Dave!
 Explanation:
+puts "Hello, #{element}!"
+That is it appears that the expected output is printing the words "Hello,". 
+Then an element from the array friends #{element}!" 
+an "!" is added at the end of the element.
+
+
 =end
