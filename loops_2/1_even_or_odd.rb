@@ -16,7 +16,7 @@ Syntax:
 count = 1
 
 Explanation:
-local variable "count" is assigne to "1".
+local variable "count" is assigned to "1".
 
 Syntax:
 loop do
@@ -32,7 +32,7 @@ count = count + 1
 That is count is reassigned to count + 1.
 
 Summary of Initial Code:
-local variable "count" is assigne to "1".
+local variable "count" is assigned to "1".
 loop do means run loop which means repeatedly execute a block of code until a certain condition is met.
 "count" is reassigned to count + 1.
 The initial code produces an infinite loop that reassigns count which begins at the value of 1 to count + 1.
@@ -119,4 +119,12 @@ end
 Explanation:
 count = count + 1.
 That is count is reassigned to count + 1.
+
+Summary of Solution Syntax:
+local variable "count" is assigned to "1".
+run loop which means repeatedly execute a block of code until a certain condition is met.
+if count is even then print the string interpolation of "#{count} is even!"
+if count is not even then print the string interpolation of "#{count} is odd!"
+break out of the loop if count == 5.
+count = count + 1. That is count is reassigned to count + 1.
 =end
