@@ -13,5 +13,14 @@ end
 Explanation of Initial Code:
 
 Syntax:
+count = 1
+
 Explanation:
+local variable "count" is assigne to "1".
+
+Syntax:
+loop do
+
+Explanation:
+loop do means run loop which means repeatedly execute a block of code until a certain condition is met.
 =end
