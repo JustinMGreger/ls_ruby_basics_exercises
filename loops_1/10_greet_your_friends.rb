@@ -72,6 +72,8 @@ Which is the same as print to screen "string, #{element}!".
 Which is string interpolation.
 
 Summary of Solution Syntax:
-
-
+friends is assigned to the array of elements containing ['Sarah', 'John', 'Hannah', 'Dave'].
+for friend in friends  puts "Hello, #{friend}!".
+That is run a for loop that prints the string interpolation of "Hello, #{friend}!" for every friend in the friends array.
+Which is run a for loop that prints the string interpolation of "string, #{element}string" for every element in array of elements.
 =end
