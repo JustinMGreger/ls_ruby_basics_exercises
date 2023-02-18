@@ -11,4 +11,8 @@ Hello, Sarah!
 Hello, John!
 Hello, Hannah!
 Hello, Dave!
+
+Explanation of Intitial Syntax:
+Syntax:
+Explanation:
 =end
