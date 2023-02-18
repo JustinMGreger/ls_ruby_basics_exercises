@@ -127,4 +127,7 @@ if count is even then print the string interpolation of "#{count} is even!"
 if count is not even then print the string interpolation of "#{count} is odd!"
 break out of the loop if count == 5.
 count = count + 1. That is count is reassigned to count + 1.
+Which means as the loop is ran count will be incremented by 1.
+The reassigned count will be printed with the string interpolations stating if it is even or odd.
+This loop will run until count == 5.
 =end
