@@ -98,4 +98,13 @@ if count.even?
 Explanation:
 if count is even then print the string interpolation of "string #{count} string!"
 
+Syntax:
+else
+    puts "#{count} is odd!"
+  end
+
+Explanation:
+if count is not even then print the string interpolation of "string #{count} string!"
+
+
 =end
