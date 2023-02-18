@@ -23,4 +23,12 @@ loop do
 
 Explanation:
 loop do means run loop which means repeatedly execute a block of code until a certain condition is met.
+
+Syntax:
+ count += 1
+
+Explanation:
+count = count + 1
+That is count is reassigned to count + 1.
+
 =end
