@@ -7,4 +7,12 @@ loop do
   number = rand(100)
   puts number
 end
+
+Explanation of Initial Code:
+
+Syntax:
+loop do
+
+Explanation:
+loop do means run loop which means repeatedly execute a block of code until a certain condition is met.
 =end
