@@ -24,5 +24,12 @@ Local variable number is assigned the value of rand(100).
 rand(100) is a method that generates a random number between 0 and 99 excluding the number 100.
 That is rand generates a random number of 1 less than the largest number in the range given.
 
+Syntax:
+  puts number
+end
+
+Explanation:
+print number to the screen.
+
 
 =end
