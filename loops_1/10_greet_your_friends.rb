@@ -45,4 +45,10 @@ end
 
 Explanationf of Solution Syntax:
 
+Syntax:
+friends = ['Sarah', 'John', 'Hannah', 'Dave']
+
+Explanation:
+Same as original syntax.
+
 =end
