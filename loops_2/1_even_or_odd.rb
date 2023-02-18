@@ -77,6 +77,17 @@ loop do
   count += 1
 end
 
+Explanation of Solution Syntax:
+
 Syntax:
+count = 1
+
 Explanation:
+Initial code unchanged.
+
+Syntax:
+loop do
+
+Explanation:
+Initial code unchanged.
 =end
