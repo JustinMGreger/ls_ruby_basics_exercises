@@ -16,6 +16,7 @@ Explanation of Intitial Syntax:
 
 Syntax:
 friends = ['Sarah', 'John', 'Hannah', 'Dave']
+
 Explanation:
 The local variable friends is assigned the array of elements:  ['Sarah', 'John', 'Hannah', 'Dave']
 
@@ -26,11 +27,22 @@ Hello, Sarah!
 Hello, John!
 Hello, Hannah!
 Hello, Dave!
+
 Explanation:
 puts "Hello, #{element}!"
 That is it appears that the expected output is printing the words "Hello,". 
 Then an element from the array friends #{element}!" 
 an "!" is added at the end of the element.
 
+Syntax of Solution:
+
+Syntax:
+friends = ['Sarah', 'John', 'Hannah', 'Dave']
+
+for friend in friends
+  puts "Hello, #{friend}!"
+end
+
+Explanationf of Solution Syntax:
 
 =end
