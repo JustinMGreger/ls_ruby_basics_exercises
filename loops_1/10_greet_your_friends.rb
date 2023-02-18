@@ -62,5 +62,16 @@ friends is the friends array.
 friend is an element in the friends array.
 Thus this is the same as for element in the array of elements.
 
+Syntax:
+ puts "Hello, #{friend}!"
+end
+
+Explanation:
+print to screen "Hello, #{friend}!"
+Which is the same as print to screen "string, #{element}!".
+Which is string interpolation.
+
+Summary of Solution Syntax:
+
 
 =end
