@@ -10,4 +10,8 @@ loop do
   count += 1
 end
 
+Explanation of Initial Code:
+
+Syntax:
+Explanation:
 =end
