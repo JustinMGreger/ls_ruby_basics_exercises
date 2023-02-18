@@ -90,4 +90,12 @@ loop do
 
 Explanation:
 Initial code unchanged.
+
+Syntax:
+if count.even?
+    puts "#{count} is even!"
+
+Explanation:
+if count is even then print the string interpolation of "string #{count} string!"
+
 =end
