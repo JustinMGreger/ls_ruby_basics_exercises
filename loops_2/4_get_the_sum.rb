@@ -58,5 +58,9 @@ if statements are used to execute a certain block of code if a condition is true
 If the conidition is false then that block of code is skipped.
 In this case the condition is answer == 4.
 
+Syntax:
+  puts "That's correct!"
 
+Explanation:
+print to the screen "That's correct!"
 =end
