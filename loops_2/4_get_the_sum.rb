@@ -63,4 +63,11 @@ Syntax:
 
 Explanation:
 print to the screen "That's correct!"
+
+Syntax:
+    break
+  end
+
+Explanation:
+break out of the loop.
 =end
