@@ -27,5 +27,9 @@ end
 
 Explanation of Solution Syntax:
 
+Syntax:
+loop do
 
+Explanation:
+run a loop.
 =end
