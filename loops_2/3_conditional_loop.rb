@@ -11,4 +11,5 @@ When process_the_loop is false, just print The loop wasn't processed!
 Use the following code to initialize process_the_loop. 
 It will randomly assign the variable to either true or false.
 
+process_the_loop = [true, false].sample
 =end
