@@ -52,5 +52,9 @@ Syntax:
 Explanation:
 run a loop.
 
+Syntax:
+puts "The loop was processed!"
 
+Explanation:
+print to the screen "The loop was processed!"
 =end
