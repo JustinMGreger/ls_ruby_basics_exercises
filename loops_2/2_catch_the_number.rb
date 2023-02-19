@@ -80,4 +80,8 @@ if statements are used to execute a certain block of code if a condition is true
 If the conidition is false then that block of code is skipped.
 The if statement's condition is number.between?(0, 10) is true.
 number references the syntax "number = rand(100)".
+number.between?(0, 10) checks if number is equal or between 0 & 10.
+If number is equal or between 0 & 10 then the between method will return true.
+If number is not equal or between 0 & 10 then the between method will return false.
+
 =end
