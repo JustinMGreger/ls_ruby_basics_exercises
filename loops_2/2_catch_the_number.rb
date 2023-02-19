@@ -72,4 +72,12 @@ Syntax:
 Explanation:
 print number to the screen.
 
+Syntax:
+ if number.between?(0, 10)
+
+Explanation:
+if statements are used to execute a certain block of code if a condition is true.
+If the conidition is false then that block of code is skipped.
+The if statement's condition is number.between?(0, 10) is true.
+number references the syntax "number = rand(100)".
 =end
