@@ -77,4 +77,22 @@ end
 
 Explanation:
 print to the screen 'Wrong answer. Try again!'
+
+Summary of Solution Syntax:
+run a loop.
+print to screen 'What does 2 + 2 equal?'
+local varibale answer is assigned to gets.chomp.to_i.
+gets means get s which is get string. 
+That means get a string from the user that is get the string form of user input.
+.chomp removes the extra line created by gets.
+.to_i transforms the string to an integer.
+In summary local variable answer is assinged the string form of user input that is transformed to an integer on 1 line.
+if statements are used to execute a certain block of code if a condition is true.
+If the conidition is false then that block of code is skipped.
+In this case the condition is answer == 4.
+print to the screen "That's correct!"
+break out of the loop.
+
+print to the screen 'Wrong answer. Try again!'
+
 =end
