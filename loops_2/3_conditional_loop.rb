@@ -46,5 +46,11 @@ if statements are used to execute a certain block of code if a condition is true
 If the conidition is false then that block of code is skipped.
 In this case if process_the_loop is true then execute the following code.
 
+Syntax:
+  loop do
+
+Explanation:
+run a loop.
+
 
 =end
