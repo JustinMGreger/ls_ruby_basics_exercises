@@ -70,4 +70,11 @@ else
 
 Explanation:
 if the above is false then do the following.
+
+Syntax:
+  puts "The loop wasn't processed!"
+end
+
+Explanation:
+print to the screen "The loop wasn't processed!"
 =end
