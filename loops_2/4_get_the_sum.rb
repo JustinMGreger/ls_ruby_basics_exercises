@@ -25,4 +25,7 @@ loop do
   puts 'Wrong answer. Try again!'
 end
 
+Explanation of Solution Syntax:
+
+
 =end
