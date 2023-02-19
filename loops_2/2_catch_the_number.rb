@@ -84,4 +84,13 @@ number.between?(0, 10) checks if number is equal or between 0 & 10.
 If number is equal or between 0 & 10 then the between method will return true.
 If number is not equal or between 0 & 10 then the between method will return false.
 
+Syntax:
+    break
+  end
+end
+
+Explanation:
+break means if a condition is true exit the loop.
+
+
 =end
