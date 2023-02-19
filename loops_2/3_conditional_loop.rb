@@ -79,4 +79,25 @@ Explanation:
 print to the screen "The loop wasn't processed!"
 
 Summary of Solution Syntax:
+process_the_loop is a local variable assigned an array.sample.
+the array that process_the_loop is assigned to contains [true, false].
+sample randomly selects one or more elements in an array.
+
+This means process_the_loop is assigned the random return value of either true or false from the array using sample.
+
+if statements are used to execute a certain block of code if a condition is true.
+If the conidition is false then that block of code is skipped.
+
+In this case if process_the_loop is true then execute the following code.
+run a infinite loop.
+print to the screen "The loop was processed!"
+break out of the loop.
+else if the above is false then do the following.
+print to the screen "The loop wasn't processed!"
+
+
+What this all means is run an infinite loop.
+process_the_loop is assigned the random return value of either true or false from the array using sample.
+if process_the_loop is true then print to the screen "The loop was processed!" and break out of the loop.
+if process_the_loop is false then print to the screen "The loop wasn't processed!".
 =end
