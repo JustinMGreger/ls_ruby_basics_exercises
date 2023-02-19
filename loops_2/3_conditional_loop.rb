@@ -57,4 +57,13 @@ puts "The loop was processed!"
 
 Explanation:
 print to the screen "The loop was processed!"
+
+Syntax:
+    break
+  end
+
+Explanation:
+break out of the loop.
+
+
 =end
