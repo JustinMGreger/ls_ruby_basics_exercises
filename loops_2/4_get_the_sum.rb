@@ -92,7 +92,11 @@ If the conidition is false then that block of code is skipped.
 In this case the condition is answer == 4.
 print to the screen "That's correct!"
 break out of the loop.
-
 print to the screen 'Wrong answer. Try again!'
 
+What this means is:
+run a loop that prints to the screen 'What does 2 + 2 equal?'
+local variable answer is assinged the string form of user input that is transformed to an integer on 1 line.
+if user input local variable answer == 4 print to the screen "That's correct!" and break out of the loop.
+if answer != 4 print to the screen 'Wrong answer. Try again!' and continue the loop.
 =end
