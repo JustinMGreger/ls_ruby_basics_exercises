@@ -28,5 +28,13 @@ else
 end
 
 Explanation of Solution Syntax:
+
 Syntax:
+process_the_loop = [true, false].sample
+
+Explanation:
+process_the_loop is a local variable assigned an array.sample.
+the array that process_the_loop is assigned to contains [true, false].
+sample randomly selects one or more elements in an array.
+This means process_the_loop is assigned the random return value of either true or false from the array using sample.
 =end
