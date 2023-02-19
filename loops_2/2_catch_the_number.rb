@@ -92,5 +92,7 @@ end
 Explanation:
 break means if a condition is true exit the loop.
 
+Summary of Solution Syntax:
+
 
 =end
