@@ -70,4 +70,11 @@ Syntax:
 
 Explanation:
 break out of the loop.
+
+Syntax:
+  puts 'Wrong answer. Try again!'
+end
+
+Explanation:
+print to the screen 'Wrong answer. Try again!'
 =end
