@@ -65,5 +65,9 @@ Syntax:
 Explanation:
 break out of the loop.
 
+Syntax:
+else
 
+Explanation:
+if the above is false then do the following.
 =end
