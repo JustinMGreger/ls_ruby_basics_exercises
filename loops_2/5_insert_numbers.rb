@@ -12,6 +12,16 @@ loop do
 end
 puts numbers
 
+Syntax:
+numbers = []
+
+Explanation:
+local variable numbers is assigned the value of an empty array.
+
+
+
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
