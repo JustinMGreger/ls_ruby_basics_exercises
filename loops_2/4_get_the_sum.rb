@@ -48,5 +48,15 @@ gets means get s which is get string.
 That means get a string from the user that is get the string form of user input.
 .chomp removes the extra line created by gets.
 .to_i transforms the string to an integer.
-In summary local variable answer is assinged the string form of user input that is transformed to an integer on 1 line. 
+In summary local variable answer is assinged the string form of user input that is transformed to an integer on 1 line.
+
+Syntax:
+if answer == 4
+
+Explanation:
+if statements are used to execute a certain block of code if a condition is true.
+If the conidition is false then that block of code is skipped.
+In this case the condition is answer == 4.
+
+
 =end
