@@ -18,7 +18,11 @@ numbers = []
 Explanation:
 local variable numbers is assigned the value of an empty array.
 
+Syntax:
+loop do
 
+Explanation:
+run a loop.
 
 
 
