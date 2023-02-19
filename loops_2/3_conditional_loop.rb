@@ -27,4 +27,6 @@ else
   puts "The loop wasn't processed!"
 end
 
+Explanation of Solution Syntax:
+Syntax:
 =end
