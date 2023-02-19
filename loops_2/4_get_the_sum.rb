@@ -32,4 +32,12 @@ loop do
 
 Explanation:
 run a loop.
+
+Syntax:
+  puts 'What does 2 + 2 equal?'
+
+Explanation:
+print to screen 'What does 2 + 2 equal?'
+
+
 =end
