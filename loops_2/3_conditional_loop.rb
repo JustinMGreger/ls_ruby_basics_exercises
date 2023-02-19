@@ -77,4 +77,6 @@ end
 
 Explanation:
 print to the screen "The loop wasn't processed!"
+
+Summary of Solution Syntax:
 =end
