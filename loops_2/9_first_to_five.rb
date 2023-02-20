@@ -31,6 +31,12 @@ number_b = 0
 Explanation:
 local variable "number_b" is assignef the integer 0.
 
+Syntax:
+loop do
+
+Explanation:
+run a loop.
+
 Syntax of Solution:
 
 Explanation of Solution Syntax:
@@ -46,7 +52,14 @@ number_b = 0
 Explanation:
 local variable "number_b" is assignef the integer 0.
 
+Syntax:
+loop do
+
+Explanation:
+run a loop.
+
 Summary of Solution Syntax:
 local variable "number_a" is assigned the integer 0.
 local variable "number_b" is assignef the integer 0.
+run a loop.
 =end
