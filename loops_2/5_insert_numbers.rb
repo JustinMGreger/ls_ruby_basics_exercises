@@ -93,9 +93,14 @@ That means get a string from the user that is get the string form of user input.
 .to_i transforms the string to an integer.
 In summary local variable "input" is assinged the string form of user input that is transformed to an integer on 1 line.
 
+Syntax:
+numbers.push(input)
 
-
-
+Explanation:
+numbers is the array variable.
+.push method is used to add one or more elements to the end of an array.
+"input" is the user input variable assigned to gets.chomp.to_i.
+In summary this takes the user input that has been converted to an integer and adds that to the end of the numbers array.
 
 
 
@@ -119,9 +124,12 @@ That means get a string from the user that is get the string form of user input.
 .chomp removes the extra line created by gets.
 .to_i transforms the string to an integer.
 In summary local variable "input" is assinged the string form of user input that is transformed to an integer on 1 line.
+numbers is the array variable.
+.push method is used to add one or more elements to the end of an array.
+"input" is the user input variable assigned to gets.chomp.to_i.
+In summary this takes the user input that has been converted to an integer and adds that to the end of the numbers array.
 
 Summary of this syntax.
-numbers.push(input)
   break if numbers.size == 5
 end
 
