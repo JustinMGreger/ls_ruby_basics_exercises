@@ -55,7 +55,12 @@ Syntax:
 Explanation:
 print to screen index that is the current iteration number.
 
+Syntax:
+  break if index == 2
+end
 
+Explanation:
+break out of the loop if index == 2.
 
 Summary of Solution Syntax:
 5.times is a method that takes a block of code as an arugment and executes it a specific number of times.
@@ -65,4 +70,5 @@ The do signifies the start of a block.
 |index| is a parameter which is a variable that recieves values passed to a method or block.
 In this case it is the current iteration number.
 print to screen index that is the current iteration number.
+break out of the loop if index == 2.
 =end
