@@ -27,7 +27,15 @@ names = ['Sally', 'Joe', 'Lisa', 'Henry']
 Explanation:
 local variable names is assigned array of elements ['Sally', 'Joe', 'Lisa', 'Henry'].
 
+Syntax:
+loop do
+
+Explanation:
+run a loop.
+
+
+
 Summary of Solution Syntax:
 local variable names is assigned array of elements ['Sally', 'Joe', 'Lisa', 'Henry'].
-
+run a loop.
 =end
