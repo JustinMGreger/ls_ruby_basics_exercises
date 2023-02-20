@@ -37,6 +37,18 @@ loop do
 Explanation:
 run a loop.
 
+Syntax:
+number_a += rand(2)
+
+Explanation:
+number_a = number_a + rand(2)
+That means variable number_a is reassigned to number_a + rand(2).
+rand returns a random number from 0 to 1 less than the upper limit.
+in this case that upper limit is 2.
+rand(2) means return randomly 0 or 1.
+This means variable number_a is reassigned to number_a + randomly selected 0 or 1.
+
+
 Syntax of Solution:
 
 Explanation of Solution Syntax:
@@ -58,8 +70,27 @@ loop do
 Explanation:
 run a loop.
 
+Syntax:
+number_a += rand(2)
+
+Explanation:
+number_a = number_a + rand(2)
+That means variable number_a is reassigned to number_a + rand(2).
+rand returns a random number from 0 to 1 less than the upper limit.
+in this case that upper limit is 2.
+rand(2) means return randomly 0 or 1.
+This means variable number_a is reassigned to number_a + randomly selected 0 or 1.
+
+
+
 Summary of Solution Syntax:
 local variable "number_a" is assigned the integer 0.
 local variable "number_b" is assignef the integer 0.
 run a loop.
+number_a = number_a + rand(2)
+That means variable number_a is reassigned to number_a + rand(2).
+rand returns a random number from 0 to 1 less than the upper limit.
+in this case that upper limit is 2.
+rand(2) means return randomly 0 or 1.
+This means variable number_a is reassigned to number_a + randomly selected 0 or 1.
 =end
