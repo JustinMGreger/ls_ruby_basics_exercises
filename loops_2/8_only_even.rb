@@ -73,13 +73,18 @@ Syntax:
 next if number.odd?
 
 Explanation:
+next skips to the next iteration of the loop without executing any of the remaining statements in the current itertation.
+next if number.odd? means skip to the next iteration of the loop without executing any of the remaining statements in the current itertation if number.odd? is true.
+"number" is the variable "number".
+integer.odd? checks if an integer is odd if so then true if not then false.
+This means if number is odd then skip to the next iteration of the loop without executing any of the remaining statements in the current itertation.
 
 Syntax:
   puts number
 end
 
 Explanation:
-print number to the screen.
+print "number" to the screen.
 
 Summary of Solution Syntax:
 local variable "number" is assigned integer 0.
@@ -87,8 +92,10 @@ run a loop until number == 10 is true.
 That is run a loop until local variable number is equal to 10.
 number = number + 1
 That is local variable "number" is reassigned to "number" + 1.
-
-next syntax.
-
+next skips to the next iteration of the loop without executing any of the remaining statements in the current itertation.
+next if number.odd? means skip to the next iteration of the loop without executing any of the remaining statements in the current itertation if number.odd? is true.
+"number" is the variable "number".
+integer.odd? checks if an integer is odd if so then true if not then false.
+This means if number is odd then skip to the next iteration of the loop without executing any of the remaining statements in the current itertation.
 print number to the screen.
 =end
