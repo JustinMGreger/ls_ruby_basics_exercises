@@ -12,9 +12,16 @@ local variable names is assigned array of elements ['Sally', 'Joe', 'Lisa', 'Hen
 
 Syntax of Solution:
 
+names = ['Sally', 'Joe', 'Lisa', 'Henry']
+
+loop do
+  puts names.shift
+  break if names.empty?
+end
+
 Explanation of Solution Syntax:
 
 Summary of Solution Syntax:
-
+local variable names is assigned array of elements ['Sally', 'Joe', 'Lisa', 'Henry'].
 
 =end
