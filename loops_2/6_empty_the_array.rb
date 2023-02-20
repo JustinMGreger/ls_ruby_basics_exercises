@@ -33,9 +33,16 @@ loop do
 Explanation:
 run a loop.
 
+Syntax:
+  puts names.shift
 
+Explanation:
+print to the screen names.shift.
+array.shift is a method that removes the first element from an array and returns the value.
+This code means remove the first element of the names array and print it to the screen.
 
 Summary of Solution Syntax:
 local variable names is assigned array of elements ['Sally', 'Joe', 'Lisa', 'Henry'].
 run a loop.
+remove the first element of the names array and print it to the screen.
 =end
