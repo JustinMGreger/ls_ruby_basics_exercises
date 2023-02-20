@@ -61,6 +61,14 @@ end
 puts numbers
 
 Explanation of Solution Syntax:
+
+Syntax:
+numbers = []
+
+Explanation:
+local variable numbers is assigned the value of an empty array.
+
+
 Summary of Solution Syntax:
 local variable numbers is assigned the value of an empty array.
 run a loop.
