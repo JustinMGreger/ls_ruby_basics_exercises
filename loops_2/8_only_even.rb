@@ -40,6 +40,14 @@ Explanation:
 print number to the screen.
 
 Syntax of Solution:
+number = 0
+
+until number == 10
+  number += 1
+  next if number.odd?
+  puts number
+end
+
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
 =end
