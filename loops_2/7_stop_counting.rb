@@ -16,9 +16,11 @@ Syntax:
 
 Explanation:
 5.times is a method that takes a block of code as an arugment and executes it a specific number of times.
-In this case it does so 5 times.
+.times begins counting from 0 to 1 less than the number.
+In this case it does so 5 times which means 0 1 2 3 4 will be counted.
 The do signifies the start of a block.
 |index| is a parameter which is a variable that recieves values passed to a method or block.
+In this case it is the current iteration number.
 
 Syntax:
   puts index
@@ -26,7 +28,7 @@ Syntax:
 end
 
 Explanation:
-print to screen index.
+print to screen index that is the current iteration number.
 
 Syntax of Solution:
 5.times do |index|
@@ -35,5 +37,15 @@ Syntax of Solution:
 end
 
 Explanation of Solution Syntax:
+
+
+
 Summary of Solution Syntax:
+5.times is a method that takes a block of code as an arugment and executes it a specific number of times.
+.times begins counting from 0 to 1 less than the number.
+In this case it does so 5 times which means 0 1 2 3 4 will be counted.
+The do signifies the start of a block.
+|index| is a parameter which is a variable that recieves values passed to a method or block.
+In this case it is the current iteration number.
+print to screen index that is the current iteration number.
 =end
