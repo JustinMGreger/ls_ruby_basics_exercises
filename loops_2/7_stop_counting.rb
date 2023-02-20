@@ -49,6 +49,11 @@ The do signifies the start of a block.
 |index| is a parameter which is a variable that recieves values passed to a method or block.
 In this case it is the current iteration number.
 
+Syntax:
+  puts index
+
+Explanation:
+print to screen index that is the current iteration number.
 
 
 
