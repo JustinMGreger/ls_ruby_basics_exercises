@@ -38,6 +38,18 @@ end
 
 Explanation of Solution Syntax:
 
+Syntax:
+5.times do |index|
+
+Explanation:
+5.times is a method that takes a block of code as an arugment and executes it a specific number of times.
+.times begins counting from 0 to 1 less than the number.
+In this case it does so 5 times which means 0 1 2 3 4 will be counted.
+The do signifies the start of a block.
+|index| is a parameter which is a variable that recieves values passed to a method or block.
+In this case it is the current iteration number.
+
+
 
 
 Summary of Solution Syntax:
