@@ -71,4 +71,12 @@ The do signifies the start of a block.
 In this case it is the current iteration number.
 print to screen index that is the current iteration number.
 break out of the loop if index == 2.
+
+What this all means is:
+run the loop 5 times starting at 0.
+stop the loop at 1 less than 5 times which is 4.
+which means 0 1 2 3 4 will be returned.
+print to screen index the current iteration number.
+break out of the loop if the current iteration number is 2.
+Which means print to the screen 0 1 2 and break out of the loop.
 =end
