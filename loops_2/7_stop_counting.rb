@@ -11,6 +11,14 @@ end
 
 Explanation of Syntax:
 
+Syntax:
+5.times do |index|
+
+Explanation:
+5.times is a method that takes a block of code as an arugment and executes it a specific number of times.
+In this case it does so 5 times.
+The do signifies the start of a block.
+|index| is a parameter which is a variable that recieves values passed to a method or block.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
