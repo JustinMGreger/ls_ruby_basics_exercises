@@ -11,6 +11,13 @@ until number == 10
 end
 
 Explanation of Syntax:
+
+Syntax:
+number = 0
+
+Explanation:
+local variable "number" is assigned integer 0.
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
