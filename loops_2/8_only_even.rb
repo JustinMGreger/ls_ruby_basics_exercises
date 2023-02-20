@@ -1,5 +1,6 @@
 =begin
 Description of Exercise:
+Using next, modify the code below so that it only prints positive integers that are even.
 
 Initial Syntax Given:
 Explanation of Syntax:
