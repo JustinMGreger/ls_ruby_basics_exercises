@@ -29,6 +29,11 @@ Explanation:
 print to screen index.
 
 Syntax of Solution:
+5.times do |index|
+  puts index
+  break if index == 2
+end
+
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
 =end
