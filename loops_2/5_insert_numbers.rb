@@ -24,7 +24,10 @@ loop do
 Explanation:
 run a loop.
 
-
+Syntax:
+  puts 'Enter any number:'
+Explanation:
+print to screen 'Enter any number:'
 
 Syntax of Solution:
 Explanation of Solution Syntax:
