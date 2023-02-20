@@ -102,13 +102,14 @@ numbers is the array variable.
 "input" is the user input variable assigned to gets.chomp.to_i.
 In summary this takes the user input that has been converted to an integer and adds that to the end of the numbers array.
 
+Syntax:
+  break if numbers.size == 5
+end
 
-
-
-
-
-
-
+Explanation:
+break out of the loop if numbers.size == 5.
+.size method is used to determine the number of elements in an array or characters in a string.
+This syntax means break out of the loop if numbers array has 5 elements in it.
 
 
 
@@ -128,10 +129,10 @@ numbers is the array variable.
 .push method is used to add one or more elements to the end of an array.
 "input" is the user input variable assigned to gets.chomp.to_i.
 In summary this takes the user input that has been converted to an integer and adds that to the end of the numbers array.
+break out of the loop if numbers.size == 5.
+.size method is used to determine the number of elements in an array or characters in a string.
+This syntax means break out of the loop if numbers array has 5 elements in it.
 
-Summary of this syntax.
-  break if numbers.size == 5
-end
 
 print to the screen numbers array.
 =end
