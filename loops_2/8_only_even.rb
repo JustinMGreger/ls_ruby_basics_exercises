@@ -32,6 +32,13 @@ Explanation:
 number = number + 1
 That is local variable "number" is reassigned to "number" + 1.
 
+Syntax:
+  puts number
+end
+
+Explanation:
+print number to the screen.
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
