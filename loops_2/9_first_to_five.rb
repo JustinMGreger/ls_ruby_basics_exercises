@@ -25,15 +25,28 @@ number_a = 0
 Explanation:
 local variable "number_a" is assigned the integer 0.
 
+Syntax:
+number_b = 0
+
+Explanation:
+local variable "number_b" is assignef the integer 0.
 
 Syntax of Solution:
 
 Explanation of Solution Syntax:
+Syntax: 
 number_a = 0
 
 Explanation:
 local variable "number_a" is assigned the integer 0.
 
+Syntax:
+number_b = 0
+
+Explanation:
+local variable "number_b" is assignef the integer 0.
+
 Summary of Solution Syntax:
 local variable "number_a" is assigned the integer 0.
+local variable "number_b" is assignef the integer 0.
 =end
