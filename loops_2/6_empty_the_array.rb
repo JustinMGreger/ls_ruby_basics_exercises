@@ -25,13 +25,13 @@ Syntax:
 names = ['Sally', 'Joe', 'Lisa', 'Henry']
 
 Explanation:
-local variable names is assigned array of elements ['Sally', 'Joe', 'Lisa', 'Henry'].
+local variable "names" is assigned array of elements ['Sally', 'Joe', 'Lisa', 'Henry'].
 
 Syntax:
 loop do
 
 Explanation:
-run a loop.
+run an infinite loop.
 
 Syntax:
   puts names.shift
@@ -41,8 +41,18 @@ print to the screen names.shift.
 array.shift is a method that removes the first element from an array and returns the value.
 This code means remove the first element of the names array and print it to the screen.
 
+Syntax:
+  break if names.empty?
+end
+
+Explanation:
+break out of the infinite loop if names.empty?
+array.empty? is a method that checks if an array is empty.
+What this code is saying is break out of the infinite loop if the names array is empty.
+
 Summary of Solution Syntax:
-local variable names is assigned array of elements ['Sally', 'Joe', 'Lisa', 'Henry'].
-run a loop.
-remove the first element of the names array and print it to the screen.
+local variable "names" is assigned array of elements ['Sally', 'Joe', 'Lisa', 'Henry'].
+run an infinite loop.
+remove the first element of the "names" array and print it to the screen.
+break out of the infinite loop if the "names" array is empty.
 =end
