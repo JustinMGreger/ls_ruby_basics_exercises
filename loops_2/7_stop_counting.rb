@@ -20,6 +20,14 @@ In this case it does so 5 times.
 The do signifies the start of a block.
 |index| is a parameter which is a variable that recieves values passed to a method or block.
 
+Syntax:
+  puts index
+  # ...
+end
+
+Explanation:
+print to screen index.
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
