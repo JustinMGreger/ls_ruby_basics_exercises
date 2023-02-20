@@ -18,7 +18,22 @@ loop do
 end
 
 Explanation of Syntax:
+
+Syntax:
+number_a = 0
+
+Explanation:
+local variable "number_a" is assigned the integer 0.
+
+
 Syntax of Solution:
+
 Explanation of Solution Syntax:
+number_a = 0
+
+Explanation:
+local variable "number_a" is assigned the integer 0.
+
 Summary of Solution Syntax:
+local variable "number_a" is assigned the integer 0.
 =end
