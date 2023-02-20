@@ -18,6 +18,14 @@ number = 0
 Explanation:
 local variable "number" is assigned integer 0.
 
+Syntax:
+until number == 10
+
+Explanation:
+run a loop until number == 10 is true.
+
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
