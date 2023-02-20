@@ -41,7 +41,11 @@ That means get a string from the user that is get the string form of user input.
 .to_i transforms the string to an integer.
 In summary local variable "input" is assinged the string form of user input that is transformed to an integer on 1 line.
 
+Syntax:
+puts numbers
 
+Explanation:
+print to the screen numbers array.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
