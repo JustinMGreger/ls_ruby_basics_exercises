@@ -111,7 +111,11 @@ break out of the loop if numbers.size == 5.
 .size method is used to determine the number of elements in an array or characters in a string.
 This syntax means break out of the loop if numbers array has 5 elements in it.
 
+Syntax:
+puts numbers
 
+Explanation:
+print to the screen numbers array.
 
 
 
@@ -132,7 +136,5 @@ In summary this takes the user input that has been converted to an integer and a
 break out of the loop if numbers.size == 5.
 .size method is used to determine the number of elements in an array or characters in a string.
 This syntax means break out of the loop if numbers array has 5 elements in it.
-
-
 print to the screen numbers array.
 =end
