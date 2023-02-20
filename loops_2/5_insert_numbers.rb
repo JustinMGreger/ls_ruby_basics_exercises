@@ -117,8 +117,6 @@ puts numbers
 Explanation:
 print to the screen numbers array.
 
-
-
 Summary of Solution Syntax:
 local variable numbers is assigned the value of an empty array.
 run a loop.
@@ -136,5 +134,14 @@ In summary this takes the user input that has been converted to an integer and a
 break out of the loop if numbers.size == 5.
 .size method is used to determine the number of elements in an array or characters in a string.
 This syntax means break out of the loop if numbers array has 5 elements in it.
+print to the screen numbers array.
+
+This all means:
+Begin with empty numbers array.
+Run an infinite loop.
+print to screen 'Enter any number:'
+The local variable "input" is assinged the string form of user input that is transformed to an integer on 1 line.
+Add "input" to the end of the numbers array.
+break out of the loop if numbers array has 5 elements in it which is the same as running the loop 5 times.
 print to the screen numbers array.
 =end
