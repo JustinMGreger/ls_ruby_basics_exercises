@@ -98,4 +98,13 @@ next if number.odd? means skip to the next iteration of the loop without executi
 integer.odd? checks if an integer is odd if so then true if not then false.
 This means if number is odd then skip to the next iteration of the loop without executing any of the remaining statements in the current itertation.
 print number to the screen.
+
+This all means:
+number is assigned integer 0.
+run a loop until number == 10.
+every time the loop is run reassign number to number + 1.
+skip back to begining of the loop when number is an odd integer.
+print number to the screen.
+This results in printing to the screen only when number is an even integer.
+For number = 0 to number = 10 that results in the printing of 2 4 6 8 10.
 =end
