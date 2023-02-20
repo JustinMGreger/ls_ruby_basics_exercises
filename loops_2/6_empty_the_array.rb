@@ -21,6 +21,12 @@ end
 
 Explanation of Solution Syntax:
 
+Syntax:
+names = ['Sally', 'Joe', 'Lisa', 'Henry']
+
+Explanation:
+local variable names is assigned array of elements ['Sally', 'Joe', 'Lisa', 'Henry'].
+
 Summary of Solution Syntax:
 local variable names is assigned array of elements ['Sally', 'Joe', 'Lisa', 'Henry'].
 
