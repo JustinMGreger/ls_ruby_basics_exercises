@@ -50,5 +50,12 @@ text = gets
 puts text
 
 Explanation of Solution Syntax:
+
+Syntax:
+puts ">> Type anything you want:"
+
+Explanation:
+print to screen ">> Type anything you want:"
+
 Summary of Solution Syntax:
 =end
