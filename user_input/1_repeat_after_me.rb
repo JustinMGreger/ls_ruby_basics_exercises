@@ -12,6 +12,20 @@ This is what I typed.
 This is what I typed.
 
 Explanation of Syntax:
+
+Syntax:
+$ ruby repeater.rb
+
+Explanation:
+$ is the cursor.
+ruby means run ruby file.
+repeater.rb is a ruby file name.
+This means run ruby file.
+
+
+
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
