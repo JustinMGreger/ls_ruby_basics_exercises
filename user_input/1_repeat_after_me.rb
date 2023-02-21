@@ -31,6 +31,12 @@ puts "">> Type anything you want:"
 >> is an input prompt.
 : means this is where your input goes.
 
+Syntax:
+This is what I typed.
+
+Explanation:
+This is the user input.
+
 
 
 Syntax of Solution:
