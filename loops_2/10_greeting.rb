@@ -32,6 +32,17 @@ Explanation:
 local variable number_of_greetings is assigned the value integer 2.
 
 Syntax of Solution:
+def greeting
+  puts 'Hello!'
+end
+
+number_of_greetings = 2
+
+while number_of_greetings > 0
+  greeting
+  number_of_greetings -= 1
+end
+
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
 =end
