@@ -77,7 +77,14 @@ local variable "age_in_months" is assigned 12 * age_in_years.to_i
 .to_i is used to transform something into an integer.
 This means local variable "age_in_months" is assigned to 12 multiplied by local variable "age_in_years" that was converted to an integer.
 
+Syntax:
+puts "You are #{age_in_months} months old."
 
+Explanation:
+print to the screen "You are #{age_in_months} months old."
+"You are #{age_in_months} months old." is string interpolation.
+That is "string #{age_in_months} string."
+#{age_in_months} is the local variable "age_in_months".
 
 
 Summary of Solution Syntax:
@@ -92,5 +99,8 @@ local variable "age_in_months" is assigned 12 * age_in_years.to_i
 "age_in_years" is a local variable.
 .to_i is used to transform something into an integer.
 This means local variable "age_in_months" is assigned to 12 multiplied by local variable "age_in_years" that was converted to an integer.
-
+print to the screen "You are #{age_in_months} months old."
+"You are #{age_in_months} months old." is string interpolation.
+That is "string #{age_in_months} string."
+#{age_in_months} is the local variable "age_in_months".
 =end
