@@ -57,5 +57,22 @@ puts ">> Type anything you want:"
 Explanation:
 print to screen ">> Type anything you want:"
 
+Syntax:
+text = gets
+
+Explanation:
+text is a local variable.
+text is assigned to gets.
+gets is get string.
+get string means get user input in string form.
+This means the variable text is assigned to the user input in string form.
+
+
 Summary of Solution Syntax:
+print to screen ">> Type anything you want:"
+text is a local variable.
+text is assigned to gets.
+gets is get string.
+get string means get user input in string form.
+This means the variable text is assigned to the user input in string form.
 =end
