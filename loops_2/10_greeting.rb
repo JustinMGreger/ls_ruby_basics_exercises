@@ -97,5 +97,11 @@ number_of_greetings > 0 means number_of_greetings is greater than 0.
 This means run a while loop as long as number_of_greetings is greater than 0.
 This means run the greeting method.
 number_of_greetings = number_of_greetings - 1.
-this means number_of_greetings is reassigned to  number_of_greetings - 1.
+this means number_of_greetings is reassigned to number_of_greetings - 1.
+
+What this all means is:
+the definition of the greeting method is print to the screen 'Hello!'
+number_of_greetings is assigned the value integer 2.
+run a while loop as long as number_of_greetings is greater than 0.
+the definition of the while loop is: run the greeting method and number_of_greetings is reassigned to number_of_greetings - 1.
 =end
