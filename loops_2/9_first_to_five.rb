@@ -134,22 +134,11 @@ number_b == 5 means number_b is equal to 5.
 This means skip to the next iteration of the loop without executing any of the remaining statements in the current itertation,
 unless number_a is equal to 5 or number_b is equal to 5.
 
-
-
-
-
-
-
+Syntax:
   puts '5 was reached!'
 
-
-
-
-
-
-
-
-
+Explanation:
+print to the screen  '5 was reached!'
 
 Syntax:
   break
@@ -181,14 +170,6 @@ number_a == 5 means number_a is equal to 5.
 number_b == 5 means number_b is equal to 5.
 This means skip to the next iteration of the loop without executing any of the remaining statements in the current itertation,
 unless number_a is equal to 5 or number_b is equal to 5.
-
-  puts '5 was reached!'
-
-
-
-
-
-
-
+print to the screen  '5 was reached!'
 break out of the loop.
 =end
