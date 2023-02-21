@@ -1,5 +1,6 @@
 =begin
 Description of Exercise:
+Given the code below, use a while loop to print "Hello!" twice.
 
 Initial Syntax Given:
 Explanation of Syntax:
