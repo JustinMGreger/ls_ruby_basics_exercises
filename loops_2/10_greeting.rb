@@ -79,7 +79,13 @@ Syntax:
 Explanation:
 This means run the greeting method.
 
+Syntax:
+  number_of_greetings -= 1
+end
 
+Explanation:
+number_of_greetings = number_of_greetings - 1.
+this means number_of_greetings is reassigned to  number_of_greetings - 1.
 
 Summary of Solution Syntax:
 Def means define a method.
@@ -89,5 +95,7 @@ local variable number_of_greetings is assigned the value integer 2.
 while loops executes a block of code as long as a specified condition is true.
 number_of_greetings > 0 means number_of_greetings is greater than 0.
 This means run a while loop as long as number_of_greetings is greater than 0.
-run the greeting method.
+This means run the greeting method.
+number_of_greetings = number_of_greetings - 1.
+this means number_of_greetings is reassigned to  number_of_greetings - 1.
 =end
