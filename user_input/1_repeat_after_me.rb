@@ -67,6 +67,11 @@ gets is get string.
 get string means get user input in string form.
 This means the variable text is assigned to the user input in string form.
 
+Syntax:
+puts text
+
+Explanation:
+print to the screen the local variable text.
 
 Summary of Solution Syntax:
 print to screen ">> Type anything you want:"
