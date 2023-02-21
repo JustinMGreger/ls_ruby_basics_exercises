@@ -60,6 +60,13 @@ in this case that upper limit is 2.
 rand(2) means return randomly 0 or 1.
 This means variable number_b is reassigned to number_b + randomly selected 0 or 1.
 
+Syntax:
+  break
+end
+
+Explanation:
+break out of the loop.
+
 Syntax of Solution:
 
 Explanation of Solution Syntax:
@@ -104,6 +111,27 @@ in this case that upper limit is 2.
 rand(2) means return randomly 0 or 1.
 This means variable number_b is reassigned to number_b + randomly selected 0 or 1.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Syntax:
+  break
+end
+
+Explanation:
+break out of the loop.
+
 Summary of Solution Syntax:
 local variable "number_a" is assigned the integer 0.
 local variable "number_b" is assignef the integer 0.
@@ -120,4 +148,19 @@ rand returns a random number from 0 to 1 less than the upper limit.
 in this case that upper limit is 2.
 rand(2) means return randomly 0 or 1.
 This means variable number_b is reassigned to number_b + randomly selected 0 or 1.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+break out of the loop.
 =end
