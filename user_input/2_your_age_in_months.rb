@@ -20,6 +20,15 @@ ruby means run ruby file.
 age.rb is a ruby file name.
 This means run ruby file.
 
+Syntax:
+>> What is your age in years?
+
+Explanation:
+This is a string.
+puts ">> What is your age in years?"
+>> is an input prompt.
+: means this is where your input goes.
+
 
 Syntax of Solution:
 Explanation of Solution Syntax:
