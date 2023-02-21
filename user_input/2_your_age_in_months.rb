@@ -66,6 +66,19 @@ gets is get string.
 get string means get user input in string form.
 This means the variable "age_in_years" is assigned to the user input in string form.
 
+Syntax:
+age_in_months = 12 * age_in_years.to_i
+
+Explanation:
+local variable "age_in_months" is assigned 12 * age_in_years.to_i
+12 is an integer.
+* means multiplication.
+"age_in_years" is a local variable.
+.to_i is used to transform something into an integer.
+This means local variable "age_in_months" is assigned to 12 multiplied by local variable "age_in_years" that was converted to an integer.
+
+
+
 
 Summary of Solution Syntax:
 print to the screen '>> What is your age in years?'
@@ -73,4 +86,11 @@ local variable "age_in_years" is assgined gets.
 gets is get string.
 get string means get user input in string form.
 This means the variable "age_in_years" is assigned to the user input in string form.
+local variable "age_in_months" is assigned 12 * age_in_years.to_i
+12 is an integer.
+* means multiplication.
+"age_in_years" is a local variable.
+.to_i is used to transform something into an integer.
+This means local variable "age_in_months" is assigned to 12 multiplied by local variable "age_in_years" that was converted to an integer.
+
 =end
