@@ -35,6 +35,16 @@ Syntax:
 Explanation:
 This is the user input.
 
+Syntax:
+You are 420 months old.
+
+Explanation:
+This is a string.
+Specifically this is string interpolation.
+puts "You are #{age_in_months} months old."
+
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
