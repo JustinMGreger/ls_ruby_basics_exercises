@@ -172,4 +172,14 @@ This means skip to the next iteration of the loop without executing any of the r
 unless number_a is equal to 5 or number_b is equal to 5.
 print to the screen  '5 was reached!'
 break out of the loop.
+
+What this means is:
+local variable "number_a" is assigned the integer 0.
+local variable "number_b" is assignef the integer 0.
+run an infinite loop.
+variable number_a is reassigned to number_a + randomly selected 0 or 1.
+variable number_b is reassigned to number_b + randomly selected 0 or 1.
+skip to the next iteration of the loop without executing any of the remaining statements in the current itertation,
+unless number_a is equal to 5 or number_b is equal to 5.
+print to the screen  '5 was reached!' and break out of the loop.
 =end
