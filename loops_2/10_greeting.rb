@@ -10,6 +10,13 @@ end
 number_of_greetings = 2
 
 Explanation of Syntax:
+
+Syntax:
+def 
+
+Explanation:
+Def means define a method.
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
