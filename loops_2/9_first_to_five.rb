@@ -127,10 +127,8 @@ next unless number_a == 5 || number_b == 5
 
 Explanation:
 next skips to the next iteration of the loop without executing any of the remaining statements in the current itertation.
-unless 
-
-
-
+unless allows you to execute a block of code only if a condition is false. 
+number_a == 5 means number_a is equal to 5.
 
 
 
