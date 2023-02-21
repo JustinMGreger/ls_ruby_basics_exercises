@@ -12,10 +12,18 @@ number_of_greetings = 2
 Explanation of Syntax:
 
 Syntax:
-def 
+def greeting
 
 Explanation:
 Def means define a method.
+this means define greeting method.
+
+Syntax:
+  puts 'Hello!'
+end
+
+Explanation:
+print to the screen 'Hello!'
 
 Syntax of Solution:
 Explanation of Solution Syntax:
