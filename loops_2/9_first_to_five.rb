@@ -122,10 +122,26 @@ in this case that upper limit is 2.
 rand(2) means return randomly 0 or 1.
 This means variable number_b is reassigned to number_b + randomly selected 0 or 1.
 
+Syntax:
+next unless number_a == 5 || number_b == 5
+
+Explanation:
+next skips to the next iteration of the loop without executing any of the remaining statements in the current itertation.
+unless 
 
 
 
 
+
+
+
+
+
+
+
+
+
+  puts '5 was reached!'
 
 
 
@@ -165,7 +181,9 @@ This means variable number_b is reassigned to number_b + randomly selected 0 or 
 
 
 
+next unless number_a == 5 || number_b == 5
 
+  puts '5 was reached!'
 
 
 
