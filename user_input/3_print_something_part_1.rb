@@ -20,6 +20,20 @@ $ ruby something.rb
 help
 
 Explanation of Syntax:
+
+Syntax:
+$ ruby something.rb
+
+Explanation:
+$ is the cursor.
+ruby means run ruby file.
+something.rb is a ruby file name.
+This means run ruby file.
+
+
+
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
