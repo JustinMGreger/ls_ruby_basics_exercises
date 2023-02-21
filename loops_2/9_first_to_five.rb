@@ -130,9 +130,9 @@ next skips to the next iteration of the loop without executing any of the remain
 unless allows you to execute a block of code only if a condition is false. 
 number_a == 5 means number_a is equal to 5.
 || is the logical or operator that compares 2 variables that returns false only if both variables are false.
-
-
-
+number_b == 5 means number_b is equal to 5.
+This means skip to the next iteration of the loop without executing any of the remaining statements in the current itertation,
+unless number_a is equal to 5 or number_b is equal to 5.
 
 
 
@@ -174,13 +174,13 @@ rand returns a random number from 0 to 1 less than the upper limit.
 in this case that upper limit is 2.
 rand(2) means return randomly 0 or 1.
 This means variable number_b is reassigned to number_b + randomly selected 0 or 1.
-
-
-
-
-
-
-next unless number_a == 5 || number_b == 5
+next skips to the next iteration of the loop without executing any of the remaining statements in the current itertation.
+unless allows you to execute a block of code only if a condition is false. 
+number_a == 5 means number_a is equal to 5.
+|| is the logical or operator that compares 2 variables that returns false only if both variables are false.
+number_b == 5 means number_b is equal to 5.
+This means skip to the next iteration of the loop without executing any of the remaining statements in the current itertation,
+unless number_a is equal to 5 or number_b is equal to 5.
 
   puts '5 was reached!'
 
