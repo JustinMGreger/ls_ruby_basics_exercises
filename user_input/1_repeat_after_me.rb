@@ -45,6 +45,10 @@ This is a string that repeats what the user typed."
 puts "This is what I typed."
 
 Syntax of Solution:
+puts ">> Type anything you want:"
+text = gets
+puts text
+
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
 =end
