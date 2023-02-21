@@ -37,7 +37,12 @@ This is what I typed.
 Explanation:
 This is the user input.
 
+Syntax:
+This is what I typed.
 
+Explanation:
+This is a string that repeats what the user typed."
+puts "This is what I typed."
 
 Syntax of Solution:
 Explanation of Solution Syntax:
