@@ -10,6 +10,17 @@ $ ruby age.rb
 You are 420 months old.
 
 Explanation of Syntax:
+
+Syntax:
+$ ruby age.rb
+
+Explanation:
+$ is the cursor.
+ruby means run ruby file.
+age.rb is a ruby file name.
+This means run ruby file.
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
