@@ -73,6 +73,13 @@ while loops executes a block of code as long as a specified condition is true.
 number_of_greetings > 0 means number_of_greetings is greater than 0.
 This means run a while loop as long as number_of_greetings is greater than 0.
 
+Syntax:
+  greeting
+
+Explanation:
+This means run the greeting method.
+
+
 
 Summary of Solution Syntax:
 Def means define a method.
@@ -82,4 +89,5 @@ local variable number_of_greetings is assigned the value integer 2.
 while loops executes a block of code as long as a specified condition is true.
 number_of_greetings > 0 means number_of_greetings is greater than 0.
 This means run a while loop as long as number_of_greetings is greater than 0.
+run the greeting method.
 =end
