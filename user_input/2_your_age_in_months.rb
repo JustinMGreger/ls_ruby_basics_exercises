@@ -29,6 +29,11 @@ puts ">> What is your age in years?"
 >> is an input prompt.
 : means this is where your input goes.
 
+Syntax:
+35
+
+Explanation:
+This is the user input.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
