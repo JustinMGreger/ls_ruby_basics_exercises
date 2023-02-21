@@ -80,4 +80,10 @@ text is assigned to gets.
 gets is get string.
 get string means get user input in string form.
 This means the variable text is assigned to the user input in string form.
+print to the screen the local variable text.
+
+What this means is:
+print to screen ">> Type anything you want:"
+the variable "text" is assigned to the user input in string form.
+print to the screen the local variable "text".
 =end
