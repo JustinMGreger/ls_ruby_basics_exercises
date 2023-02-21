@@ -25,6 +25,12 @@ end
 Explanation:
 print to the screen 'Hello!'
 
+Syntax:
+number_of_greetings = 2
+
+Explanation:
+local variable number_of_greetings is assigned the value integer 2.
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
