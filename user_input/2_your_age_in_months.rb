@@ -57,7 +57,20 @@ puts '>> What is your age in years?'
 Explanation:
 print to the screen '>> What is your age in years?'
 
+Syntax:
+age_in_years = gets
+
+Explanation:
+local variable "age_in_years" is assgined gets.
+gets is get string.
+get string means get user input in string form.
+This means the variable "age_in_years" is assigned to the user input in string form.
+
 
 Summary of Solution Syntax:
 print to the screen '>> What is your age in years?'
+local variable "age_in_years" is assgined gets.
+gets is get string.
+get string means get user input in string form.
+This means the variable "age_in_years" is assigned to the user input in string form.
 =end
