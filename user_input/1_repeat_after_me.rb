@@ -6,6 +6,11 @@ after which your program should simply display what was entered.
 Example:
 
 Initial Syntax Given:
+$ ruby repeater.rb
+>> Type anything you want:
+This is what I typed.
+This is what I typed.
+
 Explanation of Syntax:
 Syntax of Solution:
 Explanation of Solution Syntax:
