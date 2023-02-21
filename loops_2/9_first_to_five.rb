@@ -38,7 +38,7 @@ Explanation:
 run a loop.
 
 Syntax:
-number_a += rand(2)
+  number_a += rand(2)
 
 Explanation:
 number_a = number_a + rand(2)
@@ -48,6 +48,17 @@ in this case that upper limit is 2.
 rand(2) means return randomly 0 or 1.
 This means variable number_a is reassigned to number_a + randomly selected 0 or 1.
 
+Syntax:
+  number_b += rand(2)
+
+Explanation:
+
+number_b = number_b + rand(2)
+That means variable number_b is reassigned to number_b + rand(2).
+rand returns a random number from 0 to 1 less than the upper limit.
+in this case that upper limit is 2.
+rand(2) means return randomly 0 or 1.
+This means variable number_b is reassigned to number_b + randomly selected 0 or 1.
 
 Syntax of Solution:
 
@@ -71,7 +82,7 @@ Explanation:
 run a loop.
 
 Syntax:
-number_a += rand(2)
+  number_a += rand(2)
 
 Explanation:
 number_a = number_a + rand(2)
@@ -81,7 +92,17 @@ in this case that upper limit is 2.
 rand(2) means return randomly 0 or 1.
 This means variable number_a is reassigned to number_a + randomly selected 0 or 1.
 
+Syntax:
+  number_b += rand(2)
 
+Explanation:
+
+number_b = number_b + rand(2)
+That means variable number_b is reassigned to number_b + rand(2).
+rand returns a random number from 0 to 1 less than the upper limit.
+in this case that upper limit is 2.
+rand(2) means return randomly 0 or 1.
+This means variable number_b is reassigned to number_b + randomly selected 0 or 1.
 
 Summary of Solution Syntax:
 local variable "number_a" is assigned the integer 0.
@@ -93,4 +114,10 @@ rand returns a random number from 0 to 1 less than the upper limit.
 in this case that upper limit is 2.
 rand(2) means return randomly 0 or 1.
 This means variable number_a is reassigned to number_a + randomly selected 0 or 1.
+number_b = number_b + rand(2)
+That means variable number_b is reassigned to number_b + rand(2).
+rand returns a random number from 0 to 1 less than the upper limit.
+in this case that upper limit is 2.
+rand(2) means return randomly 0 or 1.
+This means variable number_b is reassigned to number_b + randomly selected 0 or 1.
 =end
