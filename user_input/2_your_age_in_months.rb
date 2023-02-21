@@ -51,6 +51,13 @@ puts "You are #{age_in_months} months old."
 
 Explanation of Solution Syntax:
 
+Syntax:
+puts '>> What is your age in years?'
+
+Explanation:
+print to the screen '>> What is your age in years?'
+
 
 Summary of Solution Syntax:
+print to the screen '>> What is your age in years?'
 =end
