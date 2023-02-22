@@ -223,15 +223,18 @@ Explanation of Solution Syntax:
 
 Syntax:
 choice = nil
+
 Explanation:
 Local variable "choice" is assigned the value of nil.
 
-
-
-
-
-
+Syntax:
 loop do
+
+Explanation:
+run a loop.
+
+
+
   puts '>> Do you want me to print something? (y/n)'
   choice = gets.chomp.downcase
   break if %w(y n).include?(choice)
@@ -241,4 +244,5 @@ puts 'something' if choice == 'y'
 
 Summary of Solution Syntax:
 Local variable "choice" is assigned the value of nil.
+run a loop.
 =end
