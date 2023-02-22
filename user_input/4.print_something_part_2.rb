@@ -266,13 +266,18 @@ include? returns true or false if the element is present or not.
 (choice) is is the lowercase string one line input from the user.
 This means break out of the loop if "choice" contains "y" or "n"
 
-
-
-
-
-
+Syntax:
   puts '>> Invalid input! Please enter y or n'
 end
+
+Explanation:
+puts means put s that is print string to screen.
+This is a string.
+The string is ">> Invalid input! Please enter y or n"
+>> is an input prompt.
+(y/n) is the preferred input.
+This is a response to user input being invalid.
+
 puts 'something' if choice == 'y'
 
 Summary of Solution Syntax:
@@ -296,4 +301,10 @@ array.include? is the include method which is used to check an array if it conta
 include? returns true or false if the element is present or not.
 (choice) is is the lowercase string one line input from the user.
 This means break out of the loop if "choice" contains "y" or "n"
+puts means put s that is print string to screen.
+This is a string.
+The string is ">> Invalid input! Please enter y or n"
+>> is an input prompt.
+(y/n) is the preferred input.
+This is a response to user input being invalid.
 =end
