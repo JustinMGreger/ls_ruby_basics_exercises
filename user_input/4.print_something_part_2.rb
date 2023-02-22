@@ -243,12 +243,18 @@ puts means put string which is print the string to the screen.
 (y/n) is the preferred input.
 This means print to the screen '>> Do you want me to print something? (y/n)'
 
-
-
-
-
-
+Syntax:
   choice = gets.chomp.downcase
+
+Explanation:
+the local varible "choice" is assigned to gets.chomp
+gets is get s which is get string which is get user input in string form.
+.chomp is a string method that removes add new line character from string when user hits enter after inputting some text.
+.downcase is a string method that converts all letters in a string to lowercase.
+This means choice is the lowercase string one line input from the user.
+
+
+
   break if %w(y n).include?(choice)
   puts '>> Invalid input! Please enter y or n'
 end
@@ -262,5 +268,9 @@ puts means put string which is print the string to the screen.
 >> is an input prompt.
 (y/n) is the preferred input.
 This means print to the screen '>> Do you want me to print something? (y/n)'
-
+the local varible "choice" is assigned to gets.chomp
+gets is get s which is get string which is get user input in string form.
+.chomp is a string method that removes add new line character from string when user hits enter after inputting some text.
+.downcase is a string method that converts all letters in a string to lowercase.
+This means choice is the lowercase string one line input from the user.
 =end
