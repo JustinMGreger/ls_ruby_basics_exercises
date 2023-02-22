@@ -175,9 +175,12 @@ puts ">> Do you want me to print something? (y/n)"
 >> is an input prompt.
 (y/n) is the preferred input.
 
+Syntax:
+NO
 
-
-
+Explanation:
+This is a string.
+This is the user input.
 
 
 
