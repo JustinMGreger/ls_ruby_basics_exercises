@@ -29,8 +29,22 @@ Launch School is the best!
 Launch School is the best!
 Launch School is the best!
 
-
 Explanation of Syntax:
+
+Syntax:
+$ ruby lsprint.rb
+
+Explanation:
+$ is the cursor.
+ruby means run ruby file.
+lsprint.rb is a ruby file.
+This means run the ruby file lsprint.rb
+
+
+
+
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
