@@ -157,6 +157,33 @@ Explanation:
 This is a string.
 This is the user input.
 
+Syntax:
+$ ruby something2.rb
+
+Explanation:
+$ is the cursor.
+ruby means run ruby file.
+something2.rb is a ruby file name.
+This means run the ruby file something2.rb
+
+Syntax:
+>> Do you want me to print something? (y/n)
+
+Explanation:
+This is a string.
+puts ">> Do you want me to print something? (y/n)"
+>> is an input prompt.
+(y/n) is the preferred input.
+
+
+
+
+
+
+
+
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
