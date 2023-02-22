@@ -53,6 +53,30 @@ This is the result of the user input being "y".
 This is a string.
 puts "something."
 
+Syntax:
+$ ruby something.rb
+
+Explanation:
+$ is the cursor.
+ruby means run ruby file.
+something.rb is a ruby file name.
+This means run ruby file.
+
+Syntax:
+>> Do you want me to print something? (y/n)
+
+Explanation:
+This is a string.
+puts ">> Do you want me to print something? (y/n)"
+>> is an input prompt.
+(y/n) is the preferred input.
+
+Syntax:
+n
+
+Explanation:
+This is a string.
+This is the user input.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
