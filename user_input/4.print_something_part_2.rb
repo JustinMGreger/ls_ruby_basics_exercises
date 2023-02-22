@@ -233,9 +233,21 @@ loop do
 Explanation:
 run a loop.
 
-
-
+Syntax:
   puts '>> Do you want me to print something? (y/n)'
+
+Explanation:
+puts means put string which is print the string to the screen.
+'>> Do you want me to print something? (y/n)' is the string.
+>> is an input prompt.
+(y/n) is the preferred input.
+This means print to the screen '>> Do you want me to print something? (y/n)'
+
+
+
+
+
+
   choice = gets.chomp.downcase
   break if %w(y n).include?(choice)
   puts '>> Invalid input! Please enter y or n'
@@ -245,4 +257,10 @@ puts 'something' if choice == 'y'
 Summary of Solution Syntax:
 Local variable "choice" is assigned the value of nil.
 run a loop.
+puts means put string which is print the string to the screen.
+'>> Do you want me to print something? (y/n)' is the string.
+>> is an input prompt.
+(y/n) is the preferred input.
+This means print to the screen '>> Do you want me to print something? (y/n)'
+
 =end
