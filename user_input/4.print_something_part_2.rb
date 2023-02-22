@@ -14,6 +14,30 @@ Whenever possible, accept both uppercase and lowercase inputs.
 Examples:
 
 Initial Syntax Given:
+$ ruby something2.rb
+>> Do you want me to print something? (y/n)
+y
+something
+
+$ ruby something2.rb
+>> Do you want me to print something? (y/n)
+help
+>> Invalid input! Please enter y or n
+>> Do you want me to print something? (y/n)
+Y
+something
+
+$ ruby something2.rb
+>> Do you want me to print something? (y/n)
+N
+
+$ ruby something2.rb
+>> Do you want me to print something? (y/n)
+NO
+>> Invalid input! Please enter y or n
+>> Do you want me to print something? (y/n)
+n
+
 Explanation of Syntax:
 Syntax of Solution:
 Explanation of Solution Syntax:
