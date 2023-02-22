@@ -122,8 +122,15 @@ Y
 Explanation:
 This is a string.
 This is the user input.
+This is a version of "y".
 
+Syntax:
+something
 
+Explanation:
+This is the result of the user input being a version of "y".
+This is a string.
+puts "something."
 
 
 
