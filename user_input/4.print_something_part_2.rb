@@ -320,4 +320,13 @@ puts means put string which is print the string to the screen.
 choice is a local variable assigned the string one line input from the user.
 puts string if choice variable equals string.
 This means if user input variable "choice" is assigned "y" then print to the screen the string "something".
+
+What this all means:
+Local variable "choice" is assigned the value of nil.
+run an infinite loop.
+print to the screen '>> Do you want me to print something? (y/n)'
+"choice" is reassigned the lowercase string one line input from the user.
+break out of the loop if "choice" is assigned "y" or "n"
+print string to screen  ">> Invalid input! Please enter y or n"
+if "choice" was reassigned "y" then print to the screen the string "something".
 =end
