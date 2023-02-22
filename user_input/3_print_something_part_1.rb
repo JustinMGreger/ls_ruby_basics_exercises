@@ -155,4 +155,8 @@ choice is a local variable assigned the string one line input from the user.
 puts string if choice variable equals string.
 This means if user input variable "choice" is assigned "y" then print to the screen the string "something".
 
+What this means is:
+print to the screen '>> Do you want me to print something? (y/n)'
+choice is the string one line input from the user.
+if user input variable "choice" is assigned "y" then print to the screen the string "something".
 =end
