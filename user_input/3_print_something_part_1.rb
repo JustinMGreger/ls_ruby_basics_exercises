@@ -109,8 +109,31 @@ puts '>> Do you want me to print something? (y/n)'
 choice = gets.chomp
 puts 'something' if choice == 'y'
 
-
-
 Explanation of Solution Syntax:
+Syntax:
+puts '>> Do you want me to print something? (y/n)'
+
+Explanation:
+puts means put string which is print the string to the screen.
+'>> Do you want me to print something? (y/n)' is the string.
+>> is an input prompt.
+(y/n) is the preferred input.
+This means print to the screen '>> Do you want me to print something? (y/n)'
+
+
+
+
+
+
+
+
+
+choice = gets.chomp
+puts 'something' if choice == 'y'
+
+
+
+
+
 Summary of Solution Syntax:
 =end
