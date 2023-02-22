@@ -278,7 +278,15 @@ The string is ">> Invalid input! Please enter y or n"
 (y/n) is the preferred input.
 This is a response to user input being invalid.
 
+Syntax:
 puts 'something' if choice == 'y'
+
+Explanation:
+puts means put string which is print the string to the screen.
+'something' is a string.
+choice is a local variable assigned the string one line input from the user.
+puts string if choice variable equals string.
+This means if user input variable "choice" is assigned "y" then print to the screen the string "something".
 
 Summary of Solution Syntax:
 Local variable "choice" is assigned the value of nil.
@@ -307,4 +315,9 @@ The string is ">> Invalid input! Please enter y or n"
 >> is an input prompt.
 (y/n) is the preferred input.
 This is a response to user input being invalid.
+puts means put string which is print the string to the screen.
+'something' is a string.
+choice is a local variable assigned the string one line input from the user.
+puts string if choice variable equals string.
+This means if user input variable "choice" is assigned "y" then print to the screen the string "something".
 =end
