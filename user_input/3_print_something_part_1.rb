@@ -45,6 +45,15 @@ y
 Explanation:
 This is the user input.
 
+Syntax:
+something
+
+Explanation:
+This is the result of the user input being "y".
+This is a string.
+puts "something."
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
