@@ -253,9 +253,24 @@ gets is get s which is get string which is get user input in string form.
 .downcase is a string method that converts all letters in a string to lowercase.
 This means choice is the lowercase string one line input from the user.
 
-
-
+Syntax:
   break if %w(y n).include?(choice)
+
+Explanation:
+break means break out of the loop.
+if means do something if the following condition is true.
+%w stands for "word array" which is also called "string array".
+%w(y n) means ["y", "n"]
+array.include? is the include method which is used to check an array if it contains a specific element.
+include? returns true or false if the element is present or not.
+(choice) is is the lowercase string one line input from the user.
+This means break out of the loop if "choice" contains "y" or "n"
+
+
+
+
+
+
   puts '>> Invalid input! Please enter y or n'
 end
 puts 'something' if choice == 'y'
@@ -273,4 +288,12 @@ gets is get s which is get string which is get user input in string form.
 .chomp is a string method that removes add new line character from string when user hits enter after inputting some text.
 .downcase is a string method that converts all letters in a string to lowercase.
 This means choice is the lowercase string one line input from the user.
+break means break out of the loop.
+if means do something if the following condition is true.
+%w stands for "word array" which is also called "string array".
+%w(y n) means ["y", "n"]
+array.include? is the include method which is used to check an array if it contains a specific element.
+include? returns true or false if the element is present or not.
+(choice) is is the lowercase string one line input from the user.
+This means break out of the loop if "choice" contains "y" or "n"
 =end
