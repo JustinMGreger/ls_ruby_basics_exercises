@@ -90,7 +90,12 @@ puts ">> Do you want me to print something? (y/n)"
 >> is an input prompt.
 (y/n) is the preferred input.
 
+Syntax:
+help
 
+Explanation:
+This is a string.
+This is the user input.
 
 
 
