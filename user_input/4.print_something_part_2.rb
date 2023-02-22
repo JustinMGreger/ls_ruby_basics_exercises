@@ -39,6 +39,22 @@ NO
 n
 
 Explanation of Syntax:
+
+Syntax:
+$ ruby something2.rb
+
+Explanation:
+$ is the cursor.
+ruby means run ruby file.
+something2.rb is a ruby file.
+This means run the ruby file something2.rb
+
+
+
+
+
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
