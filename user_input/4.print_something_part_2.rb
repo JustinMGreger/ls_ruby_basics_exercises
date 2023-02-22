@@ -182,7 +182,24 @@ Explanation:
 This is a string.
 This is the user input.
 
+Syntax:
+>> Invalid input! Please enter y or n
 
+Explanation:
+This is a string.
+puts ">> Invalid input! Please enter y or n"
+>> is an input prompt.
+(y/n) is the preferred input.
+This is a response to user input being invalid.
+
+Syntax:
+>> Do you want me to print something? (y/n)
+
+Explanation:
+This is a string.
+puts ">> Do you want me to print something? (y/n)"
+>> is an input prompt.
+(y/n) is the preferred input.
 
 
 
