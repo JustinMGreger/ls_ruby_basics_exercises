@@ -105,6 +105,12 @@ This is a string.
 This is the user input.
 
 Syntax of Solution:
+puts '>> Do you want me to print something? (y/n)'
+choice = gets.chomp
+puts 'something' if choice == 'y'
+
+
+
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
 =end
