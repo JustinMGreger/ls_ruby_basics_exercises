@@ -40,9 +40,16 @@ ruby means run ruby file.
 lsprint.rb is a ruby file.
 This means run the ruby file lsprint.rb
 
+Syntax:
+>> How many output lines do you want? Enter a number >= 3:
 
-
-
+Explanation:
+This is a string.
+puts ">> How many output lines do you want? Enter a number >= 3:"
+>> is an input prompt.
+(>= 3) is the preferred input.
+: is where the user input goes.
+This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
 
 
 Syntax of Solution:
