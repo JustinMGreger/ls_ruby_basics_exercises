@@ -120,15 +120,20 @@ puts means put string which is print the string to the screen.
 (y/n) is the preferred input.
 This means print to the screen '>> Do you want me to print something? (y/n)'
 
-
-
-
-
-
-
-
-
+Syntax:
 choice = gets.chomp
+
+Explanation:
+the local varible "choice" is assigned to gets.chomp
+gets is get s which is get string which is get user input in string form.
+chomp is a string method that removes add new line character from string when user hits enter after inputting some text.
+This means choice is the string one line input from the user.
+
+
+
+
+
+
 puts 'something' if choice == 'y'
 
 
@@ -136,4 +141,13 @@ puts 'something' if choice == 'y'
 
 
 Summary of Solution Syntax:
+puts means put string which is print the string to the screen.
+'>> Do you want me to print something? (y/n)' is the string.
+>> is an input prompt.
+(y/n) is the preferred input.
+This means print to the screen '>> Do you want me to print something? (y/n)'
+the local varible "choice" is assigned to gets.chomp
+gets is get s which is get string which is get user input in string form.
+chomp is a string method that removes add new line character from string when user hits enter after inputting some text.
+This means choice is the string one line input from the user.
 =end
