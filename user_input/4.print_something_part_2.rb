@@ -73,6 +73,22 @@ This is the result of the user input being "y".
 This is a string.
 puts "something."
 
+$ ruby something2.rb
+
+Explanation:
+$ is the cursor.
+ruby means run ruby file.
+something2.rb is a ruby file.
+This means run the ruby file something2.rb
+
+
+
+
+
+
+
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
