@@ -224,7 +224,7 @@ Explanation of Solution Syntax:
 Syntax:
 choice = nil
 Explanation:
-
+Local variable "choice" is assigned the value of nil.
 
 
 
@@ -240,4 +240,5 @@ end
 puts 'something' if choice == 'y'
 
 Summary of Solution Syntax:
+Local variable "choice" is assigned the value of nil.
 =end
