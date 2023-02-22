@@ -10,6 +10,26 @@ validation of numeric input is a topic with a fair number of edge conditions tha
 Examples:
 
 Initial Syntax Given:
+$ ruby lsprint.rb
+>> How many output lines do you want? Enter a number >= 3:
+5
+Launch School is the best!
+Launch School is the best!
+Launch School is the best!
+Launch School is the best!
+Launch School is the best!
+
+$ ruby lsprint.rb
+>> How many output lines do you want? Enter a number >= 3:
+2
+>> That's not enough lines.
+>> How many output lines do you want? Enter a number >= 3:
+3
+Launch School is the best!
+Launch School is the best!
+Launch School is the best!
+
+
 Explanation of Syntax:
 Syntax of Solution:
 Explanation of Solution Syntax:
