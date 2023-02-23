@@ -168,9 +168,16 @@ the following condition is password_try == PASSWORD.
 variable "password_try" is equal to PASSWORD.
 This means break out of the loop if password_try == PASSWORD.
 
-
-
+Syntax:
   puts '>> Invalid password!'
+
+Explanation:
+puts means print to the screen the string.
+the string is '>> Invalid password!'
+>> is an input prompt.
+This is the result of the user input being the wrong password that is password_try does not equal PASSWORD.
+
+
 end
 
 puts 'Welcome!'
@@ -194,10 +201,12 @@ break if the following condition is true.
 the following condition is password_try == PASSWORD.
 variable "password_try" is equal to PASSWORD.
 This means break out of the loop if password_try == PASSWORD.
+puts means print to the screen the string.
+the string is '>> Invalid password!'
+>> is an input prompt.
+This is the result of the user input being the wrong password that is password_try does not equal PASSWORD.
 
 
-
-  puts '>> Invalid password!'
 end
 
 puts 'Welcome!'
