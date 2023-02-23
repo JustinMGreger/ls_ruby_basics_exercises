@@ -186,10 +186,19 @@ gets means get string that is get user input in string form.
 .to_i means transform to integer form.
 This means variable "number_of_lines" is reassigned to user input in string form that has been transformed to integer form.
 
-
-
-
+Syntax:
   break if number_of_lines >= 3
+
+Explanation:
+break out of the loop.
+the if statement means break out of the loop if the following condition is true.
+variable "number_of_lines" >= 3.
+>= 3 means greater than or equal to 3.
+This means break out of the loop if variable "number_of_lines" is greater than or equal to 3.
+
+
+
+
   puts ">> That's not enough lines."
 end
 
@@ -212,9 +221,13 @@ variable "number_of_lines" is reassigned to gets.to_i
 gets means get string that is get user input in string form.
 .to_i means transform to integer form.
 This means variable "number_of_lines" is reassigned to user input in string form that has been transformed to integer form.
+break out of the loop.
+the if statement means break out of the loop if the following condition is true.
+variable "number_of_lines" >= 3.
+>= 3 means greater than or equal to 3.
+This means break out of the loop if variable "number_of_lines" is greater than or equal to 3.
 
 
-  break if number_of_lines >= 3
   puts ">> That's not enough lines."
 end
 
