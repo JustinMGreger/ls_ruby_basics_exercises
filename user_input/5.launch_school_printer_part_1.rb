@@ -125,6 +125,17 @@ Explanation:
 This is an integer.
 This is the user input.
 
+Syntax:
+Launch School is the best!
+Launch School is the best!
+Launch School is the best!
+
+Explanation:
+These are strings.
+In the line above the user input was 3.
+Somehow user intput in integer form * puts "Launch School is the best!"
+That is somehow print to the screen the string "Launch School is the best!" the number of times the user input in integer form says to.
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
