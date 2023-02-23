@@ -107,6 +107,17 @@ puts ">> That's not enough lines."
 That is print to the screen ">> That's not enough lines."
 This occured as a result of the user input which is probably the variable "number" being something other than number >= 3.
 
+Syntax:
+>> How many output lines do you want? Enter a number >= 3:
+
+Explanation:
+This is a string.
+puts ">> How many output lines do you want? Enter a number >= 3:"
+>> is an input prompt.
+(>= 3) is the preferred input.
+: is where the user input goes.
+This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
+
 
 Syntax of Solution:
 Explanation of Solution Syntax:
