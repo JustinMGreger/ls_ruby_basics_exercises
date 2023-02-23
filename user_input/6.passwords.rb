@@ -48,8 +48,17 @@ Explanation:
 This is a string.
 This is the user input in string form.
 
-
+Syntax:
 >> Invalid password!
+
+Explanation:
+This is a string.
+puts ">> Invalid password!"
+That is print to the screen the string ">> Invalid password!"
+This string is a result of the user_input not being the correct password.
+
+
+
 >> Please enter your password:
 Secret
 >> Invalid password!
