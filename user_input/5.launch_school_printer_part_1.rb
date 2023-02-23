@@ -177,9 +177,18 @@ the string is '>> How many output lines do you want? Enter a number >= 3:'
 : is where the user input goes.
 This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
 
-
-
+Syntax:
   number_of_lines = gets.to_i
+
+Explanation:
+variable "number_of_lines" is reassigned to gets.to_i
+gets means get string that is get user input in string form.
+.to_i means transform to integer form.
+This means variable "number_of_lines" is reassigned to user input in string form that has been transformed to integer form.
+
+
+
+
   break if number_of_lines >= 3
   puts ">> That's not enough lines."
 end
@@ -199,9 +208,12 @@ the string is '>> How many output lines do you want? Enter a number >= 3:'
 (>= 3) is the preferred input.
 : is where the user input goes.
 This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
+variable "number_of_lines" is reassigned to gets.to_i
+gets means get string that is get user input in string form.
+.to_i means transform to integer form.
+This means variable "number_of_lines" is reassigned to user input in string form that has been transformed to integer form.
 
 
-  number_of_lines = gets.to_i
   break if number_of_lines >= 3
   puts ">> That's not enough lines."
 end
