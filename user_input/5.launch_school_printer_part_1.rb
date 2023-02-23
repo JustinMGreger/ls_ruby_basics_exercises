@@ -91,6 +91,17 @@ puts ">> How many output lines do you want? Enter a number >= 3:"
 : is where the user input goes.
 This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
 
+Syntax:
+2
+
+Explanation:
+This is an integer.
+This is the user input.
+
+
+
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
