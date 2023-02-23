@@ -234,10 +234,11 @@ Syntax:
 Explanation:
 variable "number_of_lines" is reassigned to number_of_lines - 1.
 
-
-
-
+Syntax:
 end
+
+Explanation:
+This is the last line of the loop that is any code following this is outside of the loop.
 
 Summary of Solution Syntax:
 Local variable "number_of_lines" is assigned the value of nil.
@@ -272,7 +273,7 @@ puts means put s which is put string which means print to the screen the string.
 'Launch School is the best!' is the string.
 This means print to the screen 'Launch School is the best!'
 variable "number_of_lines" is reassigned to number_of_lines - 1.
-
+This is the last line of the loop that is any code following this is outside of the loop.
 
 
 end
