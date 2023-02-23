@@ -158,8 +158,18 @@ variable "password_try" is assigned gets.chomp
 gets means get string that is get user input in string form.
 .chomp is a string method that removes new line character.
 
-
+Syntax:
   break if password_try == PASSWORD
+
+Explanation:
+break means break out of the loop. 
+break if the following condition is true.
+the following condition is password_try == PASSWORD.
+variable "password_try" is equal to PASSWORD.
+This means break out of the loop if password_try == PASSWORD.
+
+
+
   puts '>> Invalid password!'
 end
 
@@ -179,9 +189,14 @@ This means print to the screen the string '>> Please enter your password:'
 variable "password_try" is assigned gets.chomp
 gets means get string that is get user input in string form.
 .chomp is a string method that removes new line character.
+break means break out of the loop. 
+break if the following condition is true.
+the following condition is password_try == PASSWORD.
+variable "password_try" is equal to PASSWORD.
+This means break out of the loop if password_try == PASSWORD.
 
 
-  break if password_try == PASSWORD
+
   puts '>> Invalid password!'
 end
 
