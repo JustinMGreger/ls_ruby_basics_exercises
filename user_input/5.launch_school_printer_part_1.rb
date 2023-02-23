@@ -204,7 +204,11 @@ puts means put s which is put string which means print to the screen the string.
 ">> That's not enough lines." is a string.
 This is a response to user input being invalid that is not a high enough integer value.
 
+Syntax:
 end
+
+Explanation:
+This is the last line of the loop that is any code following this is outside of the loop.
 
 while number_of_lines > 0
   puts 'Launch School is the best!'
@@ -233,8 +237,7 @@ This means break out of the loop if variable "number_of_lines" is greater than o
 puts means put s which is put string which means print to the screen the string.
 ">> That's not enough lines." is a string.
 This is a response to user input being invalid that is not a high enough integer value.
-
-end
+This is the last line of the loop that is any code following this is outside of the loop.
 
 while number_of_lines > 0
   puts 'Launch School is the best!'
