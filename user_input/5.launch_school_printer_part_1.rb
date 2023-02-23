@@ -152,7 +152,14 @@ while number_of_lines > 0
 end
 
 Explanation of Solution Syntax:
+
+Syntax:
 number_of_lines = nil
+
+Explanation:
+Local variable "number_of_lines" is assigned the value of nil.
+
+
 loop do
   puts '>> How many output lines do you want? Enter a number >= 3:'
   number_of_lines = gets.to_i
@@ -166,7 +173,7 @@ while number_of_lines > 0
 end
 
 Summary of Solution Syntax:
-number_of_lines = nil
+Local variable "number_of_lines" is assigned the value of nil.
 loop do
   puts '>> How many output lines do you want? Enter a number >= 3:'
   number_of_lines = gets.to_i
