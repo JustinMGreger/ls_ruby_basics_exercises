@@ -102,8 +102,14 @@ Explanation:
 This is a string.
 This is the user input in string form.
 
-
+Syntax:
 Welcome!
+
+Explanation:
+This is a string.
+puts "Welcome!"
+That is print to the screen the string "Welcome!"
+This is a response to the user input being "SecreT"
 
 Syntax of Solution:
 Explanation of Solution Syntax:
