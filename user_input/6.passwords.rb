@@ -20,6 +20,27 @@ SecreT
 Welcome!
 
 Explanation of Syntax:
+
+Syntax:
+$ ruby password.rb
+
+Explanation:
+$ is the cursor.
+ruby means run ruby file.
+password.rb is a ruby file.
+This means run the ruby file password.rb
+
+
+>> Please enter your password:
+Hello
+>> Invalid password!
+>> Please enter your password:
+Secret
+>> Invalid password!
+>> Please enter your password:
+SecreT
+Welcome!
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
