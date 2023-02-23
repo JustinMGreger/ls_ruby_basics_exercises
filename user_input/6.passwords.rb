@@ -30,8 +30,18 @@ ruby means run ruby file.
 password.rb is a ruby file.
 This means run the ruby file password.rb
 
-
+Syntax:
 >> Please enter your password:
+
+Explanation:
+This is a string.
+puts ">> Please enter your password:"
+That is print to the screen the string ">> Please enter your password:"
+>> is an input prompt.
+: is where the user input goes.
+This string asks the user to input their password.
+
+
 Hello
 >> Invalid password!
 >> Please enter your password:
