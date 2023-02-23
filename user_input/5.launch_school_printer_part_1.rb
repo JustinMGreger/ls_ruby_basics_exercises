@@ -137,6 +137,45 @@ Somehow user intput in integer form * puts "Launch School is the best!"
 That is somehow print to the screen the string "Launch School is the best!" the number of times the user input in integer form says to.
 
 Syntax of Solution:
+
+number_of_lines = nil
+loop do
+  puts '>> How many output lines do you want? Enter a number >= 3:'
+  number_of_lines = gets.to_i
+  break if number_of_lines >= 3
+  puts ">> That's not enough lines."
+end
+
+while number_of_lines > 0
+  puts 'Launch School is the best!'
+  number_of_lines -= 1
+end
+
 Explanation of Solution Syntax:
+number_of_lines = nil
+loop do
+  puts '>> How many output lines do you want? Enter a number >= 3:'
+  number_of_lines = gets.to_i
+  break if number_of_lines >= 3
+  puts ">> That's not enough lines."
+end
+
+while number_of_lines > 0
+  puts 'Launch School is the best!'
+  number_of_lines -= 1
+end
+
 Summary of Solution Syntax:
+number_of_lines = nil
+loop do
+  puts '>> How many output lines do you want? Enter a number >= 3:'
+  number_of_lines = gets.to_i
+  break if number_of_lines >= 3
+  puts ">> That's not enough lines."
+end
+
+while number_of_lines > 0
+  puts 'Launch School is the best!'
+  number_of_lines -= 1
+end
 =end
