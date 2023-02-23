@@ -84,8 +84,18 @@ puts ">> Invalid password!"
 That is print to the screen the string ">> Invalid password!"
 This string is a result of the user_input not being the correct password.
 
-
+Syntax:
 >> Please enter your password:
+
+Explanation:
+This is a string.
+puts ">> Please enter your password:"
+That is print to the screen the string ">> Please enter your password:"
+>> is an input prompt.
+: is where the user input goes.
+This string asks the user to input their password.
+
+
 SecreT
 Welcome!
 
