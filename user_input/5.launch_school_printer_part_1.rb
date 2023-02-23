@@ -228,9 +228,15 @@ puts means put s which is put string which means print to the screen the string.
 'Launch School is the best!' is the string.
 This means print to the screen 'Launch School is the best!'
 
-
-
+Syntax:
   number_of_lines -= 1
+  
+Explanation:
+variable "number_of_lines" is reassigned to number_of_lines - 1.
+
+
+
+
 end
 
 Summary of Solution Syntax:
@@ -256,6 +262,7 @@ puts means put s which is put string which means print to the screen the string.
 ">> That's not enough lines." is a string.
 This is a response to user input being invalid that is not a high enough integer value.
 This is the last line of the loop that is any code following this is outside of the loop.
+
 start a while loop.
 The following code is in a while loop.
 while loops run as long as a condition is true.
@@ -264,8 +271,9 @@ This means run the while loop if "number_of_lines" is greater than 0.
 puts means put s which is put string which means print to the screen the string.
 'Launch School is the best!' is the string.
 This means print to the screen 'Launch School is the best!'
+variable "number_of_lines" is reassigned to number_of_lines - 1.
 
 
-  number_of_lines -= 1
+
 end
 =end
