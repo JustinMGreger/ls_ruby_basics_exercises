@@ -133,9 +133,15 @@ PASSWORD is a constant.
 A constant is a variable that holds a value which cannot be changed during the execution of the program.
 The assigned value of PASSWORD is the string 'SecreT'.
 
-
-
+Syntax:
 loop do
+
+Explanation:
+start running a loop.
+The following code is in the loop.
+
+
+
   puts '>> Please enter your password:'
   password_try = gets.chomp
   break if password_try == PASSWORD
@@ -145,9 +151,13 @@ end
 puts 'Welcome!'
 
 Summary of Solution Syntax:
-PASSWORD = 'SecreT'
+PASSWORD is a constant.
+A constant is a variable that holds a value which cannot be changed during the execution of the program.
+The assigned value of PASSWORD is the string 'SecreT'.
+start running a loop.
+The following code is in the loop.
 
-loop do
+
   puts '>> Please enter your password:'
   password_try = gets.chomp
   break if password_try == PASSWORD
