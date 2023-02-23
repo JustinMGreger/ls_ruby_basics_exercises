@@ -98,8 +98,14 @@ Explanation:
 This is an integer.
 This is the user input.
 
+Syntax:
+>> That's not enough lines.
 
-
+Explanation:
+This is a string.
+puts ">> That's not enough lines."
+That is print to the screen ">> That's not enough lines."
+This occured as a result of the user input which is probably the variable "number" being something other than number >= 3.
 
 
 Syntax of Solution:
