@@ -150,7 +150,15 @@ the string is '>> Please enter your password:'
 : is where the user input goes.
 This means print to the screen the string '>> Please enter your password:'
 
+Syntax:
   password_try = gets.chomp
+
+Explanation:
+variable "password_try" is assigned gets.chomp
+gets means get string that is get user input in string form.
+.chomp is a string method that removes new line character.
+
+
   break if password_try == PASSWORD
   puts '>> Invalid password!'
 end
@@ -168,10 +176,11 @@ the string is '>> Please enter your password:'
 >> is an input prompt.
 : is where the user input goes.
 This means print to the screen the string '>> Please enter your password:'
+variable "password_try" is assigned gets.chomp
+gets means get string that is get user input in string form.
+.chomp is a string method that removes new line character.
 
 
-
-  password_try = gets.chomp
   break if password_try == PASSWORD
   puts '>> Invalid password!'
 end
