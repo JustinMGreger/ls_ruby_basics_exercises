@@ -8,6 +8,17 @@ Keep asking for the password until the user enters the correct password.
 Examples:
 
 Initial Syntax Given:
+$ ruby password.rb
+>> Please enter your password:
+Hello
+>> Invalid password!
+>> Please enter your password:
+Secret
+>> Invalid password!
+>> Please enter your password:
+SecreT
+Welcome!
+
 Explanation of Syntax:
 Syntax of Solution:
 Explanation of Solution Syntax:
