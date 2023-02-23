@@ -124,7 +124,16 @@ end
 puts 'Welcome!'
 
 Explanation of Solution Syntax:
+
+Syntax:
 PASSWORD = 'SecreT'
+
+Explanation:
+PASSWORD is a constant.
+A constant is a variable that holds a value which cannot be changed during the execution of the program.
+The assigned value of PASSWORD is the string 'SecreT'.
+
+
 
 loop do
   puts '>> Please enter your password:'
