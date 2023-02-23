@@ -68,9 +68,13 @@ That is print to the screen the string ">> Please enter your password:"
 : is where the user input goes.
 This string asks the user to input their password.
 
-
-
+Syntax:
 Secret
+
+Explanation:
+This is a string.
+This is the user input in string form.
+
 >> Invalid password!
 >> Please enter your password:
 SecreT
