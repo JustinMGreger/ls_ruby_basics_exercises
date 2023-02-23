@@ -159,8 +159,15 @@ number_of_lines = nil
 Explanation:
 Local variable "number_of_lines" is assigned the value of nil.
 
-
+Syntax:
 loop do
+
+Explanation:
+start running a loop.
+The following code is in the loop.
+
+
+
   puts '>> How many output lines do you want? Enter a number >= 3:'
   number_of_lines = gets.to_i
   break if number_of_lines >= 3
@@ -174,7 +181,9 @@ end
 
 Summary of Solution Syntax:
 Local variable "number_of_lines" is assigned the value of nil.
-loop do
+start running a loop.
+The following code is in the loop.
+
   puts '>> How many output lines do you want? Enter a number >= 3:'
   number_of_lines = gets.to_i
   break if number_of_lines >= 3
