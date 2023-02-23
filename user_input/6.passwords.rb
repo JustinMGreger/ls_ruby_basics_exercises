@@ -140,9 +140,16 @@ Explanation:
 start running a loop.
 The following code is in the loop.
 
-
-
+Syntax:
   puts '>> Please enter your password:'
+
+Explanation:
+puts means print to the screen the string.
+the string is '>> Please enter your password:'
+>> is an input prompt.
+: is where the user input goes.
+This means print to the screen the string '>> Please enter your password:'
+
   password_try = gets.chomp
   break if password_try == PASSWORD
   puts '>> Invalid password!'
@@ -156,9 +163,14 @@ A constant is a variable that holds a value which cannot be changed during the e
 The assigned value of PASSWORD is the string 'SecreT'.
 start running a loop.
 The following code is in the loop.
+puts means print to the screen the string.
+the string is '>> Please enter your password:'
+>> is an input prompt.
+: is where the user input goes.
+This means print to the screen the string '>> Please enter your password:'
 
 
-  puts '>> Please enter your password:'
+
   password_try = gets.chomp
   break if password_try == PASSWORD
   puts '>> Invalid password!'
