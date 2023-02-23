@@ -220,8 +220,16 @@ while loops run as long as a condition is true.
 variable "number_of_lines" is compared to 0 to see if "number_of_lines" is greater than 0.
 This means run the while loop if "number_of_lines" is greater than 0.
 
-
+Syntax:
   puts 'Launch School is the best!'
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+'Launch School is the best!' is the string.
+This means print to the screen 'Launch School is the best!'
+
+
+
   number_of_lines -= 1
 end
 
@@ -253,10 +261,11 @@ The following code is in a while loop.
 while loops run as long as a condition is true.
 variable "number_of_lines" is compared to 0 to see if "number_of_lines" is greater than 0.
 This means run the while loop if "number_of_lines" is greater than 0.
+puts means put s which is put string which means print to the screen the string.
+'Launch School is the best!' is the string.
+This means print to the screen 'Launch School is the best!'
 
 
-
-  puts 'Launch School is the best!'
   number_of_lines -= 1
 end
 =end
