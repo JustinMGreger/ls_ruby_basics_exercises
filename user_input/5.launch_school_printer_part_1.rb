@@ -210,7 +210,17 @@ end
 Explanation:
 This is the last line of the loop that is any code following this is outside of the loop.
 
+Syntax:
 while number_of_lines > 0
+
+Explanation:
+start a while loop.
+The following code is in a while loop.
+while loops run as long as a condition is true.
+variable "number_of_lines" is compared to 0 to see if "number_of_lines" is greater than 0.
+This means run the while loop if "number_of_lines" is greater than 0.
+
+
   puts 'Launch School is the best!'
   number_of_lines -= 1
 end
@@ -238,8 +248,14 @@ puts means put s which is put string which means print to the screen the string.
 ">> That's not enough lines." is a string.
 This is a response to user input being invalid that is not a high enough integer value.
 This is the last line of the loop that is any code following this is outside of the loop.
+start a while loop.
+The following code is in a while loop.
+while loops run as long as a condition is true.
+variable "number_of_lines" is compared to 0 to see if "number_of_lines" is greater than 0.
+This means run the while loop if "number_of_lines" is greater than 0.
 
-while number_of_lines > 0
+
+
   puts 'Launch School is the best!'
   number_of_lines -= 1
 end
