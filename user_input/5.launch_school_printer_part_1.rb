@@ -166,9 +166,19 @@ Explanation:
 start running a loop.
 The following code is in the loop.
 
-
-
+Syntax:
   puts '>> How many output lines do you want? Enter a number >= 3:'
+
+Explanation:
+puts means print to the screen the string.
+the string is '>> How many output lines do you want? Enter a number >= 3:'
+>> is an input prompt.
+(>= 3) is the preferred input.
+: is where the user input goes.
+This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
+
+
+
   number_of_lines = gets.to_i
   break if number_of_lines >= 3
   puts ">> That's not enough lines."
@@ -183,8 +193,14 @@ Summary of Solution Syntax:
 Local variable "number_of_lines" is assigned the value of nil.
 start running a loop.
 The following code is in the loop.
+puts means print to the screen the string.
+the string is '>> How many output lines do you want? Enter a number >= 3:'
+>> is an input prompt.
+(>= 3) is the preferred input.
+: is where the user input goes.
+This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
 
-  puts '>> How many output lines do you want? Enter a number >= 3:'
+
   number_of_lines = gets.to_i
   break if number_of_lines >= 3
   puts ">> That's not enough lines."
