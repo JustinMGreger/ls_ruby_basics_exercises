@@ -71,7 +71,25 @@ In the line above the user input was 5.
 Somehow user intput in integer form * puts "Launch School is the best!"
 That is somehow print to the screen the string "Launch School is the best!" the number of times the user input in integer form says to.
 
+Syntax:
+$ ruby lsprint.rb
 
+Explanation:
+$ is the cursor.
+ruby means run ruby file.
+lsprint.rb is a ruby file.
+This means run the ruby file lsprint.rb
+
+Syntax:
+>> How many output lines do you want? Enter a number >= 3:
+
+Explanation:
+This is a string.
+puts ">> How many output lines do you want? Enter a number >= 3:"
+>> is an input prompt.
+(>= 3) is the preferred input.
+: is where the user input goes.
+This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
