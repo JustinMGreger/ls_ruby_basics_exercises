@@ -112,6 +112,38 @@ That is print to the screen the string "Welcome!"
 This is a response to the user input being "SecreT"
 
 Syntax of Solution:
+PASSWORD = 'SecreT'
+
+loop do
+  puts '>> Please enter your password:'
+  password_try = gets.chomp
+  break if password_try == PASSWORD
+  puts '>> Invalid password!'
+end
+
+puts 'Welcome!'
+
 Explanation of Solution Syntax:
+PASSWORD = 'SecreT'
+
+loop do
+  puts '>> Please enter your password:'
+  password_try = gets.chomp
+  break if password_try == PASSWORD
+  puts '>> Invalid password!'
+end
+
+puts 'Welcome!'
+
 Summary of Solution Syntax:
+PASSWORD = 'SecreT'
+
+loop do
+  puts '>> Please enter your password:'
+  password_try = gets.chomp
+  break if password_try == PASSWORD
+  puts '>> Invalid password!'
+end
+
+puts 'Welcome!'
 =end
