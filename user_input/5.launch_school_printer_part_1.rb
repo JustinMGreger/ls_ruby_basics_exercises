@@ -196,10 +196,14 @@ variable "number_of_lines" >= 3.
 >= 3 means greater than or equal to 3.
 This means break out of the loop if variable "number_of_lines" is greater than or equal to 3.
 
-
-
-
+Syntax:
   puts ">> That's not enough lines."
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+">> That's not enough lines." is a string.
+This is a response to user input being invalid that is not a high enough integer value.
+
 end
 
 while number_of_lines > 0
@@ -226,9 +230,10 @@ the if statement means break out of the loop if the following condition is true.
 variable "number_of_lines" >= 3.
 >= 3 means greater than or equal to 3.
 This means break out of the loop if variable "number_of_lines" is greater than or equal to 3.
+puts means put s which is put string which means print to the screen the string.
+">> That's not enough lines." is a string.
+This is a response to user input being invalid that is not a high enough integer value.
 
-
-  puts ">> That's not enough lines."
 end
 
 while number_of_lines > 0
