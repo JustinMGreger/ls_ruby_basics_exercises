@@ -287,7 +287,21 @@ the string is '>> Please enter your user name:'
 : is where the user input goes.
 This asks the user to input their user name.
 
+Syntax:
   user_name = gets.chomp
+
+Explanation:
+variable "user_name" is assigned gets.chomp
+gets means get string that is get user input in string form.
+.chomp is a string method that removes new line character.
+
+
+
+
+
+
+
+
 
   puts '>> Please enter your password:'
   password_try = gets.chomp
@@ -310,9 +324,17 @@ The assigned value of PASSWORD is the string 'SecreT'.
 start running a loop.
 The following code is in the loop.
 
+puts means print to the screen the string.
+the string is '>> Please enter your user name:'
+>> is an input prompt.
+: is where the user input goes.
+This asks the user to input their user name.
 
-  puts '>> Please enter your user name:'
-  user_name = gets.chomp
+variable "user_name" is assigned gets.chomp
+gets means get string that is get user input in string form.
+.chomp is a string method that removes new line character.
+
+
 
   puts '>> Please enter your password:'
   password_try = gets.chomp
