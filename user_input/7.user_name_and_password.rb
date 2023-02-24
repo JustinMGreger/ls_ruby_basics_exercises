@@ -277,7 +277,16 @@ Explanation:
 start running a loop.
 The following code is in the loop.
 
+Syntax:
   puts '>> Please enter your user name:'
+
+Explanation:
+puts means print to the screen the string.
+the string is '>> Please enter your user name:'
+>> is an input prompt.
+: is where the user input goes.
+This asks the user to input their user name.
+
   user_name = gets.chomp
 
   puts '>> Please enter your password:'
