@@ -177,15 +177,25 @@ the string is '>> Invalid password!'
 >> is an input prompt.
 This is the result of the user input being the wrong password that is password_try does not equal PASSWORD.
 
-
+Syntax:
 end
 
+Explanation:
+This is the last line of the loop that is any code following this is outside of the loop.
+
+Syntax:
 puts 'Welcome!'
+
+Explanation:
+puts means print to the screen the string.
+The string is 'Welcome!'
+This means print to the screen the string 'Welcome!'
 
 Summary of Solution Syntax:
 PASSWORD is a constant.
 A constant is a variable that holds a value which cannot be changed during the execution of the program.
 The assigned value of PASSWORD is the string 'SecreT'.
+
 start running a loop.
 The following code is in the loop.
 puts means print to the screen the string.
@@ -205,9 +215,9 @@ puts means print to the screen the string.
 the string is '>> Invalid password!'
 >> is an input prompt.
 This is the result of the user input being the wrong password that is password_try does not equal PASSWORD.
+This is the last line of the loop that is any code following this is outside of the loop.
 
-
-end
-
-puts 'Welcome!'
+puts means print to the screen the string.
+The string is 'Welcome!'
+This means print to the screen the string 'Welcome!'
 =end
