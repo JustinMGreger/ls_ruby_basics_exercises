@@ -89,11 +89,18 @@ ruby means run ruby file.
 division.rb is a ruby file.
 This means run the ruby file division.rb
 
-
-
-
-
+Syntax:
 >> Please enter the numerator:
+
+Explanation:
+puts ">> Please enter the numerator:"
+puts means print to the screen the string.
+">> Please enter the numerator:" is the string.
+>> is an input prompt.
+: is where the user input goes.
+This asks the user to enter the numerator.
+
+
 8
 >> Please enter the denominator:
 2
