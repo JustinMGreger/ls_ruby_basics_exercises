@@ -192,32 +192,14 @@ The string is 'Welcome!'
 This means print to the screen the string 'Welcome!'
 
 Summary of Solution Syntax:
-PASSWORD is a constant.
-A constant is a variable that holds a value which cannot be changed during the execution of the program.
-The assigned value of PASSWORD is the string 'SecreT'.
+The constant PASSWORD is assigned the string 'SecreT'.
 
 start running a loop.
-The following code is in the loop.
-puts means print to the screen the string.
-the string is '>> Please enter your password:'
->> is an input prompt.
-: is where the user input goes.
-This means print to the screen the string '>> Please enter your password:'
-variable "password_try" is assigned gets.chomp
-gets means get string that is get user input in string form.
-.chomp is a string method that removes new line character.
-break means break out of the loop. 
-break if the following condition is true.
-the following condition is password_try == PASSWORD.
-variable "password_try" is equal to PASSWORD.
-This means break out of the loop if password_try == PASSWORD.
-puts means print to the screen the string.
-the string is '>> Invalid password!'
->> is an input prompt.
-This is the result of the user input being the wrong password that is password_try does not equal PASSWORD.
+print to the screen the string '>> Please enter your password:'
+variable "password_try" is assigned gets.chomp that is user input in string form with the new line character removed.
+break out of the loop if password_try == PASSWORD that is if the user input is the string 'SecreT'.
+print to the screen the string '>> Invalid password!' if the loop continues because the user input was not the string 'SecreT'.
 This is the last line of the loop that is any code following this is outside of the loop.
 
-puts means print to the screen the string.
-The string is 'Welcome!'
-This means print to the screen the string 'Welcome!'
+print to the screen the string 'Welcome!'
 =end
