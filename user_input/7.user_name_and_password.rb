@@ -306,12 +306,17 @@ the string is '>> Please enter your password:'
 : is where the user input goes.
 This asks the user to input their password.
 
-
-
-
-
-
+Syntax:
   password_try = gets.chomp
+
+Explanation:
+The variable "password_try" is assigned gets.chomp
+gets means get string that is get user input in string form.
+.chomp is a string method that removes new line character.
+
+
+
+
 
   break if user_name == USERNAME && password_try == PASSWORD
   puts '>> Authorization failed!'
@@ -347,10 +352,13 @@ the string is '>> Please enter your password:'
 : is where the user input goes.
 This asks the user to input their password.
 
+The variable "password_try" is assigned gets.chomp
+gets means get string that is get user input in string form.
+.chomp is a string method that removes new line character.
 
 
 
-  password_try = gets.chomp
+
 
   break if user_name == USERNAME && password_try == PASSWORD
   puts '>> Authorization failed!'
