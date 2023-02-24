@@ -9,6 +9,28 @@ the error message should not tell the user which item is incorrect.
 Examples:
 
 Initial Syntax Given:
+$ ruby login.rb
+>> Please enter user name:
+John
+>> Please enter your password:
+Hello
+>> Authorization failed!
+>> Please enter user name:
+mary
+>> Please enter your password:
+SecreT
+>> Authorization failed!
+>> Please enter user name:
+admin
+>> Please enter your password:
+root
+>> Authorization failed!
+>> Please enter user name:
+admin
+>> Please enter your password:
+SecreT
+Welcome!
+
 Explanation of Syntax:
 Syntax of Solution:
 Explanation of Solution Syntax:
