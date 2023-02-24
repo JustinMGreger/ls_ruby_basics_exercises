@@ -258,7 +258,9 @@ Syntax:
 USERNAME = 'admin'
 
 Explanation:
-
+USERNAME is a constant.
+A constant is a variable that holds a value which cannot be changed during the execution of the program.
+The assigned value of USERNAME is the string 'admin'.
 
 PASSWORD = 'SecreT'
 
@@ -276,7 +278,10 @@ end
 puts 'Welcome!'
 
 Summary of Solution Syntax:
-USERNAME = 'admin'
+USERNAME is a constant.
+A constant is a variable that holds a value which cannot be changed during the execution of the program.
+The assigned value of USERNAME is the string 'admin'.
+
 PASSWORD = 'SecreT'
 
 loop do
