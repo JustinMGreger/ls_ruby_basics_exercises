@@ -335,8 +335,11 @@ the string is '>> Authorization failed!'
 >> is an input prompt.
 This is the result of user input being incorrect.
 
-
+Syntax:
 end
+
+Explanation:
+This is the last line of the loop that is any code following this is outside of the loop.
 
 puts 'Welcome!'
 
@@ -351,27 +354,22 @@ The assigned value of PASSWORD is the string 'SecreT'.
 
 start running a loop.
 The following code is in the loop.
-
 puts means print to the screen the string.
 the string is '>> Please enter your user name:'
 >> is an input prompt.
 : is where the user input goes.
 This asks the user to input their user name.
-
 variable "user_name" is assigned gets.chomp
 gets means get string that is get user input in string form.
 .chomp is a string method that removes new line character.
-
 puts means print to the screen the string.
 the string is '>> Please enter your password:'
 >> is an input prompt.
 : is where the user input goes.
 This asks the user to input their password.
-
 The variable "password_try" is assigned gets.chomp
 gets means get string that is get user input in string form.
 .chomp is a string method that removes new line character.
-
 break means break out of the loop. 
 break if the following condition is true.
 the following condition is if user_name == USERNAME && password_try == PASSWORD.
@@ -383,9 +381,7 @@ puts means print to the screen the string.
 the string is '>> Authorization failed!'
 >> is an input prompt.
 This is the result of user input being incorrect.
-
-
-end
+This is the last line of the loop that is any code following this is outside of the loop.
 
 puts 'Welcome!'
 =end
