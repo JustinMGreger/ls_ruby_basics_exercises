@@ -74,9 +74,11 @@ number_string is the parameter it is the place holder for the argument that the 
 number_string is the parameter it is the place holder for the argument that the method accepts.
 This means number_string is the parameter it is the place holder for the argument that the method accepts will be converted to integer form then converted to string form then compared with itself.
 
-
+Syntax:
 end
 
+Explanation:
+This is the last line of the method that is any code following this is outside of the method.
 
 Examples:
 
