@@ -262,9 +262,21 @@ USERNAME is a constant.
 A constant is a variable that holds a value which cannot be changed during the execution of the program.
 The assigned value of USERNAME is the string 'admin'.
 
+Syntax:
 PASSWORD = 'SecreT'
 
+Explanation:
+PASSWORD is a constant.
+A constant is a variable that holds a value which cannot be changed during the execution of the program.
+The assigned value of PASSWORD is the string 'SecreT'.
+
+Syntax:
 loop do
+
+Explanation:
+start running a loop.
+The following code is in the loop.
+
   puts '>> Please enter your user name:'
   user_name = gets.chomp
 
@@ -282,9 +294,14 @@ USERNAME is a constant.
 A constant is a variable that holds a value which cannot be changed during the execution of the program.
 The assigned value of USERNAME is the string 'admin'.
 
-PASSWORD = 'SecreT'
+PASSWORD is a constant.
+A constant is a variable that holds a value which cannot be changed during the execution of the program.
+The assigned value of PASSWORD is the string 'SecreT'.
 
-loop do
+start running a loop.
+The following code is in the loop.
+
+
   puts '>> Please enter your user name:'
   user_name = gets.chomp
 
