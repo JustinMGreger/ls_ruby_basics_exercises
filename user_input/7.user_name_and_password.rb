@@ -281,6 +281,7 @@ Syntax:
   puts '>> Please enter your user name:'
 
 Explanation:
+'>> Please enter your user name:'
 puts means print to the screen the string.
 the string is '>> Please enter your user name:'
 >> is an input prompt.
@@ -295,15 +296,21 @@ variable "user_name" is assigned gets.chomp
 gets means get string that is get user input in string form.
 .chomp is a string method that removes new line character.
 
-
-
-
-
-
-
-
-
+Syntax:
   puts '>> Please enter your password:'
+
+Explanation:
+puts means print to the screen the string.
+the string is '>> Please enter your password:'
+>> is an input prompt.
+: is where the user input goes.
+This asks the user to input their password.
+
+
+
+
+
+
   password_try = gets.chomp
 
   break if user_name == USERNAME && password_try == PASSWORD
@@ -334,9 +341,15 @@ variable "user_name" is assigned gets.chomp
 gets means get string that is get user input in string form.
 .chomp is a string method that removes new line character.
 
+puts means print to the screen the string.
+the string is '>> Please enter your password:'
+>> is an input prompt.
+: is where the user input goes.
+This asks the user to input their password.
 
 
-  puts '>> Please enter your password:'
+
+
   password_try = gets.chomp
 
   break if user_name == USERNAME && password_try == PASSWORD
