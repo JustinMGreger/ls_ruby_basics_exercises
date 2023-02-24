@@ -253,7 +253,13 @@ end
 puts 'Welcome!'
 
 Explanation of Solution Syntax:
+
+Syntax:
 USERNAME = 'admin'
+
+Explanation:
+
+
 PASSWORD = 'SecreT'
 
 loop do
