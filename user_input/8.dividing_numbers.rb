@@ -80,9 +80,19 @@ end
 Explanation:
 This is the last line of the method that is any code following this is outside of the method.
 
-Examples:
-
+Syntax:
 $ ruby division.rb
+
+Explanation:
+$ is the cursor.
+ruby means run ruby file.
+division.rb is a ruby file.
+This means run the ruby file division.rb
+
+
+
+
+
 >> Please enter the numerator:
 8
 >> Please enter the denominator:
