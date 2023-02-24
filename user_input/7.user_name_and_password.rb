@@ -326,8 +326,16 @@ variable "user_name" == USERNAME which is  "user_name" equals USERNAME.
 variable "password_try" == PASSWORD which is "password_try" equals PASSWORD.
 This means break out of the loop if variable "user_name" equals constant USERNAME and variable "password_try" equals constant PASSWORD.
 
-
+Syntax:
   puts '>> Authorization failed!'
+
+Explanation:
+puts means print to the screen the string.
+the string is '>> Authorization failed!'
+>> is an input prompt.
+This is the result of user input being incorrect.
+
+
 end
 
 puts 'Welcome!'
@@ -364,12 +372,19 @@ The variable "password_try" is assigned gets.chomp
 gets means get string that is get user input in string form.
 .chomp is a string method that removes new line character.
 
+break means break out of the loop. 
+break if the following condition is true.
+the following condition is if user_name == USERNAME && password_try == PASSWORD.
+variable "user_name" == USERNAME which is  "user_name" equals USERNAME.
+&& is logical and which only evaluates to true if both operands are true.
+variable "password_try" == PASSWORD which is "password_try" equals PASSWORD.
+This means break out of the loop if variable "user_name" equals constant USERNAME and variable "password_try" equals constant PASSWORD.
+puts means print to the screen the string.
+the string is '>> Authorization failed!'
+>> is an input prompt.
+This is the result of user input being incorrect.
 
 
-
-
-  break if user_name == USERNAME && password_try == PASSWORD
-  puts '>> Authorization failed!'
 end
 
 puts 'Welcome!'
