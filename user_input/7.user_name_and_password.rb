@@ -341,7 +341,12 @@ end
 Explanation:
 This is the last line of the loop that is any code following this is outside of the loop.
 
+Syntax:
 puts 'Welcome!'
+
+Explanation:
+puts means print to the screen the string.
+the string is 'Welcome!'
 
 Summary of Solution Syntax:
 USERNAME is a constant.
@@ -383,5 +388,6 @@ the string is '>> Authorization failed!'
 This is the result of user input being incorrect.
 This is the last line of the loop that is any code following this is outside of the loop.
 
-puts 'Welcome!'
+puts means print to the screen the string.
+the string is 'Welcome!'
 =end
