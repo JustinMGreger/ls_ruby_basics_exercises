@@ -63,8 +63,18 @@ define the valid_number method.
 This method determines if a number is valid or not.
 (number_string) is the parameter it is the place holder for the argument that the method accepts.
 
-
+Syntax:
   number_string.to_i.to_s == number_string
+
+Explanation:
+number_string is the parameter it is the place holder for the argument that the method accepts.
+.to_i means convert to integer.
+.to_s means convert to string.
+== means equal.
+number_string is the parameter it is the place holder for the argument that the method accepts.
+This means number_string is the parameter it is the place holder for the argument that the method accepts will be converted to integer form then converted to string form then compared with itself.
+
+
 end
 
 
