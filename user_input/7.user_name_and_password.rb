@@ -390,4 +390,28 @@ This is the last line of the loop that is any code following this is outside of 
 
 puts means print to the screen the string.
 the string is 'Welcome!'
+
+What this means:
+USERNAME is a constant which is a variable that holds a value which cannot be changed during the execution of the program.
+The assigned value of USERNAME is the string 'admin'.
+
+PASSWORD is a constant which is a variable that holds a value which cannot be changed during the execution of the program.
+The assigned value of PASSWORD is the string 'SecreT'.
+
+start running a loop.
+print to the screen the string the string is '>> Please enter your user name:'
+variable "user_name" is assigned the user input in string form with new line character removed.
+this asks the user to input their user name.
+print to the screen the string the string  '>> Please enter your password:'
+The variable "password_try" is assigned the user input in string form with new line character removed.
+This asks the user to input their password.
+break out of the loop if variable "user_name" equals constant USERNAME and variable "password_try" equals constant PASSWORD.
+print to the screen the string is '>> Authorization failed!'
+This is the result of user input being incorrect.
+That is the user input for user_name and password_try do not match the constant values of USERNAME and PASSWORD.
+That means the loop continues to run.
+This is the last line of the loop that is any code following this is outside of the loop.
+
+puts means print to the screen the string 'Welcome!'
+This message occurs when the loop was exited meaning that the user input value for user_name and password_try matched those of the constants USERNAME and PASSWORD.
 =end
