@@ -345,8 +345,17 @@ puts means print to the screen the string.
 : is where the user input goes.
 This asks the user to enter the denominator.
 
-
+Syntax:
 5
+
+Explanation:
+This is a integer.
+This is the user input for the denominator in integer form.
+puts 5.
+puts means print to the screen the string.
+That is print to the screen the user input for the denominator in integer form which is 5.
+
+
 >> 10 / 5 is 2
 
 
