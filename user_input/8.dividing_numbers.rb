@@ -493,7 +493,15 @@ puts "end".
 That is print to the screen the string "end"
 This is the end of the loop anything after this is outside of the loop.
 
+Syntax:
 denominator = nil
+
+Explanation:
+the variable denominator is assigned the value nil.
+
+
+
+
 loop do
   puts '>> Please enter the denominator:'
   denominator = gets.chomp
@@ -560,7 +568,10 @@ puts "end".
 That is print to the screen the string "end"
 This is the end of the loop anything after this is outside of the loop.
 
-denominator = nil
+the variable denominator is assigned the value nil.
+
+
+
 loop do
   puts '>> Please enter the denominator:'
   denominator = gets.chomp
