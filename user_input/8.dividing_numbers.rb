@@ -398,9 +398,33 @@ puts "#{numerator} / #{denominator} is #{result}"
 
 Explanation of Solution Syntax:
 
+Syntax:
 def valid_number?(number_string)
+
+Explanation:
+def means define method.
+define the valid_number method.
+? means boolean return true or false.
+This method determines if a number is valid or not.
+(number_string) is the parameter it is the place holder for the argument that the method accepts.
+
+Syntax:
   number_string.to_i.to_s == number_string
+
+Explanation:
+number_string is the parameter it is the place holder for the argument that the method accepts.
+.to_i means convert to integer.
+.to_s means convert to string.
+== means equal.
+number_string is the parameter it is the place holder for the argument that the method accepts.
+This means number_string is the parameter it is the place holder for the argument that the method accepts will be converted to integer form then converted to string form then compared with itself.
+
+Syntax:
 end
+
+Explanation:
+This is the last line of the method that is any code following this is outside of the method.
+
 
 numerator = nil
 loop do
@@ -430,9 +454,18 @@ puts "#{numerator} / #{denominator} is #{result}"
 
 Summary of Solution Syntax:
 
-def valid_number?(number_string)
-  number_string.to_i.to_s == number_string
-end
+def means define method.
+define the valid_number method.
+? means boolean return true or false.
+This method determines if a number is valid or not.
+(number_string) is the parameter it is the place holder for the argument that the method accepts.
+number_string is the parameter it is the place holder for the argument that the method accepts.
+.to_i means convert to integer.
+.to_s means convert to string.
+== means equal.
+number_string is the parameter it is the place holder for the argument that the method accepts.
+This means number_string is the parameter it is the place holder for the argument that the method accepts will be converted to integer form then converted to string form then compared with itself.
+This is the last line of the method that is any code following this is outside of the method.
 
 numerator = nil
 loop do
