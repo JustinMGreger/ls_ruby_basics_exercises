@@ -105,10 +105,10 @@ Syntax:
 
 Explanation:
 This is an integer.
-This is the user input in integer form.
+This is the user input in integer form for the numerator.
 puts 8.
 puts means print to the screen the string.
-print to screen  the user input in integer form which is 8.
+print to screen  the user input in integer form for the numerator which is 8.
 
 Syntax:
 >> Please enter the denominator:
@@ -121,11 +121,17 @@ puts means print to the screen the string.
 : is where the user input goes.
 This asks the user to enter the denominator.
 
-
-
-
-
+Syntax:
 2
+
+Explanation:
+This is an integer.
+This is the user input in integer form for the  denominator.
+puts 8.
+puts means print to the screen the string.
+print to screen  the user input in integer form for the denominator which is 8.
+
+
 >> 8 / 2 is 4
 
 $ ruby division.rb
