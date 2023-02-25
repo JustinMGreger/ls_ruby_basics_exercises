@@ -131,10 +131,35 @@ puts 8.
 puts means print to the screen the string.
 print to screen  the user input in integer form for the denominator which is 8.
 
-
+Syntax:
 >> 8 / 2 is 4
 
+Explanation:
+This is a string.
+puts ">> 8 / 2 is 4"
+puts means print to the screen the string.
+>> is an input prompt.
+This is probably string interpolations as it takes user inputs regarding the numerator and denominator from the above code that is user input.
+This code displays the numerator, denominator and then divides them and displays the quotient.
+
+
+Syntax:
 $ ruby division.rb
+
+Explanation:
+$ is the cursor.
+ruby means run ruby file.
+division.rb is a ruby file.
+This means run the ruby file division.rb
+
+
+
+
+
+
+
+
+
 >> Please enter the numerator:
 8.3
 >> Invalid input. Only integers are allowed.
