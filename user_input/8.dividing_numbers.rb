@@ -465,7 +465,8 @@ Syntax:
 
 Explanation:
 break out of the loop. 
-Do something if the following condition is true.
+"if" is an "if" statement.
+"if" statements meand "if" the following condition is true then do something.
 valid_number?(numerator) references the valid_number?(number_string) method.
 numerator is the argument passed to the valid_number method that is it replaces the parameter (number_string) when executed.
 This means break out of the loop if the user input value that was reassigned to numerator is a valid number,
@@ -555,16 +556,26 @@ Syntax:
 Explanation:
 if the above is false then do the following.
 
-
-
-
-
-
-
-
-
-
+Syntax:
     break if valid_number?(denominator)
+
+Explanation:
+break means break out of the loop.
+"if" is an "if" statement.
+"if" statements meand "if" the following condition is true then do something.
+valid_number?(denominator) references the valid_number?(number_string) method.
+denominator is the argument passed to the valid_number method that is it replaces the parameter (number_string) when executed.
+This means break out of the loop if the user input value that was reassigned to denominator is a valid number,
+which is determined by passing it as an argument to the valid_number method which will be converted to integer form,
+then converted to string form then compared with itself to determine if it evaluates to true.
+
+
+
+
+
+
+
+
     puts '>> Invalid input. Only integers are allowed.'
   end
 end
@@ -651,11 +662,18 @@ Which means print the string '>> Invalid input. A denominator of 0 is not allowe
 This is in response to the user input for denominator being invalid.
 Specifically a denominator of 0 is not allowed.
 if the above is false then do the following.
+break means break out of the loop.
+"if" is an "if" statement.
+"if" statements meand "if" the following condition is true then do something.
+valid_number?(denominator) references the valid_number?(number_string) method.
+denominator is the argument passed to the valid_number method that is it replaces the parameter (number_string) when executed.
+This means break out of the loop if the user input value that was reassigned to denominator is a valid number,
+which is determined by passing it as an argument to the valid_number method which will be converted to integer form,
+then converted to string form then compared with itself to determine if it evaluates to true.
 
 
 
 
-    break if valid_number?(denominator)
     puts '>> Invalid input. Only integers are allowed.'
   end
 end
