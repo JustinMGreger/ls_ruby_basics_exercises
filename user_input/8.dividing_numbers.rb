@@ -449,10 +449,19 @@ print to the screen '>> Please enter the numerator:'
 : is where the user input goes.
 This asks the user to enter the numerator as input.
 
-
-
-
+Syntax:
   numerator = gets.chomp
+
+Explanation:
+The variable "numerator" is reassigned to gets.chomp
+gets is get string which is user input in string form.
+.chomp is a string method that removes the new line character.
+This means the variable "numerator" is reassigned to the user input in string form with the new line character removed.
+
+
+
+
+
 
   break if valid_number?(numerator)
   puts '>> Invalid input. Only integers are allowed.'
@@ -501,10 +510,12 @@ print to the screen '>> Please enter the numerator:'
 : is where the user input goes.
 This asks the user to enter the numerator as input.
 
+The variable "numerator" is reassigned to gets.chomp
+gets is get string which is user input in string form.
+.chomp is a string method that removes the new line character.
+This means the variable "numerator" is reassigned to the user input in string form with the new line character removed.
 
 
-
-  numerator = gets.chomp
 
   break if valid_number?(numerator)
   puts '>> Invalid input. Only integers are allowed.'
