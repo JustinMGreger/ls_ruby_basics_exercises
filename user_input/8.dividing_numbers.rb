@@ -549,14 +549,21 @@ Which means print the string '>> Invalid input. A denominator of 0 is not allowe
 This is in response to the user input for denominator being invalid.
 Specifically a denominator of 0 is not allowed.
 
-
-
-
-
-
-
-
+Syntax:
   else
+
+Explanation:
+if the above is false then do the following.
+
+
+
+
+
+
+
+
+
+
     break if valid_number?(denominator)
     puts '>> Invalid input. Only integers are allowed.'
   end
@@ -643,11 +650,11 @@ Which means print the string '>> Invalid input. A denominator of 0 is not allowe
 >> is an input prompt.
 This is in response to the user input for denominator being invalid.
 Specifically a denominator of 0 is not allowed.
+if the above is false then do the following.
 
 
 
 
-  else
     break if valid_number?(denominator)
     puts '>> Invalid input. Only integers are allowed.'
   end
