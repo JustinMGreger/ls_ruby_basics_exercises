@@ -183,7 +183,8 @@ puts means print to the screen the string.
 This means print to the screen the string ">> Invalid input. Only integers are allowed."
 >> is an input prompt.
 This means the user input for the numerator was invalid. 
-Specifically a non-integer character was entered. 
+Specifically a non-integer character was entered.
+Specifically a float.
 
 Syntax:
 >> Please enter the numerator:
@@ -288,8 +289,24 @@ This is the user input for the denominator in string form.
 puts "a".
 puts means print to the screen the string.
 
-
+Syntax:
 >> Invalid input. Only integers are allowed.
+
+Explanation:
+This is a string.
+puts ">> Invalid input. Only integers are allowed."
+puts means print to the screen the string.
+This means print to the screen the string ">> Invalid input. Only integers are allowed."
+>> is an input prompt.
+This means the user input for the numerator was invalid. 
+Specifically a non-integer character was entered. 
+Specifically a string was entered.
+
+
+
+
+
+
 >> Please enter the denominator:
 0
 >> Invalid input. A denominator of 0 is not allowed.
