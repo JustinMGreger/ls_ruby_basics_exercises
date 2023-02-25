@@ -425,8 +425,14 @@ end
 Explanation:
 This is the last line of the method that is any code following this is outside of the method.
 
-
+Syntax:
 numerator = nil
+
+Explanation:
+The variable numerator is assigned the value of nil.
+
+
+
 loop do
   puts '>> Please enter the numerator:'
   numerator = gets.chomp
@@ -467,7 +473,12 @@ number_string is the parameter it is the place holder for the argument that the 
 This means number_string is the parameter it is the place holder for the argument that the method accepts will be converted to integer form then converted to string form then compared with itself.
 This is the last line of the method that is any code following this is outside of the method.
 
-numerator = nil
+The variable numerator is assigned the value of nil.
+
+
+
+
+
 loop do
   puts '>> Please enter the numerator:'
   numerator = gets.chomp
