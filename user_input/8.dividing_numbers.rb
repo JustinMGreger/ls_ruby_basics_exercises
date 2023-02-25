@@ -417,7 +417,9 @@ number_string is the parameter it is the place holder for the argument that the 
 .to_s means convert to string.
 == means equal.
 number_string is the parameter it is the place holder for the argument that the method accepts.
-This means number_string is the parameter it is the place holder for the argument that the method accepts will be converted to integer form then converted to string form then compared with itself.
+This means number_string is the parameter it is the place holder for the argument that the method accepts,
+which will be converted to integer form then converted to string form then compared with itself to determine 
+if it is a valid_number if through this process it evaluates to true.
 
 Syntax:
 end
@@ -458,12 +460,22 @@ gets is get string which is user input in string form.
 .chomp is a string method that removes the new line character.
 This means the variable "numerator" is reassigned to the user input in string form with the new line character removed.
 
-
-
-
-
-
+Syntax:
   break if valid_number?(numerator)
+
+Explanation:
+break out of the loop. 
+Do something if the following condition is true.
+valid_number?(numerator) references the valid_number?(number_string) method.
+numerator is the argument passed to the valid_number method that is it replaces the parameter (number_string) when executed.
+This means break out of the loop if the user input value that was reassigned to numerator is a valid number,
+which is determined by passing it as an argument to the valid_number method which will be converted to integer form,
+then converted to string form then compared with itself to determine if it evaluates to true.
+
+
+
+
+
   puts '>> Invalid input. Only integers are allowed.'
 end
 
@@ -496,7 +508,9 @@ number_string is the parameter it is the place holder for the argument that the 
 .to_s means convert to string.
 == means equal.
 number_string is the parameter it is the place holder for the argument that the method accepts.
-This means number_string is the parameter it is the place holder for the argument that the method accepts will be converted to integer form then converted to string form then compared with itself.
+This means number_string is the parameter it is the place holder for the argument that the method accepts,
+which will be converted to integer form then converted to string form then compared with itself to determine 
+if it is a valid_number if through this process it evaluates to true.
 This is the last line of the method that is any code following this is outside of the method.
 
 The variable numerator is assigned the value of nil.
@@ -509,15 +523,20 @@ print to the screen '>> Please enter the numerator:'
 >> is an input prompt.
 : is where the user input goes.
 This asks the user to enter the numerator as input.
-
 The variable "numerator" is reassigned to gets.chomp
 gets is get string which is user input in string form.
 .chomp is a string method that removes the new line character.
 This means the variable "numerator" is reassigned to the user input in string form with the new line character removed.
+break out of the loop. 
+Do something if the following condition is true.
+valid_number?(numerator) references the valid_number?(number_string) method.
+numerator is the argument passed to the valid_number method that is it replaces the parameter (number_string) when executed.
+This means break out of the loop if the user input value that was reassigned to numerator is a valid number,
+which is determined by passing it as an argument to the valid_number method which will be converted to integer form,
+then converted to string form then compared with itself to determine if it evaluates to true.
 
 
 
-  break if valid_number?(numerator)
   puts '>> Invalid input. Only integers are allowed.'
 end
 
