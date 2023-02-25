@@ -323,7 +323,6 @@ puts 0
 puts means print to the screen the string.
 This means print to the screen the user input in integer form.
 
-
 Syntax:
 >> Invalid input. A denominator of 0 is not allowed.
 
@@ -366,14 +365,98 @@ puts means print to the screen the string.
 This is probably string interpolation as it takes user inputs regarding the numerator and denominator from the above code that is user input.
 This code displays the numerator, denominator and then divides them and displays the quotient.
 
-
-
-
-
-
-
-
 Syntax of Solution:
+
+def valid_number?(number_string)
+  number_string.to_i.to_s == number_string
+end
+
+numerator = nil
+loop do
+  puts '>> Please enter the numerator:'
+  numerator = gets.chomp
+
+  break if valid_number?(numerator)
+  puts '>> Invalid input. Only integers are allowed.'
+end
+
+denominator = nil
+loop do
+  puts '>> Please enter the denominator:'
+  denominator = gets.chomp
+
+  if denominator == '0'
+    puts '>> Invalid input. A denominator of 0 is not allowed.'
+  else
+    break if valid_number?(denominator)
+    puts '>> Invalid input. Only integers are allowed.'
+  end
+end
+
+result = numerator.to_i / denominator.to_i
+puts "#{numerator} / #{denominator} is #{result}"
+
 Explanation of Solution Syntax:
+
+def valid_number?(number_string)
+  number_string.to_i.to_s == number_string
+end
+
+numerator = nil
+loop do
+  puts '>> Please enter the numerator:'
+  numerator = gets.chomp
+
+  break if valid_number?(numerator)
+  puts '>> Invalid input. Only integers are allowed.'
+end
+
+denominator = nil
+loop do
+  puts '>> Please enter the denominator:'
+  denominator = gets.chomp
+
+  if denominator == '0'
+    puts '>> Invalid input. A denominator of 0 is not allowed.'
+  else
+    break if valid_number?(denominator)
+    puts '>> Invalid input. Only integers are allowed.'
+  end
+end
+
+result = numerator.to_i / denominator.to_i
+puts "#{numerator} / #{denominator} is #{result}"
+
+
 Summary of Solution Syntax:
+
+def valid_number?(number_string)
+  number_string.to_i.to_s == number_string
+end
+
+numerator = nil
+loop do
+  puts '>> Please enter the numerator:'
+  numerator = gets.chomp
+
+  break if valid_number?(numerator)
+  puts '>> Invalid input. Only integers are allowed.'
+end
+
+denominator = nil
+loop do
+  puts '>> Please enter the denominator:'
+  denominator = gets.chomp
+
+  if denominator == '0'
+    puts '>> Invalid input. A denominator of 0 is not allowed.'
+  else
+    break if valid_number?(denominator)
+    puts '>> Invalid input. Only integers are allowed.'
+  end
+end
+
+result = numerator.to_i / denominator.to_i
+puts "#{numerator} / #{denominator} is #{result}"
+
 =end
