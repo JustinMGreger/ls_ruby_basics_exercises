@@ -536,15 +536,26 @@ Explanatinon:
 '0' is a string that represents the number 0.
 This means if the variable "dernominator" is equal to string '0' then do something.
 
-
-
-
-
-
-
-
-
+Syntax:
     puts '>> Invalid input. A denominator of 0 is not allowed.'
+
+Explanation:
+This is a string.
+puts means put s.
+Which is put string.
+Which is print string to the screen.
+Which means print the string '>> Invalid input. A denominator of 0 is not allowed.' to the screen.
+>> is an input prompt.
+This is in response to the user input for denominator being invalid.
+Specifically a denominator of 0 is not allowed.
+
+
+
+
+
+
+
+
   else
     break if valid_number?(denominator)
     puts '>> Invalid input. Only integers are allowed.'
@@ -624,11 +635,18 @@ This means the variable "denominator" is reassigned to the user input in string 
 == means equal
 '0' is a string that represents the number 0.
 This means if the variable "dernominator" is equal to string '0' then do something.
+This is a string.
+puts means put s.
+Which is put string.
+Which is print string to the screen.
+Which means print the string '>> Invalid input. A denominator of 0 is not allowed.' to the screen.
+>> is an input prompt.
+This is in response to the user input for denominator being invalid.
+Specifically a denominator of 0 is not allowed.
 
 
 
 
-    puts '>> Invalid input. A denominator of 0 is not allowed.'
   else
     break if valid_number?(denominator)
     puts '>> Invalid input. Only integers are allowed.'
