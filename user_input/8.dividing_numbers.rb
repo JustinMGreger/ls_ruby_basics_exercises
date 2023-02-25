@@ -499,10 +499,14 @@ denominator = nil
 Explanation:
 the variable denominator is assigned the value nil.
 
-
-
-
+Syntax:
 loop do
+
+Explanation:
+start running a loop.
+
+
+
   puts '>> Please enter the denominator:'
   denominator = gets.chomp
 
@@ -570,9 +574,11 @@ This is the end of the loop anything after this is outside of the loop.
 
 the variable denominator is assigned the value nil.
 
+start running a loop.
 
 
-loop do
+
+
   puts '>> Please enter the denominator:'
   denominator = gets.chomp
 
