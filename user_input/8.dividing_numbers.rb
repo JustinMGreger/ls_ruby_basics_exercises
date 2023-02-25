@@ -505,9 +505,25 @@ loop do
 Explanation:
 start running a loop.
 
-
-
+Syntax:
   puts '>> Please enter the denominator:'
+
+Explanation:
+puts ">> Please enter the denominator:"
+puts means print to the screen the string.
+">> Please enter the denominator:" is the string.
+>> is an input prompt.
+: is where the user input goes.
+This asks the user to enter the denominator value.
+
+
+
+
+
+
+
+
+
   denominator = gets.chomp
 
   if denominator == '0'
@@ -575,11 +591,16 @@ This is the end of the loop anything after this is outside of the loop.
 the variable denominator is assigned the value nil.
 
 start running a loop.
+puts ">> Please enter the denominator:"
+puts means print to the screen the string.
+">> Please enter the denominator:" is the string.
+>> is an input prompt.
+: is where the user input goes.
+This asks the user to enter the denominator value.
 
 
 
 
-  puts '>> Please enter the denominator:'
   denominator = gets.chomp
 
   if denominator == '0'
