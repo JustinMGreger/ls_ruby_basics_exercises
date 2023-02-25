@@ -516,15 +516,19 @@ puts means print to the screen the string.
 : is where the user input goes.
 This asks the user to enter the denominator value.
 
-
-
-
-
-
-
-
-
+Syntax:
   denominator = gets.chomp
+
+Explanation:
+The variable "denominator" is reassigned to gets.chomp
+gets is get string which is user input in string form.
+.chomp is a string method that removes the new line character.
+This means the variable "denominator" is reassigned to the user input in string form with the new line character removed.
+
+
+
+
+
 
   if denominator == '0'
     puts '>> Invalid input. A denominator of 0 is not allowed.'
@@ -597,11 +601,13 @@ puts means print to the screen the string.
 >> is an input prompt.
 : is where the user input goes.
 This asks the user to enter the denominator value.
+The variable "denominator" is reassigned to gets.chomp
+gets is get string which is user input in string form.
+.chomp is a string method that removes the new line character.
+This means the variable "denominator" is reassigned to the user input in string form with the new line character removed.
 
 
 
-
-  denominator = gets.chomp
 
   if denominator == '0'
     puts '>> Invalid input. A denominator of 0 is not allowed.'
