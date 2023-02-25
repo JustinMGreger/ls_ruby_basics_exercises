@@ -227,7 +227,21 @@ puts 4.
 puts means print to the screen the string.
 print to screen  the user input in integer form for the denominator which is 4.
 
+Syntax:
 >> 9 / 4 is 2
+
+Explanation:
+This is a string.
+puts ">> 9 / 4 is 2"
+puts means print to the screen the string.
+>> is an input prompt.
+This is probably string interpolations as it takes user inputs regarding the numerator and denominator from the above code that is user input.
+This code displays the numerator, denominator and then divides them and displays the quotient.
+
+
+
+
+
 
 
 $ ruby division.rb
