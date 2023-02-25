@@ -302,12 +302,21 @@ This means the user input for the numerator was invalid.
 Specifically a non-integer character was entered. 
 Specifically a string was entered.
 
-
-
-
-
-
+Syntax:
 >> Please enter the denominator:
+
+Explanation:
+puts ">> Please enter the denominator:"
+puts means print to the screen the string.
+">> Please enter the denominator:" is the string.
+>> is an input prompt.
+: is where the user input goes.
+This asks the user to enter the denominator.
+
+
+
+
+
 0
 >> Invalid input. A denominator of 0 is not allowed.
 >> Please enter the denominator:
