@@ -525,12 +525,25 @@ gets is get string which is user input in string form.
 .chomp is a string method that removes the new line character.
 This means the variable "denominator" is reassigned to the user input in string form with the new line character removed.
 
-
-
-
-
-
+Syntax:
   if denominator == '0'
+
+Explanatinon:
+"if" is an "if" statement.
+"if" statements meand "if" the following condition is true then do something.
+"denominator" is a variable.
+== means equal
+'0' is a string that represents the number 0.
+This means if the variable "dernominator" is equal to string '0' then do something.
+
+
+
+
+
+
+
+
+
     puts '>> Invalid input. A denominator of 0 is not allowed.'
   else
     break if valid_number?(denominator)
@@ -605,11 +618,16 @@ The variable "denominator" is reassigned to gets.chomp
 gets is get string which is user input in string form.
 .chomp is a string method that removes the new line character.
 This means the variable "denominator" is reassigned to the user input in string form with the new line character removed.
+"if" is an "if" statement.
+"if" statements meand "if" the following condition is true then do something.
+"denominator" is a variable.
+== means equal
+'0' is a string that represents the number 0.
+This means if the variable "dernominator" is equal to string '0' then do something.
 
 
 
 
-  if denominator == '0'
     puts '>> Invalid input. A denominator of 0 is not allowed.'
   else
     break if valid_number?(denominator)
