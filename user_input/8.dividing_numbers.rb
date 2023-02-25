@@ -174,10 +174,19 @@ puts 8.3.
 puts means print to the screen the string.
 print to screen  the user input in integer form for the numerator which is 8.3.
 
-
-
-
+Syntax:
 >> Invalid input. Only integers are allowed.
+
+Explanation:
+This is a string.
+puts ">> Invalid input. Only integers are allowed."
+puts means print to the screen the string.
+This means print to the screen the string ">> Invalid input. Only integers are allowed."
+>> is an input prompt.
+This means the user input for the numerator was invalid. 
+Specifically a non-integer character was entered. 
+
+
 >> Please enter the numerator:
 9
 >> Please enter the denominator:
