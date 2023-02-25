@@ -599,14 +599,34 @@ puts "end".
 That is print to the screen the string "end"
 This is the end of the loop anything after this is outside of the loop.
 
-
-
-
-
-
-
-
+Sytnax:
 result = numerator.to_i / denominator.to_i
+
+Explanation:
+variable result is assigned numerator.to_i / denominator.to_i
+numerator is a variable.
+At this point in the code the variable "numerator" is reassigned to gets.chomp
+gets is get string which is user input in string form.
+.chomp is a string method that removes the new line character.
+This means the variable "numerator" is reassigned to the user input in string form with the new line character removed.
+.to_i means convert to integer form.
+/ means divide by.
+denominator is a variable.
+At this point in the code the variable "denominator" is reassigned to gets.chomp
+gets is get string which is user input in string form.
+.chomp is a string method that removes the new line character.
+This means the variable "denominator" is reassigned to the user input in string form with the new line character removed.
+.to_i means convert to integer form.
+
+This means the variable "result" is assigned the variable "numerator" which is reassigned to the user input in string form 
+with the new line character removed that is converted to integer form which is divided by the variable "denominator" 
+which is reassigned to the user input in string form with the new line character removed that is converted to integer form.
+
+
+
+
+
+
 puts "#{numerator} / #{denominator} is #{result}"
 
 
@@ -715,8 +735,27 @@ That is print to the screen the string "end"
 This is the end of the loop anything after this is outside of the loop.
 This is the end of the "loop do" loop.
 
+variable result is assigned numerator.to_i / denominator.to_i
+numerator is a variable.
+At this point in the code the variable "numerator" is reassigned to gets.chomp
+gets is get string which is user input in string form.
+.chomp is a string method that removes the new line character.
+This means the variable "numerator" is reassigned to the user input in string form with the new line character removed.
+.to_i means convert to integer form.
+/ means divide by.
+denominator is a variable.
+At this point in the code the variable "denominator" is reassigned to gets.chomp
+gets is get string which is user input in string form.
+.chomp is a string method that removes the new line character.
+This means the variable "denominator" is reassigned to the user input in string form with the new line character removed.
+.to_i means convert to integer form.
 
-result = numerator.to_i / denominator.to_i
+This means the variable "result" is assigned the variable "numerator" which is reassigned to the user input in string form 
+with the new line character removed that is converted to integer form which is divided by the variable "denominator" 
+which is reassigned to the user input in string form with the new line character removed that is converted to integer form.
+
+
+
 puts "#{numerator} / #{denominator} is #{result}"
 
 =end
