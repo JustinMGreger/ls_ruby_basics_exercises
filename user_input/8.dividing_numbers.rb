@@ -431,9 +431,14 @@ numerator = nil
 Explanation:
 The variable numerator is assigned the value of nil.
 
-
-
+Syntax:
 loop do
+
+Explanation:
+start running a loop.
+
+
+
   puts '>> Please enter the numerator:'
   numerator = gets.chomp
 
@@ -475,11 +480,10 @@ This is the last line of the method that is any code following this is outside o
 
 The variable numerator is assigned the value of nil.
 
+start running a loop.
 
 
 
-
-loop do
   puts '>> Please enter the numerator:'
   numerator = gets.chomp
 
