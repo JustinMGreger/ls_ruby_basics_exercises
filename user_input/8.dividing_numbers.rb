@@ -324,8 +324,17 @@ puts means print to the screen the string.
 This means print to the screen the user input in integer form.
 
 
-
+Syntax:
 >> Invalid input. A denominator of 0 is not allowed.
+
+Explanation:
+This is a string.
+puts ">> Invalid input. A denominator of 0 is not allowed."
+puts means print to the screen the string.
+This means print to the screen ">> Invalid input. A denominator of 0 is not allowed."
+This is the result of the user input beign 0 which is not allowed.
+
+
 >> Please enter the denominator:
 5
 >> 10 / 5 is 2
