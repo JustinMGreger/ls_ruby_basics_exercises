@@ -279,9 +279,16 @@ puts means print to the screen the string.
 : is where the user input goes.
 This asks the user to enter the denominator.
 
-
-
+Syntax:
 a
+
+Explanation:
+This is a string.
+This is the user input for the denominator in string form.
+puts "a".
+puts means print to the screen the string.
+
+
 >> Invalid input. Only integers are allowed.
 >> Please enter the denominator:
 0
