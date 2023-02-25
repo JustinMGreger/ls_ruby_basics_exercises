@@ -472,11 +472,19 @@ This means break out of the loop if the user input value that was reassigned to 
 which is determined by passing it as an argument to the valid_number method which will be converted to integer form,
 then converted to string form then compared with itself to determine if it evaluates to true.
 
-
-
-
-
+Syntax:
   puts '>> Invalid input. Only integers are allowed.'
+
+Explanation:
+This is a string.
+puts '>> Invalid input. Only integers are allowed.'
+puts means print to the screen the string.
+This means print to the screen the string '>> Invalid input. Only integers are allowed.'
+>> is an input prompt.
+This means the user input for the numerator was invalid. 
+Specifically a non-integer character was entered. 
+
+
 end
 
 denominator = nil
@@ -534,10 +542,15 @@ numerator is the argument passed to the valid_number method that is it replaces 
 This means break out of the loop if the user input value that was reassigned to numerator is a valid number,
 which is determined by passing it as an argument to the valid_number method which will be converted to integer form,
 then converted to string form then compared with itself to determine if it evaluates to true.
+This is a string.
+puts '>> Invalid input. Only integers are allowed.'
+puts means print to the screen the string.
+This means print to the screen the string '>> Invalid input. Only integers are allowed.'
+>> is an input prompt.
+This means the user input for the numerator was invalid. 
+Specifically a non-integer character was entered. 
 
 
-
-  puts '>> Invalid input. Only integers are allowed.'
 end
 
 denominator = nil
