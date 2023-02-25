@@ -236,7 +236,7 @@ This is a string.
 puts ">> 9 / 4 is 2"
 puts means print to the screen the string.
 >> is an input prompt.
-This is probably string interpolations as it takes user inputs regarding the numerator and denominator from the above code that is user input.
+This is probably string interpolation as it takes user inputs regarding the numerator and denominator from the above code that is user input.
 This code displays the numerator, denominator and then divides them and displays the quotient.
 
 Syntax:
@@ -355,8 +355,22 @@ puts 5.
 puts means print to the screen the string.
 That is print to the screen the user input for the denominator in integer form which is 5.
 
-
+Syntax:
 >> 10 / 5 is 2
+
+Explanation:
+This is a string.
+puts ">> 10 / 5 is 2"
+puts means print to the screen the string.
+>> is an input prompt.
+This is probably string interpolation as it takes user inputs regarding the numerator and denominator from the above code that is user input.
+This code displays the numerator, denominator and then divides them and displays the quotient.
+
+
+
+
+
+
 
 
 Syntax of Solution:
