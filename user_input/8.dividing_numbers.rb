@@ -238,13 +238,17 @@ puts means print to the screen the string.
 This is probably string interpolations as it takes user inputs regarding the numerator and denominator from the above code that is user input.
 This code displays the numerator, denominator and then divides them and displays the quotient.
 
-
-
-
-
-
-
+Syntax:
 $ ruby division.rb
+
+Explanation:
+$ is the cursor.
+ruby means run ruby file.
+division.rb is a ruby file.
+This means run the ruby file division.rb
+
+
+
 >> Please enter the numerator:
 10
 >> Please enter the denominator:
