@@ -163,7 +163,6 @@ puts means print to the screen the string.
 : is where the user input goes.
 This asks the user to enter the numerator.
 
-
 Syntax:
 8.3
 
@@ -186,8 +185,18 @@ This means print to the screen the string ">> Invalid input. Only integers are a
 This means the user input for the numerator was invalid. 
 Specifically a non-integer character was entered. 
 
-
+Syntax:
 >> Please enter the numerator:
+
+Explanation:
+puts ">> Please enter the numerator:"
+puts means print to the screen the string.
+">> Please enter the numerator:" is the string.
+>> is an input prompt.
+: is where the user input goes.
+This asks the user to enter the numerator.
+
+
 9
 >> Please enter the denominator:
 4
