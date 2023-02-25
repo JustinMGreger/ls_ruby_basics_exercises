@@ -590,12 +590,21 @@ puts "end".
 That is print to the screen the string "end"
 This is the end of the loop anything after this is outside of the loop.
 
-
-
-
-
-
+Syntax:
 end
+
+Explanation:
+This is a string.
+puts "end".
+That is print to the screen the string "end"
+This is the end of the loop anything after this is outside of the loop.
+
+
+
+
+
+
+
 
 result = numerator.to_i / denominator.to_i
 puts "#{numerator} / #{denominator} is #{result}"
@@ -698,10 +707,14 @@ This is a string.
 puts "end".
 That is print to the screen the string "end"
 This is the end of the loop anything after this is outside of the loop.
+This is the end of the "if denominator == '0'" loop.
 
+This is a string.
+puts "end".
+That is print to the screen the string "end"
+This is the end of the loop anything after this is outside of the loop.
+This is the end of the "loop do" loop.
 
-
-end
 
 result = numerator.to_i / denominator.to_i
 puts "#{numerator} / #{denominator} is #{result}"
