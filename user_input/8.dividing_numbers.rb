@@ -437,9 +437,21 @@ loop do
 Explanation:
 start running a loop.
 
-
-
+Syntax:
   puts '>> Please enter the numerator:'
+
+Explanation:
+puts '>> Please enter the numerator:'
+puts means print to the screen the string.
+">> Please enter the numerator:" is the string.
+print to the screen '>> Please enter the numerator:'
+>> is an input prompt.
+: is where the user input goes.
+This asks the user to enter the numerator as input.
+
+
+
+
   numerator = gets.chomp
 
   break if valid_number?(numerator)
@@ -481,10 +493,17 @@ This is the last line of the method that is any code following this is outside o
 The variable numerator is assigned the value of nil.
 
 start running a loop.
+puts '>> Please enter the numerator:'
+puts means print to the screen the string.
+">> Please enter the numerator:" is the string.
+print to the screen '>> Please enter the numerator:'
+>> is an input prompt.
+: is where the user input goes.
+This asks the user to enter the numerator as input.
 
 
 
-  puts '>> Please enter the numerator:'
+
   numerator = gets.chomp
 
   break if valid_number?(numerator)
