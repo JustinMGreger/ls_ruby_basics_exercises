@@ -164,8 +164,19 @@ puts means print to the screen the string.
 This asks the user to enter the numerator.
 
 
-
+Syntax:
 8.3
+
+Explanation:
+This is an integer.
+This is the user input in integer form for the numerator.
+puts 8.3.
+puts means print to the screen the string.
+print to screen  the user input in integer form for the numerator which is 8.3.
+
+
+
+
 >> Invalid input. Only integers are allowed.
 >> Please enter the numerator:
 9
