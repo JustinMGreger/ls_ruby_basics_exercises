@@ -313,11 +313,18 @@ puts means print to the screen the string.
 : is where the user input goes.
 This asks the user to enter the denominator.
 
-
-
-
-
+Syntax:
 0
+
+Explanation:
+This is an integer.
+This is the user input for denominator.
+puts 0
+puts means print to the screen the string.
+This means print to the screen the user input in integer form.
+
+
+
 >> Invalid input. A denominator of 0 is not allowed.
 >> Please enter the denominator:
 5
