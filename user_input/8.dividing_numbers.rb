@@ -127,9 +127,9 @@ Syntax:
 Explanation:
 This is an integer.
 This is the user input in integer form for the  denominator.
-puts 8.
+puts 2.
 puts means print to the screen the string.
-print to screen  the user input in integer form for the denominator which is 8.
+print to screen  the user input in integer form for the denominator which is 2.
 
 Syntax:
 >> 8 / 2 is 4
@@ -167,11 +167,11 @@ Syntax:
 8.3
 
 Explanation:
-This is an integer.
-This is the user input in integer form for the numerator.
+This is a float.
+This is the user input in float form for the numerator.
 puts 8.3.
 puts means print to the screen the string.
-print to screen  the user input in integer form for the numerator which is 8.3.
+print to screen  the user input in float form for the numerator which is 8.3.
 
 Syntax:
 >> Invalid input. Only integers are allowed.
@@ -196,8 +196,17 @@ puts means print to the screen the string.
 : is where the user input goes.
 This asks the user to enter the numerator.
 
-
+Syntax:
 9
+
+Explanation:
+This is an integer.
+This is the user input in integer form for the numerator.
+puts 9.
+puts means print to the screen the string.
+print to screen the user input in integer form for the numerator which is 9.
+
+
 >> Please enter the denominator:
 4
 >> 9 / 4 is 2
