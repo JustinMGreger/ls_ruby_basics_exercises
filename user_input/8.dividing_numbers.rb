@@ -484,8 +484,14 @@ This means print to the screen the string '>> Invalid input. Only integers are a
 This means the user input for the numerator was invalid. 
 Specifically a non-integer character was entered. 
 
-
+Syntax:
 end
+
+Explanation:
+This is a string.
+puts "end".
+That is print to the screen the string "end"
+This is the end of the loop anything after this is outside of the loop.
 
 denominator = nil
 loop do
@@ -549,9 +555,10 @@ This means print to the screen the string '>> Invalid input. Only integers are a
 >> is an input prompt.
 This means the user input for the numerator was invalid. 
 Specifically a non-integer character was entered. 
-
-
-end
+This is a string.
+puts "end".
+That is print to the screen the string "end"
+This is the end of the loop anything after this is outside of the loop.
 
 denominator = nil
 loop do
