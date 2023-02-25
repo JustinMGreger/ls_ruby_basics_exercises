@@ -206,8 +206,18 @@ puts 9.
 puts means print to the screen the string.
 print to screen the user input in integer form for the numerator which is 9.
 
-
+Syntax:
 >> Please enter the denominator:
+
+Explanation:
+puts ">> Please enter the denominator:"
+puts means print to the screen the string.
+">> Please enter the denominator:" is the string.
+>> is an input prompt.
+: is where the user input goes.
+This asks the user to enter the denominator.
+
+
 4
 >> 9 / 4 is 2
 
