@@ -110,8 +110,21 @@ puts 8.
 puts means print to the screen the string.
 print to screen  the user input in integer form which is 8.
 
-
+Syntax:
 >> Please enter the denominator:
+
+Explanation:
+puts ">> Please enter the denominator:"
+puts means print to the screen the string.
+">> Please enter the denominator:" is the string.
+>> is an input prompt.
+: is where the user input goes.
+This asks the user to enter the denominator.
+
+
+
+
+
 2
 >> 8 / 2 is 4
 
