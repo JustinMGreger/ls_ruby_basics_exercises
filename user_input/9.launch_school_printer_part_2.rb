@@ -163,6 +163,18 @@ This means run ruby file lsprint2.rb
 
 Syntax:
 >> How many output lines do you want? Enter a number >= 3 (Q to quit):
+
+Explanation:
+puts means print to the screen the string.
+the string is '>> How many output lines do you want? Enter a number >= 3 (Q to quit):'
+print to the screen the string '>> How many output lines do you want? Enter a number >= 3 (Q to quit):'
+>> is an input prompt.
+(>= 3) is the preferred input.
+: is where the user input goes.
+(Q to quit) means press "Q" to quit the loop.
+This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
+The user also has the option to quit by enter "Q" to exit the loop.
+
 5
 Launch School is the best!
 Launch School is the best!
