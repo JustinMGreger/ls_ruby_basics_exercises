@@ -150,8 +150,18 @@ Launch School is the best!
 >> How many output lines do you want? Enter a number >= 3 (Q to quit):
 q
 
-Explanation:
+Explanation of Syntax:
+
+Syntax:
 $ ruby lsprint2.rb
+
+Explanation:
+$ is the cursor.
+ruby means run ruby file.
+lsprint2.rb is the ruby file.
+This means run ruby file lsprint2.rb
+
+Syntax:
 >> How many output lines do you want? Enter a number >= 3 (Q to quit):
 5
 Launch School is the best!
