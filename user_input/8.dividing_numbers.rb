@@ -823,9 +823,9 @@ else means if the above is false then break out of the loop if the user input va
 is a valid number, which is determined by passing it as an argument to the valid_number method which will be converted 
 to integer form, then converted to string form then compared with itself to determine if it evaluates to true.
 print to the screen the string '>> Invalid input. Only integers are allowed.'
-print to the screen the string "end" this is the end of the loop anything after this is outside of the "if loop".
+this is the end of the loop anything after this is outside of the "if loop".
 
-print to the screen the string "end" this is the end of the loop anything after this is outside of the "loop do" loop.
+this is the end of the loop anything after this is outside of the "loop do" loop.
 
 The variable "result" is assigned the variable "numerator" which is reassigned to the user input in string form 
 with the new line character removed that is converted to integer form which is divided by the variable "denominator" 
