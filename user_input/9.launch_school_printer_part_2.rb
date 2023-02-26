@@ -129,6 +129,46 @@ Modify this program so it repeats itself after each input/print iteration, askin
 
 Examples:
 
+Further Initial Syntax Given:
+
+$ ruby lsprint2.rb
+>> How many output lines do you want? Enter a number >= 3 (Q to quit):
+5
+Launch School is the best!
+Launch School is the best!
+Launch School is the best!
+Launch School is the best!
+Launch School is the best!
+>> How many output lines do you want? Enter a number >= 3 (Q to quit):
+2
+>> That's not enough lines.
+>> How many output lines do you want? Enter a number >= 3 (Q to quit):
+3
+Launch School is the best!
+Launch School is the best!
+Launch School is the best!
+>> How many output lines do you want? Enter a number >= 3 (Q to quit):
+q
+
+Explanation:
+$ ruby lsprint2.rb
+>> How many output lines do you want? Enter a number >= 3 (Q to quit):
+5
+Launch School is the best!
+Launch School is the best!
+Launch School is the best!
+Launch School is the best!
+Launch School is the best!
+>> How many output lines do you want? Enter a number >= 3 (Q to quit):
+2
+>> That's not enough lines.
+>> How many output lines do you want? Enter a number >= 3 (Q to quit):
+3
+Launch School is the best!
+Launch School is the best!
+Launch School is the best!
+>> How many output lines do you want? Enter a number >= 3 (Q to quit):
+q
 
 Syntax of Solution:
 Explanation of Solution Syntax:
