@@ -622,13 +622,30 @@ This means the variable "result" is assigned the variable "numerator" which is r
 with the new line character removed that is converted to integer form which is divided by the variable "denominator" 
 which is reassigned to the user input in string form with the new line character removed that is converted to integer form.
 
-
-
-
-
-
+Syntax:
 puts "#{numerator} / #{denominator} is #{result}"
 
+Explanation:
+This is a string.
+puts string "#{numerator} / #{denominator} is #{result}"
+That is print to the screen the string  "#{numerator} / #{denominator} is #{result}"
+"#{}" is string interpolation which is a way of embedding expressions in a string.
+The variables numerator, denominator and result are interpolated in this string.
+numerator is a variable.
+The variable "numerator" is reassigned to the user input in string form with the new line character removed.
+/ means divide by.
+The variable "denominator" is reassigned to the user input in string form with the new line character removed.
+The variable "result" is assigned the variable "numerator" which is reassigned to the user input in string form 
+with the new line character removed that is converted to integer form which is divided by the variable "denominator" 
+which is reassigned to the user input in string form with the new line character removed that is converted to integer form.
+
+This means print to the screen the string interpolation of the variable "numerator" which is reassigned to the user 
+input in string form with the new line character removed divided by the string interpolation of the variable 
+"denominator" which is reassigned to the user input in string form with the new line character removed followed by 
+the string "is" followed by the string interpolation of the variable "result" which is assigned the variable 
+"numerator" which is reassigned to the user input in string form with the new line character removed 
+that is converted to integer form which is divided by the variable "denominator" which is reassigned to the user 
+input in string form with the new line character removed that is converted to integer form.
 
 Summary of Solution Syntax:
 
@@ -754,8 +771,26 @@ This means the variable "result" is assigned the variable "numerator" which is r
 with the new line character removed that is converted to integer form which is divided by the variable "denominator" 
 which is reassigned to the user input in string form with the new line character removed that is converted to integer form.
 
+This is a string.
+puts string "#{numerator} / #{denominator} is #{result}"
+That is print to the screen the string  "#{numerator} / #{denominator} is #{result}"
+"#{}" is string interpolation which is a way of embedding expressions in a string.
+The variables numerator, denominator and result are interpolated in this string.
+numerator is a variable.
+The variable "numerator" is reassigned to the user input in string form with the new line character removed.
+/ means divide by.
+The variable "denominator" is reassigned to the user input in string form with the new line character removed.
+The variable "result" is assigned the variable "numerator" which is reassigned to the user input in string form 
+with the new line character removed that is converted to integer form which is divided by the variable "denominator" 
+which is reassigned to the user input in string form with the new line character removed that is converted to integer form.
+This means print to the screen the string interpolation of the variable "numerator" which is reassigned to the user 
+input in string form with the new line character removed divided by the string interpolation of the variable 
+"denominator" which is reassigned to the user input in string form with the new line character removed followed by 
+the string "is" followed by the string interpolation of the variable "result" which is assigned the variable 
+"numerator" which is reassigned to the user input in string form with the new line character removed 
+that is converted to integer form which is divided by the variable "denominator" which is reassigned to the user 
+input in string form with the new line character removed that is converted to integer form.
 
 
-puts "#{numerator} / #{denominator} is #{result}"
 
 =end
