@@ -489,9 +489,6 @@ Syntax:
 end
 
 Explanation:
-This is a string.
-puts "end".
-That is print to the screen the string "end"
 This is the end of the loop anything after this is outside of the loop.
 
 Syntax:
@@ -585,18 +582,12 @@ Syntax:
   end
 
 Explanation:
-This is a string.
-puts "end".
-That is print to the screen the string "end"
 This is the end of the loop anything after this is outside of the loop.
 
 Syntax:
 end
 
 Explanation:
-This is a string.
-puts "end".
-That is print to the screen the string "end"
 This is the end of the loop anything after this is outside of the loop.
 
 Sytnax:
@@ -692,9 +683,6 @@ This means print to the screen the string '>> Invalid input. Only integers are a
 >> is an input prompt.
 This means the user input for the numerator was invalid. 
 Specifically a non-integer character was entered. 
-This is a string.
-puts "end".
-That is print to the screen the string "end"
 This is the end of the loop anything after this is outside of the loop.
 
 the variable denominator is assigned the value nil.
@@ -740,15 +728,10 @@ This means print to the screen the string '>> Invalid input. Only integers are a
 >> is an input prompt.
 This means the user input for the numerator was invalid. 
 Specifically a non-integer character was entered. 
-This is a string.
-puts "end".
-That is print to the screen the string "end"
+
 This is the end of the loop anything after this is outside of the loop.
 This is the end of the "if denominator == '0'" loop.
 
-This is a string.
-puts "end".
-That is print to the screen the string "end"
 This is the end of the loop anything after this is outside of the loop.
 This is the end of the "loop do" loop.
 
@@ -796,7 +779,7 @@ What this means:
 define the valid_number method where number_string is the parameter it is the place holder for the argument that the valid_number method accepts,
 which will be converted to integer form then converted to string form then compared with itself to determine 
 if it is a valid_number if through this process it evaluates to true.
-print to the screen the string "end" this is the last line of the method that is any code following this is outside of the method.
+this is the last line of the method that is any code following this is outside of the method.
 
 The variable numerator is assigned the value of nil.
 
@@ -808,7 +791,7 @@ which is determined by passing it as an argument to the valid_number method whic
 then converted to string form then compared with itself to determine if it evaluates to true.
 print to the screen the string '>> Invalid input. Only integers are allowed.'
 This means the user input for the numerator was invalid specifically a non-integer character was entered. 
-print to the screen the string "end" this is the end of the loop anything after this is outside of the "loop do" loop.
+this is the end of the loop anything after this is outside of the "loop do" loop.
 
 the variable denominator is assigned the value nil.
 
