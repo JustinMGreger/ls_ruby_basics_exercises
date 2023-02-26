@@ -124,6 +124,11 @@ print to the screen 'Launch School is the best!'
 variable "number_of_lines" is reassigned to number_of_lines - 1.
 This is the last line of the while loop that is any code following this is outside of the loop.
 
+Further Description of Exercise:
+Modify this program so it repeats itself after each input/print iteration, asking for a new number each time through. The program should keep running until the user enters q or Q.
+
+Examples:
+
 
 Syntax of Solution:
 Explanation of Solution Syntax:
