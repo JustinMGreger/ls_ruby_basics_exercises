@@ -182,11 +182,20 @@ Explanation:
 This is an integer.
 This is the user input for how many output lines the user wanted.
 
+Syntax:
 Launch School is the best!
 Launch School is the best!
 Launch School is the best!
 Launch School is the best!
 Launch School is the best!
+
+Explanation:
+These are strings.
+puts that is put string that is print to the sceen the string 'Launch School is the best!'
+This was printed 5 times.
+
+
+
 >> How many output lines do you want? Enter a number >= 3 (Q to quit):
 2
 >> That's not enough lines.
