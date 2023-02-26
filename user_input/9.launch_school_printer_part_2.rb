@@ -106,7 +106,23 @@ end
 Explanation:
 This is the last line of the loop that is any code following this is outside of the loop.
 
+What this means:
 
+Local variable "number_of_lines" is assigned the value of nil.
+
+start running a loop.
+print to the screen the string '>> How many output lines do you want? Enter a number >= 3:'
+This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
+variable "number_of_lines" is reassigned to user input in string form that has been transformed to integer form.
+break out of the loop if variable "number_of_lines" is greater than or equal to 3.
+In response to "number_of_lines" not being greater than or equal to 3 print to the screen the string ">> That's not enough lines."
+This is the last line of the loop that is any code following this is outside of the loop.
+
+start a while loop.
+run the while loop if "number_of_lines" is greater than 0.
+print to the screen 'Launch School is the best!'
+variable "number_of_lines" is reassigned to number_of_lines - 1.
+This is the last line of the while loop that is any code following this is outside of the loop.
 
 
 Syntax of Solution:
