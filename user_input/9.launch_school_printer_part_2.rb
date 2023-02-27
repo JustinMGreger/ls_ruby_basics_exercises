@@ -322,10 +322,15 @@ loop do
 Explanation:
 run a loop.
 
-
-
-
+Syntax:
   input_string = nil
+
+Explanation:
+input_string is a variable that is assigned the value of nil.
+
+
+
+
   number_of_lines = nil
 
   loop do
@@ -350,8 +355,9 @@ run a loop.
 end
 
 Summary of Solution Syntax:
+
 run a loop.
-  input_string = nil
+input_string is a variable that is assigned the value of nil.
   number_of_lines = nil
 
   loop do
