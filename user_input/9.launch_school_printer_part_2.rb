@@ -328,10 +328,11 @@ Syntax:
 Explanation:
 input_string is a variable that is assigned the value of nil.
 
-
-
-
+Syntax:
   number_of_lines = nil
+
+Explanation:
+number_of_lines is a variable that is assigned the value of nil.  
 
   loop do
     puts '>> How many output lines do you want? ' \
