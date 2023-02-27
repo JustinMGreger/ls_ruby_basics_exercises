@@ -193,10 +193,25 @@ Explanation:
 These are strings.
 puts that is put string that is print to the sceen the string 'Launch School is the best!'
 This was printed 5 times.
+Somehow user input was the number of times the string was printed.
+print to the sceen the string 'Launch School is the best!' * user_input or something similar.
 
-
-
+Syntax:
 >> How many output lines do you want? Enter a number >= 3 (Q to quit):
+
+Explanation:
+puts means print to the screen the string.
+the string is '>> How many output lines do you want? Enter a number >= 3 (Q to quit):'
+print to the screen the string '>> How many output lines do you want? Enter a number >= 3 (Q to quit):'
+>> is an input prompt.
+(>= 3) is the preferred input.
+: is where the user input goes.
+(Q to quit) means press "Q" to quit the loop.
+This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
+The user also has the option to quit by enter "Q" to exit the loop.
+
+
+
 2
 >> That's not enough lines.
 >> How many output lines do you want? Enter a number >= 3 (Q to quit):
