@@ -443,10 +443,14 @@ That is put string which means print to the screen the string.
 'Launch School is the best!' is a string.
 This means print to the screen the string 'Launch School is the best!'
 
-
-
-
+Syntax:
     number_of_lines -= 1
+
+Explanation:
+the variable number_of_lines is reassigned to number_of_lines - 1.
+
+
+
   end
 end
 
@@ -511,10 +515,10 @@ puts means put s.
 That is put string which means print to the screen the string.
 'Launch School is the best!' is a string.
 This means print to the screen the string 'Launch School is the best!'
+the variable number_of_lines is reassigned to number_of_lines - 1.
 
 
 
-    number_of_lines -= 1
   end
 end
 
