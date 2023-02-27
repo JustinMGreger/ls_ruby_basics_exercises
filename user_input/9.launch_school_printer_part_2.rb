@@ -211,8 +211,14 @@ This is asking the user how many output lines do they want and to enter a number
 The user also has the option to quit by enter "Q" to exit the loop.
 
 
-
+Syntax:
 2
+
+Explanation:
+This is an integer.
+This is the user input for how many output lines the user wanted.
+
+
 >> That's not enough lines.
 >> How many output lines do you want? Enter a number >= 3 (Q to quit):
 3
