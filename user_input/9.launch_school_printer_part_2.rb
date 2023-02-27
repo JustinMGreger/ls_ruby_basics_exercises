@@ -243,12 +243,16 @@ print to the screen the string '>> How many output lines do you want? Enter a nu
 This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
 The user also has the option to quit by enter "Q" to exit the loop.
 
-
-
-
-
-
+Syntax:
 3
+
+Explanation:
+This is an integer.
+This is the user input for how many output lines the user wanted.
+
+
+
+
 Launch School is the best!
 Launch School is the best!
 Launch School is the best!
