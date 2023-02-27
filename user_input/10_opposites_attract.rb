@@ -15,9 +15,21 @@ def valid_number?(number_string)
   number_string.to_i.to_s == number_string && number_string.to_i != 0
 end
 
-Explanation of Syntax:
+Explanation of Initial Syntax Given:
 
+Syntax
 def valid_number?(number_string)
+
+Explanation:
+def means definition.
+valid_number is the method name.
+? is a boolean that results in true or false.
+(number_string) is a parameter that the valid_number accepts as an argument.
+
+
+
+
+
   number_string.to_i.to_s == number_string && number_string.to_i != 0
 end
 
