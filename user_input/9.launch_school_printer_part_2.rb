@@ -434,11 +434,18 @@ run a while loop.
 the variable number_of_lines is greater than the integer 0.
 This means run a loop while the variable number_of_lines is greater than the integer 0.
 
-
-
-
-
+Syntax:
     puts 'Launch School is the best!'
+
+Explanation:
+puts means put s.
+That is put string which means print to the screen the string.
+'Launch School is the best!' is a string.
+This means print to the screen the string 'Launch School is the best!'
+
+
+
+
     number_of_lines -= 1
   end
 end
@@ -500,11 +507,13 @@ This means break out of the loop if the variable input_string equals the string 
 run a while loop.
 the variable number_of_lines is greater than the integer 0.
 This means run a loop while the variable number_of_lines is greater than the integer 0.
+puts means put s.
+That is put string which means print to the screen the string.
+'Launch School is the best!' is a string.
+This means print to the screen the string 'Launch School is the best!'
 
 
 
-
-    puts 'Launch School is the best!'
     number_of_lines -= 1
   end
 end
