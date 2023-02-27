@@ -173,7 +173,7 @@ print to the screen the string '>> How many output lines do you want? Enter a nu
 : is where the user input goes.
 (Q to quit) means press "Q" to quit the loop.
 This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
-The user also has the option to quit by enter "Q" to exit the loop.
+The user also has the option to quit by entering "Q" to exit the loop.
 
 Syntax:
 5
@@ -209,7 +209,7 @@ print to the screen the string '>> How many output lines do you want? Enter a nu
 : is where the user input goes.
 (Q to quit) means press "Q" to quit the loop.
 This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
-The user also has the option to quit by enter "Q" to exit the loop.
+The user also has the option to quit by entering "Q" to exit the loop.
 
 Syntax:
 2
@@ -241,7 +241,7 @@ print to the screen the string '>> How many output lines do you want? Enter a nu
 : is where the user input goes.
 (Q to quit) means press "Q" to quit the loop.
 This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
-The user also has the option to quit by enter "Q" to exit the loop.
+The user also has the option to quit by entering "Q" to exit the loop.
 
 Syntax:
 3
@@ -275,7 +275,7 @@ print to the screen the string '>> How many output lines do you want? Enter a nu
 : is where the user input goes.
 (Q to quit) means press "Q" to quit the loop.
 This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
-The user also has the option to quit by enter "Q" to exit the loop.
+The user also has the option to quit by entering "Q" to exit the loop.
 
 Syntax:
 q
@@ -357,12 +357,35 @@ print to the screen the string '>> How many output lines do you want? ' \
 \ is the backslash character.
 This backslash character is used to escape the new line character resulting in the string being printed on one line.
 This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
-The user also has the option to quit by enter "Q" to exit the loop.
+The user also has the option to quit by entering "Q" to exit the loop.
+This means print to the screen the string '>> How many output lines do you want? ' \
+         'Enter a number >= 3 (Q to Quit):' which asks the user to input how many output lines they want and to enter 
+a number greater than or equal to 3 also the user also has the option to quit by entering "Q" to exit the loop.
 
 
 
 
+
+
+
+
+
+
+Syntax:
     input_string = gets.chomp.downcase
+
+Explanation:
+the variable input_string is reassigned to gets.chomp.downcase
+gets means get s which is get string.
+Specifically this means get user input in string form.
+.chomp is a string method that removes the newline character.
+
+
+
+
+
+
+
     break if input_string == 'q'
 
     number_of_lines = input_string.to_i
@@ -398,7 +421,10 @@ print to the screen the string '>> How many output lines do you want? ' \
 \ is the backslash character.
 This backslash character is used to escape the new line character resulting in the string being printed on one line.
 This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
-The user also has the option to quit by enter "Q" to exit the loop.
+The user also has the option to quit by entering "Q" to exit the loop.
+This means print to the screen the string '>> How many output lines do you want? ' \
+         'Enter a number >= 3 (Q to Quit):' which asks the user to input how many output lines they want and to enter 
+a number greater than or equal to 3 also the user also has the option to quit by entering "Q" to exit the loop.
 
 
 
