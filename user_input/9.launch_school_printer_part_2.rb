@@ -456,11 +456,12 @@ Explanation:
 This is the end of the loop.
 Everything after this is outside of the loop. 
 
-
-
-
-
+Syntax:
 end
+
+Explanation:
+This is the end of the loop.
+Everything after this is outside of the loop. 
 
 Summary of Solution Syntax:
 
@@ -527,6 +528,7 @@ the variable number_of_lines is reassigned to number_of_lines - 1.
 This is the end of the loop.
 Everything after this is outside of the loop. 
 
-end
+This is the end of the loop.
+Everything after this is outside of the loop. 
 
 =end
