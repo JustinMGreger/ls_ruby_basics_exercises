@@ -15,8 +15,17 @@ def valid_number?(number_string)
   number_string.to_i.to_s == number_string && number_string.to_i != 0
 end
 
-
 Explanation of Syntax:
+
+def valid_number?(number_string)
+  number_string.to_i.to_s == number_string && number_string.to_i != 0
+end
+
+
+
+
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
