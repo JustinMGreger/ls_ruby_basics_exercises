@@ -200,6 +200,7 @@ Syntax:
 >> How many output lines do you want? Enter a number >= 3 (Q to quit):
 
 Explanation:
+This is a string.
 puts means print to the screen the string.
 the string is '>> How many output lines do you want? Enter a number >= 3 (Q to quit):'
 print to the screen the string '>> How many output lines do you want? Enter a number >= 3 (Q to quit):'
@@ -210,7 +211,6 @@ print to the screen the string '>> How many output lines do you want? Enter a nu
 This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
 The user also has the option to quit by enter "Q" to exit the loop.
 
-
 Syntax:
 2
 
@@ -218,8 +218,16 @@ Explanation:
 This is an integer.
 This is the user input for how many output lines the user wanted.
 
-
+Syntax:
 >> That's not enough lines.
+
+Explanation:
+This is a string.
+puts means print to the screen the string.
+the string is '>> That's not enough lines.'
+>> is an input prompt.
+This is in response to the user input above that is 2 was not equal to or greater than 3.
+
 >> How many output lines do you want? Enter a number >= 3 (Q to quit):
 3
 Launch School is the best!
