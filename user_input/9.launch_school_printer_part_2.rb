@@ -340,8 +340,27 @@ Syntax:
 Explanation:
 start running a loop.
 
+Syntax:
     puts '>> How many output lines do you want? ' \
          'Enter a number >= 3 (Q to Quit):'
+
+Explanation:
+puts means put s which means print to the screen the string.
+the string is '>> How many output lines do you want? ' \
+         'Enter a number >= 3 (Q to Quit):'
+print to the screen the string '>> How many output lines do you want? ' \
+         'Enter a number >= 3 (Q to Quit):'
+>> is an input prompt.
+(>= 3) is the preferred input.
+: is where the user input goes.
+(Q to quit) means press "Q" to quit the loop.
+\ is the backslash character.
+This backslash character is used to escape the new line character resulting in the string being printed on one line.
+This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
+The user also has the option to quit by enter "Q" to exit the loop.
+
+
+
 
     input_string = gets.chomp.downcase
     break if input_string == 'q'
@@ -367,8 +386,24 @@ input_string is a variable that is assigned the value of nil.
 number_of_lines is a variable that is assigned the value of nil. 
 
 start running a loop.
-    puts '>> How many output lines do you want? ' \
+puts means put s which means print to the screen the string.
+the string is '>> How many output lines do you want? ' \
          'Enter a number >= 3 (Q to Quit):'
+print to the screen the string '>> How many output lines do you want? ' \
+         'Enter a number >= 3 (Q to Quit):'
+>> is an input prompt.
+(>= 3) is the preferred input.
+: is where the user input goes.
+(Q to quit) means press "Q" to quit the loop.
+\ is the backslash character.
+This backslash character is used to escape the new line character resulting in the string being printed on one line.
+This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
+The user also has the option to quit by enter "Q" to exit the loop.
+
+
+
+
+
 
     input_string = gets.chomp.downcase
     break if input_string == 'q'
