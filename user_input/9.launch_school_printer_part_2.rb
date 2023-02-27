@@ -417,12 +417,16 @@ Explanation:
 This is the end of the loop.
 Everything after this is outside of the loop. 
 
-
-
-
-
-
+Syntax:
   break if input_string == 'q'
+
+Explanation:
+break out of the loop.
+if a specific condition is true then do the following.
+the variable input_string equals the string 'q'
+This means break out of the loop if the variable input_string equals the string 'q'.
+
+
 
   while number_of_lines > 0
     puts 'Launch School is the best!'
@@ -479,11 +483,10 @@ This means print to the screen the string ">> That's not enough lines."
 This is the end of the loop.
 Everything after this is outside of the loop. 
 
-
-
-
-
-  break if input_string == 'q'
+break out of the loop.
+if a specific condition is true then do the following.
+the variable input_string equals the string 'q'
+This means break out of the loop if the variable input_string equals the string 'q'.
 
   while number_of_lines > 0
     puts 'Launch School is the best!'
