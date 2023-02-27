@@ -449,9 +449,17 @@ Syntax:
 Explanation:
 the variable number_of_lines is reassigned to number_of_lines - 1.
 
-
-
+Syntax:
   end
+
+Explanation:
+This is the end of the loop.
+Everything after this is outside of the loop. 
+
+
+
+
+
 end
 
 Summary of Solution Syntax:
@@ -516,10 +524,9 @@ That is put string which means print to the screen the string.
 'Launch School is the best!' is a string.
 This means print to the screen the string 'Launch School is the best!'
 the variable number_of_lines is reassigned to number_of_lines - 1.
+This is the end of the loop.
+Everything after this is outside of the loop. 
 
-
-
-  end
 end
 
 =end
