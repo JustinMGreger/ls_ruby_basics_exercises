@@ -392,8 +392,21 @@ input_string was previously reassigned to the user input in string form on one l
 This means the variable number_of_lines is the user input in string form on one line in lowercase 
 that was then converted to integer form.
 
-
+Syntax:
     break if number_of_lines >= 3
+
+Explanation:
+break out of the loop.
+if a specific condition is true then do the following.
+the variable number_of_lines is great than or equal to the integer 3.
+This means break out of the loop if the variable number_of_lines is great than or equal to the integer 3.
+
+
+
+
+
+
+
 
     puts ">> That's not enough lines."
   end
@@ -444,9 +457,14 @@ input_string was previously reassigned to the user input in string form on one l
 .to_i converts the string to an integer.
 This means the variable number_of_lines is the user input in string form on one line in lowercase 
 that was then converted to integer form.
+break out of the loop.
+if a specific condition is true then do the following.
+the variable number_of_lines is great than or equal to the integer 3.
+This means break out of the loop if the variable number_of_lines is great than or equal to the integer 3.
 
 
-    break if number_of_lines >= 3
+
+
 
     puts ">> That's not enough lines."
   end
