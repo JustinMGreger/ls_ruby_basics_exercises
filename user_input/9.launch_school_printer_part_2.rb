@@ -277,10 +277,16 @@ print to the screen the string '>> How many output lines do you want? Enter a nu
 This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
 The user also has the option to quit by enter "Q" to exit the loop.
 
-
-
-
+Syntax:
 q
+
+Explanation:
+This is a string.
+This is the user input.
+This is the last line of the code in this sample.
+This is probably equal to "Q" if the user input recieved the .downcase string method to make all characters lowercase.
+That woudl mean that the string "q" would exit the loop.
+
 
 Syntax of Solution:
 Explanation of Solution Syntax:
