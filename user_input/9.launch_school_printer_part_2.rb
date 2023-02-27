@@ -320,7 +320,7 @@ Syntax:
 loop do
 
 Explanation:
-
+run a loop.
 
 
 
@@ -350,7 +350,7 @@ Explanation:
 end
 
 Summary of Solution Syntax:
-loop do
+run a loop.
   input_string = nil
   number_of_lines = nil
 
