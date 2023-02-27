@@ -316,7 +316,15 @@ end
 
 Explanation of Solution Syntax:
 
+Syntax:
 loop do
+
+Explanation:
+
+
+
+
+
   input_string = nil
   number_of_lines = nil
 
