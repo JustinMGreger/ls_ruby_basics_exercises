@@ -538,37 +538,16 @@ input_string is a variable that is assigned the value of nil.
 number_of_lines is a variable that is assigned the value of nil. 
 
 start running a loop.
-puts means put s which means print to the screen the string.
-the string is '>> How many output lines do you want? ' \
-         'Enter a number >= 3 (Q to Quit):'
 print to the screen the string '>> How many output lines do you want? ' \
-         'Enter a number >= 3 (Q to Quit):'
->> is an input prompt.
-(>= 3) is the preferred input.
-: is where the user input goes.
-(Q to quit) means press "Q" to quit the loop.
-\ is the backslash character.
-This backslash character is used to escape the new line character resulting in the string being printed on one line.
-This is asking the user how many output lines do they want and to enter a number greater than or equal to 3.
-The user also has the option to quit by entering "Q" to exit the loop.
-This means print to the screen the string '>> How many output lines do you want? ' \
          'Enter a number >= 3 (Q to Quit):' which asks the user to input how many output lines they want and to enter 
 a number greater than or equal to 3 also the user also has the option to quit by entering "Q" to exit the loop.
-the variable input_string is reassigned to gets.chomp.downcase
-gets means get s which is get string.
-Specifically this means get user input in string form.
-.chomp is a string method that removes the newline character.
-.downcase is a string method that makes all the characters in a string lowercase.
-This means the variable input_string is reassigned to the user input in string form on one line in lowercase.
-break out of the loop.
-if a specific condition is true then do the following.
-input_string variable is equal to string 'q'.
-This means break out of the loop if the variable input_string is equal to string 'q'.
-the variable number_of_lines is reassigned to input_string.to_i
-input_string was previously reassigned to the user input in string form on one line in lowercase.
-.to_i converts the string to an integer.
-This means the variable number_of_lines is the user input in string form on one line in lowercase 
-that was then converted to integer form.
+the variable input_string is reassigned to the user input in string form on one line in lowercase.
+break out of the loop if the variable input_string is equal to string 'q'.
+the variable number_of_lines is reassigned to the user input in string form on one line in lowercase 
+that is then converted to integer form.
+
+
+
 break out of the loop.
 if a specific condition is true then do the following.
 the variable number_of_lines is great than or equal to the integer 3.
