@@ -373,14 +373,23 @@ Specifically this means get user input in string form.
 .downcase is a string method that makes all the characters in a string lowercase.
 This means the variable input_string is reassigned to the user input in string form on one line in lowercase.
 
-
-
-
-
-
+Syntax:
     break if input_string == 'q'
 
+Explanation:
+break out of the loop.
+if a specific condition is true then do the following.
+input_string variable is equal to string 'q'.
+This means break out of the loop if the variable input_string is equal to string 'q'.
+
+
+
+
     number_of_lines = input_string.to_i
+
+
+
+
     break if number_of_lines >= 3
 
     puts ">> That's not enough lines."
@@ -423,10 +432,14 @@ Specifically this means get user input in string form.
 .chomp is a string method that removes the newline character.
 .downcase is a string method that makes all the characters in a string lowercase.
 This means the variable input_string is reassigned to the user input in string form on one line in lowercase.
+break out of the loop.
+if a specific condition is true then do the following.
+input_string variable is equal to string 'q'.
+This means break out of the loop if the variable input_string is equal to string 'q'.
 
 
 
-    break if input_string == 'q'
+
 
     number_of_lines = input_string.to_i
     break if number_of_lines >= 3
