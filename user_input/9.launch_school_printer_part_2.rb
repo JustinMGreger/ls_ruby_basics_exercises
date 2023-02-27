@@ -410,9 +410,17 @@ That is put string which means print to the screen the string.
 ">> That's not enough lines." is a string.
 This means print to the screen the string ">> That's not enough lines."
 
-
-
+Syntax:
   end
+
+Explanation:
+This is the end of the loop.
+Everything after this is outside of the loop. 
+
+
+
+
+
 
   break if input_string == 'q'
 
@@ -468,10 +476,12 @@ puts means put s.
 That is put string which means print to the screen the string.
 ">> That's not enough lines." is a string.
 This means print to the screen the string ">> That's not enough lines."
+This is the end of the loop.
+Everything after this is outside of the loop. 
 
 
 
-  end
+
 
   break if input_string == 'q'
 
