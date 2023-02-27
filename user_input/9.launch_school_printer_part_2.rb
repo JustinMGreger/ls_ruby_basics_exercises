@@ -382,12 +382,15 @@ if a specific condition is true then do the following.
 input_string variable is equal to string 'q'.
 This means break out of the loop if the variable input_string is equal to string 'q'.
 
-
-
-
+Syntax:
     number_of_lines = input_string.to_i
 
-
+Explanation:
+the variable number_of_lines is reassigned to input_string.to_i
+input_string was previously reassigned to the user input in string form on one line in lowercase.
+.to_i converts the string to an integer.
+This means the variable number_of_lines is the user input in string form on one line in lowercase 
+that was then converted to integer form.
 
 
     break if number_of_lines >= 3
@@ -436,12 +439,13 @@ break out of the loop.
 if a specific condition is true then do the following.
 input_string variable is equal to string 'q'.
 This means break out of the loop if the variable input_string is equal to string 'q'.
+the variable number_of_lines is reassigned to input_string.to_i
+input_string was previously reassigned to the user input in string form on one line in lowercase.
+.to_i converts the string to an integer.
+This means the variable number_of_lines is the user input in string form on one line in lowercase 
+that was then converted to integer form.
 
 
-
-
-
-    number_of_lines = input_string.to_i
     break if number_of_lines >= 3
 
     puts ">> That's not enough lines."
