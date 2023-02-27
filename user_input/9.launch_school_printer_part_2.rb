@@ -543,26 +543,13 @@ print to the screen the string '>> How many output lines do you want? ' \
 a number greater than or equal to 3 also the user also has the option to quit by entering "Q" to exit the loop.
 the variable input_string is reassigned to the user input in string form on one line in lowercase.
 break out of the loop if the variable input_string is equal to string 'q'.
-the variable number_of_lines is reassigned to the user input in string form on one line in lowercase 
-that is then converted to integer form.
-
-
-
-break out of the loop.
-if a specific condition is true then do the following.
-the variable number_of_lines is great than or equal to the integer 3.
-This means break out of the loop if the variable number_of_lines is great than or equal to the integer 3.
-puts means put s.
-That is put string which means print to the screen the string.
-">> That's not enough lines." is a string.
+the variable number_of_lines is reassigned to the user input in string form on one line in lowercase that is then 
+converted to integer form.
+break out of the loop if the variable number_of_lines is great than or equal to the integer 3.
 This means print to the screen the string ">> That's not enough lines."
-This is the end of the loop.
-Everything after this is outside of the loop. 
+This is the end of the loop everything after this is outside of the loop that began by asking "How many output".
 
-break out of the loop.
-if a specific condition is true then do the following.
-the variable input_string equals the string 'q'
-This means break out of the loop if the variable input_string equals the string 'q'.
+break out of the loop if the variable input_string equals the string 'q'.
 
 run a while loop.
 the variable number_of_lines is greater than the integer 0.
@@ -572,10 +559,8 @@ That is put string which means print to the screen the string.
 'Launch School is the best!' is a string.
 This means print to the screen the string 'Launch School is the best!'
 the variable number_of_lines is reassigned to number_of_lines - 1.
-This is the end of the loop.
-Everything after this is outside of the loop. 
+This is the end of the loop everything after this is outside of the while loop. 
 
-This is the end of the loop.
-Everything after this is outside of the loop. 
+This is the end of the loop everything after this is outside of the loop which started at the beginning.
 
 =end
