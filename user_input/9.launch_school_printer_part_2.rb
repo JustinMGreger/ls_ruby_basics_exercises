@@ -401,14 +401,17 @@ if a specific condition is true then do the following.
 the variable number_of_lines is great than or equal to the integer 3.
 This means break out of the loop if the variable number_of_lines is great than or equal to the integer 3.
 
-
-
-
-
-
-
-
+Syntax:
     puts ">> That's not enough lines."
+
+Explanation:
+puts means put s.
+That is put string which means print to the screen the string.
+">> That's not enough lines." is a string.
+This means print to the screen the string ">> That's not enough lines."
+
+
+
   end
 
   break if input_string == 'q'
@@ -461,12 +464,13 @@ break out of the loop.
 if a specific condition is true then do the following.
 the variable number_of_lines is great than or equal to the integer 3.
 This means break out of the loop if the variable number_of_lines is great than or equal to the integer 3.
+puts means put s.
+That is put string which means print to the screen the string.
+">> That's not enough lines." is a string.
+This means print to the screen the string ">> That's not enough lines."
 
 
 
-
-
-    puts ">> That's not enough lines."
   end
 
   break if input_string == 'q'
