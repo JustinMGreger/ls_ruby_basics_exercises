@@ -10,6 +10,12 @@ and start over if the requirement is not met.
 You may use the following method to validate input integers:
 
 Initial Syntax Given:
+
+def valid_number?(number_string)
+  number_string.to_i.to_s == number_string && number_string.to_i != 0
+end
+
+
 Explanation of Syntax:
 Syntax of Solution:
 Explanation of Solution Syntax:
