@@ -320,7 +320,7 @@ Syntax:
 loop do
 
 Explanation:
-run a loop.
+start running a loop.
 
 Syntax:
   input_string = nil
@@ -334,7 +334,12 @@ Syntax:
 Explanation:
 number_of_lines is a variable that is assigned the value of nil.  
 
+Syntax:
   loop do
+
+Explanation:
+start running a loop.
+
     puts '>> How many output lines do you want? ' \
          'Enter a number >= 3 (Q to Quit):'
 
@@ -357,11 +362,11 @@ end
 
 Summary of Solution Syntax:
 
-run a loop.
+start running a loop.
 input_string is a variable that is assigned the value of nil.
-  number_of_lines = nil
+number_of_lines is a variable that is assigned the value of nil. 
 
-  loop do
+start running a loop.
     puts '>> How many output lines do you want? ' \
          'Enter a number >= 3 (Q to Quit):'
 
