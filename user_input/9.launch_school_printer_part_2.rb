@@ -287,8 +287,84 @@ This is the last line of the code in this sample.
 This is probably equal to "Q" if the user input recieved the .downcase string method to make all characters lowercase.
 That woudl mean that the string "q" would exit the loop.
 
-
 Syntax of Solution:
+
+loop do
+  input_string = nil
+  number_of_lines = nil
+
+  loop do
+    puts '>> How many output lines do you want? ' \
+         'Enter a number >= 3 (Q to Quit):'
+
+    input_string = gets.chomp.downcase
+    break if input_string == 'q'
+
+    number_of_lines = input_string.to_i
+    break if number_of_lines >= 3
+
+    puts ">> That's not enough lines."
+  end
+
+  break if input_string == 'q'
+
+  while number_of_lines > 0
+    puts 'Launch School is the best!'
+    number_of_lines -= 1
+  end
+end
+
 Explanation of Solution Syntax:
+
+loop do
+  input_string = nil
+  number_of_lines = nil
+
+  loop do
+    puts '>> How many output lines do you want? ' \
+         'Enter a number >= 3 (Q to Quit):'
+
+    input_string = gets.chomp.downcase
+    break if input_string == 'q'
+
+    number_of_lines = input_string.to_i
+    break if number_of_lines >= 3
+
+    puts ">> That's not enough lines."
+  end
+
+  break if input_string == 'q'
+
+  while number_of_lines > 0
+    puts 'Launch School is the best!'
+    number_of_lines -= 1
+  end
+end
+
 Summary of Solution Syntax:
+loop do
+  input_string = nil
+  number_of_lines = nil
+
+  loop do
+    puts '>> How many output lines do you want? ' \
+         'Enter a number >= 3 (Q to Quit):'
+
+    input_string = gets.chomp.downcase
+    break if input_string == 'q'
+
+    number_of_lines = input_string.to_i
+    break if number_of_lines >= 3
+
+    puts ">> That's not enough lines."
+  end
+
+  break if input_string == 'q'
+
+  while number_of_lines > 0
+    puts 'Launch School is the best!'
+    number_of_lines -= 1
+  end
+end
+
 =end
