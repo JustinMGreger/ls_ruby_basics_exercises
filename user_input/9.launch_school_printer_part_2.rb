@@ -551,13 +551,8 @@ This is the end of the loop everything after this is outside of the loop that be
 
 break out of the loop if the variable input_string equals the string 'q'.
 
-run a while loop.
-the variable number_of_lines is greater than the integer 0.
-This means run a loop while the variable number_of_lines is greater than the integer 0.
-puts means put s.
-That is put string which means print to the screen the string.
-'Launch School is the best!' is a string.
-This means print to the screen the string 'Launch School is the best!'
+run a while loop while the variable number_of_lines is greater than the integer 0.
+print to the screen the string 'Launch School is the best!'
 the variable number_of_lines is reassigned to number_of_lines - 1.
 This is the end of the loop everything after this is outside of the while loop. 
 
