@@ -426,9 +426,18 @@ if a specific condition is true then do the following.
 the variable input_string equals the string 'q'
 This means break out of the loop if the variable input_string equals the string 'q'.
 
-
-
+Syntax:
   while number_of_lines > 0
+
+Explanation:
+run a while loop.
+the variable number_of_lines is greater than the integer 0.
+This means run a loop while the variable number_of_lines is greater than the integer 0.
+
+
+
+
+
     puts 'Launch School is the best!'
     number_of_lines -= 1
   end
@@ -488,7 +497,13 @@ if a specific condition is true then do the following.
 the variable input_string equals the string 'q'
 This means break out of the loop if the variable input_string equals the string 'q'.
 
-  while number_of_lines > 0
+run a while loop.
+the variable number_of_lines is greater than the integer 0.
+This means run a loop while the variable number_of_lines is greater than the integer 0.
+
+
+
+
     puts 'Launch School is the best!'
     number_of_lines -= 1
   end
