@@ -362,15 +362,6 @@ This means print to the screen the string '>> How many output lines do you want?
          'Enter a number >= 3 (Q to Quit):' which asks the user to input how many output lines they want and to enter 
 a number greater than or equal to 3 also the user also has the option to quit by entering "Q" to exit the loop.
 
-
-
-
-
-
-
-
-
-
 Syntax:
     input_string = gets.chomp.downcase
 
@@ -379,7 +370,8 @@ the variable input_string is reassigned to gets.chomp.downcase
 gets means get s which is get string.
 Specifically this means get user input in string form.
 .chomp is a string method that removes the newline character.
-
+.downcase is a string method that makes all the characters in a string lowercase.
+This means the variable input_string is reassigned to the user input in string form on one line in lowercase.
 
 
 
@@ -425,13 +417,15 @@ The user also has the option to quit by entering "Q" to exit the loop.
 This means print to the screen the string '>> How many output lines do you want? ' \
          'Enter a number >= 3 (Q to Quit):' which asks the user to input how many output lines they want and to enter 
 a number greater than or equal to 3 also the user also has the option to quit by entering "Q" to exit the loop.
+the variable input_string is reassigned to gets.chomp.downcase
+gets means get s which is get string.
+Specifically this means get user input in string form.
+.chomp is a string method that removes the newline character.
+.downcase is a string method that makes all the characters in a string lowercase.
+This means the variable input_string is reassigned to the user input in string form on one line in lowercase.
 
 
 
-
-
-
-    input_string = gets.chomp.downcase
     break if input_string == 'q'
 
     number_of_lines = input_string.to_i
