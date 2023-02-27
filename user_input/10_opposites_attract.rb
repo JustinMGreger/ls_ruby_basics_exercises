@@ -44,8 +44,11 @@ if equal to the parameter number_string this will be boolean true or false and t
 to the parameter number_string that is converted to integer form that is true when the integer form does not equal 
 the integer 0.
 
+Syntax:
 end
 
+Explanation:
+This is the last line of the method anything after this is outside of the valid_number method.
 
 
 
