@@ -50,7 +50,8 @@ end
 Explanation:
 This is the last line of the method anything after this is outside of the valid_number method.
 
-
+Additional Description of Exercise:
+Examples:
 
 
 
