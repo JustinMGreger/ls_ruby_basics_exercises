@@ -130,7 +130,22 @@ This is an integer.
 This integer is neither positive or negative.
 This is the user input.
 
+Syntax:
 >> Invalid input. Only non-zero integers are allowed.
+
+Explanation:
+'>> Invalid input. Only non-zero integers are allowed.' is a string.
+>> is an input prompt.
+This was printed to the screen.
+puts means put s which is put string.
+put string means print to the screen the string.
+This means print to the screen the string '>> Invalid input. Only non-zero integers are allowed.'
+This informs the user that the input was invalid and only non-zero integers are allowed.
+
+
+
+
+
 >> Please enter a positive or negative integer:
 -5
 8 + -5 = 3
