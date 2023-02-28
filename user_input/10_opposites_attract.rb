@@ -238,9 +238,18 @@ This the result of the user input beign 2 positive integers.
 This means there is code that checks if the user inputs are a positive integer input and a negative integer input 
 in addition to checking that none of the integers are equal to 0.
 
-
-
+Syntax:
 >> Please start over.
+
+Explanation:
+'>> Please start over.' is a string.
+>> is an input prompt.
+This was printed to the screen.
+puts means put s which is put string.
+put string means print to the screen the string.
+This means print to the screen the string '>> Please start over.' 
+This occured because of code in the loop. This could be the last code in the loop before an "end".
+
 
 
 >> Please enter a positive or negative integer:
