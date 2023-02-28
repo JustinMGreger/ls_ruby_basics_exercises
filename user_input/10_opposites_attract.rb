@@ -380,11 +380,26 @@ Syntax:
 Explanation:
 run a loop.
 
-
-
-
-
+Syntax:
     puts '>> Please enter a positive or negative integer:'
+
+Explanation:
+'>> Please enter a positive or negative integer:' is a string.
+>> is an input prompt.
+: is were the input goes.
+This was printed to the screen.
+puts means put s which is put string.
+put string means print to the screen the string.
+This means print to the screen the string '>> Please enter a positive or negative integer:'
+This asks the user to input a positive or negative integer.
+
+
+
+
+
+
+
+
     number = gets.chomp
     return number.to_i if valid_number?(number)
     puts '>> Invalid input. Only non-zero integers are allowed.'
@@ -429,11 +444,17 @@ This is the last line of the method anything after this is outside of the valid_
 def means definition.
 read_number is the name of the method.
 run a loop.
+'>> Please enter a positive or negative integer:' is a string.
+>> is an input prompt.
+: is were the input goes.
+This was printed to the screen.
+puts means put s which is put string.
+put string means print to the screen the string.
+This means print to the screen the string '>> Please enter a positive or negative integer:'
+This asks the user to input a positive or negative integer.
 
 
 
-
-    puts '>> Please enter a positive or negative integer:'
     number = gets.chomp
     return number.to_i if valid_number?(number)
     puts '>> Invalid input. Only non-zero integers are allowed.'
