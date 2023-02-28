@@ -82,7 +82,11 @@ Explanation of Additional Initial Given Syntax:
 Syntax:
 $ ruby opposites.rb
 
-
+Explanation:
+$ is the cursor.
+ruby means run ruby file.
+opposites.rb is the ruby file.
+This means run ruby file opposites.rb.
 
 
 >> Please enter a positive or negative integer:
