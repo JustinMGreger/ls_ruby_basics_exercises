@@ -84,9 +84,9 @@ $ ruby opposites.rb
 
 Explanation:
 $ is the cursor.
-ruby means run ruby file.
+ruby means run a ruby file.
 opposites.rb is the ruby file.
-This means run ruby file opposites.rb.
+This means run the ruby file opposites.rb
 
 Syntax:
 >> Please enter a positive or negative integer:
@@ -173,9 +173,17 @@ This was printed.
 put s is put string which is print to the screen the string.
 This means print to the screen the string interpolation "8 + -5 = 3".
 
-
-
+Syntax:
 $ ruby opposites.rb
+
+Explanation:
+$ is the cursor.
+ruby means run a ruby file.
+opposites.rb is the ruby file.
+This means run the ruby file opposites.rb
+
+
+
 >> Please enter a positive or negative integer:
 8
 >> Please enter a positive or negative integer:
