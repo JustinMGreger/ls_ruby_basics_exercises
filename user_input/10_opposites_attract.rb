@@ -142,11 +142,20 @@ put string means print to the screen the string.
 This means print to the screen the string '>> Invalid input. Only non-zero integers are allowed.'
 This informs the user that the input was invalid and only non-zero integers are allowed.
 
-
-
-
-
+Syntax:
 >> Please enter a positive or negative integer:
+
+Explanation:
+'>> Please enter a positive or negative integer:' is a string.
+>> is an input prompt.
+: is were the input goes.
+This was printed to the screen.
+puts means put s which is put string.
+put string means print to the screen the string.
+This means print to the screen the string '>> Please enter a positive or negative integer:'
+This asks the user to input a positive or negative integer.
+
+
 -5
 8 + -5 = 3
 $ ruby opposites.rb
