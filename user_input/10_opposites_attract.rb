@@ -53,7 +53,59 @@ This is the last line of the method anything after this is outside of the valid_
 Additional Description of Exercise:
 Examples:
 
+Additional Initial Given Syntax:
+$ ruby opposites.rb
+>> Please enter a positive or negative integer:
+8
+>> Please enter a positive or negative integer:
+0
+>> Invalid input. Only non-zero integers are allowed.
+>> Please enter a positive or negative integer:
+-5
+8 + -5 = 3
 
+$ ruby opposites.rb
+>> Please enter a positive or negative integer:
+8
+>> Please enter a positive or negative integer:
+5
+>> Sorry. One integer must be positive, one must be negative.
+>> Please start over.
+>> Please enter a positive or negative integer:
+-7
+>> Please enter a positive or negative integer:
+5
+-7 + 5 = -2
+
+Explanation of Additional Initial Given Syntax:
+
+Syntax:
+$ ruby opposites.rb
+
+
+
+
+>> Please enter a positive or negative integer:
+8
+>> Please enter a positive or negative integer:
+0
+>> Invalid input. Only non-zero integers are allowed.
+>> Please enter a positive or negative integer:
+-5
+8 + -5 = 3
+
+$ ruby opposites.rb
+>> Please enter a positive or negative integer:
+8
+>> Please enter a positive or negative integer:
+5
+>> Sorry. One integer must be positive, one must be negative.
+>> Please start over.
+>> Please enter a positive or negative integer:
+-7
+>> Please enter a positive or negative integer:
+5
+-7 + 5 = -2
 
 Syntax of Solution:
 Explanation of Solution Syntax:
