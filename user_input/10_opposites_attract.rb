@@ -393,14 +393,18 @@ put string means print to the screen the string.
 This means print to the screen the string '>> Please enter a positive or negative integer:'
 This asks the user to input a positive or negative integer.
 
-
-
-
-
-
-
-
+Syntax:
     number = gets.chomp
+
+Explanation:
+variable "number" is assigned to gets.chomp
+gets means get s which is get string. 
+get string means get user input in string form.
+.chomp is a string method that removes the new line character from a string.
+This means the variable "number" is assigned the user input in string form on one line.
+
+
+
     return number.to_i if valid_number?(number)
     puts '>> Invalid input. Only non-zero integers are allowed.'
   end
@@ -452,10 +456,13 @@ puts means put s which is put string.
 put string means print to the screen the string.
 This means print to the screen the string '>> Please enter a positive or negative integer:'
 This asks the user to input a positive or negative integer.
+variable "number" is assigned to gets.chomp
+gets means get s which is get string. 
+get string means get user input in string form.
+.chomp is a string method that removes the new line character from a string.
+This means the variable "number" is assigned the user input in string form on one line.
 
-
-
-    number = gets.chomp
+    
     return number.to_i if valid_number?(number)
     puts '>> Invalid input. Only non-zero integers are allowed.'
   end
