@@ -141,6 +141,7 @@ puts means put s which is put string.
 put string means print to the screen the string.
 This means print to the screen the string '>> Invalid input. Only non-zero integers are allowed.'
 This informs the user that the input was invalid and only non-zero integers are allowed.
+This means there is code that checks if the integer is 0.
 
 Syntax:
 >> Please enter a positive or negative integer:
@@ -223,9 +224,25 @@ This is an integer.
 This is a positive integer.
 This is the user input.
 
-
+Syntax:
 >> Sorry. One integer must be positive, one must be negative.
+
+Explanation:
+'>> Sorry. One integer must be positive, one must be negative.' is a string.
+>> is an input prompt.
+This was printed to the screen.
+puts means put s which is put string.
+put string means print to the screen the string.
+This means print to the screen the string '>> Sorry. One integer must be positive, one must be negative.'
+This the result of the user input beign 2 positive integers. 
+This means there is code that checks if the user inputs are a positive integer input and a negative integer input 
+in addition to checking that none of the integers are equal to 0.
+
+
+
 >> Please start over.
+
+
 >> Please enter a positive or negative integer:
 -7
 >> Please enter a positive or negative integer:
