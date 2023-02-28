@@ -374,10 +374,16 @@ Explanation:
 def means definition.
 read_number is the name of the method.
 
-
-
-
+Syntax:
   loop do
+
+Explanation:
+run a loop.
+
+
+
+
+
     puts '>> Please enter a positive or negative integer:'
     number = gets.chomp
     return number.to_i if valid_number?(number)
@@ -420,14 +426,13 @@ to the parameter number_string that is converted to integer form that is true wh
 the integer 0.
 This is the last line of the method anything after this is outside of the valid_number method.
 
+def means definition.
+read_number is the name of the method.
+run a loop.
 
 
 
 
-
-
-def read_number
-  loop do
     puts '>> Please enter a positive or negative integer:'
     number = gets.chomp
     return number.to_i if valid_number?(number)
