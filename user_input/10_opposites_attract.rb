@@ -163,9 +163,18 @@ This is an integer.
 This is a negative integer.
 This is the user input.
 
-
-
+Syntax:
 8 + -5 = 3
+
+Explanation:
+This the output of the user's input that happened twice.
+This is string interpolation. Probably something like this: "#{input} + #{input} = #{result}"
+This was printed.
+put s is put string which is print to the screen the string.
+This means print to the screen the string interpolation "8 + -5 = 3".
+
+
+
 $ ruby opposites.rb
 >> Please enter a positive or negative integer:
 8
