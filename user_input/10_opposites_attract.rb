@@ -293,8 +293,15 @@ This is an integer.
 This is a positive integer.
 This is the user input.
 
-
+Syntax:
 -7 + 5 = -2
+
+Explanation:
+This the output of the user's input that happened twice.
+This is string interpolation. Probably something like this: "#{negative_integer} + #{positive_integer} = #{result}"
+This was printed.
+put s is put string which is print to the screen the string.
+This means print to the screen the string interpolation "-7 + 5 = -2".
 
 Syntax of Solution:
 Explanation of Solution Syntax:
