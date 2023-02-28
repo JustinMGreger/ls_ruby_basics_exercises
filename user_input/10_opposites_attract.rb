@@ -195,9 +195,16 @@ put string means print to the screen the string.
 This means print to the screen the string '>> Please enter a positive or negative integer:'
 This asks the user to input a positive or negative integer.
 
-
-
 8
+
+Explanation:
+This is an integer.
+This is a positive integer.
+This is the user input.
+
+
+
+
 >> Please enter a positive or negative integer:
 5
 >> Sorry. One integer must be positive, one must be negative.
