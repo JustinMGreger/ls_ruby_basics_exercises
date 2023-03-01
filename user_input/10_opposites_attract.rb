@@ -441,8 +441,13 @@ Syntax:
 Explanation:
 This is the last line of loop everything after this line is outside of the loop.
 
-
+Syntax:
 end
+
+Explanation:
+This is the last line of the read_number method everything after this line is outside of the read_number method.
+
+
 
 first_number = nil
 second_number = nil
@@ -508,9 +513,11 @@ This means print to the screen the string '>> Invalid input. Only non-zero integ
 This string is in response to the input being the number 0.
 That is number is not a valid number as per the valid_number method.
 This is the last line of loop everything after this line is outside of the loop.
+This is the last line of the read_number method everything after this line is outside of the read_number method.
 
 
-end
+
+
 
 first_number = nil
 second_number = nil
