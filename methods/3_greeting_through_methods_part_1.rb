@@ -16,9 +16,42 @@ Hello World
 
 Explanation:
 This is  a string.
-This could be string interpolation for example the code could be something like puts "#{method_1} + #{method_2}"
+This could be string interpolation for example the code could be something like puts "#{method_1}  #{method_2}"
 
 Syntax of Solution:
+
+def hello
+  'Hello'
+end
+
+def world
+  'World'
+end
+
+puts "#{hello} #{world}"
+
 Explanation of Solution Syntax:
+
+def hello
+  'Hello'
+end
+
+def world
+  'World'
+end
+
+puts "#{hello} #{world}"
+
 Summary of Solution Syntax:
+
+def hello
+  'Hello'
+end
+
+def world
+  'World'
+end
+
+puts "#{hello} #{world}"
+
 =end
