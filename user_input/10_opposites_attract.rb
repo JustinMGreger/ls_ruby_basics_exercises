@@ -478,12 +478,18 @@ Syntax:
 Explanation:
 the variable "second_number" is reassigned to the read_number method.
 
-
-
-
-
-
+Syntax:
   break if first_number * second_number < 0
+
+Explanation:
+break out of the loop.
+if statements mean do something if a condition is true.
+first_number * second_number < 0 means first_number multiplied by second_number is less than 0.
+This means break out of the loop if first_number multiplied by second_number is less than 0.
+
+
+
+
   puts '>> Sorry. One integer must be positive, one must be negative.'
   puts '>> Please start over.'
 end
@@ -549,12 +555,15 @@ the variable "second_number" is assigned the value of nil.
 run a loop.
 the variable "first_number" is reassigned to the read_number method.
 the variable "second_number" is reassigned to the read_number method.
+break out of the loop.
+if statements mean do something if a condition is true.
+first_number * second_number < 0 means first_number multiplied by second_number is less than 0.
+This means break out of the loop if first_number multiplied by second_number is less than 0.
 
 
 
 
 
-  break if first_number * second_number < 0
   puts '>> Sorry. One integer must be positive, one must be negative.'
   puts '>> Please start over.'
 end
