@@ -472,8 +472,17 @@ Explanation:
 the variable "first_number" is reassigned to the read_number method.
 
 
-
+Syntax:
   second_number = read_number
+
+Explanation:
+the variable "second_number" is reassigned to the read_number method.
+
+
+
+
+
+
   break if first_number * second_number < 0
   puts '>> Sorry. One integer must be positive, one must be negative.'
   puts '>> Please start over.'
@@ -539,9 +548,12 @@ the variable "second_number" is assigned the value of nil.
 
 run a loop.
 the variable "first_number" is reassigned to the read_number method.
+the variable "second_number" is reassigned to the read_number method.
 
 
-  second_number = read_number
+
+
+
   break if first_number * second_number < 0
   puts '>> Sorry. One integer must be positive, one must be negative.'
   puts '>> Please start over.'
