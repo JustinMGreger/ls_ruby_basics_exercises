@@ -408,7 +408,7 @@ Syntax:
 
 Explanation:
 return means exit the method and return a value.
-number is the variable "number".
+number is the variable "number" which is assigned the user input in string form on one line.
 .to_i means convert to integer form.
 if statements means do something if a condition is true.
 valid_number? is the method defined at the beginning as the parameter number_string is converted to integer form then converted to string form then compared to see
@@ -416,6 +416,13 @@ if equal to the parameter number_string this will be boolean true or false and t
 to the parameter number_string that is converted to integer form that is true when the integer form does not equal 
 the integer 0.
 (number) is the argument passted to the valid_number? method that takes the place of the parameter number_string.
+
+This means exit the method and return the variable "number" which is assigned the user input in string form on one line
+that was converted to integer form if the variable "number" which is assigned the user input in string form on one line 
+is converted to integer form then converted to string form then compared to see if equal to the variable "number" 
+which is assigned the user input in string form on one line this will be boolean true or false and this is compared 
+using the logical and to the the variable "number" which is assigned the user input in string form on one line
+that is converted to integer form that is true when the integer form does not equal the integer 0.
 
 
 
@@ -477,9 +484,17 @@ gets means get s which is get string.
 get string means get user input in string form.
 .chomp is a string method that removes the new line character from a string.
 This means the variable "number" is assigned the user input in string form on one line.
+This means exit the method and return the variable "number" which is assigned the user input in string form on one line
+that was converted to integer form if the variable "number" which is assigned the user input in string form on one line 
+is converted to integer form then converted to string form then compared to see if equal to the variable "number" 
+which is assigned the user input in string form on one line this will be boolean true or false and this is compared 
+using the logical and to the the variable "number" which is assigned the user input in string form on one line
+that is converted to integer form that is true when the integer form does not equal the integer 0.
 
-    
-    return number.to_i if valid_number?(number)
+
+
+
+
     puts '>> Invalid input. Only non-zero integers are allowed.'
   end
 end
