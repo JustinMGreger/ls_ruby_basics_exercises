@@ -516,10 +516,17 @@ end
 Explanation:
 This is the end of the loop everything after this is outside of the loop.
 
-
-
-
+Syntax:
 sum = first_number + second_number
+
+Explanation:
+the variable "sum" is assigned first_number + second_number.
+
+
+
+
+
+
 puts "#{first_number} + #{second_number} = #{sum}"
 
 Summary of Solution Syntax:
@@ -600,10 +607,8 @@ This means print to the screen the string '>> Please start over.'
 This tells the user to start over.
 This is the end of the loop everything after this is outside of the loop.
 
+the variable "sum" is assigned first_number + second_number.
 
-
-
-sum = first_number + second_number
 puts "#{first_number} + #{second_number} = #{sum}"
 
 =end
