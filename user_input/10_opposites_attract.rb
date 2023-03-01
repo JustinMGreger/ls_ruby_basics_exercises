@@ -471,7 +471,6 @@ Syntax:
 Explanation:
 the variable "first_number" is reassigned to the read_number method.
 
-
 Syntax:
   second_number = read_number
 
@@ -487,10 +486,22 @@ if statements mean do something if a condition is true.
 first_number * second_number < 0 means first_number multiplied by second_number is less than 0.
 This means break out of the loop if first_number multiplied by second_number is less than 0.
 
-
-
-
+Syntax:
   puts '>> Sorry. One integer must be positive, one must be negative.'
+
+Explanation:
+'>> Sorry. One integer must be positive, one must be negative.' is a string.
+>> is an input prompt.
+This was printed to the screen.
+puts means put s which is put string.
+put string means print to the screen the string.
+This means print to the screen the string '>> Sorry. One integer must be positive, one must be negative.'
+This is the result of the user input not containing one positive integer and one negative integer.
+
+
+
+
+
   puts '>> Please start over.'
 end
 
@@ -559,12 +570,16 @@ break out of the loop.
 if statements mean do something if a condition is true.
 first_number * second_number < 0 means first_number multiplied by second_number is less than 0.
 This means break out of the loop if first_number multiplied by second_number is less than 0.
+'>> Sorry. One integer must be positive, one must be negative.' is a string.
+>> is an input prompt.
+This was printed to the screen.
+puts means put s which is put string.
+put string means print to the screen the string.
+This means print to the screen the string '>> Sorry. One integer must be positive, one must be negative.'
+This is the result of the user input not containing one positive integer and one negative integer.
 
 
 
-
-
-  puts '>> Sorry. One integer must be positive, one must be negative.'
   puts '>> Please start over.'
 end
 
