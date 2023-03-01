@@ -28,9 +28,14 @@ def means definition.
 print_me is the method name.
 This means definition of the print_me method is the following.
 
-
-
+Syntax:
   "I'm printing the return value!"
+
+Explanation:
+This is a string.
+
+
+
 end
 
 puts print_me
@@ -40,9 +45,9 @@ Summary of Solution Syntax:
 def means definition.
 print_me is the method name.
 This means definition of the print_me method is the following.
+This is a string.
 
 
-  "I'm printing the return value!"
 end
 
 puts print_me
