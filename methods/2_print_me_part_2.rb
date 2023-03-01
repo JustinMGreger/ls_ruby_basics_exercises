@@ -20,7 +20,16 @@ puts print_me
 
 Explanation of Solution Syntax:
 
+Syntax:
 def print_me
+
+Explanation:
+def means definition.
+print_me is the method name.
+This means definition of the print_me method is the following.
+
+
+
   "I'm printing the return value!"
 end
 
@@ -28,7 +37,11 @@ puts print_me
 
 Summary of Solution Syntax:
 
-def print_me
+def means definition.
+print_me is the method name.
+This means definition of the print_me method is the following.
+
+
   "I'm printing the return value!"
 end
 
