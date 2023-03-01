@@ -6,6 +6,10 @@ Initial Syntax Given:
 puts print_me
 
 Explanation of Syntax:
+puts means put s which is put string which is print to screen the string.
+print_me is a method.
+puts print_me means print to the screen the result of calling the print_me method.
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
