@@ -60,8 +60,13 @@ def means definition.
 world is the name of the method.
 This means definition of the world method is the following.
 
-
+Syntax:
   'World'
+
+Explanation:
+ 'World' is a string.
+
+
 end
 
 puts "#{hello} #{world}"
@@ -77,8 +82,7 @@ This is the last line of the method that is everything after this line is outisd
 def means definition.
 world is the name of the method.
 This means definition of the world method is the following.
-
-  'World'
+ 'World' is a string.
 end
 
 puts "#{hello} #{world}"
