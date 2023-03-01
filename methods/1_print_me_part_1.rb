@@ -27,10 +27,15 @@ def means definition.
 print_me is the method name.
 This means definition of the print_me method is the following.
 
-
-
-
+Syntax:
   puts "I'm printing within the method!"
+
+Explanation:
+puts means put s which is put string which is print to screen the string.
+ "I'm printing within the method!" is the string.
+This means print to the screen the string "I'm printing within the method!"
+
+
 end
 
 print_me
@@ -41,8 +46,11 @@ def means definition.
 print_me is the method name.
 This means definition of the print_me method is the following.
 
+puts means put s which is put string which is print to screen the string.
+ "I'm printing within the method!" is the string.
+This means print to the screen the string "I'm printing within the method!"
 
-  puts "I'm printing within the method!"
+
 end
 
 print_me
