@@ -632,32 +632,20 @@ This is the last line of the method anything after this is outside of the valid_
 
 
 
-
-def means definition.
-read_number is the name of the method.
-run a loop.
-'>> Please enter a positive or negative integer:' is a string.
->> is an input prompt.
-: is were the input goes.
-This was printed to the screen.
-puts means put s which is put string.
-put string means print to the screen the string.
-This means print to the screen the string '>> Please enter a positive or negative integer:'
-This asks the user to input a positive or negative integer.
-variable "number" is assigned to gets.chomp
-gets means get s which is get string. 
-get string means get user input in string form.
-.chomp is a string method that removes the new line character from a string.
-This means the variable "number" is assigned the user input in string form on one line.
-This means exit the method and return the variable "number" which is assigned the user input in string form on one line
+the read_number method is defined as run a loop and print to the screen the string 
+'>> Please enter a positive or negative integer:'.
+the variable "number" is assigned the user input in string form on one line.
+exit the method and return the variable "number" which is assigned the user input in string form on one line
 that was converted to integer form if the variable "number" which is assigned the user input in string form on one line 
 is converted to integer form then converted to string form then compared to see if equal to the variable "number" 
 which is assigned the user input in string form on one line this will be boolean true or false and this is compared 
 using the logical and to the the variable "number" which is assigned the user input in string form on one line
 that is converted to integer form that is true when the integer form does not equal the integer 0.
-puts means put s which is put string which is print to the screen the string.
-'>> Invalid input. Only non-zero integers are allowed.' is a string.
-This means print to the screen the string '>> Invalid input. Only non-zero integers are allowed.'
+print to the screen the string '>> Invalid input. Only non-zero integers are allowed.'
+
+
+
+
 >> is an input prompt.
 This string is in response to the input being the number 0.
 That is number is not a valid number as per the valid_number method.
