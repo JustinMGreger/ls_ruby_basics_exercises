@@ -34,9 +34,13 @@ Syntax:
 Explanation:
 This is a string.
 
-
-
+Syntax:
 end
+
+Explanation:
+This is the last line in the method that is everything after this is outisde of the method.
+
+
 
 puts print_me
 
@@ -46,9 +50,7 @@ def means definition.
 print_me is the method name.
 This means definition of the print_me method is the following.
 This is a string.
-
-
-end
+This is the last line in the method that is everything after this is outisde of the method.
 
 puts print_me
 
