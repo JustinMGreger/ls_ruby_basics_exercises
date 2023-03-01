@@ -424,12 +424,18 @@ which is assigned the user input in string form on one line this will be boolean
 using the logical and to the the variable "number" which is assigned the user input in string form on one line
 that is converted to integer form that is true when the integer form does not equal the integer 0.
 
-
-
-
-
-
+Syntax:
     puts '>> Invalid input. Only non-zero integers are allowed.'
+
+Explanation:
+puts means put s which is put string which is print to the screen the string.
+'>> Invalid input. Only non-zero integers are allowed.' is a string.
+This means print to the screen the string '>> Invalid input. Only non-zero integers are allowed.'
+>> is an input prompt.
+This string is in response to the input being the number 0.
+That is number is not a valid number as per the valid_number method.
+
+
   end
 end
 
@@ -490,12 +496,14 @@ is converted to integer form then converted to string form then compared to see 
 which is assigned the user input in string form on one line this will be boolean true or false and this is compared 
 using the logical and to the the variable "number" which is assigned the user input in string form on one line
 that is converted to integer form that is true when the integer form does not equal the integer 0.
+puts means put s which is put string which is print to the screen the string.
+'>> Invalid input. Only non-zero integers are allowed.' is a string.
+This means print to the screen the string '>> Invalid input. Only non-zero integers are allowed.'
+>> is an input prompt.
+This string is in response to the input being the number 0.
+That is number is not a valid number as per the valid_number method.
 
 
-
-
-
-    puts '>> Invalid input. Only non-zero integers are allowed.'
   end
 end
 
