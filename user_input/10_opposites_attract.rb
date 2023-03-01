@@ -447,9 +447,15 @@ end
 Explanation:
 This is the last line of the read_number method everything after this line is outside of the read_number method.
 
-
-
+Syntax:
 first_number = nil
+
+Explanation:
+the variable "first_number" is assigned the value of nil.
+
+
+
+
 second_number = nil
 
 loop do
@@ -515,11 +521,10 @@ That is number is not a valid number as per the valid_number method.
 This is the last line of loop everything after this line is outside of the loop.
 This is the last line of the read_number method everything after this line is outside of the read_number method.
 
+the variable "first_number" is assigned the value of nil.
 
 
 
-
-first_number = nil
 second_number = nil
 
 loop do
