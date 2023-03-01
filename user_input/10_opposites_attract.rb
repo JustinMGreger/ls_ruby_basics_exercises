@@ -620,6 +620,84 @@ String interpolation is embedding variables into strings.
 puts "#{string_interpolation} + #{string_interpolation} = #{string_interpolation}" is the format.
 This means print to the screen the string "#{first_number} + #{second_number} = #{sum}".
 
+This means:
+
+the valid_number is defined as the parameter number_string is converted to integer form then converted to string form 
+then compared to see if equal to the parameter number_string this will be boolean true or false and this is compared 
+using the logical and to the parameter number_string that is converted to integer form that is true when the integer 
+form does not equal the integer 0.
+This is the last line of the method anything after this is outside of the valid_number method.
+
+
+
+
+
+
+def means definition.
+read_number is the name of the method.
+run a loop.
+'>> Please enter a positive or negative integer:' is a string.
+>> is an input prompt.
+: is were the input goes.
+This was printed to the screen.
+puts means put s which is put string.
+put string means print to the screen the string.
+This means print to the screen the string '>> Please enter a positive or negative integer:'
+This asks the user to input a positive or negative integer.
+variable "number" is assigned to gets.chomp
+gets means get s which is get string. 
+get string means get user input in string form.
+.chomp is a string method that removes the new line character from a string.
+This means the variable "number" is assigned the user input in string form on one line.
+This means exit the method and return the variable "number" which is assigned the user input in string form on one line
+that was converted to integer form if the variable "number" which is assigned the user input in string form on one line 
+is converted to integer form then converted to string form then compared to see if equal to the variable "number" 
+which is assigned the user input in string form on one line this will be boolean true or false and this is compared 
+using the logical and to the the variable "number" which is assigned the user input in string form on one line
+that is converted to integer form that is true when the integer form does not equal the integer 0.
+puts means put s which is put string which is print to the screen the string.
+'>> Invalid input. Only non-zero integers are allowed.' is a string.
+This means print to the screen the string '>> Invalid input. Only non-zero integers are allowed.'
+>> is an input prompt.
+This string is in response to the input being the number 0.
+That is number is not a valid number as per the valid_number method.
+This is the last line of loop everything after this line is outside of the loop.
+This is the last line of the read_number method everything after this line is outside of the read_number method.
+
+the variable "first_number" is assigned the value of nil.
+the variable "second_number" is assigned the value of nil.
+
+run a loop.
+the variable "first_number" is reassigned to the read_number method.
+the variable "second_number" is reassigned to the read_number method.
+break out of the loop.
+if statements mean do something if a condition is true.
+first_number * second_number < 0 means first_number multiplied by second_number is less than 0.
+This means break out of the loop if first_number multiplied by second_number is less than 0.
+'>> Sorry. One integer must be positive, one must be negative.' is a string.
+>> is an input prompt.
+This was printed to the screen.
+puts means put s which is put string.
+put string means print to the screen the string.
+This means print to the screen the string '>> Sorry. One integer must be positive, one must be negative.'
+This is the result of the user input not containing one positive integer and one negative integer.
+'>> Please start over.' is a string.
+>> is an input prompt.
+This was printed to the screen.
+puts means put s which is put string.
+put string means print to the screen the string.
+This means print to the screen the string '>> Please start over.'
+This tells the user to start over.
+This is the end of the loop everything after this is outside of the loop.
+
+the variable "sum" is assigned first_number + second_number.
+
+puts means put s which is put string.
+put string means print to the screen the string.
+String interpolation is embedding variables into strings.
+{first_number}, #{second_number} and #{sum} are string interpolation.
+puts "#{string_interpolation} + #{string_interpolation} = #{string_interpolation}" is the format.
+This means print to the screen the string "#{first_number} + #{second_number} = #{sum}".
 
 
 =end
