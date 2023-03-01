@@ -510,10 +510,14 @@ put string means print to the screen the string.
 This means print to the screen the string '>> Please start over.'
 This tells the user to start over.
 
-
-
-
+Syntax:
 end
+
+Explanation:
+This is the end of the loop everything after this is outside of the loop.
+
+
+
 
 sum = first_number + second_number
 puts "#{first_number} + #{second_number} = #{sum}"
@@ -594,13 +598,10 @@ puts means put s which is put string.
 put string means print to the screen the string.
 This means print to the screen the string '>> Please start over.'
 This tells the user to start over.
+This is the end of the loop everything after this is outside of the loop.
 
 
 
-
-
-
-end
 
 sum = first_number + second_number
 puts "#{first_number} + #{second_number} = #{sum}"
