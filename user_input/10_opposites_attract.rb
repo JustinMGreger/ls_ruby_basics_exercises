@@ -453,10 +453,15 @@ first_number = nil
 Explanation:
 the variable "first_number" is assigned the value of nil.
 
-
-
-
+Syntax:
 second_number = nil
+
+Explanation:
+the variable "second_number" is assigned the value of nil.
+
+
+
+
 
 loop do
   first_number = read_number
@@ -522,10 +527,11 @@ This is the last line of loop everything after this line is outside of the loop.
 This is the last line of the read_number method everything after this line is outside of the read_number method.
 
 the variable "first_number" is assigned the value of nil.
+the variable "second_number" is assigned the value of nil.
 
 
 
-second_number = nil
+
 
 loop do
   first_number = read_number
