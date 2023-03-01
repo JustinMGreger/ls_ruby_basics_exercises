@@ -40,9 +40,12 @@ end
 Explanation:
 This is the last line in the method that is everything after this is outisde of the method.
 
-
-
+Syntax:
 puts print_me
+
+Explanation:
+puts means put s which is put string which is print string to the screen.
+This means print to the screen the return value of the print_me method.
 
 Summary of Solution Syntax:
 
@@ -52,6 +55,9 @@ This means definition of the print_me method is the following.
 This is a string.
 This is the last line in the method that is everything after this is outisde of the method.
 
-puts print_me
+puts means put s which is put string which is print string to the screen.
+This means print to the screen the return value of the print_me method.
+
+
 
 =end
