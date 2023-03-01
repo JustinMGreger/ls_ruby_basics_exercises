@@ -522,12 +522,16 @@ sum = first_number + second_number
 Explanation:
 the variable "sum" is assigned first_number + second_number.
 
-
-
-
-
-
+Syntax:
 puts "#{first_number} + #{second_number} = #{sum}"
+
+Explanation:
+puts means put s which is put string.
+put string means print to the screen the string.
+String interpolation is embedding variables into strings.
+{first_number}, #{second_number} and #{sum} are string interpolation.
+puts "#{string_interpolation} + #{string_interpolation} = #{string_interpolation}" is the format.
+This means print to the screen the string "#{first_number} + #{second_number} = #{sum}".
 
 Summary of Solution Syntax:
 
@@ -609,6 +613,13 @@ This is the end of the loop everything after this is outside of the loop.
 
 the variable "sum" is assigned first_number + second_number.
 
-puts "#{first_number} + #{second_number} = #{sum}"
+puts means put s which is put string.
+put string means print to the screen the string.
+String interpolation is embedding variables into strings.
+{first_number}, #{second_number} and #{sum} are string interpolation.
+puts "#{string_interpolation} + #{string_interpolation} = #{string_interpolation}" is the format.
+This means print to the screen the string "#{first_number} + #{second_number} = #{sum}".
+
+
 
 =end
