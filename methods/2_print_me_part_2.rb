@@ -58,6 +58,10 @@ This is the last line in the method that is everything after this is outisde of 
 puts means put s which is put string which is print string to the screen.
 This means print to the screen the return value of the print_me method.
 
+This means:
+definition of the print_me method is the following:
+  "I'm printing the return value!" is a string.
+This is the last line in the method that is everything after this is outisde of the method.
 
-
+print to the screen the return value of the print_me method which is the string  "I'm printing the return value!"
 =end
