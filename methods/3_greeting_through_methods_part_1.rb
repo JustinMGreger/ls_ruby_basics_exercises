@@ -6,6 +6,9 @@ Then print both strings using #puts, combining them into one sentence.
 Expected output:
 
 Initial Syntax Given:
+
+Hello World
+
 Explanation of Syntax:
 Syntax of Solution:
 Explanation of Solution Syntax:
