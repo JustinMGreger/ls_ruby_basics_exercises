@@ -32,7 +32,17 @@ puts "#{hello} #{world}"
 
 Explanation of Solution Syntax:
 
+Syntax:
 def hello
+
+Explanation:
+def means definition.
+hello is the method name.
+This means definition of the hello method is the following.
+
+
+
+
   'Hello'
 end
 
@@ -44,7 +54,12 @@ puts "#{hello} #{world}"
 
 Summary of Solution Syntax:
 
-def hello
+def means definition.
+hello is the method name.
+This means definition of the hello method is the following.
+
+
+
   'Hello'
 end
 
