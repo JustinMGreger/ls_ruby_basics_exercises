@@ -35,8 +35,11 @@ puts means put s which is put string which is print to screen the string.
  "I'm printing within the method!" is the string.
 This means print to the screen the string "I'm printing within the method!"
 
-
+Syntax:
 end
+
+Explanation:
+This is the last line in the method that is everything after this is outisde of the method.
 
 print_me
 
@@ -50,8 +53,7 @@ puts means put s which is put string which is print to screen the string.
  "I'm printing within the method!" is the string.
 This means print to the screen the string "I'm printing within the method!"
 
-
-end
+This is the last line in the method that is everything after this is outisde of the method.
 
 print_me
 
