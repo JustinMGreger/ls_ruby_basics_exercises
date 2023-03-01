@@ -498,11 +498,21 @@ put string means print to the screen the string.
 This means print to the screen the string '>> Sorry. One integer must be positive, one must be negative.'
 This is the result of the user input not containing one positive integer and one negative integer.
 
-
-
-
-
+Syntax:
   puts '>> Please start over.'
+
+Explanation:
+'>> Please start over.' is a string.
+>> is an input prompt.
+This was printed to the screen.
+puts means put s which is put string.
+put string means print to the screen the string.
+This means print to the screen the string '>> Please start over.'
+This tells the user to start over.
+
+
+
+
 end
 
 sum = first_number + second_number
@@ -577,10 +587,19 @@ puts means put s which is put string.
 put string means print to the screen the string.
 This means print to the screen the string '>> Sorry. One integer must be positive, one must be negative.'
 This is the result of the user input not containing one positive integer and one negative integer.
+'>> Please start over.' is a string.
+>> is an input prompt.
+This was printed to the screen.
+puts means put s which is put string.
+put string means print to the screen the string.
+This means print to the screen the string '>> Please start over.'
+This tells the user to start over.
 
 
 
-  puts '>> Please start over.'
+
+
+
 end
 
 sum = first_number + second_number
