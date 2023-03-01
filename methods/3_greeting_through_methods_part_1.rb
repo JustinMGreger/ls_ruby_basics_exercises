@@ -40,10 +40,13 @@ def means definition.
 hello is the method name.
 This means definition of the hello method is the following.
 
-
-
-
+Syntax:
   'Hello'
+
+Explanation:
+'Hello' is a string.
+
+
 end
 
 def world
@@ -57,10 +60,9 @@ Summary of Solution Syntax:
 def means definition.
 hello is the method name.
 This means definition of the hello method is the following.
+'Hello' is a string.
 
 
-
-  'Hello'
 end
 
 def world
