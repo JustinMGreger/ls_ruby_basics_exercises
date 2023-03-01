@@ -465,11 +465,14 @@ loop do
 Explanation:
 run a loop.
 
-
-
-
-
+Syntax:
   first_number = read_number
+
+Explanation:
+the variable "first_number" is reassigned to the read_number method.
+
+
+
   second_number = read_number
   break if first_number * second_number < 0
   puts '>> Sorry. One integer must be positive, one must be negative.'
@@ -535,11 +538,9 @@ the variable "first_number" is assigned the value of nil.
 the variable "second_number" is assigned the value of nil.
 
 run a loop.
+the variable "first_number" is reassigned to the read_number method.
 
 
-
-
-  first_number = read_number
   second_number = read_number
   break if first_number * second_number < 0
   puts '>> Sorry. One integer must be positive, one must be negative.'
