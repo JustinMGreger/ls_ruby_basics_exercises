@@ -459,11 +459,16 @@ second_number = nil
 Explanation:
 the variable "second_number" is assigned the value of nil.
 
-
-
-
-
+Syntax:
 loop do
+
+Explanation:
+run a loop.
+
+
+
+
+
   first_number = read_number
   second_number = read_number
   break if first_number * second_number < 0
@@ -529,11 +534,11 @@ This is the last line of the read_number method everything after this line is ou
 the variable "first_number" is assigned the value of nil.
 the variable "second_number" is assigned the value of nil.
 
+run a loop.
 
 
 
 
-loop do
   first_number = read_number
   second_number = read_number
   break if first_number * second_number < 0
