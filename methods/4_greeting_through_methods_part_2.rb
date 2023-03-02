@@ -1,5 +1,6 @@
 =begin
 Description of Exercise:
+Write a method named greet that invokes the following methods:
 
 Initial Syntax Given:
 Explanation of Syntax:
