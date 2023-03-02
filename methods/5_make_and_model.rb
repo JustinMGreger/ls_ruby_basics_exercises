@@ -61,10 +61,18 @@ make is a parameter.
 model is a parameter.
 This means the definition of the car method that accepts parameter make and parameter model is the following:
 
-
-
-
+Syntax:
   puts "#{make} #{model}"
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+"#{make} #{model}" is a string.
+#{make} and #{model} are string interpolation of the parameters make and model.
+This means print to the screen the string "#{make} #{model}" which has string interpolation of the parameters make 
+and model.
+
+
+
 end
 
 car('Toyota', 'Corolla')
@@ -76,11 +84,13 @@ car is the name of the method.
 make is a parameter.
 model is a parameter.
 This means the definition of the car method that accepts parameter make and parameter model is the following:
+puts means put s which is put string which means print to the screen the string.
+"#{make} #{model}" is a string.
+#{make} and #{model} are string interpolation of the parameters make and model.
+This means print to the screen the string "#{make} #{model}" which has string interpolation of the parameters make 
+and model.
 
 
-
-
-  puts "#{make} #{model}"
 end
 
 car('Toyota', 'Corolla')
