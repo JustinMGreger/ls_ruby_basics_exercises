@@ -107,4 +107,16 @@ car is calling the car method.
 'Corolla' is a string and an argument that the car method will accept as the model parameter.
 This means call the car method and accept the strings and arguments 'Toyota' and 'Corolla' as the parameters make 
 and model.
+
+This means:
+
+The definition of the car method that accepts parameter make and parameter model is the following:
+print to the screen the string "#{make} #{model}" which has string interpolation of the parameters make 
+and model.
+This is the last line of the method that is everything after this line is outside of the method.
+
+call the car method and accept the string and argument 'Toyota' as the parameter make and the string and argument
+'Corolla' as the parameter model which means print to the screen the string "#{make} #{model}" which has string 
+interpolation of the parameters make and model resulting in the string "Toyota Corolla" being printed to the screen.
+
 =end
