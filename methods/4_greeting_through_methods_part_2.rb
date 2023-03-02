@@ -79,9 +79,18 @@ def means definition.
 hello is the method name.
 This means definition of the hello method is the following.
 
-
+Syntax:
   'Hello'
+
+Explanation:
+'Hello' is a string.
+
+Syntax:
 end
+
+Explanation:
+This is the last line of the method that is everything after this line is outisde of the method.
+
 
 def world
   'World'
@@ -110,13 +119,13 @@ end
 puts greet
 
 Summary of Solution Syntax:
+
 def means definition.
 hello is the method name.
 This means definition of the hello method is the following.
+'Hello' is a string.
+This is the last line of the method that is everything after this line is outisde of the method.
 
-
-  'Hello'
-end
 
 def world
   'World'
