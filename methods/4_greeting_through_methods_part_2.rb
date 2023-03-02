@@ -59,6 +59,13 @@ When greet is invoked with #puts, it should output the following:
 Additional Initial Syntax Given:
 Hello World
 
+Explanation of Additional Initial Syntax Given:
+puts greet results in Hello World
+Hello World is a string.
+greet is greet method which contains the hello method and the world method.
+puts is put s which means put string which is print to the screen the string.
+This means print to the screen the return value of the greet method which contains the hello method and the world method.
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
