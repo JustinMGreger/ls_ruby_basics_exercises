@@ -22,6 +22,8 @@ Additional Description of Exercise:
 
 Expected output:
 
+Additional Initial Syntax Given:
+Toyota Corolla
 
 Syntax of Solution:
 Explanation of Solution Syntax:
