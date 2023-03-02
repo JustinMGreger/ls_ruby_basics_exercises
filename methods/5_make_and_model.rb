@@ -18,6 +18,11 @@ car is the method.
 'Toyota' is a string and an argument that the car method accepts.
 'Corolla' is a string and an argument that the car method accepts.
 
+Additional Description of Exercise:
+
+Expected output:
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
