@@ -72,8 +72,17 @@ end
 Explanation:
 This is the last line of the method that is everything after this line is outisde of the method.
 
-
+Syntax:
 puts "#{hello} #{world}"
+
+Explanation:
+puts means put s which is put string which means print the string to the screen.
+"#{hello} #{world}" is a string.
+This means print to the screen the string "#{hello} #{world}"
+#{hello} and #{world} are string interpolation. 
+That is #{hello} is the hello method and #{world} is the world method.
+This means print to the screen the string interpolation "#{hello} #{world}" that is the return value of the hello method
+and the return value of the world method.
 
 Summary of Solution Syntax:
 
@@ -89,6 +98,14 @@ This means definition of the world method is the following.
  'World' is a string.
 This is the last line of the method that is everything after this line is outisde of the method.
 
-puts "#{hello} #{world}"
+puts means put s which is put string which means print the string to the screen.
+"#{hello} #{world}" is a string.
+This means print to the screen the string "#{hello} #{world}"
+#{hello} and #{world} are string interpolation. 
+That is #{hello} is the hello method and #{world} is the world method.
+This means print to the screen the string interpolation "#{hello} #{world}" that is the return value of the hello method
+and the return value of the world method.
+
+
 
 =end
