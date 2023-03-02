@@ -82,7 +82,7 @@ This means print to the screen the string "#{hello} #{world}"
 #{hello} and #{world} are string interpolation. 
 That is #{hello} is the hello method and #{world} is the world method.
 This means print to the screen the string interpolation "#{hello} #{world}" that is the return value of the hello method
-and the return value of the world method.
+and the return value of the world method. 
 
 Summary of Solution Syntax:
 
