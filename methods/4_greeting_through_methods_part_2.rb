@@ -66,6 +66,9 @@ greet is greet method which contains the hello method and the world method.
 puts is put s which means put string which is print to the screen the string.
 This means print to the screen the return value of the greet method which contains the hello method and the world method.
 
+Additional Description of Exercise:
+Make sure you add a space between "Hello" and "World", however, you're not allowed to modify hello or world.
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
