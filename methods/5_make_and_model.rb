@@ -5,6 +5,9 @@ Using the following code, write a method called car that takes two arguments and
 of both arguments.
 
 Initial Syntax Given:
+
+car('Toyota', 'Corolla')
+
 Explanation of Syntax:
 Syntax of Solution:
 Explanation of Solution Syntax:
