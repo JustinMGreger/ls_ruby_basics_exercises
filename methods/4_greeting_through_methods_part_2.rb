@@ -56,7 +56,8 @@ This is the last line of the method that is everything after this line is outisd
 Additional Description of Exercise:
 When greet is invoked with #puts, it should output the following:
 
-
+Additional Initial Syntax Given:
+Hello World
 
 Syntax of Solution:
 Explanation of Solution Syntax:
