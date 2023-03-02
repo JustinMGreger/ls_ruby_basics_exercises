@@ -111,8 +111,16 @@ end
 Explanation:
 This is the last line of the method that is everything after this line is outisde of the method.
 
-
+Syntax:
 def greet
+
+Explanation:
+def means definition.
+greet is the name of the method.
+This means definition of the greet method is the following.
+
+
+
   hello + ' ' + world
 end
 
@@ -149,8 +157,10 @@ This means definition of the world method is the following.
  'World' is a string.
 This is the last line of the method that is everything after this line is outisde of the method.
 
+def means definition.
+greet is the name of the method.
+This means definition of the greet method is the following.
 
-def greet
   hello + ' ' + world
 end
 
