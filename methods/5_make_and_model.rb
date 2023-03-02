@@ -51,7 +51,19 @@ car('Toyota', 'Corolla')
 
 Explanation of Solution Syntax:
 
+Syntax:
 def car(make, model)
+
+Explanation:
+def means definition.
+car is the name of the method.
+make is a parameter.
+model is a parameter.
+This means the definition of the car method that accepts parameter make and parameter model is the following:
+
+
+
+
   puts "#{make} #{model}"
 end
 
@@ -59,7 +71,15 @@ car('Toyota', 'Corolla')
 
 Summary of Solution Syntax:
 
-def car(make, model)
+def means definition.
+car is the name of the method.
+make is a parameter.
+model is a parameter.
+This means the definition of the car method that accepts parameter make and parameter model is the following:
+
+
+
+
   puts "#{make} #{model}"
 end
 
