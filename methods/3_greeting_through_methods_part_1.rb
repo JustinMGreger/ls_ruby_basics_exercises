@@ -106,6 +106,17 @@ That is #{hello} is the hello method and #{world} is the world method.
 This means print to the screen the string interpolation "#{hello} #{world}" that is the return value of the hello method
 and the return value of the world method.
 
+This means:
 
+the definition of the hello method is the following:
+'Hello' is a string.
+This is the last line of the method that is everything after this line is outisde of the method.
+
+the definition of the world method is the following:
+ 'World' is a string.
+This is the last line of the method that is everything after this line is outisde of the method.
+
+This means print to the screen the string interpolation "#{hello} #{world}" that is the return value of the hello method
+and the return value of the world method.
 
 =end
