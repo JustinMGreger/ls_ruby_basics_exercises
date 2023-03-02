@@ -132,7 +132,12 @@ world is the world method specifically call the world method.
 This means call the hello method and combine it with a white space then combine that with the result of calling 
 the world method.
 
+Syntax:
 end
+
+Explanation:
+This is the last line of the method that is everything after this line is outisde of the method.
+
 
 puts greet
 
@@ -179,10 +184,7 @@ hello is the hello method specifically call the hello method.
 world is the world method specifically call the world method.
 This means call the hello method and combine it with a white space then combine that with the result of calling 
 the world method.
-
-
-
-end
+This is the last line of the method that is everything after this line is outisde of the method.
 
 puts greet
 
