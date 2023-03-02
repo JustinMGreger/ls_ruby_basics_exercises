@@ -71,7 +71,15 @@ Make sure you add a space between "Hello" and "World", however, you're not allow
 
 Syntax of Solution:
 
+Syntax:
 def hello
+
+Explanation:
+def means definition.
+hello is the method name.
+This means definition of the hello method is the following.
+
+
   'Hello'
 end
 
@@ -102,8 +110,11 @@ end
 puts greet
 
 Summary of Solution Syntax:
+def means definition.
+hello is the method name.
+This means definition of the hello method is the following.
 
-def hello
+
   'Hello'
 end
 
