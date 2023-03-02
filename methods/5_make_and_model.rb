@@ -42,6 +42,26 @@ car('Toyota', 'Corolla')
 That would result in the print to the screen the string "Toyota Corolla".
 
 Syntax of Solution:
+
+def car(make, model)
+  puts "#{make} #{model}"
+end
+
+car('Toyota', 'Corolla')
+
 Explanation of Solution Syntax:
+
+def car(make, model)
+  puts "#{make} #{model}"
+end
+
+car('Toyota', 'Corolla')
+
 Summary of Solution Syntax:
+
+def car(make, model)
+  puts "#{make} #{model}"
+end
+
+car('Toyota', 'Corolla')
 =end
