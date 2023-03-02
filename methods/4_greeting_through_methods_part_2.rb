@@ -119,9 +119,19 @@ def means definition.
 greet is the name of the method.
 This means definition of the greet method is the following.
 
-
-
+Syntax:
   hello + ' ' + world
+
+Explanation:
+  hello + ' ' + world is string concatenation.
+hello is the hello method specifically call the hello method.
++ operator means combine.
+' ' this means white space.
++ operator means combine.
+world is the world method specifically call the world method.
+This means call the hello method and combine it with a white space then combine that with the result of calling 
+the world method.
+
 end
 
 puts greet
@@ -161,7 +171,17 @@ def means definition.
 greet is the name of the method.
 This means definition of the greet method is the following.
 
-  hello + ' ' + world
+  hello + ' ' + world is string concatenation.
+hello is the hello method specifically call the hello method.
++ operator means combine.
+' ' this means white space.
++ operator means combine.
+world is the world method specifically call the world method.
+This means call the hello method and combine it with a white space then combine that with the result of calling 
+the world method.
+
+
+
 end
 
 puts greet
