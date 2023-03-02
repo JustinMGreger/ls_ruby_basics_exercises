@@ -189,4 +189,27 @@ puts means put s which is put string which means print to the screen the string.
 greet is the greet method specifically result of calling the greet method.
 This means print to the screen the result of calling the greet method.
 
+This means:
+
+The definition of the hello method is the following:
+'Hello' is a string.
+This is the last line of the method that is everything after this line is outisde of the method.
+
+The definition of the world method is the following.
+ 'World' is a string.
+This is the last line of the method that is everything after this line is outisde of the method.
+
+The definition of the greet method is the following:
+call the hello method and combine it with a white space then combine that with the result of calling 
+the world method.
+This is the last line of the method that is everything after this line is outisde of the method.
+
+print to the screen the result of calling the greet method.
+calling the greet method results in calling the hello method and combine it with a white space then combine that 
+with the result of calling the world method.
+calling the hello method results in the string 'Hello'.
+calling the world method results in the string 'World'
+This means the result of calling the greet method is print to the screen the string 'hello'
+and combine it with a white space then combine that with the string 'world'.
+
 =end
