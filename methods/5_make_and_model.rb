@@ -77,7 +77,15 @@ end
 Explanation:
 This is the last line of the method that is everything after this line is outside of the method.
 
+Syntax:
 car('Toyota', 'Corolla')
+
+Explanation:
+car is calling the car method.
+'Toyota' is a string and an argument that the car method will accept as the make parameter.
+'Corolla' is a string and an argument that the car method will accept as the model parameter.
+This means call the car method and accept the strings and arguments 'Toyota' and 'Corolla' as the parameters make 
+and model.
 
 Summary of Solution Syntax:
 
@@ -94,5 +102,9 @@ and model.
 
 This is the last line of the method that is everything after this line is outside of the method.
 
-car('Toyota', 'Corolla')
+car is calling the car method.
+'Toyota' is a string and an argument that the car method will accept as the make parameter.
+'Corolla' is a string and an argument that the car method will accept as the model parameter.
+This means call the car method and accept the strings and arguments 'Toyota' and 'Corolla' as the parameters make 
+and model.
 =end
