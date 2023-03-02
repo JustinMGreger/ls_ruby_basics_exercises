@@ -70,6 +70,51 @@ Additional Description of Exercise:
 Make sure you add a space between "Hello" and "World", however, you're not allowed to modify hello or world.
 
 Syntax of Solution:
+
+def hello
+  'Hello'
+end
+
+def world
+  'World'
+end
+
+def greet
+  hello + ' ' + world
+end
+
+puts greet
+
 Explanation of Solution Syntax:
+
+def hello
+  'Hello'
+end
+
+def world
+  'World'
+end
+
+def greet
+  hello + ' ' + world
+end
+
+puts greet
+
 Summary of Solution Syntax:
+
+def hello
+  'Hello'
+end
+
+def world
+  'World'
+end
+
+def greet
+  hello + ' ' + world
+end
+
+puts greet
+
 =end
