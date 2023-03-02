@@ -71,9 +71,11 @@ puts means put s which is put string which means print to the screen the string.
 This means print to the screen the string "#{make} #{model}" which has string interpolation of the parameters make 
 and model.
 
-
-
+Syntax:
 end
+
+Explanation:
+This is the last line of the method that is everything after this line is outside of the method.
 
 car('Toyota', 'Corolla')
 
@@ -90,8 +92,7 @@ puts means put s which is put string which means print to the screen the string.
 This means print to the screen the string "#{make} #{model}" which has string interpolation of the parameters make 
 and model.
 
-
-end
+This is the last line of the method that is everything after this line is outside of the method.
 
 car('Toyota', 'Corolla')
 =end
