@@ -53,6 +53,11 @@ end
 Explanation:
 This is the last line of the method that is everything after this line is outisde of the method.
 
+Additional Description of Exercise:
+When greet is invoked with #puts, it should output the following:
+
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
