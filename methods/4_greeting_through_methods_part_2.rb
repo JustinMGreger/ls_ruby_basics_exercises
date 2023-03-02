@@ -71,13 +71,24 @@ Make sure you add a space between "Hello" and "World", however, you're not allow
 
 Syntax of Solution:
 
+def hello
+  'Hello'
+end
+
+def world
+  'World'
+end
+
+def greet
+  hello + ' ' + world
+end
+
+puts greet
+
+Explanation of Solution Syntax:
+
 Syntax:
 def hello
-
-Explanation:
-def means definition.
-hello is the method name.
-This means definition of the hello method is the following.
 
 Syntax:
   'Hello'
@@ -138,24 +149,13 @@ end
 Explanation:
 This is the last line of the method that is everything after this line is outisde of the method.
 
-
+Syntax:
 puts greet
 
-Explanation of Solution Syntax:
-
-def hello
-  'Hello'
-end
-
-def world
-  'World'
-end
-
-def greet
-  hello + ' ' + world
-end
-
-puts greet
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+greet is the greet method specifically result of calling the greet method.
+This means print to the screen the result of calling the greet method.
 
 Summary of Solution Syntax:
 
@@ -165,7 +165,6 @@ This means definition of the hello method is the following.
 'Hello' is a string.
 This is the last line of the method that is everything after this line is outisde of the method.
 
-
 def means definition.
 world is the name of the method.
 This means definition of the world method is the following.
@@ -186,6 +185,8 @@ This means call the hello method and combine it with a white space then combine 
 the world method.
 This is the last line of the method that is everything after this line is outisde of the method.
 
-puts greet
+puts means put s which is put string which means print to the screen the string.
+greet is the greet method specifically result of calling the greet method.
+This means print to the screen the result of calling the greet method.
 
 =end
