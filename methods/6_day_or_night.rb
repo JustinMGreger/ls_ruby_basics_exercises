@@ -70,9 +70,16 @@ puts means put s which is put string which means print to the screen the string.
  "It's daytime!" is a string.
  This means  print to the screen the string "It's daytime!"
 
-
-
+Syntax:
   else
+
+Explanation:
+if the condition is false then do something.
+
+
+
+  
+
     puts "It's nighttime!"
   end
 end
@@ -99,9 +106,7 @@ or false then do something.
 puts means put s which is put string which means print to the screen the string.
  "It's daytime!" is a string.
  This means  print to the screen the string "It's daytime!"
-
- 
-  else
+if the condition is false then do something.
     puts "It's nighttime!"
   end
 end
