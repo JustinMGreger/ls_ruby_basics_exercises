@@ -10,7 +10,19 @@ Initial Syntax Given:
 
 daylight = [true, false].sample
 
-Explanation of Syntax:
+Explanation of Initial Syntax Given:
+
+Syntax:
+daylight = [true, false].sample
+
+Explanation:
+daylight is the variable.
+daylight is assigned [true, false].sample
+[] means array.
+true, false are boolean variables and elements in the array.
+array.sample randomly selects elements from an array.
+This means the variable daylight is assigned the randomly selected element of the array where the elements are true or false.
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
