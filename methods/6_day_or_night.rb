@@ -90,10 +90,13 @@ Syntax:
 Explanation:
 This the last line of the if statement that is everything after this line is outside of the if statement.
 
-
-
-
+Syntax:
 end
+
+Explanation:
+This is the last line of the time_of_day method that is everything after this line is outside of the time_of_day method.
+
+
 
 daylight = [true, false].sample
 time_of_day(daylight)
@@ -122,9 +125,8 @@ puts means put s which is put string which means print to the screen the string.
 "It's nighttime!" is a string.
 This means print to the screen the string "It's nighttime!"
 This the last line of the if statement that is everything after this line is outside of the if statement.
+This is the last line of the time_of_day method that is everything after this line is outside of the time_of_day method.
 
-
-end
 
 daylight = [true, false].sample
 time_of_day(daylight)
