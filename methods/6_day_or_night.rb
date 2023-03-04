@@ -76,11 +76,17 @@ Syntax:
 Explanation:
 if the condition is false then do something.
 
-
-
-  
-
+Syntax:
     puts "It's nighttime!"
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+"It's nighttime!" is a string.
+This means print to the screen the string "It's nighttime!"
+
+
+
+
   end
 end
 
@@ -107,7 +113,13 @@ puts means put s which is put string which means print to the screen the string.
  "It's daytime!" is a string.
  This means  print to the screen the string "It's daytime!"
 if the condition is false then do something.
-    puts "It's nighttime!"
+puts means put s which is put string which means print to the screen the string.
+"It's nighttime!" is a string.
+This means print to the screen the string "It's nighttime!"
+
+
+
+
   end
 end
 
