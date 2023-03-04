@@ -62,7 +62,16 @@ This means the variable daylight is assigned the randomly selected element of th
 This means if daylight is assigned true by randomly selecting an element of the array where the elements are true 
 or false then do something.
 
+Syntax:
     puts "It's daytime!"
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+ "It's daytime!" is a string.
+ This means  print to the screen the string "It's daytime!"
+
+
+
   else
     puts "It's nighttime!"
   end
@@ -78,9 +87,20 @@ time_of_day is the method name.
 (daylight) is the parameter that the method accepts.
 This means the method time_of_day accepts the parameter (daylight) and the definition of the 
 method time_of_day is the following: 
+if is a conditional meaning if true then do something.
+daylight is a variable.
+daylight is assigned [true, false].sample
+[] means array.
+true, false are boolean variables and elements in the array.
+array.sample randomly selects elements from an array.
+This means the variable daylight is assigned the randomly selected element of the array where the elements are true or false.
+This means if daylight is assigned true by randomly selecting an element of the array where the elements are true 
+or false then do something.
+puts means put s which is put string which means print to the screen the string.
+ "It's daytime!" is a string.
+ This means  print to the screen the string "It's daytime!"
 
-  if daylight
-    puts "It's daytime!"
+ 
   else
     puts "It's nighttime!"
   end
