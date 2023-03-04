@@ -84,10 +84,15 @@ puts means put s which is put string which means print to the screen the string.
 "It's nighttime!" is a string.
 This means print to the screen the string "It's nighttime!"
 
-
-
-
+Syntax:
   end
+
+Explanation:
+This the last line of the if statement that is everything after this line is outside of the if statement.
+
+
+
+
 end
 
 daylight = [true, false].sample
@@ -116,11 +121,9 @@ if the condition is false then do something.
 puts means put s which is put string which means print to the screen the string.
 "It's nighttime!" is a string.
 This means print to the screen the string "It's nighttime!"
+This the last line of the if statement that is everything after this line is outside of the if statement.
 
 
-
-
-  end
 end
 
 daylight = [true, false].sample
