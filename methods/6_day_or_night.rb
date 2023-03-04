@@ -96,10 +96,27 @@ end
 Explanation:
 This is the last line of the time_of_day method that is everything after this line is outside of the time_of_day method.
 
-
-
+Syntax:
 daylight = [true, false].sample
+
+Explanation:
+daylight is the variable.
+daylight is assigned [true, false].sample
+[] means array.
+true, false are boolean variables and elements in the array.
+array.sample randomly selects elements from an array.
+This means the variable daylight is assigned the randomly selected element of the array where the elements are true or false.
+
+
+
+
 time_of_day(daylight)
+
+
+
+
+
+
 
 Summary of Solution Syntax:
 
@@ -128,7 +145,13 @@ This the last line of the if statement that is everything after this line is out
 This is the last line of the time_of_day method that is everything after this line is outside of the time_of_day method.
 
 
-daylight = [true, false].sample
+daylight is the variable.
+daylight is assigned [true, false].sample
+[] means array.
+true, false are boolean variables and elements in the array.
+array.sample randomly selects elements from an array.
+This means the variable daylight is assigned the randomly selected element of the array where the elements are true or false.
+
 time_of_day(daylight)
 
 =end
