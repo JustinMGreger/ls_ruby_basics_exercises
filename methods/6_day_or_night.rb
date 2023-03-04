@@ -48,8 +48,20 @@ time_of_day is the method name.
 This means the method time_of_day accepts the parameter (daylight) and the definition of the 
 method time_of_day is the following: 
 
-
+Syntax:
   if daylight
+
+Explanation:
+if is a conditional meaning if true then do something.
+daylight is a variable.
+daylight is assigned [true, false].sample
+[] means array.
+true, false are boolean variables and elements in the array.
+array.sample randomly selects elements from an array.
+This means the variable daylight is assigned the randomly selected element of the array where the elements are true or false.
+This means if daylight is assigned true by randomly selecting an element of the array where the elements are true 
+or false then do something.
+
     puts "It's daytime!"
   else
     puts "It's nighttime!"
