@@ -38,7 +38,17 @@ time_of_day(daylight)
 
 Explanation of Solution Syntax:
 
+Syntax:
 def time_of_day(daylight)
+
+Explanation:
+def means definition.
+time_of_day is the method name.
+(daylight) is the parameter that the method accepts.
+This means the method time_of_day accepts the parameter (daylight) and the definition of the 
+method time_of_day is the following: 
+
+
   if daylight
     puts "It's daytime!"
   else
@@ -51,7 +61,12 @@ time_of_day(daylight)
 
 Summary of Solution Syntax:
 
-def time_of_day(daylight)
+def means definition.
+time_of_day is the method name.
+(daylight) is the parameter that the method accepts.
+This means the method time_of_day accepts the parameter (daylight) and the definition of the 
+method time_of_day is the following: 
+
   if daylight
     puts "It's daytime!"
   else
