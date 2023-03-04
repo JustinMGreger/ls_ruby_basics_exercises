@@ -24,6 +24,42 @@ array.sample randomly selects elements from an array.
 This means the variable daylight is assigned the randomly selected element of the array where the elements are true or false.
 
 Syntax of Solution:
+
+def time_of_day(daylight)
+  if daylight
+    puts "It's daytime!"
+  else
+    puts "It's nighttime!"
+  end
+end
+
+daylight = [true, false].sample
+time_of_day(daylight)
+
 Explanation of Solution Syntax:
+
+def time_of_day(daylight)
+  if daylight
+    puts "It's daytime!"
+  else
+    puts "It's nighttime!"
+  end
+end
+
+daylight = [true, false].sample
+time_of_day(daylight)
+
 Summary of Solution Syntax:
+
+def time_of_day(daylight)
+  if daylight
+    puts "It's daytime!"
+  else
+    puts "It's nighttime!"
+  end
+end
+
+daylight = [true, false].sample
+time_of_day(daylight)
+
 =end
