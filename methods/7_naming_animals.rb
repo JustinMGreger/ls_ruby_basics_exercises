@@ -99,6 +99,23 @@ The cat's name is Ginger.
 
 Explanation of Additional Initial Syntax Given:
 
+Syntax:
+The dog's name is Spot.
+
+Explanation:
+this is a string.
+this was printed to the screen.
+puts means put s which is put string which means print to the screen the string.
+
+
+
+
+
+
+
+
+The cat's name is Ginger.
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
