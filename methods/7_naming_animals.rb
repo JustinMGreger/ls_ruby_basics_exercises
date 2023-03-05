@@ -33,7 +33,11 @@ return means exit the method and return the value.
 name is a variable without definition or reference.
 this means return the undefined value of name.
 
+Syntax:
 end
+
+Explanation:
+this is the last line of the method that is everything after this line is outside of the method.
 
 def cat(name)
   return name
