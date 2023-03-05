@@ -62,8 +62,21 @@ end
 Explanation:
 this is the last line of the method that is everything after this line is outside of the method.
 
-
+Syntax:
 puts "The dog's name is #{dog('Spot')}."
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+"The dog's name is #{dog('Spot')}." is a string.
+#{dog('Spot')} is string interpolation.
+dog is the dog method.
+'Spot' is a string.
+there is not currently the ability for the dog method to accept arguments as there is not parameter that the dog method 
+accepts which means the string 'Spot' cannot be passed to the dog method resulting in an argument error.
+
+
+
+
 puts "The cat's name is #{cat}."
 
 Syntax of Solution:
