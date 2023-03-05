@@ -11,6 +11,23 @@ puts assign_name('Kevin') == 'Kevin'
 puts assign_name == 'Bob'
 
 Explanation of Initial Syntax Given:
+
+Syntax:
+puts assign_name('Kevin') == 'Kevin'
+
+Explanation:
+puts means put s which is put string which means print the string to the screen.
+assign_name is a method.
+('Kevin') is a string and the argument that the assign_name method accepts.
+== means equal true or false.
+'Kevin' is a string.
+This means print to the screen the boolean value that is the true or false determination of if the method assign_name
+that accepts the string argument ('Kevin') is equal to the string 'Kevin'.
+
+
+puts assign_name == 'Bob'
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
