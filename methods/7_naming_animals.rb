@@ -92,7 +92,6 @@ update the relevant method definitions and method invocations as necessary so th
 
 Expected output:
 
-
 Additional Initial Syntax Given:
 The dog's name is Spot.
 The cat's name is Ginger.
@@ -152,10 +151,20 @@ dog is the method name.
 (name) is the parameter of the method.
 this means the dog method accepts the (name) parameter.
 
-
-
+Syntax:
   return name
+
+Explanation:
+return means exit the method and return the value.
+name is a parameter accepeted by the method.
+this means exit the method and return the value of the parameter accepeted by the method.
+
+Syntax:
 end
+
+Explanation:
+this is the last line of the method that is everything after this line is outside of the method.
+
 
 def cat(name)
   return name
@@ -170,14 +179,10 @@ def means definition.
 dog is the method name.
 (name) is the parameter of the method.
 this means the dog method accepts the (name) parameter.
-
-
-
-
-
-
-  return name
-end
+return means exit the method and return the value.
+name is a parameter accepeted by the method.
+this means exit the method and return the value of the parameter accepeted by the method.
+this is the last line of the method that is everything after this line is outside of the method.
 
 def cat(name)
   return name
