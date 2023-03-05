@@ -107,16 +107,14 @@ true, false are boolean variables and elements in the array.
 array.sample randomly selects elements from an array.
 This means the variable daylight is assigned the randomly selected element of the array where the elements are true or false.
 
-
-
-
+Syntax:
 time_of_day(daylight)
-
-
-
-
-
-
+Explanation:
+time_of_day is the method.
+(daylight) is the argument that the method accepts.
+the variable daylight is assigned the randomly selected element of the array where the elements are true or false.
+this means the time_of_day method accepts the argument daylight which is assigned the randomly selected element of 
+the array where the elements are true or false.
 
 Summary of Solution Syntax:
 
@@ -151,7 +149,10 @@ daylight is assigned [true, false].sample
 true, false are boolean variables and elements in the array.
 array.sample randomly selects elements from an array.
 This means the variable daylight is assigned the randomly selected element of the array where the elements are true or false.
-
-time_of_day(daylight)
+time_of_day is the method.
+(daylight) is the argument that the method accepts.
+the variable daylight is assigned the randomly selected element of the array where the elements are true or false.
+this means the time_of_day method accepts the argument daylight which is assigned the randomly selected element of 
+the array where the elements are true or false.
 
 =end
