@@ -50,7 +50,16 @@ puts assign_name == 'Bob'
 
 Explanation of Solution Syntax:
 
+Syntax:
 def assign_name(name = 'Bob')
+
+Explanation:
+def means definition.
+assign_name is a method.
+(name = 'Bob') is the parameter that the assign_name method accepts.
+
+
+
   name
 end
 
