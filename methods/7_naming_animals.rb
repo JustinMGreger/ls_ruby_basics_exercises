@@ -17,8 +17,22 @@ puts "The cat's name is #{cat}."
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 def dog
+
+Explanation:
+def means definition.
+dog is the method name.
+this means the dog method does not accept any parameter and is defined as the following:
+
+Syntax:
   return name
+
+Explanation:
+return means exit the method and return the value.
+name is a variable without definition or reference.
+this means return the undefined value of name.
+
 end
 
 def cat(name)
