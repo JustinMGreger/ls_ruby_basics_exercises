@@ -106,11 +106,12 @@ Explanation:
 this is a string.
 this was printed to the screen.
 puts means put s which is put string which means print to the screen the string.
-
-
-
-
-
+"The dog's name is #{dog('Spot')}." is a string.
+#{dog('Spot')} is string interpolation.
+dog is the dog method.
+'Spot' is a string.
+'Spot' is an argument.
+in the corrected code the dog method accepts the argument 'Spot' as the parameter.
 
 
 
