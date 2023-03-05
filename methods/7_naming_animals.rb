@@ -85,6 +85,13 @@ puts means put s which is put string which means print to the screen the string.
 cat is the cat method.
 there is no argument to pass to the cat method which means this results in an argument error.
 
+Additional Description of Exercise:
+
+Based on what the error messages are telling you, 
+update the relevant method definitions and method invocations as necessary so that the names are printed as shown below.
+
+Expected output:
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
