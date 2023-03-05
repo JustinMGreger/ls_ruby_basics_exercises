@@ -74,6 +74,7 @@ dog is the dog method.
 'Spot' is an argument.
 there is not currently the ability for the dog method to accept the argument 'Spot' as there is not parameter that the 
 dog method accepts which means the string 'Spot' cannot be passed to the dog method resulting in an argument error.
+this means print to the string the string "The dog's name is #{dog('Spot')}."
 
 Syntax:
 puts "The cat's name is #{cat}."
@@ -188,10 +189,20 @@ end
 Explanation:
 this is the last line of the method that is everything after this line is outside of the method.
 
-
-
-
+Syntax:
 puts "The dog's name is #{dog('Spot')}."
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+"The dog's name is #{dog('Spot')}." is a string.
+#{dog('Spot')} is string interpolation.
+dog is the dog method.
+'Spot' is a string.
+'Spot' is an argument.
+the dog method accepts the argument 'Spot' as the parameter (name).
+this means print to the string the string "The dog's name is #{dog('Spot')}."
+
+Syntax:
 puts "The cat's name is #{cat('Ginger')}."
 
 Summary of Solution Syntax:
@@ -215,7 +226,15 @@ this means exit the method and return the value of the parameter accepeted by th
 this is the last line of the method that is everything after this line is outside of the method.
 
 
-puts "The dog's name is #{dog('Spot')}."
+puts means put s which is put string which means print to the screen the string.
+"The dog's name is #{dog('Spot')}." is a string.
+#{dog('Spot')} is string interpolation.
+dog is the dog method.
+'Spot' is a string.
+'Spot' is an argument.
+the dog method accepts the argument 'Spot' as the parameter (name).
+this means print to the string the string "The dog's name is #{dog('Spot')}."
+
 puts "The cat's name is #{cat('Ginger')}."
 
 =end
