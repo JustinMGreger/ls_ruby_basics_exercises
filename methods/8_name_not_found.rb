@@ -6,6 +6,10 @@ The parameter should default to the string "Bob" if no argument is given.
 The method's return value should be the value of the argument.
 
 Initial Syntax Given:
+
+puts assign_name('Kevin') == 'Kevin'
+puts assign_name == 'Bob'
+
 Explanation of Initial Syntax Given:
 Syntax of Solution:
 Explanation of Solution Syntax:
