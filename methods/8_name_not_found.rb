@@ -36,6 +36,9 @@ there is no argument being passed to the assign_name method in this code.
 This means print to the screen the boolean value that is the true or false determination of if the method assign_name 
 is equal to the string 'Bob'.
 
+Additional Description of Exercise:
+The code should output true twice.
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
