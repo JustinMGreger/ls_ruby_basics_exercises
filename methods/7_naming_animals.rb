@@ -48,7 +48,14 @@ cat is the method name.
 (name) is the parameter that the emthod accepts.
 This means the cat method accepts the (name) parameter and is defined as following:
 
+Syntax:
   return name
+
+Explanation:
+return means exit the method and return the value.
+name is a parameter accepeted by the method.
+this means exit the method and return the value of the parameter accepeted by the method.
+
 end
 
 puts "The dog's name is #{dog('Spot')}."
