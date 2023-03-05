@@ -129,6 +129,42 @@ in the corrected code the argument "Ginger" passed to the cat method's (name) pa
 the solution is something similar to puts "The cat's name is #{cat('Ginger')}."
 
 Syntax of Solution:
+
+def dog(name)
+  return name
+end
+
+def cat(name)
+  return name
+end
+
+puts "The dog's name is #{dog('Spot')}."
+puts "The cat's name is #{cat('Ginger')}."
+
 Explanation of Solution Syntax:
+
+def dog(name)
+  return name
+end
+
+def cat(name)
+  return name
+end
+
+puts "The dog's name is #{dog('Spot')}."
+puts "The cat's name is #{cat('Ginger')}."
+
 Summary of Solution Syntax:
+
+def dog(name)
+  return name
+end
+
+def cat(name)
+  return name
+end
+
+puts "The dog's name is #{dog('Spot')}."
+puts "The cat's name is #{cat('Ginger')}."
+
 =end
