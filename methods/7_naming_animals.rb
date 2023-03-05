@@ -165,10 +165,31 @@ end
 Explanation:
 this is the last line of the method that is everything after this line is outside of the method.
 
-
+Syntax:
 def cat(name)
+
+Explanation:
+def means definition.
+cat is the method name.
+(name) is the parameter that the emthod accepts.
+This means the cat method accepts the (name) parameter and is defined as following:
+
+Syntax:
   return name
+
+Explanation:
+return means exit the method and return the value.
+name is a parameter accepeted by the method.
+this means exit the method and return the value of the parameter accepeted by the method.
+
+Syntax:
 end
+
+Explanation:
+this is the last line of the method that is everything after this line is outside of the method.
+
+
+
 
 puts "The dog's name is #{dog('Spot')}."
 puts "The cat's name is #{cat('Ginger')}."
@@ -184,9 +205,15 @@ name is a parameter accepeted by the method.
 this means exit the method and return the value of the parameter accepeted by the method.
 this is the last line of the method that is everything after this line is outside of the method.
 
-def cat(name)
-  return name
-end
+def means definition.
+cat is the method name.
+(name) is the parameter that the emthod accepts.
+This means the cat method accepts the (name) parameter and is defined as following:
+return means exit the method and return the value.
+name is a parameter accepeted by the method.
+this means exit the method and return the value of the parameter accepeted by the method.
+this is the last line of the method that is everything after this line is outside of the method.
+
 
 puts "The dog's name is #{dog('Spot')}."
 puts "The cat's name is #{cat('Ginger')}."
