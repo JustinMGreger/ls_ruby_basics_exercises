@@ -40,7 +40,23 @@ Additional Description of Exercise:
 The code should output true twice.
 
 Syntax of Solution:
+
+def assign_name(name = 'Bob')
+  name
+end
+
+puts assign_name('Kevin') == 'Kevin'
+puts assign_name == 'Bob'
+
 Explanation of Solution Syntax:
+
+def assign_name(name = 'Bob')
+  name
+end
+
+puts assign_name('Kevin') == 'Kevin'
+puts assign_name == 'Bob'
+
 Summary of Solution Syntax:
 This means:
 =end
