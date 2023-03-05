@@ -54,13 +54,7 @@ Syntax:
 Explanation:
 if is a conditional meaning if true then do something.
 daylight is a variable.
-daylight is assigned [true, false].sample
-[] means array.
-true, false are boolean variables and elements in the array.
-array.sample randomly selects elements from an array.
-This means the variable daylight is assigned the randomly selected element of the array where the elements are true or false.
-This means if daylight is assigned true by randomly selecting an element of the array where the elements are true 
-or false then do something.
+This means if daylight is assigned true then do something.
 
 Syntax:
     puts "It's daytime!"
@@ -122,16 +116,10 @@ def means definition.
 time_of_day is the method name.
 (daylight) is the parameter that the method accepts.
 This means the method time_of_day accepts the parameter (daylight) and the definition of the 
-method time_of_day is the following: 
+method time_of_day is the following:
 if is a conditional meaning if true then do something.
 daylight is a variable.
-daylight is assigned [true, false].sample
-[] means array.
-true, false are boolean variables and elements in the array.
-array.sample randomly selects elements from an array.
-This means the variable daylight is assigned the randomly selected element of the array where the elements are true or false.
-This means if daylight is assigned true by randomly selecting an element of the array where the elements are true 
-or false then do something.
+This means if daylight is assigned true then do something.
 puts means put s which is put string which means print to the screen the string.
  "It's daytime!" is a string.
  This means  print to the screen the string "It's daytime!"
@@ -153,6 +141,19 @@ time_of_day is the method.
 (daylight) is the argument that the method accepts.
 the variable daylight is assigned the randomly selected element of the array where the elements are true or false.
 this means the time_of_day method accepts the argument daylight which is assigned the randomly selected element of 
+the array where the elements are true or false.
+
+This means:
+
+This means the method time_of_day accepts the parameter (daylight) and the definition of the 
+method time_of_day is the following: 
+if daylight is assigned true print to the screen the string "It's daytime!"
+if daylight is assigned false then print to the screen the string "It's nighttime!"
+This the last line of the if statement that is everything after this line is outside of the if statement.
+This is the last line of the time_of_day method that is everything after this line is outside of the time_of_day method.
+
+the variable daylight is assigned the randomly selected element of the array where the elements are true or false.
+the time_of_day method accepts the argument daylight which is assigned the randomly selected element of 
 the array where the elements are true or false.
 
 =end
