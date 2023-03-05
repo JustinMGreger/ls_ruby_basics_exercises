@@ -205,6 +205,17 @@ this means print to the string the string "The dog's name is #{dog('Spot')}."
 Syntax:
 puts "The cat's name is #{cat('Ginger')}."
 
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+"The cat's name is #{cat('Ginger')}." is a string.
+#{cat('Ginger')} is string interpolation.
+cat is the cat method.
+('Ginger') is a string and an argument.
+the cat method accepts the argument 'Ginger' as the parameter (name).
+this means print to the string the string "The cat's name is #{cat('Ginger')}."
+
+
+
 Summary of Solution Syntax:
 
 def means definition.
@@ -235,6 +246,12 @@ dog is the dog method.
 the dog method accepts the argument 'Spot' as the parameter (name).
 this means print to the string the string "The dog's name is #{dog('Spot')}."
 
-puts "The cat's name is #{cat('Ginger')}."
+puts means put s which is put string which means print to the screen the string.
+"The cat's name is #{cat('Ginger')}." is a string.
+#{cat('Ginger')} is string interpolation.
+cat is the cat method.
+('Ginger') is a string and an argument.
+the cat method accepts the argument 'Ginger' as the parameter (name).
+this means print to the string the string "The cat's name is #{cat('Ginger')}."
 
 =end
