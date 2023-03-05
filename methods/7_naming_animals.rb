@@ -143,7 +143,17 @@ puts "The cat's name is #{cat('Ginger')}."
 
 Explanation of Solution Syntax:
 
+Syntax:
 def dog(name)
+
+Explanation:
+def means definition.
+dog is the method name.
+(name) is the parameter of the method.
+this means the dog method accepts the (name) parameter.
+
+
+
   return name
 end
 
@@ -156,7 +166,16 @@ puts "The cat's name is #{cat('Ginger')}."
 
 Summary of Solution Syntax:
 
-def dog(name)
+def means definition.
+dog is the method name.
+(name) is the parameter of the method.
+this means the dog method accepts the (name) parameter.
+
+
+
+
+
+
   return name
 end
 
