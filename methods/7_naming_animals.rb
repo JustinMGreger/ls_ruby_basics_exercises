@@ -92,6 +92,13 @@ update the relevant method definitions and method invocations as necessary so th
 
 Expected output:
 
+
+Additional Initial Syntax Given:
+The dog's name is Spot.
+The cat's name is Ginger.
+
+Explanation of Additional Initial Syntax Given:
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
