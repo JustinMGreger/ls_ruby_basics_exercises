@@ -71,13 +71,19 @@ puts means put s which is put string which means print to the screen the string.
 #{dog('Spot')} is string interpolation.
 dog is the dog method.
 'Spot' is a string.
-there is not currently the ability for the dog method to accept arguments as there is not parameter that the dog method 
-accepts which means the string 'Spot' cannot be passed to the dog method resulting in an argument error.
+'Spot' is an argument.
+there is not currently the ability for the dog method to accept the argument 'Spot' as there is not parameter that the 
+dog method accepts which means the string 'Spot' cannot be passed to the dog method resulting in an argument error.
 
-
-
-
+Syntax:
 puts "The cat's name is #{cat}."
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+"The cat's name is #{cat}." is a string.
+#{cat} is string interpolation.
+cat is the cat method.
+there is no argument to pass to the cat method which means this results in an argument error.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
