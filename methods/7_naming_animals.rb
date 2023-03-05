@@ -112,10 +112,21 @@ dog is the dog method.
 'Spot' is a string.
 'Spot' is an argument.
 in the corrected code the dog method accepts the argument 'Spot' as the parameter.
+the solution is something similar to def dog(parameter)
 
-
-
+Syntax:
 The cat's name is Ginger.
+
+Explanation:
+this is a string.
+this was printed to the screen.
+puts means put s which is put string which means print to the screen the string.
+"The cat's name is #{cat}." is a string.
+#{cat} is string interpolation.
+cat is the cat method.
+"Ginger" is a string interpolation.
+in the corrected code the argument "Ginger" passed to the cat method's (name) parameter.
+the solution is something similar to puts "The cat's name is #{cat('Ginger')}."
 
 Syntax of Solution:
 Explanation of Solution Syntax:
