@@ -56,7 +56,12 @@ return means exit the method and return the value.
 name is a parameter accepeted by the method.
 this means exit the method and return the value of the parameter accepeted by the method.
 
+Syntax:
 end
+
+Explanation:
+this is the last line of the method that is everything after this line is outside of the method.
+
 
 puts "The dog's name is #{dog('Spot')}."
 puts "The cat's name is #{cat}."
