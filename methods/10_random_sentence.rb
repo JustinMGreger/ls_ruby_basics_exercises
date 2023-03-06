@@ -47,6 +47,9 @@ method accepts the argument names which is a variable that is assigned the array
 ['Dave', 'Sally', 'George', 'Jessica'] and activity method accepts the argument activities which is a variable that is 
 assigned the array of elements ['walking', 'running', 'cycling'].
 
+Additional Description of Exercise:
+Example output:
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
