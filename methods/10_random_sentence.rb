@@ -53,6 +53,15 @@ Example output:
 Additional Initial Syntax Given:
 George went walking today!
 
+Explanation:
+this is a string.
+this is string interpolation.
+this was printed to the string.
+puts means put s which is put string which means print the string to the screen.
+this means print the string to the screen "George went walking today!"
+"George" is from the names array.
+"walking" is from the activities array.
+
 
 Syntax of Solution:
 Explanation of Solution Syntax:
