@@ -224,4 +224,32 @@ the arugments integer 2 and integer 2 and the add method accepting the arugments
 integer 36.
 
 This means:
+
+the add method accepts two parameters and is defined as follows:
+add parameter num1 to parameter num2.
+this is the last line of the add method that is everything after this line is outside of the add method.
+
+the multiply method accepts two parameters and is defined as follows:
+multiply parameter num1 by parameter num2.
+this is the last line of the multiply method that is everything after this line is outside of the multiply method.
+
+print to the screen the boolean true or false result of comparing if the add method accepting the arugments
+integer 2 and integer 2 are equal to integer 4 which is done by the add method accepting two arguments integer 2 and 
+integer 2 as num1 and num2 which are added together resulting in the sum integer 4 which is equal to integer 4 which 
+prints to the screen the boolean true.
+
+print to the screen the boolean true or false result of comparing if the add method accepting the arugments
+integer 5 and integer 4 are equal to integer 9 which is done by the add method accepting two arguments integer 5 and 
+integer 4 as num1 and num2 which are added together resulting in the sum integer 9 which is equal to integer 9 which 
+prints to the screen the boolean true.
+
+print to the screen the boolean true or false result of comparing if the product of the add method accepting 
+the arugments integer 2 and integer 2 and the add method accepting the arugments integer 5 and integer 4 is equal to the
+integer 36 which is done by the multiply method accepts two parameters num1 and num2 where num1 is the result of the 
+add method accepting two arguments integer 2 and integer 2 as num1 and num2 which are added together resulting in the 
+sum integer 4 and num2 is the add method accepts two arguments integer 5 and integer 4 as num1 and num2 which are added 
+together resulting in the sum integer 9 that is num1 is integer 4 and num2 is integer 9 the multiply method then 
+multiplies parameter num1 by parameter num2 resulting in the product of integer 36 which is equal to integer 36 which 
+results in the boolean true being printed to the screen.
+
 =end
