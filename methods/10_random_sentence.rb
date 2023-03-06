@@ -50,6 +50,10 @@ assigned the array of elements ['walking', 'running', 'cycling'].
 Additional Description of Exercise:
 Example output:
 
+Additional Initial Syntax Given:
+George went walking today!
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
