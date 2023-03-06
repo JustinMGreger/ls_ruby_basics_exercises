@@ -15,7 +15,14 @@ puts sentence(name(names), activity(activities))
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 names = ['Dave', 'Sally', 'George', 'Jessica']
+
+Explanation:
+names is a variable.
+names is assigned the array of elements ['Dave', 'Sally', 'George', 'Jessica'].
+
+
 activities = ['walking', 'running', 'cycling']
 
 puts sentence(name(names), activity(activities))
