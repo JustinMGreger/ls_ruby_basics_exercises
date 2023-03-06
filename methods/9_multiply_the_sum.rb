@@ -82,8 +82,17 @@ add is the method.
 (num1, num2) are the two parameters that the method accepts.
 this means the add method accepts two parameters and is defined as follows:
 
-
+Syntax:
   num1 + num2
+
+Explanation:
+num1 is a parameter that the add method accepts.
++ is addition.
+num2 is a parameter that the add method accepts.
+this means add parameter num1 to parameter num2.
+
+
+
 end
 
 def multiply(num1, num2)
@@ -100,8 +109,12 @@ def means definition.
 add is the method.
 (num1, num2) are the two parameters that the method accepts.
 this means the add method accepts two parameters and is defined as follows:
+num1 is a parameter that the add method accepts.
++ is addition.
+num2 is a parameter that the add method accepts.
+this means add parameter num1 to parameter num2.
 
-  num1 + num2
+
 end
 
 def multiply(num1, num2)
