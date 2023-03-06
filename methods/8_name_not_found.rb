@@ -57,7 +57,8 @@ Explanation:
 def means definition.
 assign_name is a method.
 (name = 'Bob') is the parameter that the assign_name method accepts.
-
+name is assigned to the string 'Bob'.
+this means the assign_name method accepts the parameter name is assigned to the string 'Bob' and is defined as follows:
 
 
   name
@@ -67,5 +68,12 @@ puts assign_name('Kevin') == 'Kevin'
 puts assign_name == 'Bob'
 
 Summary of Solution Syntax:
+
+def means definition.
+assign_name is a method.
+(name = 'Bob') is the parameter that the assign_name method accepts.
+name is assigned to the string 'Bob'.
+this means the assign_name method accepts the parameter name is assigned to the string 'Bob' and is defined as follows:
+
 This means:
 =end
