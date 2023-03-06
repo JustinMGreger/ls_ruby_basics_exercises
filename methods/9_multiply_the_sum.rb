@@ -106,8 +106,15 @@ multiply is the method.
 (num1, num2) are the two parameters that the method accepts.
 this means the multiply method accepts two parameters and is defined as follows:
 
-
+Syntax:
   num1 * num2
+
+Explanation:
+num1 is a parameter that the multiply method accepts.
+* is multiply.
+num2 is a parameter that the multiply method accepts.
+this means multiply parameter num1 by parameter num2.
+
 end
 
 puts add(2, 2) == 4
@@ -130,8 +137,11 @@ def means definition.
 multiply is the method.
 (num1, num2) are the two parameters that the method accepts.
 this means the multiply method accepts two parameters and is defined as follows:
+num1 is a parameter that the multiply method accepts.
+* is multiply.
+num2 is a parameter that the multiply method accepts.
+this means multiply parameter num1 by parameter num2.
 
-  num1 * num2
 end
 
 puts add(2, 2) == 4
