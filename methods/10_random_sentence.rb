@@ -7,7 +7,19 @@ Write the methods name and activity so that they each take the appropriate array
 Then write the method sentence that combines both values into a sentence and returns it from the method.
 
 Initial Syntax Given:
+
+names = ['Dave', 'Sally', 'George', 'Jessica']
+activities = ['walking', 'running', 'cycling']
+
+puts sentence(name(names), activity(activities))
+
 Explanation of Initial Syntax Given:
+
+names = ['Dave', 'Sally', 'George', 'Jessica']
+activities = ['walking', 'running', 'cycling']
+
+puts sentence(name(names), activity(activities))
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
