@@ -58,7 +58,46 @@ the arugments integer 2 and integer 2 and the add method accepting the arugments
 integer 36.
 
 Syntax of Solution:
+
+def add(num1, num2)
+  num1 + num2
+end
+
+def multiply(num1, num2)
+  num1 * num2
+end
+
+puts add(2, 2) == 4
+puts add(5, 4) == 9
+puts multiply(add(2, 2), add(5, 4)) == 36
+
 Explanation of Solution Syntax:
+
+def add(num1, num2)
+  num1 + num2
+end
+
+def multiply(num1, num2)
+  num1 * num2
+end
+
+puts add(2, 2) == 4
+puts add(5, 4) == 9
+puts multiply(add(2, 2), add(5, 4)) == 36
+
 Summary of Solution Syntax:
+
+def add(num1, num2)
+  num1 + num2
+end
+
+def multiply(num1, num2)
+  num1 * num2
+end
+
+puts add(2, 2) == 4
+puts add(5, 4) == 9
+puts multiply(add(2, 2), add(5, 4)) == 36
+
 This means:
 =end
