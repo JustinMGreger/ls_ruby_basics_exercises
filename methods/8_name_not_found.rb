@@ -68,9 +68,25 @@ name is the parameter that the assign_name method accepts.
 this means that if the assign_name method does not accept an argument that the name parameter will be assigned the string
 'Bob'.
 
+Syntax:
 end
 
+Explanation:
+this is the last line of the assign_name method that is everything after this is outside of the method.
+
+Syntax:
 puts assign_name('Kevin') == 'Kevin'
+
+Explanation:
+puts means put s which is put string which means print the string to the screen.
+assign_name is a method.
+('Kevin') is a string and the argument that the assign_name method accepts.
+== means equal true or false.
+'Kevin' is a string.
+This means print to the screen the boolean value that is the true or false determination of if the method assign_name
+that accepts the string argument ('Kevin') is equal to the string 'Kevin'.
+
+
 puts assign_name == 'Bob'
 
 Summary of Solution Syntax:
@@ -83,6 +99,17 @@ this means the assign_name method accepts the parameter name is assigned to the 
 name is the parameter that the assign_name method accepts.
 this means that if the assign_name method does not accept an argument that the name parameter will be assigned the string
 'Bob'.
+this is the last line of the assign_name method that is everything after this is outside of the method.
+
+puts means put s which is put string which means print the string to the screen.
+assign_name is a method.
+('Kevin') is a string and the argument that the assign_name method accepts.
+== means equal true or false.
+'Kevin' is a string.
+This means print to the screen the boolean value that is the true or false determination of if the method assign_name
+that accepts the string argument ('Kevin') is equal to the string 'Kevin'.
+
+
 
 
 This means:
