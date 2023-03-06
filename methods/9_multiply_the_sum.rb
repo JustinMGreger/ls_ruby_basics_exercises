@@ -91,9 +91,14 @@ num1 is a parameter that the add method accepts.
 num2 is a parameter that the add method accepts.
 this means add parameter num1 to parameter num2.
 
-
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the add method that is everything after this line is outside of the add method.
+
+
+
 
 def multiply(num1, num2)
   num1 * num2
@@ -113,9 +118,7 @@ num1 is a parameter that the add method accepts.
 + is addition.
 num2 is a parameter that the add method accepts.
 this means add parameter num1 to parameter num2.
-
-
-end
+this is the last line of the add method that is everything after this line is outside of the add method.
 
 def multiply(num1, num2)
   num1 * num2
