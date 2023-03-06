@@ -24,8 +24,20 @@ add is the method.
 this means print to the screen the boolean true or false result of comparing if the add method accepting the arugments
 integer 2 and integer 2 are equal to integer 4.
 
-
+Syntax:
 puts add(5, 4) == 9
+
+Explanation:
+puts means put s which is put string which means print the string to the screen.
+add is a function that takes two arguments and returns their sum.
+add is the method.
+(5, 4) are integers.
+== means equal to and returns boolean true or false.
+9 is an integer.
+this means print to the screen the boolean true or false result of comparing if the add method accepting the arugments
+integer 5 and integer 4 are equal to integer 9.
+
+
 puts multiply(add(2, 2), add(5, 4)) == 36
 
 Syntax of Solution:
