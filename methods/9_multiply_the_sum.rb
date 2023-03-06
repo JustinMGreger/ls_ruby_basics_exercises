@@ -115,7 +115,12 @@ num1 is a parameter that the multiply method accepts.
 num2 is a parameter that the multiply method accepts.
 this means multiply parameter num1 by parameter num2.
 
+Syntax:
 end
+
+Explanation:
+this is the last line of the multiply method that is everything after this line is outside of the multiply method.
+
 
 puts add(2, 2) == 4
 puts add(5, 4) == 9
@@ -141,8 +146,8 @@ num1 is a parameter that the multiply method accepts.
 * is multiply.
 num2 is a parameter that the multiply method accepts.
 this means multiply parameter num1 by parameter num2.
+this is the last line of the multiply method that is everything after this line is outside of the multiply method.
 
-end
 
 puts add(2, 2) == 4
 puts add(5, 4) == 9
