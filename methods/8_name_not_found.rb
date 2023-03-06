@@ -60,8 +60,14 @@ assign_name is a method.
 name is assigned to the string 'Bob'.
 this means the assign_name method accepts the parameter name is assigned to the string 'Bob' and is defined as follows:
 
-
+Syntax:
   name
+
+Explanation:
+name is the parameter that the assign_name method accepts.
+this means that if the assign_name method does not accept an argument that the name parameter will be assigned the string
+'Bob'.
+
 end
 
 puts assign_name('Kevin') == 'Kevin'
@@ -74,6 +80,10 @@ assign_name is a method.
 (name = 'Bob') is the parameter that the assign_name method accepts.
 name is assigned to the string 'Bob'.
 this means the assign_name method accepts the parameter name is assigned to the string 'Bob' and is defined as follows:
+name is the parameter that the assign_name method accepts.
+this means that if the assign_name method does not accept an argument that the name parameter will be assigned the string
+'Bob'.
+
 
 This means:
 =end
