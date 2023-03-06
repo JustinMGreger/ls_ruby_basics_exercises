@@ -73,7 +73,16 @@ puts multiply(add(2, 2), add(5, 4)) == 36
 
 Explanation of Solution Syntax:
 
+Syntax:
 def add(num1, num2)
+
+Explanation:
+def means definition.
+add is the method.
+(num1, num2) are the two parameters that the method accepts.
+this means the add method accepts two parameters and is defined as follows:
+
+
   num1 + num2
 end
 
@@ -87,7 +96,11 @@ puts multiply(add(2, 2), add(5, 4)) == 36
 
 Summary of Solution Syntax:
 
-def add(num1, num2)
+def means definition.
+add is the method.
+(num1, num2) are the two parameters that the method accepts.
+this means the add method accepts two parameters and is defined as follows:
+
   num1 + num2
 end
 
