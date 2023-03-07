@@ -149,7 +149,11 @@ this is a string.
 #{activity} is string interpolation of the activity parameter.
 this means return the value of the string that has string interpolation of the parameters name and activity.
 
+Syntax:
 end
+
+Explanation:
+this is the last line in the method that is everything after this line is outside of the method.
 
 names = ['Dave', 'Sally', 'George', 'Jessica']
 activities = ['walking', 'running', 'cycling']
@@ -187,8 +191,8 @@ this is a string.
 #{name} is string interpolation of the name parameter.
 #{activity} is string interpolation of the activity parameter.
 this means return the value of the string that has string interpolation of the parameters name and activity.
+this is the last line in the method that is everything after this line is outside of the method.
 
-end
 
 names = ['Dave', 'Sally', 'George', 'Jessica']
 activities = ['walking', 'running', 'cycling']
