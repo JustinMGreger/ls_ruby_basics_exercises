@@ -95,7 +95,7 @@ names is the parameter that the name method accepts.
 Syntax:
   names.sample
 
-Explain:
+Explanation:
 names is the parameter that the method accepts.
 .sample selects a random element from an array.
 this means randomly select an element from the parameter that the method accepts.
@@ -106,11 +106,17 @@ end
 Explanation:
 this is the last line of the method that is everything after this line is outside of the method.
 
-
-
-
-
+Syntax:
 def activity(activities)
+
+Explanation:
+def means definition.
+activity is the method name.
+activities is the parameter that the name method accepts. 
+
+
+
+
   activities.sample
 end
 
@@ -134,7 +140,10 @@ this means randomly select an element from the parameter that the method accepts
 this is the last line of the method that is everything after this line is outside of the method.
 
 
-def activity(activities)
+def means definition.
+activity is the method name.
+activities is the parameter that the name method accepts. 
+
   activities.sample
 end
 
