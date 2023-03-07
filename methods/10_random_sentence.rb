@@ -169,7 +169,23 @@ Explanation:
 activities is a variable.
 activities is assigned the array of elements ['walking', 'running', 'cycling'].
 
+Syntax:
 puts sentence(name(names), activity(activities))
+
+Explanation:
+puts means put s which is put string which means print the string to the screen.
+sentence is a method.
+the sentence method accepts the arguments name and activity.
+name is a method.
+the name method accepts the argument names.
+names is a variable that is assigned the array of elements ['Dave', 'Sally', 'George', 'Jessica'].
+activity is a method.
+the activity method accepts the argument activities.
+activities is a variable that is assigned the array of elements ['walking', 'running', 'cycling'].
+this means print to the screen result of the sentence method accepting the arguments name and activity where the name 
+method accepts the argument names which is a variable that is assigned the array of elements 
+['Dave', 'Sally', 'George', 'Jessica'] and activity method accepts the argument activities which is a variable that is 
+assigned the array of elements ['walking', 'running', 'cycling'].
 
 Summary of Solution Syntax:
 
@@ -208,8 +224,19 @@ names is assigned the array of elements ['Dave', 'Sally', 'George', 'Jessica'].
 activities is a variable.
 activities is assigned the array of elements ['walking', 'running', 'cycling'].
 
-
-puts sentence(name(names), activity(activities))
+puts means put s which is put string which means print the string to the screen.
+sentence is a method.
+the sentence method accepts the arguments name and activity.
+name is a method.
+the name method accepts the argument names.
+names is a variable that is assigned the array of elements ['Dave', 'Sally', 'George', 'Jessica'].
+activity is a method.
+the activity method accepts the argument activities.
+activities is a variable that is assigned the array of elements ['walking', 'running', 'cycling'].
+this means print to the screen result of the sentence method accepting the arguments name and activity where the name 
+method accepts the argument names which is a variable that is assigned the array of elements 
+['Dave', 'Sally', 'George', 'Jessica'] and activity method accepts the argument activities which is a variable that is 
+assigned the array of elements ['walking', 'running', 'cycling'].
 
 This means:
 =end
