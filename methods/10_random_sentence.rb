@@ -64,7 +64,61 @@ this means print the string to the screen "George went walking today!"
 this is probably something like puts "#{name} went #{activity} today!"
 
 Syntax of Solution:
+
+def name(names)
+  names.sample
+end
+
+def activity(activities)
+  activities.sample
+end
+
+def sentence(name, activity)
+  "#{name} went #{activity} today!"
+end
+
+names = ['Dave', 'Sally', 'George', 'Jessica']
+activities = ['walking', 'running', 'cycling']
+
+puts sentence(name(names), activity(activities))
+
 Explanation of Solution Syntax:
+
+def name(names)
+  names.sample
+end
+
+def activity(activities)
+  activities.sample
+end
+
+def sentence(name, activity)
+  "#{name} went #{activity} today!"
+end
+
+names = ['Dave', 'Sally', 'George', 'Jessica']
+activities = ['walking', 'running', 'cycling']
+
+puts sentence(name(names), activity(activities))
+
 Summary of Solution Syntax:
+
+def name(names)
+  names.sample
+end
+
+def activity(activities)
+  activities.sample
+end
+
+def sentence(name, activity)
+  "#{name} went #{activity} today!"
+end
+
+names = ['Dave', 'Sally', 'George', 'Jessica']
+activities = ['walking', 'running', 'cycling']
+
+puts sentence(name(names), activity(activities))
+
 This means:
 =end
