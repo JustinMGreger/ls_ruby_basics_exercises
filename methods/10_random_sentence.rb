@@ -61,7 +61,7 @@ puts means put s which is put string which means print the string to the screen.
 this means print the string to the screen "George went walking today!"
 "George" is from the names array.
 "walking" is from the activities array.
-
+this is probably something like puts "#{name} went #{activity} today!"
 
 Syntax of Solution:
 Explanation of Solution Syntax:
