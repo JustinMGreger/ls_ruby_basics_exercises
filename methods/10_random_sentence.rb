@@ -138,7 +138,7 @@ def means definition.
 sentence is the name of the method.
 name is a parameter that the method accepts.
 activity is a parameter that the method accepts.
-
+this means the sentence method accepts parameters name and activity and is defined as follows:
 
 
 
@@ -156,7 +156,6 @@ def means definition.
 name is the method name.
 names is the parameter that the name method accepts. 
 this means that name method accepts the names parameter and is defined as follows:
-
 names is the parameter that the method accepts.
 .sample selects a random element from an array.
 this means randomly select an element from the parameter that the method accepts.
@@ -173,7 +172,14 @@ this means randomly select an element from the parameter that the method accepts
 this is the last line of the method that is everything after this line is outside of the method.
 
 
-def sentence(name, activity)
+def means definition.
+sentence is the name of the method.
+name is a parameter that the method accepts.
+activity is a parameter that the method accepts.
+this means the sentence method accepts parameters name and activity and is defined as follows:
+
+
+
   "#{name} went #{activity} today!"
 end
 
