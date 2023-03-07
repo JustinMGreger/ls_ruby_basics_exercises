@@ -155,7 +155,14 @@ end
 Explanation:
 this is the last line in the method that is everything after this line is outside of the method.
 
+Syntax:
 names = ['Dave', 'Sally', 'George', 'Jessica']
+
+Explanation:
+names is a variable.
+names is assigned the array of elements ['Dave', 'Sally', 'George', 'Jessica'].
+
+
 activities = ['walking', 'running', 'cycling']
 
 puts sentence(name(names), activity(activities))
@@ -171,7 +178,6 @@ names is the parameter that the method accepts.
 this means return the value of randomly selecting an element from the parameter that the method accepts.
 this is the last line of the method that is everything after this line is outside of the method.
 
-
 def means definition.
 activity is the method name.
 activities is the parameter that the name method accepts. 
@@ -180,7 +186,6 @@ activities is the parameter that the method accepts.
 .sample selects a random element from an array.
 this means return the value of randomly selecting an element from the parameter that the method accepts.
 this is the last line of the method that is everything after this line is outside of the method.
-
 
 def means definition.
 sentence is the name of the method.
@@ -193,8 +198,11 @@ this is a string.
 this means return the value of the string that has string interpolation of the parameters name and activity.
 this is the last line in the method that is everything after this line is outside of the method.
 
+names is a variable.
+names is assigned the array of elements ['Dave', 'Sally', 'George', 'Jessica'].
 
-names = ['Dave', 'Sally', 'George', 'Jessica']
+
+
 activities = ['walking', 'running', 'cycling']
 
 puts sentence(name(names), activity(activities))
