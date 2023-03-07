@@ -114,6 +114,7 @@ Explanation:
 def means definition.
 activity is the method name.
 activities is the parameter that the name method accepts. 
+this means the activity method accepts the parameter activities and is defined as follows:
 
 Syntax:
   activities.sample
@@ -154,6 +155,8 @@ Summary of Solution Syntax:
 def means definition.
 name is the method name.
 names is the parameter that the name method accepts. 
+this means that name method accepts the names parameter and is defined as follows:
+
 names is the parameter that the method accepts.
 .sample selects a random element from an array.
 this means randomly select an element from the parameter that the method accepts.
@@ -163,6 +166,7 @@ this is the last line of the method that is everything after this line is outsid
 def means definition.
 activity is the method name.
 activities is the parameter that the name method accepts. 
+this means the activity method accepts the parameter activities and is defined as follows:
 activities is the parameter that the method accepts.
 .sample selects a random element from an array.
 this means randomly select an element from the parameter that the method accepts.
