@@ -84,7 +84,16 @@ puts sentence(name(names), activity(activities))
 
 Explanation of Solution Syntax:
 
+Syntax:
 def name(names)
+
+Explanation:
+def means definition.
+name is the method name.
+names is the parameter that the name method accepts. 
+
+
+
   names.sample
 end
 
@@ -103,7 +112,10 @@ puts sentence(name(names), activity(activities))
 
 Summary of Solution Syntax:
 
-def name(names)
+def means definition.
+name is the method name.
+names is the parameter that the name method accepts. 
+
   names.sample
 end
 
