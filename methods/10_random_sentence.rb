@@ -92,9 +92,19 @@ def means definition.
 name is the method name.
 names is the parameter that the name method accepts. 
 
-
-
+Syntax:
   names.sample
+
+Explain:
+names is the parameter that the method accepts.
+.sample selects a random element from an array.
+this means randomly select an element from the parameter that the method accepts.
+
+
+
+
+
+
 end
 
 def activity(activities)
@@ -115,8 +125,10 @@ Summary of Solution Syntax:
 def means definition.
 name is the method name.
 names is the parameter that the name method accepts. 
+names is the parameter that the method accepts.
+.sample selects a random element from an array.
+this means randomly select an element from the parameter that the method accepts.
 
-  names.sample
 end
 
 def activity(activities)
