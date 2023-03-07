@@ -140,9 +140,14 @@ name is a parameter that the method accepts.
 activity is a parameter that the method accepts.
 this means the sentence method accepts parameters name and activity and is defined as follows:
 
-
-
+Syntax:
   "#{name} went #{activity} today!"
+
+Explanation:
+this is a string.
+#{name} is string interpolation of the name parameter.
+
+
 end
 
 names = ['Dave', 'Sally', 'George', 'Jessica']
