@@ -146,7 +146,8 @@ Syntax:
 Explanation:
 this is a string.
 #{name} is string interpolation of the name parameter.
-
+#{activity} is string interpolation of the activity parameter.
+this means return the value of the string that has string interpolation of the parameters name and activity.
 
 end
 
@@ -182,10 +183,11 @@ sentence is the name of the method.
 name is a parameter that the method accepts.
 activity is a parameter that the method accepts.
 this means the sentence method accepts parameters name and activity and is defined as follows:
+this is a string.
+#{name} is string interpolation of the name parameter.
+#{activity} is string interpolation of the activity parameter.
+this means return the value of the string that has string interpolation of the parameters name and activity.
 
-
-
-  "#{name} went #{activity} today!"
 end
 
 names = ['Dave', 'Sally', 'George', 'Jessica']
