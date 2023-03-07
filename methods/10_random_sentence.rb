@@ -91,6 +91,7 @@ Explanation:
 def means definition.
 name is the method name.
 names is the parameter that the name method accepts. 
+this means that name method accepts the names parameter and is defined as follows:
 
 Syntax:
   names.sample
@@ -128,9 +129,18 @@ end
 Explanation:
 this is the last line of the method that is everything after this line is outside of the method.
 
-
-
+Syntax:
 def sentence(name, activity)
+
+Explanation:
+def means definition.
+sentence is the name of the method.
+name is a parameter that the method accepts.
+activity is a parameter that the method accepts.
+
+
+
+
   "#{name} went #{activity} today!"
 end
 
