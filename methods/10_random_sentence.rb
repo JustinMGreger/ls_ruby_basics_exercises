@@ -162,8 +162,12 @@ Explanation:
 names is a variable.
 names is assigned the array of elements ['Dave', 'Sally', 'George', 'Jessica'].
 
-
+Syntax:
 activities = ['walking', 'running', 'cycling']
+
+Explanation:
+activities is a variable.
+activities is assigned the array of elements ['walking', 'running', 'cycling'].
 
 puts sentence(name(names), activity(activities))
 
@@ -201,9 +205,9 @@ this is the last line in the method that is everything after this line is outsid
 names is a variable.
 names is assigned the array of elements ['Dave', 'Sally', 'George', 'Jessica'].
 
+activities is a variable.
+activities is assigned the array of elements ['walking', 'running', 'cycling'].
 
-
-activities = ['walking', 'running', 'cycling']
 
 puts sentence(name(names), activity(activities))
 
