@@ -45,7 +45,18 @@ end
 Explanation:
 this is the last line of the method that is everything after this line is outside of the method.
 
+Syntax:
 puts meal
+
+Explanation:
+puts is put s which is put string which is print the string to the screen.
+meal is the meal method.
+the meal method is defined as print to the screen the string 'Dinner' and exit the method and return the string 
+'Breakfast'.
+
+
+
+
 
 Syntax of Solution:
 Explanation of Solution Syntax:
