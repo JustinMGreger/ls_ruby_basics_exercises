@@ -36,7 +36,11 @@ Syntax:
 Explanation:
 'Dinner' is a string.
 
+Syntax:
 end
+
+Explanation:
+this is the last line in the method that is everything after this line is outside of the method.
 
 puts meal
 
