@@ -265,4 +265,6 @@ which is the argument names which is a variable that is assigned randomly from t
 return tvalue of randomly selecting an element from the parameter that the method accepts which is the argument activities
 that is a variable that is assigned randomly from the array of elements ['walking', 'running', 'cycling'].
 
+an example of string printed to the screen from the above code is:
+George went walking today!
 =end
