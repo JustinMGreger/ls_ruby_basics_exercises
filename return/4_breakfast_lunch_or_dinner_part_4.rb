@@ -39,8 +39,11 @@ return means exit the method and return the value assigned.
 'Breakfast' is a string.
 this means exit the method and return the string 'Breakfast'.
 
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the method that is everything after this line is outside of the method.
 
 puts meal
 
