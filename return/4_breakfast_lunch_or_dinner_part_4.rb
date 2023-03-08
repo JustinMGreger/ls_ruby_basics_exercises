@@ -54,12 +54,8 @@ meal is the meal method.
 the meal method is defined as print to the screen the string 'Dinner' and exit the method and return the string 
 'Breakfast'.
 
+this means:
+print to the screen the meal method which is defined as print to the screen the string 'Dinner' and exit the method 
+and return the string 'Breakfast' which results in 'Dinner' and 'Breakfast' being printed to the screen.
 
-
-
-
-Syntax of Solution:
-Explanation of Solution Syntax:
-Summary of Solution Syntax:
-This means:
 =end
