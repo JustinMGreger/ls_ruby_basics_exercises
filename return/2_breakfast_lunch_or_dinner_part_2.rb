@@ -21,8 +21,13 @@ def means definition.
 meal is the method name.
 this means the method meal is defined as follows:
 
-
+Syntax:
   'Evening'
+
+Explanation:
+'Evening' is a string.
+
+
 end
 
 puts meal
