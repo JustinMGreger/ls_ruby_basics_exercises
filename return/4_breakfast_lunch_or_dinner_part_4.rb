@@ -31,8 +31,15 @@ puts is put s which is put string which is print the string to the screen.
 this means 
  print to the screen the string 'Dinner'.
 
-
+Syntax:
   return 'Breakfast'
+
+Explanation:
+return means exit the method and return the value assigned.
+'Breakfast' is a string.
+this means exit the method and return the string 'Breakfast'.
+
+
 end
 
 puts meal
