@@ -19,10 +19,16 @@ def meal
 Explanation:
 def means defintion.
 meal is the method name.
-the meal method is defined as followed:
+this means the meal method is defined as followed:
 
-
+Syntax:
   return 'Breakfast'
+
+Explanation:
+return means stop running the method and specify the value returned from the method.
+'Breakfast' is a string.
+this means stop running the method and the value returned from the method is the string 'Breakfast'
+
 end
 
 puts meal
