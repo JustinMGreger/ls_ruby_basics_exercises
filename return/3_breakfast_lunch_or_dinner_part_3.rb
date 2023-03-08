@@ -14,7 +14,14 @@ puts meal
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 def meal
+
+Explanation:
+def means definition.
+meal is the method name.
+this means the method meal is defined as follows:
+
   return 'Breakfast'
   'Dinner'
 end
