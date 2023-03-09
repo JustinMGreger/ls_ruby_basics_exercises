@@ -51,14 +51,17 @@ end
 Explanation:
 this is the last line of the method that is this is everything after this lane is outside of the method.
 
-
-
-
-
+Syntax:
 puts meal
 
-Syntax of Solution:
-Explanation of Solution Syntax:
-Summary of Solution Syntax:
-This means:
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+the meal method is defined as exit the method and return the string 'Breakfast' also 'Dinner' is a string and print to 
+the screen the string 'Dinner'
+
+this means:
+print to the screen the string the meal method which is defined as exit the method and return the string 'Breakfast' 
+also 'Dinner' is a string and print to the screen the string 'Dinner' however since the method exited and returned the 
+string 'Breakfast' that is all that will be printed to the screen.
+
 =end
