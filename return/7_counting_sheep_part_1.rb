@@ -61,10 +61,17 @@ puts means put s which is put string which means print to the screen the string.
 count_sheep is the count_sheep method.
 this means print to the screen the count_sheep method.
 
+this means:
+print to the screen the count_sheep method is defined as iterate through the block 5 times and |sheep| is used to capture 
+the iteration number and print to the screen sheep which is a block variable and |sheep| is used to capture the iteration 
+number.
 
+the result is: 
+0 is the "sheep" iteration 1
+1 is the "sheep" iteration 2
+2 is the "sheep" iteration 3
+3 is the "sheep" iteration 4
+4 is the "sheep" iteration 5
+5 The "5" integer is the initial integer this is returned by the block after iterating 5 times.
 
-Syntax of Solution:
-Explanation of Solution Syntax:
-Summary of Solution Syntax:
-This means:
 =end
