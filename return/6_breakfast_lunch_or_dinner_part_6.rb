@@ -23,8 +23,15 @@ def means defined.
 meal is the method name.
 this means the meal method is defined as the following:
 
-
+Syntax:
   return 'Breakfast'
+
+Explanation:
+return means exit the method and return the value.
+'Breakfast' is a string.  
+this means exit the method and return the string 'Breakfast'.
+
+
   'Dinner'
   puts 'Dinner'
 end
