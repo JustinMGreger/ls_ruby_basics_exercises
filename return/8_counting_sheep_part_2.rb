@@ -70,6 +70,15 @@ count_sheep is the count_sheep method.
 this means print to the screen the count_sheep method.
 
 
+the count_sheep method is defined as follows iterate through the block 5 times and |sheep| is used to capture the 
+iteration number 
+
+print to the screen sheep which is a block variable and |sheep| is used to capture the iteration number.
+this is the last line of the times method that is everything after this line is outside of the times method.
+10 is an integer.
+10 is the last line evaluated in the count_sheep method which means it is the implicit return value.
+this is the last line of the count_sheep method that is everything after this line is outside of the count_sheep method.
+
 
 
 
