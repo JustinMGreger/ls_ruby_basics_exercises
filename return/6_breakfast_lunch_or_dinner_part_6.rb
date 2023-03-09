@@ -31,8 +31,13 @@ return means exit the method and return the value.
 'Breakfast' is a string.  
 this means exit the method and return the string 'Breakfast'.
 
-
+Syntax:
   'Dinner'
+
+Explanation:
+ 'Dinner' is a string.
+
+
   puts 'Dinner'
 end
 
