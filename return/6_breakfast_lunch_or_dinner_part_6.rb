@@ -37,8 +37,16 @@ Syntax:
 Explanation:
  'Dinner' is a string.
 
-
+Syntax:
   puts 'Dinner'
+
+Explanation:
+puts is put s which is put string which is print the string to the screen. 
+'Dinner' is a string.
+this means print to the screen the string 'Dinner'.
+
+
+
 end
 
 puts meal
