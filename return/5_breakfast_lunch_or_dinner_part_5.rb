@@ -42,10 +42,17 @@ end
 Explanation:
 this is the last line of the method that is this is everything after this lane is outside of the method.
 
+Syntax:
 p meal
 
-Syntax of Solution:
-Explanation of Solution Syntax:
-Summary of Solution Syntax:
-This means:
+Explanation:
+p means print the value.
+meal is the meal method.
+the meal method is defined as 'Dinner' is a string and print to the screen the string 'Dinner'.
+
+this means:
+print the value of the meal method which is defined as 'Dinner' which is a string and print to the screen the string 
+'Dinner' which is puts which the value of which is nil which means only print the value of meal method which is the string
+'Dinner'.
+
 =end
