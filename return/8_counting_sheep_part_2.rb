@@ -55,8 +55,11 @@ Explanation:
 10 is an integer.
 10 is the last line evaluated in the count_sheep method which means it is the implicit return value.
 
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the count_sheep method that is everything after this line is outside of the count_sheep method.
 
 puts count_sheep
 
