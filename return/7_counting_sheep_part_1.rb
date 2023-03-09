@@ -53,8 +53,15 @@ end
 Explanation:
 this is the last line of the count_sheep method that is everything after this line is outside of the count_sheep method.
 
-
+Syntax:
 puts count_sheep
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+count_sheep is the count_sheep method.
+this means print to the screen the count_sheep method.
+
+
 
 Syntax of Solution:
 Explanation of Solution Syntax:
