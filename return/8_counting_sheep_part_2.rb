@@ -42,7 +42,12 @@ puts means put s which is put string which means print to the screen the string.
 sheep is a block variable |sheep| is used to capture the iteration number.
 this means print to the screen sheep which is a block variable and |sheep| is used to capture the iteration number.
 
+Syntax:
   end
+
+Explanation:
+this is the last line of the times method that is everything after this line is outside of the times method.
+
   10
 end
 
