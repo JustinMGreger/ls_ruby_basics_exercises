@@ -74,7 +74,11 @@ Syntax:
 Explanation:
 this is the last line of the times method that is everything after this line is outside of the times method.
 
+Syntax:
 end
+
+Explanation:
+this is the last line of the count_sheep method that is everything after this line is outside of the count_sheep method.
 
 p count_sheep
 
