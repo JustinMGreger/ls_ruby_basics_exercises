@@ -32,7 +32,16 @@ if statments mean if something is boolean true then do something.
 true is boolean true.
 this means if boolean true then do something.
 
+Syntax:
     number = 1
+
+Explanation:
+number is a variable.
+= means assigned to.
+1 is an integer.
+this means the variable number is assigned to integer 1.
+
+
   else
     2
   end
