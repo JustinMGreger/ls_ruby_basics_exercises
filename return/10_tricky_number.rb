@@ -41,8 +41,15 @@ number is a variable.
 1 is an integer.
 this means the variable number is assigned to integer 1.
 
-
+Syntax:
   else
+
+Explanation:
+else in this context is part of the if statement.
+else is the same as boolean false that is if boolean false then do something.
+
+
+
     2
   end
 end
