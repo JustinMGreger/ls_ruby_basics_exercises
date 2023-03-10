@@ -66,10 +66,14 @@ Explanation:
 this is the last line of the tricky_number method that is everything after this line is outside of the tricky_number 
 method.
 
+Syntax:
 puts tricky_number
 
-Syntax of Solution:
-Explanation of Solution Syntax:
-Summary of Solution Syntax:
-This means:
+Explanation:
+puts is put s which means put string which is print the string to the screen.
+tricky_number is the tricky_number method.
+the tricky_number method means if boolean true then the variable number is assigned to integer 1.
+else is the same as boolean false that is if boolean false then 2 is an integer.
+
+
 =end
