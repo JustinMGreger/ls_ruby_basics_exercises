@@ -53,8 +53,14 @@ Syntax:
 Explanation:
 2 is an integer.
 
-
+Syntax:
   end
+
+Explanation:
+this is the last line of the if statement that is everything after this line is outside of the if statement.
+
+
+
 end
 
 puts tricky_number
