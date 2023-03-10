@@ -36,8 +36,14 @@ do is used to define the begining of a block.
 |sheep| is a block variable.
 this means iterate through the block 5 times and |sheep| is used to capture the iteration number.
 
-
+Syntax:
     puts sheep
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+sheep is a block variable |sheep| is used to capture the iteration number.
+this means print to the screen sheep which is a block variable and |sheep| is used to capture the iteration number.
+
     if sheep >= 2
       return
     end
