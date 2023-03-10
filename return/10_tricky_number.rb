@@ -17,7 +17,14 @@ puts tricky_number
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 def tricky_number
+
+Explanation:
+def means definition.
+tricky_number is the method name.
+
+
   if true
     number = 1
   else
