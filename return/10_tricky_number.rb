@@ -24,8 +24,14 @@ Explanation:
 def means definition.
 tricky_number is the method name.
 
-
+Syntax:
   if true
+
+Explanation:
+if statments mean if something is boolean true then do something.
+true is boolean true.
+this means if boolean true then do something.
+
     number = 1
   else
     2
