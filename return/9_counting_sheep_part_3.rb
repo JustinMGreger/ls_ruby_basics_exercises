@@ -80,10 +80,18 @@ end
 Explanation:
 this is the last line of the count_sheep method that is everything after this line is outside of the count_sheep method.
 
+Syntax:
 p count_sheep
 
-Syntax of Solution:
-Explanation of Solution Syntax:
-Summary of Solution Syntax:
-This means:
+Explanation:
+p prints the value of an object.
+count_sheep is the count_sheep method.
+
+this means:
+the count_sheep method is defined as iterate through the block 5 times and |sheep| is used to capture the iteration 
+number and print to the screen sheep which is a block variable and |sheep| is used to capture the iteration number and
+if sheep which is a block variable |sheep| is used to capture the iteration number if sheep is greater than or
+equal to the integer 2 then exit the method and return the value.
+
+
 =end
