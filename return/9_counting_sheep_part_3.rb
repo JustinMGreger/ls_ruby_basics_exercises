@@ -93,5 +93,16 @@ number and print to the screen sheep which is a block variable and |sheep| is us
 if sheep which is a block variable |sheep| is used to capture the iteration number if sheep is greater than or
 equal to the integer 2 then exit the method and return the value.
 
+the result of which is:
+0 is the "sheep" iteration 1
+1 is the "sheep" iteration 2
+2 is the "sheep" iteration 3
+nil sheep became >= 2 and return cause the exiting of the method without any value assigned which is nil.
+
+that is the following were printed to the screen:
+0
+1
+2
+nil
 
 =end
