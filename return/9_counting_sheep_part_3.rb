@@ -56,8 +56,12 @@ this means if sheep which is a block variable |sheep| is used to capture the ite
 equal to the integer 2 then do something.
 
 
-
+Syntax:
       return
+
+Explanation:
+return means exit the method and return the value.
+
     end
   end
 end
