@@ -75,5 +75,9 @@ tricky_number is the tricky_number method.
 the tricky_number method means if boolean true then the variable number is assigned to integer 1.
 else is the same as boolean false that is if boolean false then 2 is an integer.
 
+the result is 1.
+tricky_number is default boolean true meaning that the variable number is assigned to integer 1.
+puts tricky_number means print the string to the screen tricky_number which means print the string to the screen
+the variable number is assigned to integer 1 which means print to the screen integer 1.
 
 =end
