@@ -62,7 +62,12 @@ Syntax:
 Explanation:
 return means exit the method and return the value.
 
+Syntax:
     end
+
+Explanation:
+this is the last line of the if statement that is everything after this line is outside of the if statement.
+
   end
 end
 
