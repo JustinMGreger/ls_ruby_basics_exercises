@@ -44,7 +44,19 @@ puts means put s which is put string which means print to the screen the string.
 sheep is a block variable |sheep| is used to capture the iteration number.
 this means print to the screen sheep which is a block variable and |sheep| is used to capture the iteration number.
 
+Syntax:
     if sheep >= 2
+
+Explanation:
+if statements mean if something is boolean true then do something.
+sheep is a block variable |sheep| is used to capture the iteration number.
+>= this means greater than or equal to.
+2 is an integer.
+this means if sheep which is a block variable |sheep| is used to capture the iteration number if sheep is greater than or
+equal to the integer 2 then do something.
+
+
+
       return
     end
   end
