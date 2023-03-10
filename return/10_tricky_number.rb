@@ -48,9 +48,12 @@ Explanation:
 else in this context is part of the if statement.
 else is the same as boolean false that is if boolean false then do something.
 
-
-
+Syntax:
     2
+Explanation:
+2 is an integer.
+
+
   end
 end
 
