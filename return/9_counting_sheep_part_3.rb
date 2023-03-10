@@ -18,7 +18,15 @@ p count_sheep
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 def count_sheep
+
+Explanation:
+def means definition.
+count_sheep is the method name.
+this means the count_sheep method is defined as follows:
+
+
   5.times do |sheep|
     puts sheep
     if sheep >= 2
