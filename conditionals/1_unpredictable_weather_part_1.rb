@@ -61,7 +61,11 @@ puts is put s which is put string which means print the string to the screen.
 'The sun is so bright!' is a string.
 this means print to the screen the string 'The sun is so bright!'.
 
+Syntax:
 end
+
+Explanation:
+this is the last line of the if statement that is everything after this is outside of the if statement.
 
 Summary of Solution Syntax:
 This means:
