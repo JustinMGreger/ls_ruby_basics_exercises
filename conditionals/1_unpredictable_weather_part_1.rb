@@ -19,6 +19,14 @@ sun is a variable.
 .sample is a method that randomly selects an element from an array.
 this means the variable sun is assigned the randomly selected element from the array ['visible', 'hidden'].
 
+Additional Description of Exercise:
+
+Write an if statement that prints "The sun is so bright!" if sun equals 'visible'.
+
+
+
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
