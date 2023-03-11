@@ -86,7 +86,6 @@ puts is put s which is put string which means print the string to the screen.
 'The sun is so bright!' is a string.
 this means print to the screen the string 'The sun is so bright!'.
 
-
 This means:
 
 the variable sun is assigned the randomly selected element from the array ['visible', 'hidden'].
