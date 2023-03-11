@@ -88,4 +88,11 @@ this means print to the screen the string 'The sun is so bright!'.
 
 
 This means:
+
+the variable sun is assigned the randomly selected element from the array ['visible', 'hidden'].
+
+if the variable sun is assigned the randomly selected element from the array ['visible', 'hidden'] and if that
+is specifically equal to the string 'visible' which is an element in the sun array then print to the screen the string 
+'The sun is so bright!'.
+
 =end
