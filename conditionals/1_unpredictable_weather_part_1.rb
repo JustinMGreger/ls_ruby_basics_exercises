@@ -53,8 +53,14 @@ sun is assigned to the variable sun is assigned the randomly selected element fr
 this means if the variable sun is assigned the randomly selected element from the array ['visible', 'hidden'] and if that
 is specifically equal to the string 'visible' which is an element in the sun array then do something.
 
-
+Syntax:
   puts 'The sun is so bright!'
+
+Explanation:
+puts is put s which is put string which means print the string to the screen.
+'The sun is so bright!' is a string.
+this means print to the screen the string 'The sun is so bright!'.
+
 end
 
 Summary of Solution Syntax:
