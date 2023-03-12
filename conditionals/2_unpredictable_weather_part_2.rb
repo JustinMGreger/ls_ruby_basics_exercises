@@ -67,7 +67,11 @@ puts means put s which is put string which means print to the screen the string.
 'The clouds are blocking the sun!' is a string.
 this means print to the screen the string 'The clouds are blocking the sun!'
 
+Syntax:
 end
+
+Explanation:
+this is the last line of the unless statement that is everything after this line is outside of the unless statement.
 
 Summary of Solution Syntax:
 
@@ -91,6 +95,8 @@ is not equal to 'visible' then do something.
 puts means put s which is put string which means print to the screen the string.
 'The clouds are blocking the sun!' is a string.
 this means print to the screen the string 'The clouds are blocking the sun!'
+
+this is the last line of the unless statement that is everything after this line is outside of the unless statement.
 
 This means:
 =end
