@@ -28,7 +28,19 @@ When writing these statements, take advantage of Ruby's expressiveness and use s
 if...end statement to print results only when some condition is met or not met.
 
 Syntax of Solution:
+
+sun = ['visible', 'hidden'].sample
+
+puts 'The sun is so bright!' if sun == 'visible'
+puts 'The clouds are blocking the sun!' unless sun == 'visible'
+
 Explanation of Solution Syntax:
+
+sun = ['visible', 'hidden'].sample
+
+puts 'The sun is so bright!' if sun == 'visible'
+puts 'The clouds are blocking the sun!' unless sun == 'visible'
+
 Summary of Solution Syntax:
 This means:
 =end
