@@ -99,4 +99,10 @@ this means print to the screen the string 'The clouds are blocking the sun!'
 this is the last line of the unless statement that is everything after this line is outside of the unless statement.
 
 This means:
+
+the variable sun is assigned the randomly selected element from the array ['visible', 'hidden'].
+
+if the variable sun which is assigned the randomly selected element from the array ['visible', 'hidden']
+is not equal to the string 'visible' then print to the screen the string 'The clouds are blocking the sun!'
+
 =end
