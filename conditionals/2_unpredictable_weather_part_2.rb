@@ -25,7 +25,21 @@ Write an unless statement that prints "The clouds are blocking the sun!" unless 
 
 
 Syntax of Solution:
+
+sun = ['visible', 'hidden'].sample
+
+unless sun == 'visible'
+  puts 'The clouds are blocking the sun!'
+end
+
 Explanation of Solution Syntax:
+
+sun = ['visible', 'hidden'].sample
+
+unless sun == 'visible'
+  puts 'The clouds are blocking the sun!'
+end
+
 Summary of Solution Syntax:
 This means:
 =end
