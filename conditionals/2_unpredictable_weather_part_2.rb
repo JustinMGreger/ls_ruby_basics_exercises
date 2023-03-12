@@ -44,8 +44,23 @@ sun is a variable.
 .sample is a method that randomly selects an element from an array.
 this means the variable sun is assigned the randomly selected element from the array ['visible', 'hidden'].
 
-
+Syntax:
 unless sun == 'visible'
+
+Explanation:
+unless statement means do something if a condition is false.
+sun is a variable.
+= means assignment.
+['visible', 'hidden'] is an array of elements.
+.sample is a method that randomly selects an element from an array.
+this means the variable sun is assigned the randomly selected element from the array ['visible', 'hidden']
+== means equal to.
+'visible' is a string element in the sun array.
+this means that if the variable sun which is assigned the randomly selected element from the array ['visible', 'hidden']
+is not equal to 'visible' then do something.
+
+
+
   puts 'The clouds are blocking the sun!'
 end
 
@@ -57,6 +72,18 @@ sun is a variable.
 .sample is a method that randomly selects an element from an array.
 this means the variable sun is assigned the randomly selected element from the array ['visible', 'hidden'].
 
+unless statement means do something if a condition is false.
+sun is a variable.
+= means assignment.
+['visible', 'hidden'] is an array of elements.
+.sample is a method that randomly selects an element from an array.
+this means the variable sun is assigned the randomly selected element from the array ['visible', 'hidden']
+== means equal to.
+'visible' is a string element in the sun array.
+this means that if the variable sun which is assigned the randomly selected element from the array ['visible', 'hidden']
+is not equal to 'visible' then do something.
+  
 
+  
 This means:
 =end
