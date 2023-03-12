@@ -59,9 +59,14 @@ this means the variable sun is assigned the randomly selected element from the a
 this means that if the variable sun which is assigned the randomly selected element from the array ['visible', 'hidden']
 is not equal to 'visible' then do something.
 
-
-
+Syntax:
   puts 'The clouds are blocking the sun!'
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+'The clouds are blocking the sun!' is a string.
+this means print to the screen the string 'The clouds are blocking the sun!'
+
 end
 
 Summary of Solution Syntax:
@@ -83,7 +88,9 @@ this means the variable sun is assigned the randomly selected element from the a
 this means that if the variable sun which is assigned the randomly selected element from the array ['visible', 'hidden']
 is not equal to 'visible' then do something.
   
+puts means put s which is put string which means print to the screen the string.
+'The clouds are blocking the sun!' is a string.
+this means print to the screen the string 'The clouds are blocking the sun!'
 
-  
 This means:
 =end
