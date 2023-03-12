@@ -34,12 +34,29 @@ end
 
 Explanation of Solution Syntax:
 
+Syntax:
 sun = ['visible', 'hidden'].sample
+
+Explanation:
+sun is a variable.
+= means assignment.
+['visible', 'hidden'] is an array of elements.
+.sample is a method that randomly selects an element from an array.
+this means the variable sun is assigned the randomly selected element from the array ['visible', 'hidden'].
+
 
 unless sun == 'visible'
   puts 'The clouds are blocking the sun!'
 end
 
 Summary of Solution Syntax:
+
+sun is a variable.
+= means assignment.
+['visible', 'hidden'] is an array of elements.
+.sample is a method that randomly selects an element from an array.
+this means the variable sun is assigned the randomly selected element from the array ['visible', 'hidden'].
+
+
 This means:
 =end
