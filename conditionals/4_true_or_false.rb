@@ -9,7 +9,16 @@ boolean = [true, false].sample
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 boolean = [true, false].sample
+
+Explanation:
+boolean is a variable.
+= means assignment.
+[true, false] is an array of elements.
+true and false are elements in the array.
+.sample is an array method that randomly selects elements in an array.
+this means that the variable boolean is assigned a randomly selected element from the array [true, false].
 
 Syntax of Solution:
 Explanation of Solution Syntax:
