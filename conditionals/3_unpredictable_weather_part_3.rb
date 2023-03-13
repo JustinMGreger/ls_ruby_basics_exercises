@@ -114,6 +114,14 @@ this means the variable sun is assigned the randomly selected element from the a
 this means if the variable sun which is assigned the randomly selected element from the array ['visible', 'hidden'] is
 not equal to the string 'visible' then print to the screen the string 'The clouds are blocking the sun!'.
 
-
 This means:
+
+the variable sun is assigned the randomly selected element from the array ['visible', 'hidden'].
+
+if the variable sun which is assigned the randomly selected element from the array ['visible', 'hidden'] is
+equal to the string 'visible' then  print to the screen the string 'The sun is so bright!'.
+
+if the variable sun which is assigned the randomly selected element from the array ['visible', 'hidden'] is
+not equal to the string 'visible' then print to the screen the string 'The clouds are blocking the sun!'.
+
 =end
