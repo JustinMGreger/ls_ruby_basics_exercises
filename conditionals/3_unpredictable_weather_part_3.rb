@@ -63,8 +63,22 @@ this means the variable sun is assigned the randomly selected element from the a
 this means if the variable sun which is assigned the randomly selected element from the array ['visible', 'hidden'] is
 equal to the string 'visible' then  print to the screen the string 'The sun is so bright!'.
 
-
+Syntax:
 puts 'The clouds are blocking the sun!' unless sun == 'visible'
+
+Explanation:
+puts means put s which is put string which is print string to the screen.
+'The clouds are blocking the sun!' is a string.
+unless means if boolean false then do something.
+sun is a variable.
+= means assignment.
+['visible', 'hidden'] is an array of elements.
+.sample is a method that randomly selects an element from an array.
+this means the variable sun is assigned the randomly selected element from the array ['visible', 'hidden'].
+== means equal to.
+'visible' is a string.
+this means if the variable sun which is assigned the randomly selected element from the array ['visible', 'hidden'] is
+not equal to the string 'visible' then print to the screen the string 'The clouds are blocking the sun!'.
 
 Summary of Solution Syntax:
 
@@ -86,6 +100,19 @@ this means the variable sun is assigned the randomly selected element from the a
 'visible' is a string.
 this means if the variable sun which is assigned the randomly selected element from the array ['visible', 'hidden'] is
 equal to the string 'visible' then  print to the screen the string 'The sun is so bright!'.
+
+puts means put s which is put string which is print string to the screen.
+'The clouds are blocking the sun!' is a string.
+unless means if boolean false then do something.
+sun is a variable.
+= means assignment.
+['visible', 'hidden'] is an array of elements.
+.sample is a method that randomly selects an element from an array.
+this means the variable sun is assigned the randomly selected element from the array ['visible', 'hidden'].
+== means equal to.
+'visible' is a string.
+this means if the variable sun which is assigned the randomly selected element from the array ['visible', 'hidden'] is
+not equal to the string 'visible' then print to the screen the string 'The clouds are blocking the sun!'.
 
 
 This means:
