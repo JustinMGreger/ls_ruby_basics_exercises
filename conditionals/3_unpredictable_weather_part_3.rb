@@ -46,9 +46,24 @@ sun is a variable.
 .sample is a method that randomly selects an element from an array.
 this means the variable sun is assigned the randomly selected element from the array ['visible', 'hidden'].
 
-
-
+Syntax:
 puts 'The sun is so bright!' if sun == 'visible'
+
+Explanation:
+puts means put s which is put string which is print string to the screen.
+'The sun is so bright!' is a string.
+if statements mean do something if a condition is boolean true.
+sun is a variable.
+= means assignment.
+['visible', 'hidden'] is an array of elements.
+.sample is a method that randomly selects an element from an array.
+this means the variable sun is assigned the randomly selected element from the array ['visible', 'hidden'].
+== means equal to.
+'visible' is a string.
+this means if the variable sun which is assigned the randomly selected element from the array ['visible', 'hidden'] is
+equal to the string 'visible' then  print to the screen the string 'The sun is so bright!'.
+
+
 puts 'The clouds are blocking the sun!' unless sun == 'visible'
 
 Summary of Solution Syntax:
@@ -58,6 +73,19 @@ sun is a variable.
 ['visible', 'hidden'] is an array of elements.
 .sample is a method that randomly selects an element from an array.
 this means the variable sun is assigned the randomly selected element from the array ['visible', 'hidden'].
+
+puts means put s which is put string which is print string to the screen.
+'The sun is so bright!' is a string.
+if statements mean do something if a condition is boolean true.
+sun is a variable.
+= means assignment.
+['visible', 'hidden'] is an array of elements.
+.sample is a method that randomly selects an element from an array.
+this means the variable sun is assigned the randomly selected element from the array ['visible', 'hidden'].
+== means equal to.
+'visible' is a string.
+this means if the variable sun which is assigned the randomly selected element from the array ['visible', 'hidden'] is
+equal to the string 'visible' then  print to the screen the string 'The sun is so bright!'.
 
 
 This means:
