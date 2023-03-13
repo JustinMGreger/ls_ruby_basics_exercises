@@ -15,7 +15,14 @@ end
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 number = 7
+
+Explanation:
+number is a variable.
+= means assignment.
+7 is an integer.
+this means the variable number is assigned to the integer 7.
 
 if number
   puts "My favorite number is #{number}."
