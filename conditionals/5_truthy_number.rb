@@ -42,7 +42,14 @@ puts is put s which means put string which means print to the screen the string.
 this means print to the screen the string "My favorite number is #{number}." which is string interpolation referencing 
 the varaible number.
 
+Syntax:
 else
+
+Explanation:
+else means if something is false then do something.
+this means if number variable is false then do something.
+
+
   puts "I don't have a favorite number."
 end
 
