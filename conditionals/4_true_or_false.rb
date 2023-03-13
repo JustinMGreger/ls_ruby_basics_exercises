@@ -25,7 +25,13 @@ Additional Description of Exercise:
 Write a ternary operator that prints "I'm true!" if boolean equals true and prints "I'm false!" if boolean equals false.
 
 Syntax of Solution:
+
+boolean ? puts("I'm true!") : puts("I'm false!")
+
 Explanation of Solution Syntax:
+
+boolean ? puts("I'm true!") : puts("I'm false!")
+
 Summary of Solution Syntax:
 This means:
 =end
