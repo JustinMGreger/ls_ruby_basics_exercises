@@ -4,9 +4,23 @@ Description of Exercise:
 What will the following code print? Why? Don't run it until you've attempted to answer.
 
 Initial Syntax Given:
+
+number = 7
+
+if number
+  puts "My favorite number is #{number}."
+else
+  puts "I don't have a favorite number."
+end
+
 Explanation of Initial Syntax Given:
-Syntax of Solution:
-Explanation of Solution Syntax:
-Summary of Solution Syntax:
-This means:
+
+number = 7
+
+if number
+  puts "My favorite number is #{number}."
+else
+  puts "I don't have a favorite number."
+end
+
 =end
