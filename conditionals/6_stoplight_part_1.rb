@@ -25,7 +25,27 @@ Write a case statement that prints "Go!" if stoplight equals 'green', "Slow down
 "Stop!" if stoplight equals 'red'.
 
 Syntax of Solution:
+
+case stoplight
+when 'green'
+  puts 'Go!'
+when 'yellow'
+  puts 'Slow down!'
+else
+  puts 'Stop!'
+end
+
 Explanation of Solution Syntax:
+
+case stoplight
+when 'green'
+  puts 'Go!'
+when 'yellow'
+  puts 'Slow down!'
+else
+  puts 'Stop!'
+end
+
 Summary of Solution Syntax:
 This means:
 =end
