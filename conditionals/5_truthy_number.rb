@@ -63,4 +63,49 @@ end
 Explanation:
 this is the last line of the if statement that is everything after this line is outside of the if statement.
 
+Summary of Solution Syntax:
+
+number is a variable.
+= means assignment.
+7 is an integer.
+this means the variable number is assigned to the integer 7.
+
+if statements mean if boolean true then do something.
+number is the variable number.
+this means if number is boolean true then do something.
+puts is put s which means put string which means print to the screen the string.
+"My favorite number is #{number}." is a string.
+#{number} is string interpolation referencing the varaible number.
+this means print to the screen the string "My favorite number is #{number}." which is string interpolation referencing 
+the varaible number.
+else means if something is false then do something.
+this means if number variable is false then do something.
+puts is put s which means put string which means print to the screen the string.
+"I don't have a favorite number." is a string.
+this means print to the screen the string "I don't have a favorite number."
+this is the last line of the if statement that is everything after this line is outside of the if statement.
+
+This means:
+
+number is a variable.
+= means assignment.
+7 is an integer.
+this means the variable number is assigned to the integer 7.
+
+if statements mean if boolean true then do something.
+number is the variable number.
+this means if number is boolean true then do something.
+puts is put s which means put string which means print to the screen the string.
+"My favorite number is #{number}." is a string.
+#{number} is string interpolation referencing the varaible number.
+this means print to the screen the string "My favorite number is #{number}." which is string interpolation referencing 
+the varaible number.
+else means if something is false then do something.
+this means if number variable is false then do something.
+puts is put s which means put string which means print to the screen the string.
+"I don't have a favorite number." is a string.
+this means print to the screen the string "I don't have a favorite number."
+this is the last line of the if statement that is everything after this line is outside of the if statement.
+
+
 =end
