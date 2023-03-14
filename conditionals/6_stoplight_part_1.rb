@@ -79,14 +79,39 @@ puts means put s which is put string which means print to the screen the string.
 'Go!' is a string.
 this means print to the screen the string 'Go!'.
 
-
-
-
-
+Syntax:
 when 'yellow'
+
+Explanation:
+when means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is something then do something.
+'yellow' is a string.
+this means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is assigned the string 'yellow' then do something.
+
+Syntax:
   puts 'Slow down!'
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+'Slow down!' is a string.
+this means print to the screen the string 'Slow down!'.
+
+Syntax:
 else
+
+Explanation:
+else means if all of the above is false then do the following:
+
+Syntax:
   puts 'Stop!'
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+'Stop!' is a string.
+this means print to the screen the string 'Stop!'.
+
+
 end
 
 Summary of Solution Syntax:
@@ -104,6 +129,32 @@ stoplight is a variable and the case.
 .sample is an array method that randomly selects an element from the array of elements.
 this means the stoplight variable is assigned a randomly selected string element from the array ['green', 'yellow', 'red'] 
 and compared to the following:
+
+when means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is something then do something.
+'green' is a string.
+this means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is assigned the string 'green' then do something.
+
+puts means put s which is put string which means print to the screen the string.
+'Go!' is a string.
+this means print to the screen the string 'Go!'.
+
+when means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is something then do something.
+'yellow' is a string.
+this means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is assigned the string 'yellow' then do something.
+
+puts means put s which is put string which means print to the screen the string.
+'Slow down!' is a string.
+this means print to the screen the string 'Slow down!'.
+
+else means if all of the above is false then do the following:
+
+puts means put s which is put string which means print to the screen the string.
+'Stop!' is a string.
+this means print to the screen the string 'Stop!'.
 
 
 This means:
