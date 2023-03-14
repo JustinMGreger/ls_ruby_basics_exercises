@@ -49,8 +49,14 @@ Explanation:
 else means if something is false then do something.
 this means if number variable is false then do something.
 
-
+Syntax:
   puts "I don't have a favorite number."
+
+Explanation:
+puts is put s which means put string which means print to the screen the string.
+"I don't have a favorite number." is a string.
+this means print to the screen the string "I don't have a favorite number."
+
 end
 
 =end
