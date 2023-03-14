@@ -29,9 +29,13 @@ stoplight is a variable.
 this means the variable stoplight is assigned to the randomly selected string element from the array 
 ['green', 'yellow', 'red'].
 
-
-
+Syntax:
 case stoplight
+case statements are used to compare multiple values to a single case.
+stoplight is a variable and the case.
+
+
+
 when 'green'
   puts 'Go!'
 when 'yellow'
