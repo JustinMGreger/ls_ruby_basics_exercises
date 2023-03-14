@@ -26,6 +26,8 @@ Write a case statement that prints "Go!" if stoplight equals 'green', "Slow down
 
 Syntax of Solution:
 
+stoplight = ['green', 'yellow', 'red'].sample
+
 case stoplight
 when 'green'
   puts 'Go!'
@@ -37,7 +39,29 @@ end
 
 Explanation of Solution Syntax:
 
+Syntax:
+stoplight = ['green', 'yellow', 'red'].sample
+
+Explanation:
+stoplight is a variable.
+= is assignment.
+['green', 'yellow', 'red'] is an array of string elements.
+.sample is an array method that randomly selects an element from the array of elements.
+this means the stoplight variable is assigned a randomly selected string element from the array ['green', 'yellow', 'red'].
+
+Syntax:
 case stoplight
+
+Explanation:
+case statements are used to compare multiple values to a single case.
+stoplight is a variable and the case.
+= is assignment.
+['green', 'yellow', 'red'] is an array of string elements.
+.sample is an array method that randomly selects an element from the array of elements.
+this means the stoplight variable is assigned a randomly selected string element from the array ['green', 'yellow', 'red'] 
+and compared to the following:
+
+
 when 'green'
   puts 'Go!'
 when 'yellow'
@@ -47,5 +71,21 @@ else
 end
 
 Summary of Solution Syntax:
+
+stoplight is a variable.
+= is assignment.
+['green', 'yellow', 'red'] is an array of string elements.
+.sample is an array method that randomly selects an element from the array of elements.
+this means the stoplight variable is assigned a randomly selected string element from the array ['green', 'yellow', 'red'].
+
+case statements are used to compare multiple values to a single case.
+stoplight is a variable and the case.
+= is assignment.
+['green', 'yellow', 'red'] is an array of string elements.
+.sample is an array method that randomly selects an element from the array of elements.
+this means the stoplight variable is assigned a randomly selected string element from the array ['green', 'yellow', 'red'] 
+and compared to the following:
+
+
 This means:
 =end
