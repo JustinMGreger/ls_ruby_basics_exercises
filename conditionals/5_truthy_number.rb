@@ -93,6 +93,9 @@ if the number is boolean true then print to the screen the string "My favorite n
 interpolation referencing the varaible number.
 if the number variable is boolean false then print to the screen the string "I don't have a favorite number."
 
-
+the result of this is:
+the variable number is assigned to the integer 7 and this is default boolean true which means
+print to the screen the string "My favorite number is #{number}." which is string interpolation referencing the varaible 
+number that is the string with interpolation printed to the string is "My favorite number is 7."
 
 =end
