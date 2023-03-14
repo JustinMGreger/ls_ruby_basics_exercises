@@ -9,6 +9,15 @@ stoplight = ['green', 'yellow', 'red'].sample
 
 Explanation of Initial Syntax Given:
 
+Syntax:
+stoplight is a variable.
+= is assignment.
+['green', 'yellow', 'red'] is an array of string elements.
+.sample is an array method that randomly selects an element from the array of elements.
+this means the stoplight variable is assigned a randomly selected string element from the array ['green', 'yellow', 'red'].
+
+
+
 stoplight = ['green', 'yellow', 'red'].sample
 
 Syntax of Solution:
