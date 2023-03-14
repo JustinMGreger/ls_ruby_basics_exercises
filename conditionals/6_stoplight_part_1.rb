@@ -61,8 +61,19 @@ stoplight is a variable and the case.
 this means the stoplight variable is assigned a randomly selected string element from the array ['green', 'yellow', 'red'] 
 and compared to the following:
 
-
+Syntax:
 when 'green'
+
+Explanation:
+when means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is something then do something.
+'green' is a string.
+this means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is assigned the string 'green' then do something.
+
+
+  
+
   puts 'Go!'
 when 'yellow'
   puts 'Slow down!'
