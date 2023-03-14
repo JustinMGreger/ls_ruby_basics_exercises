@@ -162,4 +162,17 @@ this means print to the screen the string 'Stop!'.
 this is the last line of the case statement that is everything after this line is outside of the case statement.
 
 This means:
+
+the stoplight variable is assigned a randomly selected string element from the array ['green', 'yellow', 'red'].
+
+case statements are used to compare multiple values to a single case.
+the stoplight variable is the case and is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] and compared to the following:
+when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is assigned the string 'green' print to the screen the string 'Go!'.
+when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is assigned the string 'yellow' print to the screen the string 'Slow down!'.
+if all of the above is false then print to the screen the string 'Stop!'.
+this is the last line of the case statement that is everything after this line is outside of the case statement.
+
 =end
