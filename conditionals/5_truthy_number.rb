@@ -57,6 +57,10 @@ puts is put s which means put string which means print to the screen the string.
 "I don't have a favorite number." is a string.
 this means print to the screen the string "I don't have a favorite number."
 
+Syntax:
 end
+
+Explanation:
+this is the last line of the if statement that is everything after this line is outside of the if statement.
 
 =end
