@@ -111,8 +111,11 @@ puts means put s which is put string which means print to the screen the string.
 'Stop!' is a string.
 this means print to the screen the string 'Stop!'.
 
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the case statement that is everything after this line is outside of the case statement.
 
 Summary of Solution Syntax:
 
@@ -156,6 +159,7 @@ puts means put s which is put string which means print to the screen the string.
 'Stop!' is a string.
 this means print to the screen the string 'Stop!'.
 
+this is the last line of the case statement that is everything after this line is outside of the case statement.
 
 This means:
 =end
