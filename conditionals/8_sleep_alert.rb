@@ -77,14 +77,19 @@ Syntax:
 Explanation:
 else means if all of the above is false then do the following:
 
-
-
-
-
-
-
+Syntax:
           'Go to sleep!'
+
+Explanation:
+'Go to sleep!' is a string.
+
+Syntax:
         end
+
+Explanation:
+this is the last line of the if statement that is everything after this line is outside of the if statement.
+
+
 
 puts alert
 
@@ -110,7 +115,8 @@ this means the variable alert is assigned to the variable status which is assign
 from the array ['awake', 'tired'] and if the variable status is equal to the string element 'awake' then do something.
 'Be productive!' is a string.
 else means if all of the above is false then do the following:
+'Go to sleep!' is a string.
+this is the last line of the if statement that is everything after this line is outside of the if statement.
 
-  
 This means:
 =end
