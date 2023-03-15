@@ -19,6 +19,11 @@ status is a variable.
 .sample is an array method that randomly selects elements from an array.
 this means the variable status is assigned the randomly selected string element from the array ['awake', 'tired'].
 
+Additional Description of Exercise:
+
+Write an if statement that returns "Be productive!" if status equals 'awake' and returns "Go to sleep!" otherwise. 
+Then, assign the return value of the if statement to a variable and print that variable.
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
