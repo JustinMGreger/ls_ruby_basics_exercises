@@ -89,9 +89,32 @@ Syntax:
 Explanation:
 this is the last line of the if statement that is everything after this line is outside of the if statement.
 
-
-
+Syntax:
 puts alert
+
+Explanation:
+puts is put s which is put string which is print to the screen the string.
+alert is a variable.
+= means assignment.
+if is an if statement that means if something is boolean true then do something.
+status is a variable.
+= means assignment.
+['awake', 'tired'] is array of string.
+.sample is an array method that randomly selects elements from an array.
+this means the variable status is assigned the randomly selected string element from the array ['awake', 'tired'].
+== means equals to.
+'awake' is a string element.
+this means the variable alert is assigned to the variable status which is assigned the randomly selected string element 
+from the array ['awake', 'tired'] and if the variable status is equal to the string element 'awake' then do something.
+'Be productive!' is a string.
+else means if all of the above is false then do the following:
+'Go to sleep!' is a string.
+this is the last line of the if statement that is everything after this line is outside of the if statement.
+this means print to the screen the variable alert which is assigned to the variable status which is assigned the randomly
+selected string element from the array ['awake', 'tired'] and if the variable status is equal to the string element 
+'awake' then return the string 'Be productive!' if status does not equal the string element 'awake' then return the string
+'Go to sleep!'
+this is the last line of the if statement that is everything after this line is outside of the if statement.
 
 Summary of Solution Syntax:
 
@@ -116,6 +139,29 @@ from the array ['awake', 'tired'] and if the variable status is equal to the str
 'Be productive!' is a string.
 else means if all of the above is false then do the following:
 'Go to sleep!' is a string.
+this is the last line of the if statement that is everything after this line is outside of the if statement.
+
+puts is put s which is put string which is print to the screen the string.
+alert is a variable.
+= means assignment.
+if is an if statement that means if something is boolean true then do something.
+status is a variable.
+= means assignment.
+['awake', 'tired'] is array of string.
+.sample is an array method that randomly selects elements from an array.
+this means the variable status is assigned the randomly selected string element from the array ['awake', 'tired'].
+== means equals to.
+'awake' is a string element.
+this means the variable alert is assigned to the variable status which is assigned the randomly selected string element 
+from the array ['awake', 'tired'] and if the variable status is equal to the string element 'awake' then do something.
+'Be productive!' is a string.
+else means if all of the above is false then do the following:
+'Go to sleep!' is a string.
+this is the last line of the if statement that is everything after this line is outside of the if statement.
+this means print to the screen the variable alert which is assigned to the variable status which is assigned the randomly
+selected string element from the array ['awake', 'tired'] and if the variable status is equal to the string element 
+'awake' then return the string 'Be productive!' if status does not equal the string element 'awake' then return the string
+'Go to sleep!'
 this is the last line of the if statement that is everything after this line is outside of the if statement.
 
 This means:
