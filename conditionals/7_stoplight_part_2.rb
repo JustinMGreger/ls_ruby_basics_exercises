@@ -129,7 +129,10 @@ stoplight is a variable.
 .sample is an array method that randomly selects from the elements.
 this means the variable stoplight is assigned to the randomly selected string element from the array 
 ['green', 'yellow', 'red'].
-
+== means equals.
+'green' is a string.
+this means if the variable stoplight is assigned to the randomly selected string element from the array 
+['green', 'yellow', 'red'] is equal to the string 'green' that is boolean true then do something.
 
 
 
@@ -141,5 +144,25 @@ else
 end
 
 Summary of Solution Syntax:
+
+stoplight is a variable.
+= means assignment.
+['green', 'yellow', 'red'] is an array of string elements.
+.sample is an array method that randomly selects from the elements.
+this means the variable stoplight is assigned to the randomly selected string element from the array 
+['green', 'yellow', 'red'].
+
+if is an if statement that means if something is boolean true then do something.
+stoplight is a variable.
+= means assignment.
+['green', 'yellow', 'red'] is an array of string elements.
+.sample is an array method that randomly selects from the elements.
+this means the variable stoplight is assigned to the randomly selected string element from the array 
+['green', 'yellow', 'red'].
+== means equals.
+'green' is a string.
+this means if the variable stoplight is assigned to the randomly selected string element from the array 
+['green', 'yellow', 'red'] is equal to the string 'green' that is boolean true then do something.
+  
 This means:
 =end
