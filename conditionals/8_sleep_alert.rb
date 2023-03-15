@@ -25,7 +25,25 @@ Write an if statement that returns "Be productive!" if status equals 'awake' and
 Then, assign the return value of the if statement to a variable and print that variable.
 
 Syntax of Solution:
+
+alert = if status == 'awake'
+          'Be productive!'
+        else
+          'Go to sleep!'
+        end
+
+puts alert
+
 Explanation of Solution Syntax:
+
+alert = if status == 'awake'
+          'Be productive!'
+        else
+          'Go to sleep!'
+        end
+
+puts alert
+
 Summary of Solution Syntax:
 This means:
 =end
