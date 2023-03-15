@@ -165,4 +165,19 @@ selected string element from the array ['awake', 'tired'] and if the variable st
 this is the last line of the if statement that is everything after this line is outside of the if statement.
 
 This means:
+
+the variable status is assigned the randomly selected string element from the array ['awake', 'tired'].
+
+the variable alert is assigned to the variable status which is assigned the randomly selected string element 
+from the array ['awake', 'tired'] and if the variable status is equal to the string element 'awake' then return the string
+'Be productive!'.
+if all of the above is false then return the string 'Go to sleep!'
+this is the last line of the if statement that is everything after this line is outside of the if statement.
+
+print to the screen the variable alert which is assigned to the variable status which is assigned the randomly
+selected string element from the array ['awake', 'tired'] and if the variable status is equal to the string element 
+'awake' then return the string 'Be productive!' if status does not equal the string element 'awake' then return the string
+'Go to sleep!'
+this is the last line of the if statement that is everything after this line is outside of the if statement.
+
 =end
