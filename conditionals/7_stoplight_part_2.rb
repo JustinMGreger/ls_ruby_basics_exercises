@@ -142,10 +142,27 @@ puts means put s which is put string which means print to the screen the string.
 'Go!' is a string.
 this means print to the screen the string 'Go!'.
 
-
-
-
+Syntax:
 elsif stoplight == 'yellow'
+
+Explanation:
+elsif means if the condition is boolean true then do something.
+stoplight is a variable.
+= means assignment.
+['green', 'yellow', 'red'] is an array of string elements.
+.sample is an array method that randomly selects from the elements.
+this means the variable stoplight is assigned to the randomly selected string element from the array 
+['green', 'yellow', 'red'].
+== means equals.
+'yellow' is a string.
+this means if the variable stoplight is assigned to the randomly selected string element from the array 
+['green', 'yellow', 'red'] is equal to the string 'yellow' that is boolean true then do something.
+
+
+
+
+
+
   puts 'Slow down!'
 else
   puts 'Stop!'
@@ -171,10 +188,20 @@ this means the variable stoplight is assigned to the randomly selected string el
 'green' is a string.
 this means if the variable stoplight is assigned to the randomly selected string element from the array 
 ['green', 'yellow', 'red'] is equal to the string 'green' that is boolean true then do something.
-
 puts means put s which is put string which means print to the screen the string.
 'Go!' is a string.
 this means print to the screen the string 'Go!'.
+elsif means if the condition is boolean true then do something.
+stoplight is a variable.
+= means assignment.
+['green', 'yellow', 'red'] is an array of string elements.
+.sample is an array method that randomly selects from the elements.
+this means the variable stoplight is assigned to the randomly selected string element from the array 
+['green', 'yellow', 'red'].
+== means equals.
+'yellow' is a string.
+this means if the variable stoplight is assigned to the randomly selected string element from the array 
+['green', 'yellow', 'red'] is equal to the string 'yellow' that is boolean true then do something.
 
 
 This means:
