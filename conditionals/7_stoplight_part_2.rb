@@ -186,7 +186,6 @@ end
 Explanation:
 this is the last line of the if statement that is everything after this line is outside of the if statement.
 
-
 Summary of Solution Syntax:
 
 stoplight is a variable.
@@ -231,4 +230,15 @@ this means print to the screen the string 'Stop!'.
 this is the last line of the if statement that is everything after this line is outside of the if statement.
 
 This means:
+
+the variable stoplight is assigned to the randomly selected string element from the array 
+['green', 'yellow', 'red'].
+
+if the variable stoplight is assigned to the randomly selected string element from the array ['green', 'yellow', 'red'] 
+is equal to the string 'green' that is boolean true print to the screen the string 'Go!'.
+if the variable stoplight is assigned to the randomly selected string element from the array ['green', 'yellow', 'red'] 
+is equal to the string 'yellow' that is boolean true print to the screen the string 'Slow down!'.
+if all of the above is boolean false then print to the screen the string 'Stop!'.
+this is the last line of the if statement that is everything after this line is outside of the if statement.
+
 =end
