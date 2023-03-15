@@ -16,7 +16,13 @@ end
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 number = rand(10)
+
+Explanation:
+number is a variable.
+= means assignment.
+rand(10) means return a random integer between 0 and 9 which includes 0 but excludes 10.
 
 if number = 5
   puts '5 is a cool number!'
