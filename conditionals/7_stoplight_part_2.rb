@@ -134,9 +134,17 @@ this means the variable stoplight is assigned to the randomly selected string el
 this means if the variable stoplight is assigned to the randomly selected string element from the array 
 ['green', 'yellow', 'red'] is equal to the string 'green' that is boolean true then do something.
 
-
-
+Syntax:
   puts 'Go!'
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+'Go!' is a string.
+this means print to the screen the string 'Go!'.
+
+
+
+
 elsif stoplight == 'yellow'
   puts 'Slow down!'
 else
@@ -163,6 +171,11 @@ this means the variable stoplight is assigned to the randomly selected string el
 'green' is a string.
 this means if the variable stoplight is assigned to the randomly selected string element from the array 
 ['green', 'yellow', 'red'] is equal to the string 'green' that is boolean true then do something.
-  
+
+puts means put s which is put string which means print to the screen the string.
+'Go!' is a string.
+this means print to the screen the string 'Go!'.
+
+
 This means:
 =end
