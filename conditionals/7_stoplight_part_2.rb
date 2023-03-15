@@ -180,8 +180,12 @@ puts means put s which is put string which means print to the screen the string.
 'Stop!' is a string.
 this means print to the screen the string 'Stop!'.
 
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the if statement that is everything after this line is outside of the if statement.
+
 
 Summary of Solution Syntax:
 
@@ -224,7 +228,7 @@ else means if all of the above is false then do the following:
 puts means put s which is put string which means print to the screen the string.
 'Stop!' is a string.
 this means print to the screen the string 'Stop!'.
-
+this is the last line of the if statement that is everything after this line is outside of the if statement.
 
 This means:
 =end
