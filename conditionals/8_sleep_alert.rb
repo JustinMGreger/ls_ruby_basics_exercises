@@ -26,6 +26,8 @@ Then, assign the return value of the if statement to a variable and print that v
 
 Syntax of Solution:
 
+status = ['awake', 'tired'].sample
+
 alert = if status == 'awake'
           'Be productive!'
         else
@@ -36,6 +38,16 @@ puts alert
 
 Explanation of Solution Syntax:
 
+Syntax:
+status = ['awake', 'tired'].sample
+
+Explanation:
+status is a variable.
+= means assignment.
+['awake', 'tired'] is array of string.
+.sample is an array method that randomly selects elements from an array.
+this means the variable status is assigned the randomly selected string element from the array ['awake', 'tired'].
+
 alert = if status == 'awake'
           'Be productive!'
         else
@@ -45,5 +57,13 @@ alert = if status == 'awake'
 puts alert
 
 Summary of Solution Syntax:
+
+status is a variable.
+= means assignment.
+['awake', 'tired'] is array of string.
+.sample is an array method that randomly selects elements from an array.
+this means the variable status is assigned the randomly selected string element from the array ['awake', 'tired'].
+
+
 This means:
 =end
