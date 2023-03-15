@@ -172,8 +172,15 @@ else
 Explanation:
 else means if all of the above is false then do the following:
 
-
+Syntax:
   puts 'Stop!'
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+'Stop!' is a string.
+this means print to the screen the string 'Stop!'.
+
+
 end
 
 Summary of Solution Syntax:
@@ -214,8 +221,10 @@ puts means put s which is put string which means print to the screen the string.
 'Slow down!' is a string.
 this means print to the screen the string 'Slow down!'.
 else means if all of the above is false then do the following:
+puts means put s which is put string which means print to the screen the string.
+'Stop!' is a string.
+this means print to the screen the string 'Stop!'.
 
 
-  
 This means:
 =end
