@@ -48,7 +48,27 @@ status is a variable.
 .sample is an array method that randomly selects elements from an array.
 this means the variable status is assigned the randomly selected string element from the array ['awake', 'tired'].
 
+Syntax:
 alert = if status == 'awake'
+
+Explanation:
+alert is a variable.
+= means assignment.
+if is an if statement that means if something is boolean true then do something.
+status is a variable.
+= means assignment.
+['awake', 'tired'] is array of string.
+.sample is an array method that randomly selects elements from an array.
+this means the variable status is assigned the randomly selected string element from the array ['awake', 'tired'].
+== means equals to.
+'awake' is a string element.
+this means the variable alert is assigned to the variable status which is assigned the randomly selected string element 
+from the array ['awake', 'tired'] and if the variable status is equal to the string element 'awake' then do something.
+
+
+
+
+
           'Be productive!'
         else
           'Go to sleep!'
@@ -63,6 +83,19 @@ status is a variable.
 ['awake', 'tired'] is array of string.
 .sample is an array method that randomly selects elements from an array.
 this means the variable status is assigned the randomly selected string element from the array ['awake', 'tired'].
+
+alert is a variable.
+= means assignment.
+if is an if statement that means if something is boolean true then do something.
+status is a variable.
+= means assignment.
+['awake', 'tired'] is array of string.
+.sample is an array method that randomly selects elements from an array.
+this means the variable status is assigned the randomly selected string element from the array ['awake', 'tired'].
+== means equals to.
+'awake' is a string element.
+this means the variable alert is assigned to the variable status which is assigned the randomly selected string element 
+from the array ['awake', 'tired'] and if the variable status is equal to the string element 'awake' then do something.
 
 
 This means:
