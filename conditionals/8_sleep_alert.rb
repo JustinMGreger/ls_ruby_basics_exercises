@@ -71,8 +71,18 @@ Syntax:
 Explanation:
 'Be productive!' is a string.
 
-
+Syntax:
         else
+
+Explanation:
+else means if all of the above is false then do the following:
+
+
+
+
+
+
+
           'Go to sleep!'
         end
 
@@ -99,6 +109,8 @@ this means the variable status is assigned the randomly selected string element 
 this means the variable alert is assigned to the variable status which is assigned the randomly selected string element 
 from the array ['awake', 'tired'] and if the variable status is equal to the string element 'awake' then do something.
 'Be productive!' is a string.
+else means if all of the above is false then do the following:
 
+  
 This means:
 =end
