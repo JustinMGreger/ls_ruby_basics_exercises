@@ -95,9 +95,26 @@ end
 Explanation:
 this is the last line of the case statement that is everything after this line is outside of the case statement.
 
-
 Syntax of Solution:
+
+if stoplight == 'green'
+  puts 'Go!'
+elsif stoplight == 'yellow'
+  puts 'Slow down!'
+else
+  puts 'Stop!'
+end
+
 Explanation of Solution Syntax:
+
+if stoplight == 'green'
+  puts 'Go!'
+elsif stoplight == 'yellow'
+  puts 'Slow down!'
+else
+  puts 'Stop!'
+end
+
 Summary of Solution Syntax:
 This means:
 =end
