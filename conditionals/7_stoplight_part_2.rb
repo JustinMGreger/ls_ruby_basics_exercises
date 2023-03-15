@@ -107,7 +107,32 @@ end
 
 Explanation of Solution Syntax:
 
+Syntax:
+stoplight = ['green', 'yellow', 'red'].sample
+
+Explanation:
+stoplight is a variable.
+= means assignment.
+['green', 'yellow', 'red'] is an array of string elements.
+.sample is an array method that randomly selects from the elements.
+this means the variable stoplight is assigned to the randomly selected string element from the array 
+['green', 'yellow', 'red'].
+
+Syntax:
 if stoplight == 'green'
+
+Explanation:
+if is an if statement that means if something is boolean true then do something.
+stoplight is a variable.
+= means assignment.
+['green', 'yellow', 'red'] is an array of string elements.
+.sample is an array method that randomly selects from the elements.
+this means the variable stoplight is assigned to the randomly selected string element from the array 
+['green', 'yellow', 'red'].
+
+
+
+
   puts 'Go!'
 elsif stoplight == 'yellow'
   puts 'Slow down!'
