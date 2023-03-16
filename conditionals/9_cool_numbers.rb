@@ -119,10 +119,11 @@ puts is put s which is put string which is print to the screen the string.
 'Other numbers are cool too!' is a string.
 this means print to the screen the string 'Other numbers are cool too!'.
 
-
-
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the if statement that is everything after this line is outside of the if statement.
 
 Summary of Solution Syntax:
 
@@ -143,6 +144,7 @@ else means if all of the above is false then do the following:
 puts is put s which is put string which is print to the screen the string.
 'Other numbers are cool too!' is a string.
 this means print to the screen the string 'Other numbers are cool too!'.
+this is the last line of the if statement that is everything after this line is outside of the if statement.
 
 This means:
 =end
