@@ -30,9 +30,13 @@ stoplight is a variable.
 this means the variable stoplight is assigned the randomly selected string element from the array 
 ['green', 'yellow', 'red'].
 
-
-
+Syntax:
 case stoplight
+
+
+
+
+  
 when 'green'
   puts 'Go!'
 when 'yellow'
