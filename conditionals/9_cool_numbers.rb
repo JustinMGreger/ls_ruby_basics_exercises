@@ -23,6 +23,7 @@ Explanation:
 number is a variable.
 = means assignment.
 rand(10) means return a random integer between 0 and 9 which includes 0 but excludes 10.
+this means the variable number is assigned a random integer between 0 and 9 which includes 0 but excludes 10.
 
 Syntax:
 if number = 5
@@ -84,9 +85,19 @@ Explanation:
 number is a variable.
 = means assignment.
 rand(10) means return a random integer between 0 and 9 which includes 0 but excludes 10.
+this means the variable number is assigned a random integer between 0 and 9 which includes 0 but excludes 10.
 
-
+Syntax:
 if number == 5
+
+Explanation:
+if is an if statement which means if a condition is boolean true then do something.
+number is a variable.
+== means equal to.
+5 is an integer.
+this means if the variable number is equal to the integer 5 then do something.
+
+
   puts '5 is a cool number!'
 else
   puts 'Other numbers are cool too!'
@@ -97,6 +108,13 @@ Summary of Solution Syntax:
 number is a variable.
 = means assignment.
 rand(10) means return a random integer between 0 and 9 which includes 0 but excludes 10.
+this means the variable number is assigned a random integer between 0 and 9 which includes 0 but excludes 10.
 
+if is an if statement which means if a condition is boolean true then do something.
+number is a variable.
+== means equal to.
+5 is an integer.
+this means if the variable number is equal to the integer 5 then do something.
+  
 This means:
 =end
