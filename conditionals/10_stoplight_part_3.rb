@@ -18,7 +18,19 @@ end
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 stoplight = ['green', 'yellow', 'red'].sample
+
+Explanation:
+
+stoplight is a variable.
+= means assignment.
+['green', 'yellow', 'red'] is an array of strings.
+.sample is an array method that randomly selects an element from an array.
+this means the variable stoplight is assigned the randomly selected string element from the array 
+['green', 'yellow', 'red'].
+
+
 
 case stoplight
 when 'green'
