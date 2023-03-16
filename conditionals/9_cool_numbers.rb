@@ -46,8 +46,14 @@ else
 Explanation:
 else means if all of the above is false then do the following:
 
-
+Syntax:
   puts 'Other numbers are cool too!'
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+'Other numbers are cool too!' is a string.
+this means print to the screen the string 'Other numbers are cool too!'.
+
 end
 
 Syntax of Solution:
