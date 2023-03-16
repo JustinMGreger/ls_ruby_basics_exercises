@@ -105,9 +105,13 @@ puts is put s which is put string which is print to the screen the string.
 '5 is a cool number!' is a string.
 this means print to the screen the string '5 is a cool number!'.
 
-
-
+Syntax:
 else
+
+Explanation:
+else means if all of the above is false then do the following:
+
+
   puts 'Other numbers are cool too!'
 end
 
@@ -126,7 +130,7 @@ this means if the variable number is equal to the integer 5 then do something.
 puts is put s which is put string which is print to the screen the string.
 '5 is a cool number!' is a string.
 this means print to the screen the string '5 is a cool number!'.
-
+else means if all of the above is false then do the following:
 
 
 This means:
