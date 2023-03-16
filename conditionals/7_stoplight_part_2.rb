@@ -31,6 +31,8 @@ this means the variable stoplight is assigned to the randomly selected string el
 
 Syntax:
 case stoplight
+
+Explanation:
 case statements are used to compare multiple values to a single case.
 stoplight is a variable and the case.
 = is assignment.
