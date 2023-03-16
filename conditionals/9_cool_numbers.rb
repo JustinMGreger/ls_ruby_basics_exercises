@@ -111,8 +111,17 @@ else
 Explanation:
 else means if all of the above is false then do the following:
 
-
+Syntax:
   puts 'Other numbers are cool too!'
+
+Explanation:
+puts is put s which is put string which is print to the screen the string.
+'Other numbers are cool too!' is a string.
+this means print to the screen the string 'Other numbers are cool too!'.
+
+
+
+
 end
 
 Summary of Solution Syntax:
@@ -131,7 +140,9 @@ puts is put s which is put string which is print to the screen the string.
 '5 is a cool number!' is a string.
 this means print to the screen the string '5 is a cool number!'.
 else means if all of the above is false then do the following:
-
+puts is put s which is put string which is print to the screen the string.
+'Other numbers are cool too!' is a string.
+this means print to the screen the string 'Other numbers are cool too!'.
 
 This means:
 =end
