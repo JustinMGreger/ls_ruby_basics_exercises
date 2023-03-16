@@ -147,4 +147,11 @@ this means print to the screen the string 'Other numbers are cool too!'.
 this is the last line of the if statement that is everything after this line is outside of the if statement.
 
 This means:
+
+the variable number is assigned a random integer between 0 and 9 which includes 0 but excludes 10.
+
+if the variable number is equal to the integer 5 print to the screen the string '5 is a cool number!'.
+if all of the above is false then print to the screen the string 'Other numbers are cool too!'.
+this is the last line of the if statement that is everything after this line is outside of the if statement.
+
 =end
