@@ -97,8 +97,16 @@ number is a variable.
 5 is an integer.
 this means if the variable number is equal to the integer 5 then do something.
 
-
+Syntax:
   puts '5 is a cool number!'
+
+Explanation:
+puts is put s which is put string which is print to the screen the string.
+'5 is a cool number!' is a string.
+this means print to the screen the string '5 is a cool number!'.
+
+
+
 else
   puts 'Other numbers are cool too!'
 end
@@ -115,6 +123,11 @@ number is a variable.
 == means equal to.
 5 is an integer.
 this means if the variable number is equal to the integer 5 then do something.
-  
+puts is put s which is put string which is print to the screen the string.
+'5 is a cool number!' is a string.
+this means print to the screen the string '5 is a cool number!'.
+
+
+
 This means:
 =end
