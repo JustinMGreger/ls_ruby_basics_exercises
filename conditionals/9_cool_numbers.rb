@@ -60,6 +60,10 @@ end
 Explanation:
 this is the last line of the if statement that is everything after this line is outside of the if statement.
 
+Additional Description of Exercise:
+
+Currently, "5 is a cool number!" is being printed every time the program is run. 
+Fix the code so that "Other numbers are cool too!" gets a chance to be executed.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
