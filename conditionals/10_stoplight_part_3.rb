@@ -100,6 +100,8 @@ this is the last line of the case statement that is everything after this line i
 
 Syntax of Solution:
 
+stoplight = ['green', 'yellow', 'red'].sample
+
 case stoplight
 when 'green'  then puts 'Go!'
 when 'yellow' then puts 'Slow down!'
@@ -107,6 +109,17 @@ else               puts 'Stop!'
 end
 
 Explanation of Solution Syntax:
+
+Syntax:
+stoplight = ['green', 'yellow', 'red'].sample
+
+Explanation:
+stoplight is a variable.
+= means assignment.
+['green', 'yellow', 'red'] is an array of strings.
+.sample is an array method that randomly selects an element from an array.
+this means the variable stoplight is assigned the randomly selected string element from the array 
+['green', 'yellow', 'red'].
 
 Syntax:
 case stoplight
@@ -141,6 +154,13 @@ else               puts 'Stop!'
 end
 
 Summary of Solution Syntax:
+
+stoplight is a variable.
+= means assignment.
+['green', 'yellow', 'red'] is an array of strings.
+.sample is an array method that randomly selects an element from an array.
+this means the variable stoplight is assigned the randomly selected string element from the array 
+['green', 'yellow', 'red'].
 
 case statements are used to compare multiple values to a single case.
 stoplight is a variable and the case.
