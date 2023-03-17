@@ -69,8 +69,16 @@ when means when the case that is the stoplight variable is assigned a randomly s
 'yellow' is a string.
 this means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
 ['green', 'yellow', 'red'] is assigned the string 'yellow' then do something.
-  
+
+Syntax:
   puts 'Slow down!'
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+'Slow down!' is a string.
+this means print to the screen the string 'Slow down!'.
+
+
 else
   puts 'Stop!'
 end
