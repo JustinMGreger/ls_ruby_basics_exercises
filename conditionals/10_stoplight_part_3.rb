@@ -60,7 +60,16 @@ puts means put s which is put string which means print to the screen the string.
 'Go!' is a string.
 this means print to the screen the string 'Go!'.
 
+Syntax:
 when 'yellow'
+
+Explanation:
+when means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is something then do something.
+'yellow' is a string.
+this means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is assigned the string 'yellow' then do something.
+  
   puts 'Slow down!'
 else
   puts 'Stop!'
