@@ -120,9 +120,22 @@ stoplight is a variable and the case.
 this means the variable stoplight is assigned the randomly selected string element from the array 
 ['green', 'yellow', 'red'] and compared to the following:
 
-
-
+Syntax:
 when 'green'  then puts 'Go!'
+
+Explanation:
+when means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is something then do something.
+'green' is a string.
+then is a reserved word used for transition between condition and operation.
+puts means put s which is put string which means print to the screen the string.
+'Go!' is a string.
+this means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is assigned the string 'green' then print to the screen the string 'Go!'.
+
+
+
+
 when 'yellow' then puts 'Slow down!'
 else               puts 'Stop!'
 end
@@ -136,6 +149,15 @@ stoplight is a variable and the case.
 .sample is an array method that randomly selects an element from an array.
 this means the variable stoplight is assigned the randomly selected string element from the array 
 ['green', 'yellow', 'red'] and compared to the following:
-
+when means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is something then do something.
+'green' is a string.
+then is a reserved word used for transition between condition and operation.
+puts means put s which is put string which means print to the screen the string.
+'Go!' is a string.
+this means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is assigned the string 'green' then print to the screen the string 'Go!'.
 This means:
+
+
 =end
