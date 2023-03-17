@@ -159,10 +159,18 @@ puts means put s which is put string which means print to the screen the string.
 this means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
 ['green', 'yellow', 'red'] is assigned the string 'yellow' then print to the screen the string 'Slow down!'.
 
-
-
-
+Syntax:
 else               puts 'Stop!'
+
+Explanation:
+else means if all of the above is false then do the following:
+puts means put s which is put string which means print to the screen the string.
+'Stop!' is a string.
+this means if all of the above is false then print to the screen the string 'Stop!'.
+
+
+
+
 end
 
 Summary of Solution Syntax:
@@ -197,7 +205,10 @@ puts means put s which is put string which means print to the screen the string.
 'Slow down!' is a string.
 this means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
 ['green', 'yellow', 'red'] is assigned the string 'yellow' then print to the screen the string 'Slow down!'.
-
+else means if all of the above is false then do the following:
+puts means put s which is put string which means print to the screen the string.
+'Stop!' is a string.
+this means if all of the above is false then print to the screen the string 'Stop!'.
 
 
 
