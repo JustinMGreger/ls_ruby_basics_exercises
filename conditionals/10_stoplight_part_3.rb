@@ -146,10 +146,22 @@ puts means put s which is put string which means print to the screen the string.
 this means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
 ['green', 'yellow', 'red'] is assigned the string 'green' then print to the screen the string 'Go!'.
 
-
-
-
+Syntax:
 when 'yellow' then puts 'Slow down!'
+
+Explanation:
+when means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is something then do something.
+'yellow' is a string.
+then is a reserved word used for transition between condition and operation.
+puts means put s which is put string which means print to the screen the string.
+'Slow down!' is a string.
+this means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is assigned the string 'yellow' then print to the screen the string 'Slow down!'.
+
+
+
+
 else               puts 'Stop!'
 end
 
@@ -177,6 +189,21 @@ puts means put s which is put string which means print to the screen the string.
 'Go!' is a string.
 this means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
 ['green', 'yellow', 'red'] is assigned the string 'green' then print to the screen the string 'Go!'.
+when means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is something then do something.
+'yellow' is a string.
+then is a reserved word used for transition between condition and operation.
+puts means put s which is put string which means print to the screen the string.
+'Slow down!' is a string.
+this means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is assigned the string 'yellow' then print to the screen the string 'Slow down!'.
+
+
+
+
+
+
+
 This means:
 
 
