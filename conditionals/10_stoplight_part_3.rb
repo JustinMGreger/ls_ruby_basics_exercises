@@ -84,7 +84,14 @@ else
 Explanation:
 else means if all of the above is false then do the following:
 
+Syntax:
   puts 'Stop!'
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+'Stop!' is a string.
+this means print to the screen the string 'Stop!'.
+
 end
 
 Syntax of Solution:
