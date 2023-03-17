@@ -108,12 +108,34 @@ end
 
 Explanation of Solution Syntax:
 
+Syntax:
 case stoplight
+
+Explanation:
+case statements are used to compare multiple values to a single case.
+stoplight is a variable and the case.
+= means assignment.
+['green', 'yellow', 'red'] is an array of strings.
+.sample is an array method that randomly selects an element from an array.
+this means the variable stoplight is assigned the randomly selected string element from the array 
+['green', 'yellow', 'red'] and compared to the following:
+
+
+
 when 'green'  then puts 'Go!'
 when 'yellow' then puts 'Slow down!'
 else               puts 'Stop!'
 end
 
 Summary of Solution Syntax:
+
+case statements are used to compare multiple values to a single case.
+stoplight is a variable and the case.
+= means assignment.
+['green', 'yellow', 'red'] is an array of strings.
+.sample is an array method that randomly selects an element from an array.
+this means the variable stoplight is assigned the randomly selected string element from the array 
+['green', 'yellow', 'red'] and compared to the following:
+
 This means:
 =end
