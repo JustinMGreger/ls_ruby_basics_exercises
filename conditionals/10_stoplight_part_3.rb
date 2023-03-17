@@ -98,9 +98,22 @@ end
 Explanation:
 this is the last line of the case statement that is everything after this line is outside of the case statement.
 
-
 Syntax of Solution:
+
+case stoplight
+when 'green'  then puts 'Go!'
+when 'yellow' then puts 'Slow down!'
+else               puts 'Stop!'
+end
+
 Explanation of Solution Syntax:
+
+case stoplight
+when 'green'  then puts 'Go!'
+when 'yellow' then puts 'Slow down!'
+else               puts 'Stop!'
+end
+
 Summary of Solution Syntax:
 This means:
 =end
