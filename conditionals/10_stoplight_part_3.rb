@@ -168,10 +168,11 @@ puts means put s which is put string which means print to the screen the string.
 'Stop!' is a string.
 this means if all of the above is false then print to the screen the string 'Stop!'.
 
-
-
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the case statement that is everything after this line is outside of the case statement.
 
 Summary of Solution Syntax:
 
@@ -209,6 +210,7 @@ else means if all of the above is false then do the following:
 puts means put s which is put string which means print to the screen the string.
 'Stop!' is a string.
 this means if all of the above is false then print to the screen the string 'Stop!'.
+this is the last line of the case statement that is everything after this line is outside of the case statement.
 
 
 
