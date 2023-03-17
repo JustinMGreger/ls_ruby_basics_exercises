@@ -78,8 +78,12 @@ puts means put s which is put string which means print to the screen the string.
 'Slow down!' is a string.
 this means print to the screen the string 'Slow down!'.
 
-
+Syntax:
 else
+
+Explanation:
+else means if all of the above is false then do the following:
+
   puts 'Stop!'
 end
 
