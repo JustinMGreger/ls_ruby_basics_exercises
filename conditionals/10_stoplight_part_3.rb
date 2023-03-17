@@ -212,12 +212,20 @@ puts means put s which is put string which means print to the screen the string.
 this means if all of the above is false then print to the screen the string 'Stop!'.
 this is the last line of the case statement that is everything after this line is outside of the case statement.
 
-
-
-
-
-
 This means:
 
+the variable stoplight is assigned the randomly selected string element from the array 
+['green', 'yellow', 'red'].
+
+case statements are used to compare multiple values to a single case.
+stoplight is a variable and the case.
+the variable stoplight is assigned the randomly selected string element from the array 
+['green', 'yellow', 'red'] and compared to the following:
+this means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is assigned the string 'green' then print to the screen the string 'Go!'.
+this means when the case that is the stoplight variable is assigned a randomly selected string element from the array 
+['green', 'yellow', 'red'] is assigned the string 'yellow' then print to the screen the string 'Slow down!'.
+this means if all of the above is false then print to the screen the string 'Stop!'.
+this is the last line of the case statement that is everything after this line is outside of the case statement.
 
 =end
