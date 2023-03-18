@@ -7,7 +7,13 @@ Then, perform the same case-insensitive comparison, except compare the value of 
 of 'RoGeR'.
 
 Initial Syntax Given:
+
+name = 'Roger'
+
 Explanation of Initial Syntax Given:
+
+name = 'Roger'
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
