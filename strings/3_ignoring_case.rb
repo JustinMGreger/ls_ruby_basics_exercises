@@ -21,6 +21,10 @@ name is a varaible.
 'Roger' is a string.
 this means the variable name is assigned the string 'Roger'.
 
+Additional Description of Exercise:
+
+Expected output:
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
