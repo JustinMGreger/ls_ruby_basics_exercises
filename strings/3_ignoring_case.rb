@@ -44,7 +44,19 @@ Explanation:
 this is boolean false.
 
 Syntax of Solution:
+
+name = 'Roger'
+
+puts name.casecmp('RoGeR') == 0
+puts name.casecmp('DAVE') == 0
+
 Explanation of Solution Syntax:
+
+name = 'Roger'
+
+puts name.casecmp('RoGeR') == 0
+puts name.casecmp('DAVE') == 0
+
 Summary of Solution Syntax:
 This means:
 =end
