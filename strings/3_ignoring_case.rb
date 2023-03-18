@@ -61,8 +61,30 @@ name is a varaible.
 'Roger' is a string.
 this means the variable name is assigned the string 'Roger'.
 
-
+Syntax:
 puts name.casecmp('RoGeR') == 0
+
+Explanation:
+puts is put s which is put string which means print string to the screen.
+name is a varaible.
+= means assignment.
+'Roger' is a string.
+this means the variable name is assigned the string 'Roger'.
+.casecmp is used to compare to strings while ignoring their case it returns an integer that represents the result of the 
+comparison that is if equal ignoring case it returns integer 0, if according to alphabetical order first string is less 
+than the second it returns integer -1, If the first string is greater than the second it returns integer 1.
+('RoGeR') is a string.
+== means equal to.
+0 is an integer.
+this means print to the screen the variable name is assigned the string 'Roger' case compared that is the comparison of 
+strings while ignoring their case which returns an integer that represents the result of the comparison that is if equal 
+ignoring case it returns integer 0, if according to alphabetical order first string is less than the second it returns 
+integer -1, If the first string is greater than the second it returns integer 1 to the string ('RoGeR') to determine if 
+the result of the case comparison is equal to the integer 0 that is if the result of case comparison determines if the 
+strings are equal.
+
+
+
 puts name.casecmp('DAVE') == 0
 
 Summary of Solution Syntax:
@@ -71,6 +93,13 @@ name is a varaible.
 = means assignment.
 'Roger' is a string.
 this means the variable name is assigned the string 'Roger'.
+
+this means print to the screen the variable name is assigned the string 'Roger' case compared that is the comparison of 
+strings while ignoring their case which returns an integer that represents the result of the comparison that is if equal 
+ignoring case it returns integer 0, if according to alphabetical order first string is less than the second it returns 
+integer -1, If the first string is greater than the second it returns integer 1 to the string ('RoGeR') to determine if 
+the result of the case comparison is equal to the integer 0 that is if the result of case comparison determines if the 
+strings are equal.
 
 This means:
 =end
