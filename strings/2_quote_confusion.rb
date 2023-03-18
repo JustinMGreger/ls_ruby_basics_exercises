@@ -29,8 +29,13 @@ puts "It's now 12 o'clock."
 
 Explanation of Solution Syntax:
 
+Syntax:
 puts "It's now 12 o'clock."
 
-Summary of Solution Syntax:
-This means:
+Explanation:
+puts mean put s which is put string which is print to the screen the string.
+"It's now 12 o'clock." is a string.
+"" that is double quotes is used to indicate that it is a string literal.
+this means print to the screen the string "It's now 12 o'clock." where the ' is treated as part of the string.
+
 =end
