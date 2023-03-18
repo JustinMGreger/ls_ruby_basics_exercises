@@ -30,7 +30,13 @@ true
 false
 
 Explanation of Additional Initial Syntax Given:
+
+Syntax:
 true
+
+Explanation:
+this is boolean true.
+
 false
 
 Syntax of Solution:
