@@ -52,11 +52,25 @@ puts name.casecmp('DAVE') == 0
 
 Explanation of Solution Syntax:
 
+Syntax:
 name = 'Roger'
+
+Explanation:
+name is a varaible.
+= means assignment.
+'Roger' is a string.
+this means the variable name is assigned the string 'Roger'.
+
 
 puts name.casecmp('RoGeR') == 0
 puts name.casecmp('DAVE') == 0
 
 Summary of Solution Syntax:
+
+name is a varaible.
+= means assignment.
+'Roger' is a string.
+this means the variable name is assigned the string 'Roger'.
+
 This means:
 =end
