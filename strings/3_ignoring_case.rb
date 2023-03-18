@@ -37,7 +37,11 @@ true
 Explanation:
 this is boolean true.
 
+Syntax:
 false
+
+Explanation:
+this is boolean false.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
