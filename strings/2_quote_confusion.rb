@@ -24,7 +24,13 @@ the string following the ' that is the ' is treated as a literal character which
 the screen being      It's now 12 o'clock.
 
 Syntax of Solution:
+
+puts "It's now 12 o'clock."
+
 Explanation of Solution Syntax:
+
+puts "It's now 12 o'clock."
+
 Summary of Solution Syntax:
 This means:
 =end
