@@ -12,7 +12,14 @@ name = 'Roger'
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 name = 'Roger'
+
+Explanation:
+name is a varaible.
+= means assignment.
+'Roger' is a string.
+this means the variable name is assigned the string 'Roger'.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
