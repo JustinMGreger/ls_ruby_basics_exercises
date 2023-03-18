@@ -25,6 +25,14 @@ Additional Description of Exercise:
 
 Expected output:
 
+Additional Initial Syntax Given:
+true
+false
+
+Explanation of Additional Initial Syntax Given:
+true
+false
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
