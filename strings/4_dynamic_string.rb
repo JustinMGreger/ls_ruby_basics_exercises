@@ -52,10 +52,23 @@ puts "Hello, #{name}!"
 
 Explanation of Solution Syntax:
 
+Syntax:
 name = 'Elizabeth'
+
+Explanation:
+name is a variable.
+= means assignment.
+'Elizabeth' is a string.
+this means the variable name is assigned the string 'Elizabeth'.
 
 puts "Hello, #{name}!"
 
 Summary of Solution Syntax:
+
+name is a variable.
+= means assignment.
+'Elizabeth' is a string.
+this means the variable name is assigned the string 'Elizabeth'.
+
 This means:
 =end
