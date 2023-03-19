@@ -61,7 +61,15 @@ name is a variable.
 'Elizabeth' is a string.
 this means the variable name is assigned the string 'Elizabeth'.
 
+Syntax:
 puts "Hello, #{name}!"
+
+Explanation:
+puts is put s which is put string which means print to the screen the string.
+ "Hello, #{name}!" is a string.
+ #{name} is string interpolation that references the variable name which is assigned the string 'Elizabeth'.
+ this means print to the screen the string "Hello, #{name}!" where  #{name} is string interpolation that references the 
+ variable name which is assigned the string 'Elizabeth' which results in the output Hello, Elizabeth!
 
 Summary of Solution Syntax:
 
@@ -70,5 +78,11 @@ name is a variable.
 'Elizabeth' is a string.
 this means the variable name is assigned the string 'Elizabeth'.
 
+puts is put s which is put string which means print to the screen the string.
+ "Hello, #{name}!" is a string.
+ #{name} is string interpolation that references the variable name which is assigned the string 'Elizabeth'.
+ this means print to the screen the string "Hello, #{name}!" where  #{name} is string interpolation that references the 
+ variable name which is assigned the string 'Elizabeth' which results in the output Hello, Elizabeth!
+ 
 This means:
 =end
