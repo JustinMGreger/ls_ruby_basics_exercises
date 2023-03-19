@@ -29,6 +29,10 @@ last_name is a variable.
 'Doe' is a string.
 this means the variable last_name is assigned the string 'Doe'.
 
+Additional Description of Exercise:
+
+Expected output:
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
