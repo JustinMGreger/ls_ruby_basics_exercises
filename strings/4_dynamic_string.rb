@@ -45,7 +45,17 @@ Hello, Elizabeth! is a string most likely with string interpolation for example 
 string interpolation "Hello, #{name}!" which results in Hello, Elizabeth! as name is assigned to the string 'Elizabeth'.
 
 Syntax of Solution:
+
+name = 'Elizabeth'
+
+puts "Hello, #{name}!"
+
 Explanation of Solution Syntax:
+
+name = 'Elizabeth'
+
+puts "Hello, #{name}!"
+
 Summary of Solution Syntax:
 This means:
 =end
