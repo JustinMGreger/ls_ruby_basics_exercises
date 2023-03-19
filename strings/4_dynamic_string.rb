@@ -11,7 +11,14 @@ puts "Hello, !"
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 name = 'Elizabeth'
+
+Explanation:
+name is a variable.
+= means assignment.
+'Elizabeth' is a string variable.
+this means the name variable is assigned to the string 'Elizabeth'.
 
 puts "Hello, !"
 
