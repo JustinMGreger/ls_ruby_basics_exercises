@@ -18,11 +18,16 @@ Explanation:
 first_name is a variable.
 = means assignment.
 'John' is a string.
-this means the variable first_name is assigned the string 'John'
+this means the variable first_name is assigned the string 'John'.
 
-
-
+Syntax:
 last_name = 'Doe'
+
+Explanation:
+last_name is a variable.
+= means assignment.
+'Doe' is a string.
+this means the variable last_name is assigned the string 'Doe'.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
