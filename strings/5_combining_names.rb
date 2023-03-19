@@ -37,7 +37,25 @@ Additional Initial Syntax Given:
 John Doe
 
 Explanation of Additional Initial Syntax Given:
+Syntax:
 John Doe
+
+Explanation:
+John Doe is a string that is "John Doe".
+the part of the string "John" is from the first_name variable which is assigned the string 'John'.
+the part of the string "Doe" is from the last_name varibale which is assigned the string 'Doe'
+this means that the string "John Doe" is probably string interpolation for example something similar to "#{first_name} 
+#{last_name}".
+this implies puts "John Doe".
+puts is put s which is put string which is print to the screen the string.
+this means the syntax is probably something similar to print to the screen the string the string with interpolation
+"#{first_name} #{last_name}" that is puts "#{first_name} #{last_name}" which would have the out put of John Doe as the 
+part of the string "John" is from the first_name variable which is assigned the string 'John' and the part of the string 
+"Doe" is from the last_name varibale which is assigned the string 'Doe'.
+
+
+
+
 
 Syntax of Solution:
 Explanation of Solution Syntax:
