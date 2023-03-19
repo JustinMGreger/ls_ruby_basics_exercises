@@ -34,6 +34,16 @@ Expected output:
 Additional Initial Syntax Given:
 Hello, Elizabeth!
 
+Additional Explanation of Initial Syntax Given:
+
+Syntax:
+Hello, Elizabeth!
+
+Explanation:
+Hello, Elizabeth! is a string most likely with string interpolation for example Hello, Elizabeth! could be the result of
+"Hello, #{name}!" which would probably imply a puts which is put s which is put string which is print to the string the
+string interpolation "Hello, #{name}!" which results in Hello, Elizabeth! as name is assigned to the string 'Elizabeth'.
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
