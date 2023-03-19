@@ -33,6 +33,12 @@ Additional Description of Exercise:
 
 Expected output:
 
+Additional Initial Syntax Given:
+John Doe
+
+Explanation of Additional Initial Syntax Given:
+John Doe
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
