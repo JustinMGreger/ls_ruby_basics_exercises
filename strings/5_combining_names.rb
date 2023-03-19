@@ -11,7 +11,17 @@ last_name = 'Doe'
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 first_name = 'John'
+
+Explanation:
+first_name is a variable.
+= means assignment.
+'John' is a string.
+this means the variable first_name is assigned the string 'John'
+
+
+
 last_name = 'Doe'
 
 Syntax of Solution:
