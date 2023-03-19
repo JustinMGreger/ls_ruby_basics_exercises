@@ -20,7 +20,14 @@ name is a variable.
 'Elizabeth' is a string variable.
 this means the name variable is assigned to the string 'Elizabeth'.
 
+Syntax:
 puts "Hello, !"
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+"Hello, !" is a string.
+this means print to the screen the string "Hello, !".
+
 
 Syntax of Solution:
 Explanation of Solution Syntax:
