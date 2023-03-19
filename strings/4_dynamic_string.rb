@@ -31,6 +31,9 @@ this means print to the screen the string "Hello, !".
 Additional Description of Exercise:
 Expected output:
 
+Additional Initial Syntax Given:
+Hello, Elizabeth!
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
