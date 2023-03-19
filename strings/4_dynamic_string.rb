@@ -28,6 +28,8 @@ puts means put s which is put string which means print to the screen the string.
 "Hello, !" is a string.
 this means print to the screen the string "Hello, !".
 
+Additional Description of Exercise:
+Expected output:
 
 Syntax of Solution:
 Explanation of Solution Syntax:
