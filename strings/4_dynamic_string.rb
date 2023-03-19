@@ -83,6 +83,12 @@ puts is put s which is put string which means print to the screen the string.
  #{name} is string interpolation that references the variable name which is assigned the string 'Elizabeth'.
  this means print to the screen the string "Hello, #{name}!" where  #{name} is string interpolation that references the 
  variable name which is assigned the string 'Elizabeth' which results in the output Hello, Elizabeth!
- 
+
 This means:
+
+the variable name is assigned the string 'Elizabeth'.
+
+print to the screen the string "Hello, #{name}!" where  #{name} is string interpolation that references the variable name
+which is assigned the string 'Elizabeth' which results in the output Hello, Elizabeth!
+
 =end
