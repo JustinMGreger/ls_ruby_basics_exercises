@@ -56,7 +56,19 @@ state is a variable.
 'tExAs' is a string.
 this means the variable state is assigned the string 'tExAs'.
 
+Syntax:
 state.capitalize!
+
+Explanation:
+state is a variable.
+= means assignment.
+'tExAs' is a string.
+this means the variable state is assigned the string 'tExAs'.
+.capitalize makes the first letter of a string capitalized and the rest of the letters lowercased.
+! is destructive that is it permenantly changes the original.
+this means the variable state is assigned the string 'tExAs' and that is changed so that the first letter of the string is
+capitalized and the rest of the letters are lowercased.
+
 puts state
 
 Summary of Solution Syntax:
@@ -65,6 +77,15 @@ state is a variable.
 = means assignment.
 'tExAs' is a string.
 this means the variable state is assigned the string 'tExAs'.
+
+state is a variable.
+= means assignment.
+'tExAs' is a string.
+this means the variable state is assigned the string 'tExAs'.
+.capitalize makes the first letter of a string capitalized and the rest of the letters lowercased.
+! is destructive that is it permenantly changes the original.
+this means the variable state is assigned the string 'tExAs' and that is changed so that the first letter of the string is
+capitalized and the rest of the letters are lowercased.
 
 This means:
 =end
