@@ -51,7 +51,19 @@ the screen the string.
 this means print to the screen the string "Goodbye!"
 
 Syntax of Solution:
+
+greeting = 'Hello!'
+
+greeting.gsub!('Hello', 'Goodbye')
+puts greeting
+
 Explanation of Solution Syntax:
+
+greeting = 'Hello!'
+
+greeting.gsub!('Hello', 'Goodbye')
+puts greeting
+
 Summary of Solution Syntax:
 This means:
 =end
