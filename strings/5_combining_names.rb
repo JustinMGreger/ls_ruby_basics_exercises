@@ -72,7 +72,14 @@ first_name is a variable.
 'John' is a string.
 this means that the varible first_name is assigned the string 'John'.
 
+Syntax:
 last_name = 'Doe'
+
+Explanation:
+last_name is a variable.
+= means assignment.
+'Doe' is a string.
+this means the variable last_name is assigned the string 'Doe'.
 
 full_name = first_name + ' ' + last_name
 puts full_name
@@ -83,6 +90,11 @@ first_name is a variable.
 = means assignment.
 'John' is a string.
 this means that the varible first_name is assigned the string 'John'.
+
+last_name is a variable.
+= means assignment.
+'Doe' is a string.
+this means the variable last_name is assigned the string 'Doe'.
 
 This means:
 =end
