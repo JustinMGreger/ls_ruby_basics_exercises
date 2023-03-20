@@ -118,4 +118,14 @@ earlier in the syntax so that the first letter of the string is capitalized and 
 the output of this is Texas.
 
 This means:
+
+the variable state is assigned the string 'tExAs'.
+
+the variable state is assigned the string 'tExAs' and that is changed so that the first letter of the string is 
+capitalized and the rest of the letters are lowercased.
+
+print to the screen the variable state which is assigned the string 'tExAs' and that was destrucively changed earlier in 
+the syntax so that the first letter of the string is capitalized and the rest of the letters are lowercased and the output
+of this is Texas.
+
 =end
