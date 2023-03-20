@@ -10,7 +10,14 @@ state = 'tExAs'
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 state = 'tExAs'
+
+Explanation:
+state is a variable.
+= means assignment.
+'tExAs' is a string.
+this means the variable state is assigned the string 'tExAs'.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
