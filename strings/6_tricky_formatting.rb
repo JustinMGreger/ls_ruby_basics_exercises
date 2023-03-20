@@ -47,10 +47,24 @@ puts state
 
 Explanation of Solution Syntax:
 
+Syntax:
 state = 'tExAs'
+
+Explanation:
+state is a variable.
+= means assignment.
+'tExAs' is a string.
+this means the variable state is assigned the string 'tExAs'.
 
 state.capitalize!
 puts state
+
 Summary of Solution Syntax:
+
+state is a variable.
+= means assignment.
+'tExAs' is a string.
+this means the variable state is assigned the string 'tExAs'.
+
 This means:
 =end
