@@ -53,12 +53,22 @@ this means the syntax is probably something similar to print to the screen the s
 part of the string "John" is from the first_name variable which is assigned the string 'John' and the part of the string 
 "Doe" is from the last_name varibale which is assigned the string 'Doe'.
 
-
-
-
-
 Syntax of Solution:
+
+first_name = 'John'
+last_name = 'Doe'
+
+full_name = first_name + ' ' + last_name
+puts full_name
+
 Explanation of Solution Syntax:
+
+first_name = 'John'
+last_name = 'Doe'
+
+full_name = first_name + ' ' + last_name
+puts full_name
+
 Summary of Solution Syntax:
 This means:
 =end
