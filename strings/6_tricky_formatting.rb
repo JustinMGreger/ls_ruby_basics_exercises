@@ -39,7 +39,18 @@ print to the screen the string Texas.
 this would look like puts "Texas".
 
 Syntax of Solution:
+
+state = 'tExAs'
+
+state.capitalize!
+puts state
+
 Explanation of Solution Syntax:
+
+state = 'tExAs'
+
+state.capitalize!
+puts state
 Summary of Solution Syntax:
 This means:
 =end
