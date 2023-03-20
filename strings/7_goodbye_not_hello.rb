@@ -31,6 +31,11 @@ this means that the variable greeting is assigned to the string 'Hello!'.
 this means print to the screen the variable greeting which is assigned to the string 'Hello!'.
 the output is Hello!
 
+Additional Description of Exercise:
+
+Expected output:
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
