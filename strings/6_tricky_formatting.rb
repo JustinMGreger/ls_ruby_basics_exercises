@@ -19,6 +19,10 @@ state is a variable.
 'tExAs' is a string.
 this means the variable state is assigned the string 'tExAs'.
 
+Additional Description of Exercise:
+
+Expected output:
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
