@@ -69,7 +69,23 @@ this means the variable state is assigned the string 'tExAs'.
 this means the variable state is assigned the string 'tExAs' and that is changed so that the first letter of the string is
 capitalized and the rest of the letters are lowercased.
 
+Syntax:
 puts state
+
+Explanation:
+puts is put s which means put string which is print to the screen the string.
+state is a variable.
+= means assignment.
+'tExAs' is a string.
+this means the variable state is assigned the string 'tExAs'.
+previously in this code the syntax state.capitalize! was used and that is desructive which I will now explain:
+.capitalize makes the first letter of a string capitalized and the rest of the letters lowercased.
+! is destructive that is it permenantly changes the original.
+this means the variable state is assigned the string 'tExAs' and that is changed so that the first letter of the string is
+capitalized and the rest of the letters are lowercased.
+this means print to the screen the variable state which is assigned the string 'tExAs' and that was destrucively changed 
+earlier in the syntax so that the first letter of the string is capitalized and the rest of the letters are lowercased and
+the output of this is Texas.
 
 Summary of Solution Syntax:
 
@@ -86,6 +102,20 @@ this means the variable state is assigned the string 'tExAs'.
 ! is destructive that is it permenantly changes the original.
 this means the variable state is assigned the string 'tExAs' and that is changed so that the first letter of the string is
 capitalized and the rest of the letters are lowercased.
+
+puts is put s which means put string which is print to the screen the string.
+state is a variable.
+= means assignment.
+'tExAs' is a string.
+this means the variable state is assigned the string 'tExAs'.
+previously in this code the syntax state.capitalize! was used and that is desructive which I will now explain:
+.capitalize makes the first letter of a string capitalized and the rest of the letters lowercased.
+! is destructive that is it permenantly changes the original.
+this means the variable state is assigned the string 'tExAs' and that is changed so that the first letter of the string is
+capitalized and the rest of the letters are lowercased.
+this means print to the screen the variable state which is assigned the string 'tExAs' and that was destrucively changed 
+earlier in the syntax so that the first letter of the string is capitalized and the rest of the letters are lowercased and
+the output of this is Texas.
 
 This means:
 =end
