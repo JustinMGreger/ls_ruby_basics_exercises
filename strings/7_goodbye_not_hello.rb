@@ -41,8 +41,14 @@ Goodbye!
 
 Explanation of Additional Initial Syntax Given:
 
+Syntax:
 Goodbye!
 
+Explanation:
+this is a string.
+this implies that it was printed to the string so probably puts which is put s which is put string which means print to 
+the screen the string.
+this means print to the screen the string "Goodbye!"
 
 Syntax of Solution:
 Explanation of Solution Syntax:
