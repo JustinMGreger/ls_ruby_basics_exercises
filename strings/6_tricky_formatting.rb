@@ -27,6 +27,17 @@ Additional Initial Syntax Given:
 
 Texas
 
+Explanation of Additional Initial Syntax Given:
+
+Syntax:
+Texas
+
+Explanation:
+Texas is a string.
+this implies that the string Texas was printed to the string so probably puts which is put s which is put string which is
+print to the screen the string Texas.
+this would look like puts "Texas".
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
