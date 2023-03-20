@@ -152,9 +152,38 @@ last_name is a variable.
 this means the variable last_name is assigned the string 'Doe'.
 this means the varible full_name is assigned first_name is assigned the string 'John' + is used to combines that with 
 ' ' which means a space + is used to combines that with the variable last_name is assigned the string 'Doe'.
+
+puts means put s which is put string which means print to the screen the string.
+full_name is a variable.
+= means assignment.
+first_name is a variable.
+= means assignment.
+'John' is a string.
+this means that the varible first_name is assigned the string 'John'.
++ is used to combine strings together.
+' ' this means a space.
++ is used to combine strings together.
+last_name is a variable.
+= means assignment.
+'Doe' is a string.
+this means the variable last_name is assigned the string 'Doe'.
+this means the varible full_name is assigned first_name is assigned the string 'John' + is used to combines that with 
+' ' which means a space + is used to combines that with the variable last_name is assigned the string 'Doe'.
 this means print to the screen the varible full_name which is assigned first_name is assigned the string 'John' + is used
 to combines that with ' ' which means a space + is used to combines that with the variable last_name is assigned the 
 string 'Doe' and this has the output John Doe.
 
 This means:
+
+the varible first_name is assigned the string 'John'.
+
+the variable last_name is assigned the string 'Doe'.
+
+the varible full_name is assigned first_name is assigned the string 'John' + is used to combines that with ' ' which means
+a space + is used to combines that with the variable last_name is assigned the string 'Doe'.
+
+print to the screen the varible full_name which is assigned first_name is assigned the string 'John' + is used to combines
+that with ' ' which means a space + is used to combines that with the variable last_name is assigned the string 'Doe' and
+this has the output John Doe.
+
 =end
