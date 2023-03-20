@@ -19,8 +19,17 @@ greeting is a variable.
 'Hello!' is a string.
 this means that the variable greeting is assigned to the string 'Hello!'.
 
-
+Syntax:
 puts greeting
+
+Explanation:
+puts is put s which is put string which means print to the screen the string.
+greeting is a variable.
+= means assignment.
+'Hello!' is a string.
+this means that the variable greeting is assigned to the string 'Hello!'.
+this means print to the screen the variable greeting which is assigned to the string 'Hello!'.
+the output is Hello!
 
 Syntax of Solution:
 Explanation of Solution Syntax:
