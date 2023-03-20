@@ -10,7 +10,16 @@ puts greeting
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 greeting = 'Hello!'
+
+Explanation:
+greeting is a variable.
+= means assignment.
+'Hello!' is a string.
+this means that the variable greeting is assigned to the string 'Hello!'.
+
+
 puts greeting
 
 Syntax of Solution:
