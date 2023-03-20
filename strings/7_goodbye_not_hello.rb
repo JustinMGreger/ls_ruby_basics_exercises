@@ -35,6 +35,14 @@ Additional Description of Exercise:
 
 Expected output:
 
+Additional Initial Syntax Given:
+
+Goodbye!
+
+Explanation of Additional Initial Syntax Given:
+
+Goodbye!
+
 
 Syntax of Solution:
 Explanation of Solution Syntax:
