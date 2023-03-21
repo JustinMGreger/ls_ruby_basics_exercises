@@ -104,15 +104,136 @@ alphabet is a variable.
 'abcdefghijklmnopqrstuvwxyz' is a string.
 this means the variable alphabet is assigned the string 'abcdefghijklmnopqrstuvwxyz'.
 
-
+Syntax:
 puts alphabet.split('')
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+alphabet is a variable.
+= means assignment.
+'abcdefghijklmnopqrstuvwxyz' is a string.
+this means the variable alphabet is assigned the string 'abcdefghijklmnopqrstuvwxyz'.
+.split is a string method that is used to split a string into an array of substrings based on a specified delimiter.
+('') is an empty string.
+this means print to the screen the variable alphabet which is assigned the string 'abcdefghijklmnopqrstuvwxyz'
+split this string into an array of substrings based on an empty string this results in the array of substrings being
+comprised of single character strings when puts is used to print this to the screen the result is output a string with
+a newline character this is why the output is on it's own line all of this results in the following output:
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
 
 Summary of Solution Syntax:
 
 alphabet is a variable.
 = means assignment.
 'abcdefghijklmnopqrstuvwxyz' is a string.
+this means the variable alphabet is assigned the string 'abcdefghijklmnopqrstuvwxyz'
+
+puts means put s which is put string which means print to the screen the string.
+alphabet is a variable.
+= means assignment.
+'abcdefghijklmnopqrstuvwxyz' is a string.
 this means the variable alphabet is assigned the string 'abcdefghijklmnopqrstuvwxyz'.
+.split is a string method that is used to split a string into an array of substrings based on a specified delimiter.
+('') is an empty string.
+this means print to the screen the variable alphabet which is assigned the string 'abcdefghijklmnopqrstuvwxyz'
+split this string into an array of substrings based on an empty string this results in the array of substrings being
+comprised of single character strings when puts is used to print this to the screen the result is output a string with
+a newline character this is why the output is on it's own line all of this results in the following output:
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
 
 This means:
+
+alphabet is a variable.
+= means assignment.
+'abcdefghijklmnopqrstuvwxyz' is a string.
+this means the variable alphabet is assigned the string 'abcdefghijklmnopqrstuvwxyz'
+
+puts means put s which is put string which means print to the screen the string.
+alphabet is a variable.
+= means assignment.
+'abcdefghijklmnopqrstuvwxyz' is a string.
+this means the variable alphabet is assigned the string 'abcdefghijklmnopqrstuvwxyz'.
+.split is a string method that is used to split a string into an array of substrings based on a specified delimiter.
+('') is an empty string.
+this means print to the screen the variable alphabet which is assigned the string 'abcdefghijklmnopqrstuvwxyz'
+split this string into an array of substrings based on an empty string this results in the array of substrings being
+comprised of single character strings when puts is used to print this to the screen the result is output a string with
+a newline character this is why the output is on it's own line all of this results in the following output:
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+
 =end
