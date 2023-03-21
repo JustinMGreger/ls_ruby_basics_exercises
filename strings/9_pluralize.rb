@@ -27,10 +27,22 @@ elephants
 airplanes
 
 Explanation of Additional Initial Syntax Given:
+Syntax:
 cars
 humans
 elephants
 airplanes
+
+Explanation:
+these are strings that are printed on their own lines.
+from the syntax: words = 'car human elephant airplane'
+words is a variable.
+= means assignment.
+'car human elephant airplane' is a string.
+this means the variable words is assigned the string 'car human elephant airplane'
+this means somehow the string  'car human elephant airplane' was split up and printed on their own lines which implies
+puts as puts prints strings with a newline character and the string character s was added to the end of those individual
+strings.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
