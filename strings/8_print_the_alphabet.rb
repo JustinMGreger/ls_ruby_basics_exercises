@@ -82,6 +82,11 @@ y
 z
 
 Explanation:
+these are strings printed on their own lines.
+printed strings implies puts which is put s which is put string which is print to the screen the string.
+previously in the syntax the variable alphabet  was assigned the string 'abcdefghijklmnopqrstuvwxyz'.
+the solution is probably something like puts alphabet = 'abcdefghijklmnopqrstuvwxyz' and then somehow the string
+'abcdefghijklmnopqrstuvwxyz' is broken up so that it is printed on a line for each of the string's characters.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
