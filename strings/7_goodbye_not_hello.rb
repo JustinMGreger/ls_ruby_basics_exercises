@@ -68,7 +68,26 @@ greeting is a variable.
 'Hello!' is a string.
 this means the variable greeting is assigned the string 'Hello!'.
 
+Syntax:
 greeting.gsub!('Hello', 'Goodbye')
+
+Explanation:
+greeting is a variable.
+= means assignment.
+'Hello!' is a string.
+this means the variable greeting is assigned the string 'Hello!'.
+.gsub is global substitution which is a string method that replaces all occurences of the first argument it accepts with
+the second argument.
+! is destructive meaning it changes the original version.
+('Hello', 'Goodbye') are string arguments.
+this means the variable greeting is assigned the string 'Hello!' which experiences global substitution which is a string 
+method that replaces all occurences of the first argument it accepts with the second argument by changing the original 
+version this is done with the string arguments ('Hello', 'Goodbye') that is the string 'Hello!' that is assigned to 
+the variable greeting is replaced with the string 'Goodbye' and therefore is assigned to the variable greeting.
+
+
+
+
 puts greeting
 
 Summary of Solution Syntax:
@@ -77,6 +96,21 @@ greeting is a variable.
 = means assignment.
 'Hello!' is a string.
 this means the variable greeting is assigned the string 'Hello!'.
+
+greeting is a variable.
+= means assignment.
+'Hello!' is a string.
+this means the variable greeting is assigned the string 'Hello!'.
+.gsub is global substitution which is a string method that replaces all occurences of the first argument it accepts with
+the second argument.
+! is destructive meaning it changes the original version.
+('Hello', 'Goodbye') are string arguments.
+this means the variable greeting is assigned the string 'Hello!' which experiences global substitution which is a string 
+method that replaces all occurences of the first argument it accepts with the second argument by changing the original 
+version this is done with the string arguments ('Hello', 'Goodbye') that is the string 'Hello!' that is assigned to 
+the variable greeting is replaced with the string 'Goodbye' and therefore is assigned to the variable greeting.
+
+
 
 This means:
 =end
