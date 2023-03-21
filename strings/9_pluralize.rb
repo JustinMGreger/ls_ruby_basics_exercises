@@ -18,6 +18,11 @@ words is a variable.
 'car human elephant airplane' is a string.
 this means the variable words is assigned the string 'car human elephant airplane'
 
+
+Additional Description of Exercise:
+
+Expected output:
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
