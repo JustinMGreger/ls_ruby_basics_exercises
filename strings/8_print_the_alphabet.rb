@@ -18,6 +18,10 @@ alphabet is a variable.
 'abcdefghijklmnopqrstuvwxyz' is a string.
 this means the variable alphabet is assigned the string 'abcdefghijklmnopqrstuvwxyz'.
 
+Additional Description of Exercise:
+
+Expected output:
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
