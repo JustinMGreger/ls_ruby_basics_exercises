@@ -85,10 +85,28 @@ method that replaces all occurences of the first argument it accepts with the se
 version this is done with the string arguments ('Hello', 'Goodbye') that is the string 'Hello!' that is assigned to 
 the variable greeting is replaced with the string 'Goodbye' and therefore is assigned to the variable greeting.
 
-
-
-
+Syntax:
 puts greeting
+
+Explanation:
+puts means put s which is put string which is print to the screen the string.
+greeting is a variable.
+= means assignment.
+'Hello!' is a string.
+this means the variable greeting is assigned the string 'Hello!'.
+.gsub is global substitution which is a string method that replaces all occurences of the first argument it accepts with
+the second argument.
+! is destructive meaning it changes the original version.
+('Hello', 'Goodbye') are string arguments.
+this means the variable greeting is assigned the string 'Hello!' which experiences global substitution which is a string 
+method that replaces all occurences of the first argument it accepts with the second argument by changing the original 
+version this is done with the string arguments ('Hello', 'Goodbye') that is the string 'Hello!' that is assigned to 
+the variable greeting is replaced with the string 'Goodbye' and therefore is assigned to the variable greeting.
+this means print to the screen the variable greeting is assigned the string 'Hello!' which experiences global substitution which is a string 
+method that replaces all occurences of the first argument it accepts with the second argument by changing the original 
+version this is done with the string arguments ('Hello', 'Goodbye') that is the string 'Hello!' that is assigned to 
+the variable greeting is replaced with the string 'Goodbye' and therefore is assigned to the variable greeting.
+this results in the output Goodbye!
 
 Summary of Solution Syntax:
 
@@ -110,7 +128,24 @@ method that replaces all occurences of the first argument it accepts with the se
 version this is done with the string arguments ('Hello', 'Goodbye') that is the string 'Hello!' that is assigned to 
 the variable greeting is replaced with the string 'Goodbye' and therefore is assigned to the variable greeting.
 
-
+puts means put s which is put string which is print to the screen the string.
+greeting is a variable.
+= means assignment.
+'Hello!' is a string.
+this means the variable greeting is assigned the string 'Hello!'.
+.gsub is global substitution which is a string method that replaces all occurences of the first argument it accepts with
+the second argument.
+! is destructive meaning it changes the original version.
+('Hello', 'Goodbye') are string arguments.
+this means the variable greeting is assigned the string 'Hello!' which experiences global substitution which is a string 
+method that replaces all occurences of the first argument it accepts with the second argument by changing the original 
+version this is done with the string arguments ('Hello', 'Goodbye') that is the string 'Hello!' that is assigned to 
+the variable greeting is replaced with the string 'Goodbye' and therefore is assigned to the variable greeting.
+this means print to the screen the variable greeting is assigned the string 'Hello!' which experiences global substitution which is a string 
+method that replaces all occurences of the first argument it accepts with the second argument by changing the original 
+version this is done with the string arguments ('Hello', 'Goodbye') that is the string 'Hello!' that is assigned to 
+the variable greeting is replaced with the string 'Goodbye' and therefore is assigned to the variable greeting.
+this results in the output Goodbye!
 
 This means:
 =end
