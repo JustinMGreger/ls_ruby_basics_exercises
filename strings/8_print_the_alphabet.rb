@@ -95,9 +95,24 @@ puts alphabet.split('')
 
 Explanation of Solution Syntax:
 
+Syntax:
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
+
+Explanation:
+alphabet is a variable.
+= means assignment.
+'abcdefghijklmnopqrstuvwxyz' is a string.
+this means the variable alphabet is assigned the string 'abcdefghijklmnopqrstuvwxyz'.
+
+
 puts alphabet.split('')
 
 Summary of Solution Syntax:
+
+alphabet is a variable.
+= means assignment.
+'abcdefghijklmnopqrstuvwxyz' is a string.
+this means the variable alphabet is assigned the string 'abcdefghijklmnopqrstuvwxyz'.
+
 This means:
 =end
