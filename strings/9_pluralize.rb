@@ -63,11 +63,24 @@ words is a variable.
 'car human elephant airplane' is a string.
 this means the variable words is assigned the string 'car human elephant airplane'
 
-
-
-
-
+Syntax:
 words.split(' ').each do |word|
+
+Explanation:
+words is a variable.
+= means assignment.
+'car human elephant airplane' is a string.
+this means the variable words is assigned the string 'car human elephant airplane'
+.split is a string method that is used to split a string into an array of substrings based on a specified delimiter.
+(' ') is a singe space which with the above syntax means split by the word.
+.each is a method used to iterate over a collection of elements.
+do means open block of code for the .each method to use.
+|word| represents the elements in in the array words.
+this means the variable words is assigned the string 'car human elephant airplane' split the string into an array of 
+substrings based on each word then for each word do something.
+
+
+
   puts word + 's'
 end
 
@@ -78,11 +91,39 @@ words is a variable.
 'car human elephant airplane' is a string.
 this means the variable words is assigned the string 'car human elephant airplane'
 
+words.split(' ').each do |word|
+words is a variable.
+= means assignment.
+'car human elephant airplane' is a string.
+this means the variable words is assigned the string 'car human elephant airplane'
+.split is a string method that is used to split a string into an array of substrings based on a specified delimiter.
+(' ') is a singe space which with the above syntax means split by the word.
+.each is a method used to iterate over a collection of elements.
+do means open block of code for the .each method to use.
+|word| represents the elements in in the array words.
+this means the variable words is assigned the string 'car human elephant airplane' split the string into an array of 
+substrings based on each word then for each word do something.
+
+
 This means:
 
 words is a variable.
 = means assignment.
 'car human elephant airplane' is a string.
 this means the variable words is assigned the string 'car human elephant airplane'
+
+words.split(' ').each do |word|
+words is a variable.
+= means assignment.
+'car human elephant airplane' is a string.
+this means the variable words is assigned the string 'car human elephant airplane'
+.split is a string method that is used to split a string into an array of substrings based on a specified delimiter.
+(' ') is a singe space which with the above syntax means split by the word.
+.each is a method used to iterate over a collection of elements.
+do means open block of code for the .each method to use.
+|word| represents the elements in in the array words.
+this means the variable words is assigned the string 'car human elephant airplane' split the string into an array of 
+substrings based on each word then for each word do something.
+
 
 =end
