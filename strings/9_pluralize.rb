@@ -54,12 +54,35 @@ end
 
 Explanation of Solution Syntax:
 
+Syntax:
 words = 'car human elephant airplane'
+
+Explanation:
+words is a variable.
+= means assignment.
+'car human elephant airplane' is a string.
+this means the variable words is assigned the string 'car human elephant airplane'
+
+
+
+
 
 words.split(' ').each do |word|
   puts word + 's'
 end
 
 Summary of Solution Syntax:
+
+words is a variable.
+= means assignment.
+'car human elephant airplane' is a string.
+this means the variable words is assigned the string 'car human elephant airplane'
+
 This means:
+
+words is a variable.
+= means assignment.
+'car human elephant airplane' is a string.
+this means the variable words is assigned the string 'car human elephant airplane'
+
 =end
