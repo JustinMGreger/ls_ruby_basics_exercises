@@ -90,7 +90,11 @@ puts means put s which is put string which means print to the screen the string.
 this means print to the screen the string elements in the array words and concatenate the string elements with the string
 's'.
 
+Syntax:
 end
+
+Explanation:
+this is the last line of the .each method that is everything after this is outside of the .each method.
 
 Summary of Solution Syntax:
 
@@ -116,6 +120,7 @@ puts means put s which is put string which means print to the screen the string.
 's' is a string.
 this means print to the screen the string elements in the array words and concatenate the string elements with the string
 's'.
+this is the last line of the .each method that is everything after this is outside of the .each method.
 
 This means:
 
@@ -141,5 +146,6 @@ puts means put s which is put string which means print to the screen the string.
 's' is a string.
 this means print to the screen the string elements in the array words and concatenate the string elements with the string
 's'.
+this is the last line of the .each method that is everything after this is outside of the .each method.
 
 =end
