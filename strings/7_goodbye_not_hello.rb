@@ -59,11 +59,24 @@ puts greeting
 
 Explanation of Solution Syntax:
 
+Syntax:
 greeting = 'Hello!'
+
+Explanation:
+greeting is a variable.
+= means assignment.
+'Hello!' is a string.
+this means the variable greeting is assigned the string 'Hello!'.
 
 greeting.gsub!('Hello', 'Goodbye')
 puts greeting
 
 Summary of Solution Syntax:
+
+greeting is a variable.
+= means assignment.
+'Hello!' is a string.
+this means the variable greeting is assigned the string 'Hello!'.
+
 This means:
 =end
