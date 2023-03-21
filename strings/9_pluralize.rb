@@ -79,9 +79,17 @@ do means open block of code for the .each method to use.
 this means the variable words is assigned the string 'car human elephant airplane' split the string into an array of 
 substrings based on each word then for each word do something.
 
-
-
+Syntax:
   puts word + 's'
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+|word| represents the elements in in the array words.
++ means concatenate strings.
+'s' is a string.
+this means print to the screen the string elements in the array words and concatenate the string elements with the string
+'s'.
+
 end
 
 Summary of Solution Syntax:
@@ -91,7 +99,6 @@ words is a variable.
 'car human elephant airplane' is a string.
 this means the variable words is assigned the string 'car human elephant airplane'
 
-words.split(' ').each do |word|
 words is a variable.
 = means assignment.
 'car human elephant airplane' is a string.
@@ -103,7 +110,12 @@ do means open block of code for the .each method to use.
 |word| represents the elements in in the array words.
 this means the variable words is assigned the string 'car human elephant airplane' split the string into an array of 
 substrings based on each word then for each word do something.
-
+puts means put s which is put string which means print to the screen the string.
+|word| represents the elements in in the array words.
++ means concatenate strings.
+'s' is a string.
+this means print to the screen the string elements in the array words and concatenate the string elements with the string
+'s'.
 
 This means:
 
@@ -112,7 +124,6 @@ words is a variable.
 'car human elephant airplane' is a string.
 this means the variable words is assigned the string 'car human elephant airplane'
 
-words.split(' ').each do |word|
 words is a variable.
 = means assignment.
 'car human elephant airplane' is a string.
@@ -124,6 +135,11 @@ do means open block of code for the .each method to use.
 |word| represents the elements in in the array words.
 this means the variable words is assigned the string 'car human elephant airplane' split the string into an array of 
 substrings based on each word then for each word do something.
-
+puts means put s which is put string which means print to the screen the string.
+|word| represents the elements in in the array words.
++ means concatenate strings.
+'s' is a string.
+this means print to the screen the string elements in the array words and concatenate the string elements with the string
+'s'.
 
 =end
