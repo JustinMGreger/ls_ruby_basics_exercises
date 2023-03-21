@@ -45,7 +45,21 @@ puts as puts prints strings with a newline character and the string character s 
 strings.
 
 Syntax of Solution:
+
+words = 'car human elephant airplane'
+
+words.split(' ').each do |word|
+  puts word + 's'
+end
+
 Explanation of Solution Syntax:
+
+words = 'car human elephant airplane'
+
+words.split(' ').each do |word|
+  puts word + 's'
+end
+
 Summary of Solution Syntax:
 This means:
 =end
