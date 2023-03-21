@@ -148,4 +148,18 @@ the variable greeting is replaced with the string 'Goodbye' and therefore is ass
 this results in the output Goodbye!
 
 This means:
+
+the variable greeting is assigned the string 'Hello!'.
+
+the variable greeting is assigned the string 'Hello!' which experiences global substitution which is a string method that 
+replaces all occurences of the first argument it accepts with the second argument by changing the original version this is
+done with the string arguments ('Hello', 'Goodbye') that is the string 'Hello!' that is assigned to the variable greeting 
+is replaced with the string 'Goodbye' and therefore is assigned to the variable greeting.
+
+print to the screen the variable greeting is assigned the string 'Hello!' which experiences global substitution which is a
+string method that replaces all occurences of the first argument it accepts with the second argument by changing the 
+original version this is done with the string arguments ('Hello', 'Goodbye') that is the string 'Hello!' that is assigned
+to the variable greeting is replaced with the string 'Goodbye' and therefore is assigned to the variable greeting. 
+this results in the output Goodbye!
+
 =end
