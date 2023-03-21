@@ -89,7 +89,15 @@ the solution is probably something like puts alphabet = 'abcdefghijklmnopqrstuvw
 'abcdefghijklmnopqrstuvwxyz' is broken up so that it is printed on a line for each of the string's characters.
 
 Syntax of Solution:
+
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+puts alphabet.split('')
+
 Explanation of Solution Syntax:
+
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+puts alphabet.split('')
+
 Summary of Solution Syntax:
 This means:
 =end
