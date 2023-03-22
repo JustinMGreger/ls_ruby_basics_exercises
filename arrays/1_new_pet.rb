@@ -15,6 +15,10 @@ Additional Description of Exercise:
 Select 'fish' from pets, assign the return value to a variable named my_pet, then print the value of my_pet.
 Expected output:
 
+Additional Initial Syntax Given:
+I have a pet fish!
+
+Explanation of Additional Initial Syntax Given:
 
 Syntax of Solution:
 Explanation of Solution Syntax:
