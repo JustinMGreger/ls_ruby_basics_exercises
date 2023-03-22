@@ -6,6 +6,10 @@ Initial Syntax Given:
 pets = ['cat', 'dog', 'fish', 'lizard']
 
 Explanation of Initial Syntax Given:
+pets is a variable.
+= means assignment.
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the variable pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard'].
 
 Syntax of Solution:
 Explanation of Solution Syntax:
