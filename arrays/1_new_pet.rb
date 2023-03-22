@@ -125,31 +125,13 @@ This means:
 
 the varible pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard'].
 
-the varible pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard'].
-[2] is array index 2 which is used to access the element from an array it is important to remember that index 0 references
-the first element meaning that index 2 is the third element of the array.
-this means the variable my_pet is assigned the varible pets is assigned the array of string elements 
-['cat', 'dog', 'fish', 'lizard'] which has the index 2 accessed which is the third element which is the string 'fish'
-that is the variable my_pet is assigned the string 'fish'.
+the variable my_pet is assigned the varible pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard']
+which has the index 2 accessed which is the third element which is the string 'fish' that is the variable my_pet is 
+assigned the string 'fish'.
 
-puts means put s which is put string which means print to the screen the string.
-"I have a pet #{my_pet}!" is a string.
-#{my_pet} is string interpolation referencing the variable my_pet.
-my_pet is a variable.
-= means assignment.
-pets is a varible.
-= means assignment. 
-['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
-this means the varible pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard'].
-[2] is array index 2 which is used to access the element from an array it is important to remember that index 0 references
-the first element meaning that index 2 is the third element of the array.
-this means the variable my_pet is assigned the varible pets is assigned the array of string elements 
-['cat', 'dog', 'fish', 'lizard'] which has the index 2 accessed which is the third element which is the string 'fish'
-that is the variable my_pet is assigned the string 'fish'.
-this means print to the screen the string "I have a pet #{my_pet}!" which has string interpolation #{my_pet} which
-references the variable my_pet which is assigned the varible pets which is assigned the array of string elements 
+print to the screen the string "I have a pet #{my_pet}!" which has string interpolation #{my_pet} which references the 
+variable my_pet which is assigned the varible pets which is assigned the array of string elements 
 ['cat', 'dog', 'fish', 'lizard'] which has the index 2 accessed which is the third element which is the string 'fish'
 that is the variable my_pet is assigned the string 'fish' which results in the output I have a pet fish!
-
 
 =end
