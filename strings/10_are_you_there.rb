@@ -39,11 +39,30 @@ puts colors.include?('purple')
 
 Explanation of Solution Syntax:
 
+Syntax:
 colors = 'blue pink yellow orange'
+
+Explanation:
+colors is a variable.
+= means assignment.
+'blue pink yellow orange' is a string.
+this means the variable colors is assigned the string 'blue pink yellow orange'.
 
 puts colors.include?('yellow')
 puts colors.include?('purple')
 
 Summary of Solution Syntax:
+
+colors is a variable.
+= means assignment.
+'blue pink yellow orange' is a string.
+this means the variable colors is assigned the string 'blue pink yellow orange'.
+
 This means:
+
+colors is a variable.
+= means assignment.
+'blue pink yellow orange' is a string.
+this means the variable colors is assigned the string 'blue pink yellow orange'.
+
 =end
