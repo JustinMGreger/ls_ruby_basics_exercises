@@ -124,28 +124,17 @@ this is the last line of the .each method that is everything after this is outsi
 
 This means:
 
-words is a variable.
-= means assignment.
-'car human elephant airplane' is a string.
-this means the variable words is assigned the string 'car human elephant airplane'
+the variable words is assigned the string 'car human elephant airplane'.
 
-words is a variable.
-= means assignment.
-'car human elephant airplane' is a string.
-this means the variable words is assigned the string 'car human elephant airplane'
-.split is a string method that is used to split a string into an array of substrings based on a specified delimiter.
-(' ') is a singe space which with the above syntax means split by the word.
-.each is a method used to iterate over a collection of elements.
-do means open block of code for the .each method to use.
-|word| represents the elements in in the array words.
-this means the variable words is assigned the string 'car human elephant airplane' split the string into an array of 
-substrings based on each word then for each word do something.
-puts means put s which is put string which means print to the screen the string.
-|word| represents the elements in in the array words.
-+ means concatenate strings.
-'s' is a string.
-this means print to the screen the string elements in the array words and concatenate the string elements with the string
-'s'.
-this is the last line of the .each method that is everything after this is outside of the .each method.
+the variable words is assigned the string 'car human elephant airplane' split the string into an array of substrings based
+on each word then for each word print to the screen the concatenation of the elements in the array words that is word in 
+words and concatenate the string elements with the string 's' this will result in the output:
+
+cars
+humans
+elephants
+airplanes
+
+the string outputs have their own lines because when puts is used it adds a newline character.
 
 =end
