@@ -25,7 +25,22 @@ this was printed so that is puts which is put s which is put string which means 
 the syntax is probably puts "I have a pet #{my_pet}!"
 
 Syntax of Solution:
+
+pets = ['cat', 'dog', 'fish', 'lizard']
+
+my_pet = pets[2]
+
+puts "I have a pet #{my_pet}!"
+
+
 Explanation of Solution Syntax:
+
+pets = ['cat', 'dog', 'fish', 'lizard']
+
+my_pet = pets[2]
+
+puts "I have a pet #{my_pet}!"
+
 Summary of Solution Syntax:
 This means:
 =end
