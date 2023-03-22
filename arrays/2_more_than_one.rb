@@ -15,6 +15,16 @@ Additional Description of Exercise:
 Write some code that selects 'fish' and 'lizard' from the pets array - select the two items at the same time. 
 Assign the return value to a variable named my_pets, then print the contents of my_pets as a single string, e.g.:
 
+Additional Initial Syntax Given:
+I have a pet fish and a pet lizard!
+
+Explanation of Additional Initial Syntax Given:
+I have a pet fish and a pet lizard! is a string.
+fish and lizard are from the array of string elements which means this is string interpolation.
+Since it is a string this means it was printed which is puts which is put s which is put string which is print to the 
+screen the string.
+the syntax is probably something like puts "I have a pet #{my_pet} and a pet #{my_pet}!"
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
