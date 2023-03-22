@@ -35,12 +35,33 @@ puts "I have a pet #{my_pet}!"
 
 Explanation of Solution Syntax:
 
+Syntax:
 pets = ['cat', 'dog', 'fish', 'lizard']
+
+Explanation:
+pets is a varible.
+= means assignment. 
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the varible pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+
 
 my_pet = pets[2]
 
 puts "I have a pet #{my_pet}!"
 
 Summary of Solution Syntax:
+
+pets is a varible.
+= means assignment. 
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the varible pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+
+
 This means:
+
+pets is a varible.
+= means assignment. 
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the varible pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+
 =end
