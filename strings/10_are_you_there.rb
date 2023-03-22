@@ -31,7 +31,19 @@ puts colors includes the color 'purple' which results in the output boolean fals
 'blue pink yellow orange' which is assigned to the variable colors.
 
 Syntax of Solution:
+
+colors = 'blue pink yellow orange'
+
+puts colors.include?('yellow')
+puts colors.include?('purple')
+
 Explanation of Solution Syntax:
+
+colors = 'blue pink yellow orange'
+
+puts colors.include?('yellow')
+puts colors.include?('purple')
+
 Summary of Solution Syntax:
 This means:
 =end
