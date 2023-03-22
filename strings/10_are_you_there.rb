@@ -22,6 +22,13 @@ false
 Explanation of Additional Initial Syntax Given:
 true is boolean true.
 false is boolean false.
+these are outputs so something is printing them probably puts which is put s which is put string which means print to the 
+screen the string.
+the syntax is something like:
+puts  colors includes the color 'yellow' which results in the output boolean true as 'yellow' is in the string
+'blue pink yellow orange' which is assigned to the variable colors.
+puts colors includes the color 'purple' which results in the output boolean false as purple is not in the string 
+'blue pink yellow orange' which is assigned to the variable colors.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
