@@ -44,8 +44,23 @@ pets is a varible.
 ['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
 this means the varible pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard'].
 
-
+Syntax:
 my_pet = pets[2]
+
+Explanation:
+my_pet is a variable.
+= means assignment.
+pets is a varible.
+= means assignment. 
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the varible pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+[2] is array index 2 which is used to access the element from an array it is important to remember that index 0 references
+the first element meaning that index 2 is the third element of the array.
+this means the variable my_pet is assigned the varible pets is assigned the array of string elements 
+['cat', 'dog', 'fish', 'lizard'] which has the index 2 accessed which is the third element which is the string 'fish'
+that is the variable my_pet is assigned the string 'fish'.
+
+
 
 puts "I have a pet #{my_pet}!"
 
@@ -56,6 +71,17 @@ pets is a varible.
 ['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
 this means the varible pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard'].
 
+my_pet is a variable.
+= means assignment.
+pets is a varible.
+= means assignment. 
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the varible pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+[2] is array index 2 which is used to access the element from an array it is important to remember that index 0 references
+the first element meaning that index 2 is the third element of the array.
+this means the variable my_pet is assigned the varible pets is assigned the array of string elements 
+['cat', 'dog', 'fish', 'lizard'] which has the index 2 accessed which is the third element which is the string 'fish'
+that is the variable my_pet is assigned the string 'fish'.
 
 This means:
 
@@ -63,5 +89,17 @@ pets is a varible.
 = means assignment. 
 ['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
 this means the varible pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+
+my_pet is a variable.
+= means assignment.
+pets is a varible.
+= means assignment. 
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the varible pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+[2] is array index 2 which is used to access the element from an array it is important to remember that index 0 references
+the first element meaning that index 2 is the third element of the array.
+this means the variable my_pet is assigned the varible pets is assigned the array of string elements 
+['cat', 'dog', 'fish', 'lizard'] which has the index 2 accessed which is the third element which is the string 'fish'
+that is the variable my_pet is assigned the string 'fish'.
 
 =end
