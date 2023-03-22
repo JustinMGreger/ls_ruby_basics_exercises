@@ -64,8 +64,21 @@ this means print to the screen the result of checking if the variable colors tha
 'blue pink yellow orange' contains a specific argument as a substring specifically the string 'yellow' returning boolean 
 true if it does and boolean false if it does not the result of which is boolean true.
 
-
+Syntax:
 puts colors.include?('purple')
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+colors is a variable.
+= means assignment.
+'blue pink yellow orange' is a string.
+this means the variable colors is assigned the string 'blue pink yellow orange'.
+.include? is a string method checks a string to see if it contains a specific argument as a substring which returns
+boolean true if it does and boolean false if it does not.
+('purple') is a string.
+this means print to the screen the result of checking if the variable colors that is assigned the string 
+'blue pink yellow orange' contains a specific argument as a substring specifically the string 'purple' returning boolean 
+true if it does and boolean false if it does not the result of which is boolean false.
 
 Summary of Solution Syntax:
 
@@ -86,6 +99,18 @@ this means print to the screen the result of checking if the variable colors tha
 'blue pink yellow orange' contains a specific argument as a substring specifically the string 'yellow' returning boolean 
 true if it does and boolean false if it does not the result of which is boolean true.
 
+puts means put s which is put string which means print to the screen the string.
+colors is a variable.
+= means assignment.
+'blue pink yellow orange' is a string.
+this means the variable colors is assigned the string 'blue pink yellow orange'.
+.include? is a string method checks a string to see if it contains a specific argument as a substring which returns
+boolean true if it does and boolean false if it does not.
+('purple') is a string.
+this means print to the screen the result of checking if the variable colors that is assigned the string 
+'blue pink yellow orange' contains a specific argument as a substring specifically the string 'purple' returning boolean 
+true if it does and boolean false if it does not the result of which is boolean false.
+
 This means:
 
 colors is a variable.
@@ -104,5 +129,17 @@ boolean true if it does and boolean false if it does not.
 this means print to the screen the result of checking if the variable colors that is assigned the string 
 'blue pink yellow orange' contains a specific argument as a substring specifically the string 'yellow' returning boolean 
 true if it does and boolean false if it does not the result of which is boolean true.
+
+puts means put s which is put string which means print to the screen the string.
+colors is a variable.
+= means assignment.
+'blue pink yellow orange' is a string.
+this means the variable colors is assigned the string 'blue pink yellow orange'.
+.include? is a string method checks a string to see if it contains a specific argument as a substring which returns
+boolean true if it does and boolean false if it does not.
+('purple') is a string.
+this means print to the screen the result of checking if the variable colors that is assigned the string 
+'blue pink yellow orange' contains a specific argument as a substring specifically the string 'purple' returning boolean 
+true if it does and boolean false if it does not the result of which is boolean false.
 
 =end
