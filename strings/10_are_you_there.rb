@@ -15,6 +15,11 @@ this means the variable colors is assigned the string 'blue pink yellow orange'.
 Additional Description of Exercise:
 Expected output:
 
+Additional Initial Syntax Given:
+true
+false
+
+Explanation of Additional Initial Syntax Given:
 
 Syntax of Solution:
 Explanation of Solution Syntax:
