@@ -12,6 +12,10 @@ colors is a variable.
 'blue pink yellow orange' is a string.
 this means the variable colors is assigned the string 'blue pink yellow orange'.
 
+Additional Description of Exercise:
+Expected output:
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
