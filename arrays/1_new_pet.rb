@@ -19,6 +19,10 @@ Additional Initial Syntax Given:
 I have a pet fish!
 
 Explanation of Additional Initial Syntax Given:
+this is a string with interpolation.
+my_pet is a variable that is assigned the string 'fish'.
+this was printed so that is puts which is put s which is put string which means print to the screen the string.
+the syntax is probably puts "I have a pet #{my_pet}!"
 
 Syntax of Solution:
 Explanation of Solution Syntax:
