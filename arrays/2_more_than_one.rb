@@ -25,6 +25,9 @@ Since it is a string this means it was printed which is puts which is put s whic
 screen the string.
 the syntax is probably something like puts "I have a pet #{my_pet} and a pet #{my_pet}!"
 
+Additional Description of Exercise:
+Make sure you use my_pets to get the words "fish" and "lizard" in that message.
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
