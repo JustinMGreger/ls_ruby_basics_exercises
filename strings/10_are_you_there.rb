@@ -7,6 +7,10 @@ Initial Syntax Given:
 colors = 'blue pink yellow orange'
 
 Explanation of Initial Syntax Given:
+colors is a variable.
+= means assignment.
+'blue pink yellow orange' is a string.
+this means the variable colors is assigned the string 'blue pink yellow orange'.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
