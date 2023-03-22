@@ -20,6 +20,8 @@ true
 false
 
 Explanation of Additional Initial Syntax Given:
+true is boolean true.
+false is boolean false.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
