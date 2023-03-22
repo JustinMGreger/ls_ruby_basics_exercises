@@ -48,7 +48,23 @@ colors is a variable.
 'blue pink yellow orange' is a string.
 this means the variable colors is assigned the string 'blue pink yellow orange'.
 
+Syntax:
 puts colors.include?('yellow')
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+colors is a variable.
+= means assignment.
+'blue pink yellow orange' is a string.
+this means the variable colors is assigned the string 'blue pink yellow orange'.
+.include? is a string method checks a string to see if it contains a specific argument as a substring which returns
+boolean true if it does and boolean false if it does not.
+('yellow') is a string.
+this means print to the screen the result of checking if the variable colors that is assigned the string 
+'blue pink yellow orange' contains a specific argument as a substring specifically the string 'yellow' returning boolean 
+true if it does and boolean false if it does not the result of which is boolean true.
+
+
 puts colors.include?('purple')
 
 Summary of Solution Syntax:
@@ -58,11 +74,35 @@ colors is a variable.
 'blue pink yellow orange' is a string.
 this means the variable colors is assigned the string 'blue pink yellow orange'.
 
+puts means put s which is put string which means print to the screen the string.
+colors is a variable.
+= means assignment.
+'blue pink yellow orange' is a string.
+this means the variable colors is assigned the string 'blue pink yellow orange'.
+.include? is a string method checks a string to see if it contains a specific argument as a substring which returns
+boolean true if it does and boolean false if it does not.
+('yellow') is a string.
+this means print to the screen the result of checking if the variable colors that is assigned the string 
+'blue pink yellow orange' contains a specific argument as a substring specifically the string 'yellow' returning boolean 
+true if it does and boolean false if it does not the result of which is boolean true.
+
 This means:
 
 colors is a variable.
 = means assignment.
 'blue pink yellow orange' is a string.
 this means the variable colors is assigned the string 'blue pink yellow orange'.
+
+puts means put s which is put string which means print to the screen the string.
+colors is a variable.
+= means assignment.
+'blue pink yellow orange' is a string.
+this means the variable colors is assigned the string 'blue pink yellow orange'.
+.include? is a string method checks a string to see if it contains a specific argument as a substring which returns
+boolean true if it does and boolean false if it does not.
+('yellow') is a string.
+this means print to the screen the result of checking if the variable colors that is assigned the string 
+'blue pink yellow orange' contains a specific argument as a substring specifically the string 'yellow' returning boolean 
+true if it does and boolean false if it does not the result of which is boolean true.
 
 =end
