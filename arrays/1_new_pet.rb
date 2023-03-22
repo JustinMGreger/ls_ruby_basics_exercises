@@ -123,17 +123,9 @@ that is the variable my_pet is assigned the string 'fish' which results in the o
 
 This means:
 
-pets is a varible.
-= means assignment. 
-['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
-this means the varible pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+the varible pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard'].
 
-my_pet is a variable.
-= means assignment.
-pets is a varible.
-= means assignment. 
-['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
-this means the varible pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+the varible pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard'].
 [2] is array index 2 which is used to access the element from an array it is important to remember that index 0 references
 the first element meaning that index 2 is the third element of the array.
 this means the variable my_pet is assigned the varible pets is assigned the array of string elements 
