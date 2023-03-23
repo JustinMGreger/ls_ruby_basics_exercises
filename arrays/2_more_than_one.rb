@@ -45,8 +45,22 @@ Explanation:
 pets is a variable.
 = means assignment.
 ['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the variable pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard'].
 
+Syntax:
 my_pets = pets[2..3]
+
+Explanation:
+my_pets is a variable.
+= means assignment.
+pets is a variable.
+= means assignment.
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+[2..3] is a range of index numbers of the array.
+this means the variable my_pets is assigned the variable pets is assigned the array of string elements 
+['cat', 'dog', 'fish', 'lizard'] of which the range of index numbers of the array [2..3] is accessed which since index
+numbers start at 0 the index number 2 is the string element 'fish' and the index number 3 is the string element 'lizard'.
+
 
 puts "I have a pet #{my_pets[0]} and a pet #{my_pets[1]}!"
 
@@ -55,13 +69,33 @@ Summary of Solution Syntax:
 pets is a variable.
 = means assignment.
 ['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the variable pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard'].
 
+my_pets is a variable.
+= means assignment.
+pets is a variable.
+= means assignment.
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+[2..3] is a range of index numbers of the array.
+this means the variable my_pets is assigned the variable pets is assigned the array of string elements 
+['cat', 'dog', 'fish', 'lizard'] of which the range of index numbers of the array [2..3] is accessed which since index
+numbers start at 0 the index number 2 is the string element 'fish' and the index number 3 is the string element 'lizard'.
 
 This means:
 
 pets is a variable.
 = means assignment.
 ['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the variable pets is assigned the array of string elements ['cat', 'dog', 'fish', 'lizard'].
 
+my_pets is a variable.
+= means assignment.
+pets is a variable.
+= means assignment.
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+[2..3] is a range of index numbers of the array.
+this means the variable my_pets is assigned the variable pets is assigned the array of string elements 
+['cat', 'dog', 'fish', 'lizard'] of which the range of index numbers of the array [2..3] is accessed which since index
+numbers start at 0 the index number 2 is the string element 'fish' and the index number 3 is the string element 'lizard'.
 
 =end
