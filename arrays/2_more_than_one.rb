@@ -61,8 +61,23 @@ this means the variable my_pets is assigned the variable pets is assigned the ar
 ['cat', 'dog', 'fish', 'lizard'] of which the range of index numbers of the array [2..3] is accessed which since index
 numbers start at 0 the index number 2 is the string element 'fish' and the index number 3 is the string element 'lizard'.
 
-
+Syntax:
 puts "I have a pet #{my_pets[0]} and a pet #{my_pets[1]}!"
+
+Explanation:
+puts is put s which is put string which means print to the screen the string.
+"I have a pet #{my_pets[0]} and a pet #{my_pets[1]}!" is a string.
+#{my_pets[0]} and #{my_pets[1]} are string interpolation.
+my_pets is assigned the variable pets is assigned the array of string elements 
+['cat', 'dog', 'fish', 'lizard'] of which the range of index numbers of the array [2..3] is accessed which since index
+numbers start at 0 the index number 2 is the string element 'fish' and the index number 3 is the string element 'lizard'.
+this means print to the screen the string "I have a pet #{my_pets[0]} and a pet #{my_pets[1]}!" which is string 
+interpolation of my_pets which is assigned the variable pets is assigned the array of string elements 
+['cat', 'dog', 'fish', 'lizard'] of which the range of index numbers of the array [2..3] is accessed which since index
+numbers start at 0 the index number 2 is the string element 'fish' and the index number 3 is the string element 'lizard'
+these have their own index that is 0 is 'fish' and 1 is 'lizard' which means my_pets[0] references the
+string element 'fish' and my_pets[1] references the string element 'lizard'.
+the result of this is: I have a pet fish and a pet lizard!
 
 Summary of Solution Syntax:
 
@@ -81,6 +96,20 @@ this means the variable my_pets is assigned the variable pets is assigned the ar
 ['cat', 'dog', 'fish', 'lizard'] of which the range of index numbers of the array [2..3] is accessed which since index
 numbers start at 0 the index number 2 is the string element 'fish' and the index number 3 is the string element 'lizard'.
 
+puts is put s which is put string which means print to the screen the string.
+"I have a pet #{my_pets[0]} and a pet #{my_pets[1]}!" is a string.
+#{my_pets[0]} and #{my_pets[1]} are string interpolation.
+my_pets is assigned the variable pets is assigned the array of string elements 
+['cat', 'dog', 'fish', 'lizard'] of which the range of index numbers of the array [2..3] is accessed which since index
+numbers start at 0 the index number 2 is the string element 'fish' and the index number 3 is the string element 'lizard'.
+this means print to the screen the string "I have a pet #{my_pets[0]} and a pet #{my_pets[1]}!" which is string 
+interpolation of my_pets which is assigned the variable pets is assigned the array of string elements 
+['cat', 'dog', 'fish', 'lizard'] of which the range of index numbers of the array [2..3] is accessed which since index
+numbers start at 0 the index number 2 is the string element 'fish' and the index number 3 is the string element 'lizard'
+these have their own index that is 0 is 'fish' and 1 is 'lizard' which means my_pets[0] references the
+string element 'fish' and my_pets[1] references the string element 'lizard'.
+the result of this is: I have a pet fish and a pet lizard!
+
 This means:
 
 pets is a variable.
@@ -97,5 +126,19 @@ pets is a variable.
 this means the variable my_pets is assigned the variable pets is assigned the array of string elements 
 ['cat', 'dog', 'fish', 'lizard'] of which the range of index numbers of the array [2..3] is accessed which since index
 numbers start at 0 the index number 2 is the string element 'fish' and the index number 3 is the string element 'lizard'.
+
+puts is put s which is put string which means print to the screen the string.
+"I have a pet #{my_pets[0]} and a pet #{my_pets[1]}!" is a string.
+#{my_pets[0]} and #{my_pets[1]} are string interpolation.
+my_pets is assigned the variable pets is assigned the array of string elements 
+['cat', 'dog', 'fish', 'lizard'] of which the range of index numbers of the array [2..3] is accessed which since index
+numbers start at 0 the index number 2 is the string element 'fish' and the index number 3 is the string element 'lizard'.
+this means print to the screen the string "I have a pet #{my_pets[0]} and a pet #{my_pets[1]}!" which is string 
+interpolation of my_pets which is assigned the variable pets is assigned the array of string elements 
+['cat', 'dog', 'fish', 'lizard'] of which the range of index numbers of the array [2..3] is accessed which since index
+numbers start at 0 the index number 2 is the string element 'fish' and the index number 3 is the string element 'lizard'
+these have their own index that is 0 is 'fish' and 1 is 'lizard' which means my_pets[0] references the
+string element 'fish' and my_pets[1] references the string element 'lizard'.
+the result of this is: I have a pet fish and a pet lizard!
 
 =end
