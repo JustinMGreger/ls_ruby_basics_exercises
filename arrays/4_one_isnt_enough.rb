@@ -11,7 +11,17 @@ my_pets.pop
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 pets = ['cat', 'dog', 'fish', 'lizard']
+
+Explanation:
+pets is a variable.
+= means assignment.
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the variable pets is assigned to the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+
+
+
 my_pets = pets[2..3]
 my_pets.pop
 
