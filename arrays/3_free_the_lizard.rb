@@ -83,8 +83,26 @@ this means the variable my_pets is assigned to the range of index locations [2..
 the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
 and 'lizard' at index location [3].
 
-
+Syntax:
 my_pets.pop
+
+Explanation:
+my_pets is a variable.
+= means assignment.
+pets is a variable.
+= means assignment.
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the variable pets is assigned to the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+[2..3] are a range of index locations.
+this means the variable my_pets is assigned to the range of index locations [2..3] of the variable pets which is assigned
+the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
+and 'lizard' at index location [3].
+.pop method is used to remove and return the last element of the array.
+this means the variable my_pets is assigned to the range of index locations [2..3] of the variable pets which is assigned
+the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
+and 'lizard' at index location [3] that is my_pets is assigned to the array ['fish', 'lizard'] and then the last element 
+of the array is removed and returned which results in the array my_pets being assigned ['fish'].
+
 puts "I have a pet #{my_pets[0]}!"
 
 Summary of Solution Syntax:
@@ -105,6 +123,22 @@ this means the variable my_pets is assigned to the range of index locations [2..
 the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
 and 'lizard' at index location [3].
 
+my_pets is a variable.
+= means assignment.
+pets is a variable.
+= means assignment.
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the variable pets is assigned to the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+[2..3] are a range of index locations.
+this means the variable my_pets is assigned to the range of index locations [2..3] of the variable pets which is assigned
+the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
+and 'lizard' at index location [3].
+.pop method is used to remove and return the last element of the array.
+this means the variable my_pets is assigned to the range of index locations [2..3] of the variable pets which is assigned
+the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
+and 'lizard' at index location [3] that is my_pets is assigned to the array ['fish', 'lizard'] and then the last element 
+of the array is removed and returned which results in the array my_pets being assigned ['fish'].
+
 This means:
 
 pets is a variable.
@@ -122,5 +156,21 @@ this means the variable pets is assigned to the array of string elements ['cat',
 this means the variable my_pets is assigned to the range of index locations [2..3] of the variable pets which is assigned
 the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
 and 'lizard' at index location [3].
+
+my_pets is a variable.
+= means assignment.
+pets is a variable.
+= means assignment.
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the variable pets is assigned to the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+[2..3] are a range of index locations.
+this means the variable my_pets is assigned to the range of index locations [2..3] of the variable pets which is assigned
+the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
+and 'lizard' at index location [3].
+.pop method is used to remove and return the last element of the array.
+this means the variable my_pets is assigned to the range of index locations [2..3] of the variable pets which is assigned
+the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
+and 'lizard' at index location [3] that is my_pets is assigned to the array ['fish', 'lizard'] and then the last element 
+of the array is removed and returned which results in the array my_pets being assigned ['fish'].
 
 =end
