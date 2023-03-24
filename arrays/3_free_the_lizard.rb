@@ -40,6 +40,15 @@ Expected output:
 Additional Initial Syntax Given:
 I have a pet fish!
 
+Explanation of Additional Initial Syntax Given:
+this is a string.
+this was printed which is puts which is put s which is put string which means print to the screen the string.
+this is string interpolation.
+the syntax is probably something like: puts "I have a pet fish!"
+the fish is probably the string interpolation of #{my_pets[2]} that only references the string 'fish' from the the 
+variable pets which is assigned to the array of strings ['cat', 'dog', 'fish', 'lizard'] where [2] that is index 2 is
+the string element 'fish'.
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
