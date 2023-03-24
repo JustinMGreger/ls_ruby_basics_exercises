@@ -68,8 +68,21 @@ pets is a variable.
 ['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
 this means the variable pets is assigned to the array of string elements ['cat', 'dog', 'fish', 'lizard'].
 
-
+Syntax:
 my_pets = pets[2..3]
+
+Explanation:
+my_pets is a variable.
+= means assignment.
+pets is a variable.
+= means assignment.
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the variable pets is assigned to the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+[2..3] are a range of index locations.
+this means the variable my_pets is assigned to the range of index locations [2..3] of the variable pets which is assigned
+the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
+and 'lizard' at index location [3].
+
 
 my_pets.pop
 puts "I have a pet #{my_pets[0]}!"
@@ -81,11 +94,33 @@ pets is a variable.
 ['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
 this means the variable pets is assigned to the array of string elements ['cat', 'dog', 'fish', 'lizard'].
 
+my_pets is a variable.
+= means assignment.
+pets is a variable.
+= means assignment.
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the variable pets is assigned to the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+[2..3] are a range of index locations.
+this means the variable my_pets is assigned to the range of index locations [2..3] of the variable pets which is assigned
+the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
+and 'lizard' at index location [3].
+
 This means:
 
 pets is a variable.
 = means assignment.
 ['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
 this means the variable pets is assigned to the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+
+my_pets is a variable.
+= means assignment.
+pets is a variable.
+= means assignment.
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the variable pets is assigned to the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+[2..3] are a range of index locations.
+this means the variable my_pets is assigned to the range of index locations [2..3] of the variable pets which is assigned
+the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
+and 'lizard' at index location [3].
 
 =end
