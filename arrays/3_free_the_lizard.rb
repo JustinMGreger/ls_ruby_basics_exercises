@@ -33,6 +33,10 @@ this means that the variable my_pets is assigned to the range of index locations
 assigned to the array of strings ['cat', 'dog', 'fish', 'lizard'] where [2] is the string element 'fish' and [3] is string
 element 'lizard'.
 
+Additional Description of Exercise:
+Remove 'lizard' from my_pets then print the value of my_pets.
+Expected output:
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
