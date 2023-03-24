@@ -37,6 +37,9 @@ Additional Description of Exercise:
 Remove 'lizard' from my_pets then print the value of my_pets.
 Expected output:
 
+Additional Initial Syntax Given:
+I have a pet fish!
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
