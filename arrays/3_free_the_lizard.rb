@@ -5,7 +5,12 @@ In the code below, an array containing different types of pets is assigned to pe
 which is ['fish', 'lizard'], is assigned to my_pets.
 
 Initial Syntax Given:
+
+pets = ['cat', 'dog', 'fish', 'lizard']
+my_pets = pets[2..3]
+
 Explanation of Initial Syntax Given:
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
