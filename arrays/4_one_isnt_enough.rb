@@ -60,7 +60,8 @@ being assigned the array of string elements ['fish'].
 Additional Description of Exercise:
 Expected output:
 
-
+Additional Initial Syntax Given:
+I have a pet fish and a pet dog!
 
 
 Syntax of Solution:
