@@ -11,6 +11,16 @@ my_pets = pets[2..3]
 
 Explanation of Initial Syntax Given:
 
+Syntax:
+pets = ['cat', 'dog', 'fish', 'lizard']
+
+Explanation:
+pets is a variable.
+= means assignment.
+['cat', 'dog', 'fish', 'lizard'] is an array of strings.
+
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
