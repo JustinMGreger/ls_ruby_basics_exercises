@@ -50,7 +50,21 @@ variable pets which is assigned to the array of strings ['cat', 'dog', 'fish', '
 the string element 'fish'.
 
 Syntax of Solution:
+
+pets = ['cat', 'dog', 'fish', 'lizard']
+my_pets = pets[2..3]
+
+my_pets.pop
+puts "I have a pet #{my_pets[0]}!"
+
 Explanation of Solution Syntax:
+
+pets = ['cat', 'dog', 'fish', 'lizard']
+my_pets = pets[2..3]
+
+my_pets.pop
+puts "I have a pet #{my_pets[0]}!"
+
 Summary of Solution Syntax:
 This means:
 =end
