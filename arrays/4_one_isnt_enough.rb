@@ -57,6 +57,12 @@ for index location [2] and the string element 'lizard' for index location [3] wh
 location then the string element 'lizard' is removed and returned from the array which results in the variable my_pets
 being assigned the array of string elements ['fish'].
 
+Additional Description of Exercise:
+Expected output:
+
+
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
