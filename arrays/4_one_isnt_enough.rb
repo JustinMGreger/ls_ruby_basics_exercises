@@ -63,6 +63,19 @@ Expected output:
 Additional Initial Syntax Given:
 I have a pet fish and a pet dog!
 
+Explanation of Additional Initial Syntax Given:
+"I have a pet fish and a pet dog!" is is a string.
+this was printed to the string that is puts which is put s which is put string which means print to the screen the string.
+syntax would look like puts "I have a pet fish and a pet dog!"
+this has string interpolation regarding 'fish' and 'dog' which are from the pets variable which is assigned the string
+elements array ['cat', 'dog', 'fish', 'lizard'] specifically the index locations [1..2] however the my_pets variable
+is at this point in the syntax is assigned the string element ['fish'] which means the string element 'dog' needs to be
+added to the my_pets variable and the string element 'dog' is at index location [1] that is 
+['cat', 'dog', 'fish', 'lizard'][1] of the variable pets needs to be added to the my_pets variable for the string 
+interpolation to be successful.
+the syntax would look like:     puts "I have a pet #{my_pets[0]} and a pet #{my_pets[1]}!"
+which means that ['fish', 'dog'] would be my_pets which means 'dog' is added to the end of the my_pets array which for
+it's own index location [0] is the string element 'fish' and [1] is the string element 'dog'.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
