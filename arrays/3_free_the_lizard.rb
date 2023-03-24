@@ -103,7 +103,36 @@ the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the stri
 and 'lizard' at index location [3] that is my_pets is assigned to the array ['fish', 'lizard'] and then the last element 
 of the array is removed and returned which results in the array my_pets being assigned ['fish'].
 
+Syntax:
 puts "I have a pet #{my_pets[0]}!"
+
+Explanation:
+puts means put s which is put string which is print to the screen the string.
+"I have a pet #{my_pets[0]}!" is a string.
+#{my_pets[0]} is string interpolation.
+my_pets is a variable.
+= means assignment.
+pets is a variable.
+= means assignment.
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the variable pets is assigned to the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+[2..3] are a range of index locations.
+this means the variable my_pets is assigned to the range of index locations [2..3] of the variable pets which is assigned
+the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
+and 'lizard' at index location [3].
+.pop method is used to remove and return the last element of the array.
+this means the variable my_pets is assigned to the range of index locations [2..3] of the variable pets which is assigned
+the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
+and 'lizard' at index location [3] that is my_pets is assigned to the array ['fish', 'lizard'] and then the last element 
+of the array is removed and returned which results in the array my_pets being assigned ['fish'].
+[0] references the index location of my_pets which is ['fish'][0] which is the string element 'fish'.
+this means print to the screen the string "I have a pet #{my_pets[0]}!" which is string interpolation #{my_pets[0]} 
+the variable my_pets is assigned to the range of index locations [2..3] of the variable pets which is assigned
+the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
+and 'lizard' at index location [3] that is my_pets is assigned to the array ['fish', 'lizard'] and then the last element 
+of the array is removed and returned which results in the array my_pets being assigned ['fish'] and [0] references the 
+index location of my_pets which is ['fish'][0] which is the string element 'fish' which results in the output: I have a 
+pet fish!
 
 Summary of Solution Syntax:
 
@@ -139,6 +168,33 @@ the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the stri
 and 'lizard' at index location [3] that is my_pets is assigned to the array ['fish', 'lizard'] and then the last element 
 of the array is removed and returned which results in the array my_pets being assigned ['fish'].
 
+puts means put s which is put string which is print to the screen the string.
+"I have a pet #{my_pets[0]}!" is a string.
+#{my_pets[0]} is string interpolation.
+my_pets is a variable.
+= means assignment.
+pets is a variable.
+= means assignment.
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the variable pets is assigned to the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+[2..3] are a range of index locations.
+this means the variable my_pets is assigned to the range of index locations [2..3] of the variable pets which is assigned
+the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
+and 'lizard' at index location [3].
+.pop method is used to remove and return the last element of the array.
+this means the variable my_pets is assigned to the range of index locations [2..3] of the variable pets which is assigned
+the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
+and 'lizard' at index location [3] that is my_pets is assigned to the array ['fish', 'lizard'] and then the last element 
+of the array is removed and returned which results in the array my_pets being assigned ['fish'].
+[0] references the index location of my_pets which is ['fish'][0] which is the string element 'fish'.
+this means print to the screen the string "I have a pet #{my_pets[0]}!" which is string interpolation #{my_pets[0]} 
+the variable my_pets is assigned to the range of index locations [2..3] of the variable pets which is assigned
+the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
+and 'lizard' at index location [3] that is my_pets is assigned to the array ['fish', 'lizard'] and then the last element 
+of the array is removed and returned which results in the array my_pets being assigned ['fish'] and [0] references the 
+index location of my_pets which is ['fish'][0] which is the string element 'fish' which results in the output: I have a 
+pet fish!
+
 This means:
 
 pets is a variable.
@@ -172,5 +228,32 @@ this means the variable my_pets is assigned to the range of index locations [2..
 the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
 and 'lizard' at index location [3] that is my_pets is assigned to the array ['fish', 'lizard'] and then the last element 
 of the array is removed and returned which results in the array my_pets being assigned ['fish'].
+
+puts means put s which is put string which is print to the screen the string.
+"I have a pet #{my_pets[0]}!" is a string.
+#{my_pets[0]} is string interpolation.
+my_pets is a variable.
+= means assignment.
+pets is a variable.
+= means assignment.
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the variable pets is assigned to the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+[2..3] are a range of index locations.
+this means the variable my_pets is assigned to the range of index locations [2..3] of the variable pets which is assigned
+the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
+and 'lizard' at index location [3].
+.pop method is used to remove and return the last element of the array.
+this means the variable my_pets is assigned to the range of index locations [2..3] of the variable pets which is assigned
+the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
+and 'lizard' at index location [3] that is my_pets is assigned to the array ['fish', 'lizard'] and then the last element 
+of the array is removed and returned which results in the array my_pets being assigned ['fish'].
+[0] references the index location of my_pets which is ['fish'][0] which is the string element 'fish'.
+this means print to the screen the string "I have a pet #{my_pets[0]}!" which is string interpolation #{my_pets[0]} 
+the variable my_pets is assigned to the range of index locations [2..3] of the variable pets which is assigned
+the array of string elements ['cat', 'dog', 'fish', 'lizard'] which are the string elements 'fish' at index location [2]
+and 'lizard' at index location [3] that is my_pets is assigned to the array ['fish', 'lizard'] and then the last element 
+of the array is removed and returned which results in the array my_pets being assigned ['fish'] and [0] references the 
+index location of my_pets which is ['fish'][0] which is the string element 'fish' which results in the output: I have a 
+pet fish!
 
 =end
