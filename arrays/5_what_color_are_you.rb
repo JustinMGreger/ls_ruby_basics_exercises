@@ -1,6 +1,8 @@
 =begin
 Description of Exercise:
 
+In the code below, an array containing different types of colors is assigned to colors.
+
 Initial Syntax Given:
 Explanation of Initial Syntax Given:
 Syntax of Solution:
