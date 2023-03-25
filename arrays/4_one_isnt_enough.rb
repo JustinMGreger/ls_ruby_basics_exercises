@@ -78,7 +78,19 @@ which means that ['fish', 'dog'] would be my_pets which means 'dog' is added to 
 it's own index location [0] is the string element 'fish' and [1] is the string element 'dog'.
 
 Syntax of Solution:
+pets = ['cat', 'dog', 'fish', 'lizard']
+my_pets = pets[2..3]
+my_pets.pop
+my_pets.push(pets[1])
+puts "I have a pet #{my_pets[0]} and a pet #{my_pets[1]}!"
+
 Explanation of Solution Syntax:
+pets = ['cat', 'dog', 'fish', 'lizard']
+my_pets = pets[2..3]
+my_pets.pop
+my_pets.push(pets[1])
+puts "I have a pet #{my_pets[0]} and a pet #{my_pets[1]}!"
+
 Summary of Solution Syntax:
 This means:
 =end
