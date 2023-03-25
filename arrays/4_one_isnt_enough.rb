@@ -85,12 +85,36 @@ my_pets.push(pets[1])
 puts "I have a pet #{my_pets[0]} and a pet #{my_pets[1]}!"
 
 Explanation of Solution Syntax:
+
+Syntax:
 pets = ['cat', 'dog', 'fish', 'lizard']
+
+Explanation:
+pets is a variable.
+= means assignment.
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the variable pets is assigned to the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+
+
 my_pets = pets[2..3]
 my_pets.pop
 my_pets.push(pets[1])
 puts "I have a pet #{my_pets[0]} and a pet #{my_pets[1]}!"
 
 Summary of Solution Syntax:
+
+pets is a variable.
+= means assignment.
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the variable pets is assigned to the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+
+
 This means:
+
+pets is a variable.
+= means assignment.
+['cat', 'dog', 'fish', 'lizard'] is an array of string elements.
+this means the variable pets is assigned to the array of string elements ['cat', 'dog', 'fish', 'lizard'].
+
+
 =end
