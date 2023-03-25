@@ -162,12 +162,9 @@ being assigned the array of string elements ['fish'] then the push method adds t
 which is assigned to the array of string elements ['cat', 'dog', 'fish', 'lizard'] this accesses the string element 'dog'
 that is what is added to the end of the array which was previously my_pets assigned to ['fish'] this results in the
 my_pets variable being assigned ['fish', 'dog'] that is string element 'fish' is at index location [0] and string element
-'dog' is at index locaiton [1].
+'dog' is at index location [1].
 
-
-
-
-
+Syntax:
 puts "I have a pet #{my_pets[0]} and a pet #{my_pets[1]}!"
 
 Summary of Solution Syntax:
@@ -232,7 +229,7 @@ being assigned the array of string elements ['fish'] then the push method adds t
 which is assigned to the array of string elements ['cat', 'dog', 'fish', 'lizard'] this accesses the string element 'dog'
 that is what is added to the end of the array which was previously my_pets assigned to ['fish'] this results in the
 my_pets variable being assigned ['fish', 'dog'] that is string element 'fish' is at index location [0] and string element
-'dog' is at index locaiton [1].
+'dog' is at index location [1].
 
 
 
@@ -298,7 +295,7 @@ being assigned the array of string elements ['fish'] then the push method adds t
 which is assigned to the array of string elements ['cat', 'dog', 'fish', 'lizard'] this accesses the string element 'dog'
 that is what is added to the end of the array which was previously my_pets assigned to ['fish'] this results in the
 my_pets variable being assigned ['fish', 'dog'] that is string element 'fish' is at index location [0] and string element
-'dog' is at index locaiton [1].
+'dog' is at index location [1].
 
 
 
