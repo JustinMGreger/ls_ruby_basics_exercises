@@ -11,6 +11,11 @@ colors is a variable.
 ['red', 'yellow', 'purple', 'green'] is an array of string elements.
 this means the variable colors is assigned to the array of string elements ['red', 'yellow', 'purple', 'green'].
 
+Additional Description of Exercise:
+Use Array#each to iterate over colors and print each element.
+Expected output:
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
