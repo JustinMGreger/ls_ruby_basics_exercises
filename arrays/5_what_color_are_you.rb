@@ -31,7 +31,21 @@ colors = ['red', 'yellow', 'purple', 'green'].
 the elements could be called color as in color in colors.
 
 Syntax of Solution:
+
+colors = ['red', 'yellow', 'purple', 'green']
+
+colors.each do |color|
+  puts "I'm the color #{color}!"
+end
+
 Explanation of Solution Syntax:
+
+colors = ['red', 'yellow', 'purple', 'green']
+
+colors.each do |color|
+  puts "I'm the color #{color}!"
+end
+
 Summary of Solution Syntax:
 This means:
 =end
