@@ -18,6 +18,11 @@ Use Array#map to iterate over numbers and return a new array with each number do
 Assign the returned array to a variable named doubled_numbers and print its value using #p.
 Expected output:
 
+Additional Initial Syntax Given:
+[2, 4, 6, 8, 10]
+
+Explanation:
+
 
 Syntax of Solution:
 Explanation of Solution Syntax:
