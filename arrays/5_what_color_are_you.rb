@@ -15,6 +15,12 @@ Additional Description of Exercise:
 Use Array#each to iterate over colors and print each element.
 Expected output:
 
+Explanation Initial Syntax Given:
+I'm the color red!
+I'm the color yellow!
+I'm the color purple!
+I'm the color green!
+
 
 Syntax of Solution:
 Explanation of Solution Syntax:
