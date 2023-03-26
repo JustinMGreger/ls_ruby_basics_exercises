@@ -47,7 +47,27 @@ numbers is a variable.
 [1, 2, 3, 4, 5] is an array of integer elements.
 this means the variable numbers is assigned to the array of integer elements [1, 2, 3, 4, 5].
 
+Syntax:
 doubled_numbers = numbers.map do |number|
+
+Explanation:
+doubled_numbers is a variable.
+= means assignment.
+numbers is a variable.
+= means assignment.
+[1, 2, 3, 4, 5] is an array of integer elements.
+this means the variable numbers is assigned to the array of integer elements [1, 2, 3, 4, 5].
+.map method is used to transform the array by applying a block of code to each element and then returning a new array with
+the transfomred values.
+do means open the block of code.
+|number| is the block parameter.
+this means the variable doubled_numbers is assigned to the variable numbers is assigned to the array of integer elements 
+[1, 2, 3, 4, 5] those integer elements are transformed by applying a block of code to each integer element and then
+returning a new array with the transformed values where |number| is the block parameter.
+
+
+
+
                     number * 2
                   end
 
@@ -60,11 +80,39 @@ numbers is a variable.
 [1, 2, 3, 4, 5] is an array of integer elements.
 this means the variable numbers is assigned to the array of integer elements [1, 2, 3, 4, 5].
 
+doubled_numbers is a variable.
+= means assignment.
+numbers is a variable.
+= means assignment.
+[1, 2, 3, 4, 5] is an array of integer elements.
+this means the variable numbers is assigned to the array of integer elements [1, 2, 3, 4, 5].
+.map method is used to transform the array by applying a block of code to each element and then returning a new array with
+the transfomred values.
+do means open the block of code.
+|number| is the block parameter.
+this means the variable doubled_numbers is assigned to the variable numbers is assigned to the array of integer elements 
+[1, 2, 3, 4, 5] those integer elements are transformed by applying a block of code to each integer element and then
+returning a new array with the transformed values where |number| is the block parameter.
+
 This means:
 
 numbers is a variable.
 = means assignment.
 [1, 2, 3, 4, 5] is an array of integer elements.
 this means the variable numbers is assigned to the array of integer elements [1, 2, 3, 4, 5].
+
+doubled_numbers is a variable.
+= means assignment.
+numbers is a variable.
+= means assignment.
+[1, 2, 3, 4, 5] is an array of integer elements.
+this means the variable numbers is assigned to the array of integer elements [1, 2, 3, 4, 5].
+.map method is used to transform the array by applying a block of code to each element and then returning a new array with
+the transfomred values.
+do means open the block of code.
+|number| is the block parameter.
+this means the variable doubled_numbers is assigned to the variable numbers is assigned to the array of integer elements 
+[1, 2, 3, 4, 5] those integer elements are transformed by applying a block of code to each integer element and then
+returning a new array with the transformed values where |number| is the block parameter.
 
 =end
