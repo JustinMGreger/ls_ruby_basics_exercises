@@ -22,6 +22,10 @@ Additional Initial Syntax Given:
 [2, 4, 6, 8, 10]
 
 Explanation:
+this is an array of integer elements.
+the instructions say assign the returned array to a variable named doubled_numbers printed using p.
+the syntax would be: p doubled_numbers
+
 
 
 Syntax of Solution:
