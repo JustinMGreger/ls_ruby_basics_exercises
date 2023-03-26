@@ -40,12 +40,31 @@ end
 
 Explanation of Solution Syntax:
 
+Syntax:
 colors = ['red', 'yellow', 'purple', 'green']
+
+Explanation:
+colors is a variable.
+= means assignment.
+['red', 'yellow', 'purple', 'green'] is an array of string elements.
+this means the variable colors is assigned the array of string elements ['red', 'yellow', 'purple', 'green'].
 
 colors.each do |color|
   puts "I'm the color #{color}!"
 end
 
 Summary of Solution Syntax:
+
+colors is a variable.
+= means assignment.
+['red', 'yellow', 'purple', 'green'] is an array of string elements.
+this means the variable colors is assigned the array of string elements ['red', 'yellow', 'purple', 'green'].
+
 This means:
+
+colors is a variable.
+= means assignment.
+['red', 'yellow', 'purple', 'green'] is an array of string elements.
+this means the variable colors is assigned the array of string elements ['red', 'yellow', 'purple', 'green'].
+
 =end
