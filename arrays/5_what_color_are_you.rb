@@ -63,10 +63,30 @@ do means open the block.
 this means that for the variable colors which is assigned the array of string elements ['red', 'yellow', 'purple', 'green']
 iterate over the array colors and do something for each color.
 
-
-
-
+Syntax:
   puts "I'm the color #{color}!"
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+"I'm the color #{color}!" is a string.
+#{color} is string interpolation referencing the color elements in the colors array.
+colors is a variable.
+= means assignment.
+['red', 'yellow', 'purple', 'green'] is an array of string elements.
+this means the variable colors is assigned the array of string elements ['red', 'yellow', 'purple', 'green'].
+.each method is used to iterate over the array and do something for each element in the array.
+do means open the block.
+|color| means element in the array of elements.
+this means that for the variable colors which is assigned the array of string elements ['red', 'yellow', 'purple', 'green']
+iterate over the array colors and do something for each color.
+this means print to the screen the string "I'm the color #{color}!" which is string interpolation #{color} references
+color in the variable colors which is assigned the string elements array ['red', 'yellow', 'purple', 'green'] do this
+for each color in colors which results in the output: 
+I'm the color red! 
+I'm the color yellow!
+I'm the color purple!
+I'm the color green!
+
 end
 
 Summary of Solution Syntax:
@@ -86,6 +106,26 @@ do means open the block.
 this means that for the variable colors which is assigned the array of string elements ['red', 'yellow', 'purple', 'green']
 iterate over the array colors and do something for each color.
 
+puts means put s which is put string which means print to the screen the string.
+"I'm the color #{color}!" is a string.
+#{color} is string interpolation referencing the color elements in the colors array.
+colors is a variable.
+= means assignment.
+['red', 'yellow', 'purple', 'green'] is an array of string elements.
+this means the variable colors is assigned the array of string elements ['red', 'yellow', 'purple', 'green'].
+.each method is used to iterate over the array and do something for each element in the array.
+do means open the block.
+|color| means element in the array of elements.
+this means that for the variable colors which is assigned the array of string elements ['red', 'yellow', 'purple', 'green']
+iterate over the array colors and do something for each color.
+this means print to the screen the string "I'm the color #{color}!" which is string interpolation #{color} references
+color in the variable colors which is assigned the string elements array ['red', 'yellow', 'purple', 'green'] do this
+for each color in colors which results in the output: 
+I'm the color red! 
+I'm the color yellow!
+I'm the color purple!
+I'm the color green!
+
 This means:
 
 colors is a variable.
@@ -102,5 +142,25 @@ do means open the block.
 |color| means element in the array of elements.
 this means that for the variable colors which is assigned the array of string elements ['red', 'yellow', 'purple', 'green']
 iterate over the array colors and do something for each color.
-  
+
+puts means put s which is put string which means print to the screen the string.
+"I'm the color #{color}!" is a string.
+#{color} is string interpolation referencing the color elements in the colors array.
+colors is a variable.
+= means assignment.
+['red', 'yellow', 'purple', 'green'] is an array of string elements.
+this means the variable colors is assigned the array of string elements ['red', 'yellow', 'purple', 'green'].
+.each method is used to iterate over the array and do something for each element in the array.
+do means open the block.
+|color| means element in the array of elements.
+this means that for the variable colors which is assigned the array of string elements ['red', 'yellow', 'purple', 'green']
+iterate over the array colors and do something for each color.
+this means print to the screen the string "I'm the color #{color}!" which is string interpolation #{color} references
+color in the variable colors which is assigned the string elements array ['red', 'yellow', 'purple', 'green'] do this
+for each color in colors which results in the output: 
+I'm the color red! 
+I'm the color yellow!
+I'm the color purple!
+I'm the color green!
+
 =end
