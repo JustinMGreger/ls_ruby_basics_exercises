@@ -15,12 +15,20 @@ Additional Description of Exercise:
 Use Array#each to iterate over colors and print each element.
 Expected output:
 
-Explanation Initial Syntax Given:
+Additional Initial Syntax Given:
 I'm the color red!
 I'm the color yellow!
 I'm the color purple!
 I'm the color green!
 
+Explanation of Additional Initial Syntax Given:
+These are strings with interpolation.
+Strings imply that they are printed to the string which is puts.
+puts is put s which is put string which is print to the screen the string.
+this is string interpolation syntax such as puts "I'm the color #{red}!".
+the "red", "yellow", "purple" and "green" strings are elements from the syntax 
+colors = ['red', 'yellow', 'purple', 'green'].
+the elements could be called color as in color in colors.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
