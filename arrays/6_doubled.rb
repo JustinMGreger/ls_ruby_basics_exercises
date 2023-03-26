@@ -26,10 +26,26 @@ this is an array of integer elements.
 the instructions say assign the returned array to a variable named doubled_numbers printed using p.
 the syntax would be: p doubled_numbers
 
-
-
 Syntax of Solution:
+
+numbers = [1, 2, 3, 4, 5]
+
+doubled_numbers = numbers.map do |number|
+                    number * 2
+                  end
+
+p doubled_numbers
+
 Explanation of Solution Syntax:
+
+numbers = [1, 2, 3, 4, 5]
+
+doubled_numbers = numbers.map do |number|
+                    number * 2
+                  end
+
+p doubled_numbers
+
 Summary of Solution Syntax:
 This means:
 =end
