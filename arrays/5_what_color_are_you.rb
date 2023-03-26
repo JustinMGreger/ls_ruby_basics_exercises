@@ -49,7 +49,23 @@ colors is a variable.
 ['red', 'yellow', 'purple', 'green'] is an array of string elements.
 this means the variable colors is assigned the array of string elements ['red', 'yellow', 'purple', 'green'].
 
+Syntax:
 colors.each do |color|
+
+Explanation:
+colors is a variable.
+= means assignment.
+['red', 'yellow', 'purple', 'green'] is an array of string elements.
+this means the variable colors is assigned the array of string elements ['red', 'yellow', 'purple', 'green'].
+.each method is used to iterate over the array and do something for each element in the array.
+do means open the block.
+|color| means element in the array of elements.
+this means that for the variable colors which is assigned the array of string elements ['red', 'yellow', 'purple', 'green']
+iterate over the array colors and do something for each color.
+
+
+
+
   puts "I'm the color #{color}!"
 end
 
@@ -60,6 +76,16 @@ colors is a variable.
 ['red', 'yellow', 'purple', 'green'] is an array of string elements.
 this means the variable colors is assigned the array of string elements ['red', 'yellow', 'purple', 'green'].
 
+colors is a variable.
+= means assignment.
+['red', 'yellow', 'purple', 'green'] is an array of string elements.
+this means the variable colors is assigned the array of string elements ['red', 'yellow', 'purple', 'green'].
+.each method is used to iterate over the array and do something for each element in the array.
+do means open the block.
+|color| means element in the array of elements.
+this means that for the variable colors which is assigned the array of string elements ['red', 'yellow', 'purple', 'green']
+iterate over the array colors and do something for each color.
+
 This means:
 
 colors is a variable.
@@ -67,4 +93,14 @@ colors is a variable.
 ['red', 'yellow', 'purple', 'green'] is an array of string elements.
 this means the variable colors is assigned the array of string elements ['red', 'yellow', 'purple', 'green'].
 
+colors is a variable.
+= means assignment.
+['red', 'yellow', 'purple', 'green'] is an array of string elements.
+this means the variable colors is assigned the array of string elements ['red', 'yellow', 'purple', 'green'].
+.each method is used to iterate over the array and do something for each element in the array.
+do means open the block.
+|color| means element in the array of elements.
+this means that for the variable colors which is assigned the array of string elements ['red', 'yellow', 'purple', 'green']
+iterate over the array colors and do something for each color.
+  
 =end
