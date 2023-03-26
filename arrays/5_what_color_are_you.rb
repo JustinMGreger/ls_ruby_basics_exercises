@@ -87,7 +87,11 @@ I'm the color yellow!
 I'm the color purple!
 I'm the color green!
 
+Syntax:
 end
+
+Explanation:
+this is the last line of the each method that is everything after this is outside of the each method.
 
 Summary of Solution Syntax:
 
@@ -126,6 +130,8 @@ I'm the color yellow!
 I'm the color purple!
 I'm the color green!
 
+this is the last line of the each method that is everything after this is outside of the each method.
+
 This means:
 
 colors is a variable.
@@ -162,5 +168,7 @@ I'm the color red!
 I'm the color yellow!
 I'm the color purple!
 I'm the color green!
+
+this is the last line of the each method that is everything after this is outside of the each method.
 
 =end
