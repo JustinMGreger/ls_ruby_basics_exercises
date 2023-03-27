@@ -74,11 +74,10 @@ of integer elements [1, 2, 3, 4, 5].
 this means number which is the block parameter that references the integer elements in the variable numbers which is 
 assigned to the array of integer elements [1, 2, 3, 4, 5] is multiplied by 2.
 
-
-
-
-
+Syntax:
                   end
+Explanation:
+this is the last line of the map method that is everything after this line is outiside of the map method.
 
 p doubled_numbers
 
@@ -107,7 +106,7 @@ of integer elements [1, 2, 3, 4, 5].
 * 2 means multiply by the integer 2.
 this means number which is the block parameter that references the integer elements in the variable numbers which is 
 assigned to the array of integer elements [1, 2, 3, 4, 5] is multiplied by 2.
-
+this is the last line of the map method that is everything after this line is outiside of the map method.
 
 This means:
 
@@ -134,5 +133,6 @@ of integer elements [1, 2, 3, 4, 5].
 * 2 means multiply by the integer 2.
 this means number which is the block parameter that references the integer elements in the variable numbers which is 
 assigned to the array of integer elements [1, 2, 3, 4, 5] is multiplied by 2.
+this is the last line of the map method that is everything after this line is outiside of the map method.
 
 =end
