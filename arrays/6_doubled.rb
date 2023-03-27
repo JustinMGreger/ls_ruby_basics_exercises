@@ -65,10 +65,19 @@ this means the variable doubled_numbers is assigned to the variable numbers is a
 [1, 2, 3, 4, 5] those integer elements are transformed by applying a block of code to each integer element and then
 returning a new array with the transformed values where |number| is the block parameter.
 
-
-
-
+Syntax:
                     number * 2
+Explanation
+number is the block parameter that references the integer elements in the variable numbers which is assigned to the array 
+of integer elements [1, 2, 3, 4, 5].
+* 2 means multiply by the integer 2.
+this means number which is the block parameter that references the integer elements in the variable numbers which is 
+assigned to the array of integer elements [1, 2, 3, 4, 5] is multiplied by 2.
+
+
+
+
+
                   end
 
 p doubled_numbers
@@ -93,6 +102,12 @@ do means open the block of code.
 this means the variable doubled_numbers is assigned to the variable numbers is assigned to the array of integer elements 
 [1, 2, 3, 4, 5] those integer elements are transformed by applying a block of code to each integer element and then
 returning a new array with the transformed values where |number| is the block parameter.
+number is the block parameter that references the integer elements in the variable numbers which is assigned to the array 
+of integer elements [1, 2, 3, 4, 5].
+* 2 means multiply by the integer 2.
+this means number which is the block parameter that references the integer elements in the variable numbers which is 
+assigned to the array of integer elements [1, 2, 3, 4, 5] is multiplied by 2.
+
 
 This means:
 
@@ -114,5 +129,10 @@ do means open the block of code.
 this means the variable doubled_numbers is assigned to the variable numbers is assigned to the array of integer elements 
 [1, 2, 3, 4, 5] those integer elements are transformed by applying a block of code to each integer element and then
 returning a new array with the transformed values where |number| is the block parameter.
+number is the block parameter that references the integer elements in the variable numbers which is assigned to the array 
+of integer elements [1, 2, 3, 4, 5].
+* 2 means multiply by the integer 2.
+this means number which is the block parameter that references the integer elements in the variable numbers which is 
+assigned to the array of integer elements [1, 2, 3, 4, 5] is multiplied by 2.
 
 =end
