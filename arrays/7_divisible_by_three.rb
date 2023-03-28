@@ -76,8 +76,10 @@ number means block parameter that is number in numbers which is an integer eleme
 this means the block parameter that is number in numbers which is an integer element in an array of integer elements
 [5, 9, 21, 26, 39] is returned if the remainder of division by the integer 3 is equal to the integer 0.
 
-
+Syntax:
                      end
+Explanation:
+this is the last line of the select method that is everything after this is outside of the method.
 
 p divisible_by_three
 
@@ -108,6 +110,7 @@ number means block parameter that is number in numbers which is an integer eleme
 0 in an integer.
 this means the block parameter that is number in numbers which is an integer element in an array of integer elements
 [5, 9, 21, 26, 39] is returned if the remainder of division by the integer 3 is equal to the integer 0.
+this is the last line of the select method that is everything after this is outside of the method.
 
 This means:
 
@@ -136,5 +139,6 @@ number means block parameter that is number in numbers which is an integer eleme
 0 in an integer.
 this means the block parameter that is number in numbers which is an integer element in an array of integer elements
 [5, 9, 21, 26, 39] is returned if the remainder of division by the integer 3 is equal to the integer 0.
+this is the last line of the select method that is everything after this is outside of the method.
 
 =end
