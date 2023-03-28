@@ -81,7 +81,36 @@ Syntax:
 Explanation:
 this is the last line of the select method that is everything after this is outside of the method.
 
+Syntax:
 p divisible_by_three
+
+Explanation:
+p means output a value.
+divisible_by_three is a variable.
+= means assignment.
+numbers is a variable.
+= means assignment.
+[5, 9, 21, 26, 39] is an array of integer elements.
+this means the variable numbers is assigned to the array of integer elements [5, 9, 21, 26, 39].
+.select method is used to select elements from an array and return a new array containing only the selected elements.
+do means open block.
+|number| means block parameter that is number in numbers which is an integer element in an array of integer elements
+[5, 9, 21, 26, 39].
+this means the variable divisible_by_three is assigned the selected integer elements number from the variable numbers 
+which is assigned to the array of integer elements [5, 9, 21, 26, 39].
+number means block parameter that is number in numbers which is an integer element in an array of integer elements
+[5, 9, 21, 26, 39].
+% is modulo which means return the remainder of division.
+3 is an integer.
+== means equal to.
+0 in an integer.
+this means the block parameter that is number in numbers which is an integer element in an array of integer elements
+[5, 9, 21, 26, 39] is returned if the remainder of division by the integer 3 is equal to the integer 0.
+this is the last line of the select method that is everything after this is outside of the method.
+this means output the value of the variable divisible_by_three which is assigned the selected integer elements number from
+the variable numbers which is assigned to the array of integer elements [5, 9, 21, 26, 39] if the remainder of division by
+the integer 3 is equal to the integer 0.
+the result is: [9, 21, 39]
 
 Summary of Solution Syntax:
 
@@ -112,6 +141,33 @@ this means the block parameter that is number in numbers which is an integer ele
 [5, 9, 21, 26, 39] is returned if the remainder of division by the integer 3 is equal to the integer 0.
 this is the last line of the select method that is everything after this is outside of the method.
 
+p means output a value.
+divisible_by_three is a variable.
+= means assignment.
+numbers is a variable.
+= means assignment.
+[5, 9, 21, 26, 39] is an array of integer elements.
+this means the variable numbers is assigned to the array of integer elements [5, 9, 21, 26, 39].
+.select method is used to select elements from an array and return a new array containing only the selected elements.
+do means open block.
+|number| means block parameter that is number in numbers which is an integer element in an array of integer elements
+[5, 9, 21, 26, 39].
+this means the variable divisible_by_three is assigned the selected integer elements number from the variable numbers 
+which is assigned to the array of integer elements [5, 9, 21, 26, 39].
+number means block parameter that is number in numbers which is an integer element in an array of integer elements
+[5, 9, 21, 26, 39].
+% is modulo which means return the remainder of division.
+3 is an integer.
+== means equal to.
+0 in an integer.
+this means the block parameter that is number in numbers which is an integer element in an array of integer elements
+[5, 9, 21, 26, 39] is returned if the remainder of division by the integer 3 is equal to the integer 0.
+this is the last line of the select method that is everything after this is outside of the method.
+this means output the value of the variable divisible_by_three which is assigned the selected integer elements number from
+the variable numbers which is assigned to the array of integer elements [5, 9, 21, 26, 39] if the remainder of division by
+the integer 3 is equal to the integer 0.
+the result is: [9, 21, 39]
+
 This means:
 
 numbers is a variable.
@@ -140,5 +196,32 @@ number means block parameter that is number in numbers which is an integer eleme
 this means the block parameter that is number in numbers which is an integer element in an array of integer elements
 [5, 9, 21, 26, 39] is returned if the remainder of division by the integer 3 is equal to the integer 0.
 this is the last line of the select method that is everything after this is outside of the method.
+
+p means output a value.
+divisible_by_three is a variable.
+= means assignment.
+numbers is a variable.
+= means assignment.
+[5, 9, 21, 26, 39] is an array of integer elements.
+this means the variable numbers is assigned to the array of integer elements [5, 9, 21, 26, 39].
+.select method is used to select elements from an array and return a new array containing only the selected elements.
+do means open block.
+|number| means block parameter that is number in numbers which is an integer element in an array of integer elements
+[5, 9, 21, 26, 39].
+this means the variable divisible_by_three is assigned the selected integer elements number from the variable numbers 
+which is assigned to the array of integer elements [5, 9, 21, 26, 39].
+number means block parameter that is number in numbers which is an integer element in an array of integer elements
+[5, 9, 21, 26, 39].
+% is modulo which means return the remainder of division.
+3 is an integer.
+== means equal to.
+0 in an integer.
+this means the block parameter that is number in numbers which is an integer element in an array of integer elements
+[5, 9, 21, 26, 39] is returned if the remainder of division by the integer 3 is equal to the integer 0.
+this is the last line of the select method that is everything after this is outside of the method.
+this means output the value of the variable divisible_by_three which is assigned the selected integer elements number from
+the variable numbers which is assigned to the array of integer elements [5, 9, 21, 26, 39] if the remainder of division by
+the integer 3 is equal to the integer 0.
+the result is: [9, 21, 39]
 
 =end
