@@ -59,12 +59,24 @@ numbers is a variable.
 this means the variable numbers is assigned to the array of integer elements [5, 9, 21, 26, 39].
 .select method is used to select elements from an array and return a new array containing only the selected elements.
 do means open block.
-|number| means block parameter that is number in numbers.
-this means the variable divisible_by_three is assigned the selected elements number from the variable numbers which is 
-assigned to the array of integer elements [5, 9, 21, 26, 39].
+|number| means block parameter that is number in numbers which is an integer element in an array of integer elements
+[5, 9, 21, 26, 39].
+this means the variable divisible_by_three is assigned the selected integer elements number from the variable numbers 
+which is assigned to the array of integer elements [5, 9, 21, 26, 39].
 
-
+Syntax:
                        number % 3 == 0
+Explanation:
+number means block parameter that is number in numbers which is an integer element in an array of integer elements
+[5, 9, 21, 26, 39].
+% is modulo which means return the remainder of division.
+3 is an integer.
+== means equal to.
+0 in an integer.
+this means the block parameter that is number in numbers which is an integer element in an array of integer elements
+[5, 9, 21, 26, 39] is returned if the remainder of division by the integer 3 is equal to the integer 0.
+
+
                      end
 
 p divisible_by_three
@@ -84,9 +96,18 @@ numbers is a variable.
 this means the variable numbers is assigned to the array of integer elements [5, 9, 21, 26, 39].
 .select method is used to select elements from an array and return a new array containing only the selected elements.
 do means open block.
-|number| means block parameter that is number in numbers.
-this means the variable divisible_by_three is assigned the selected elements number from the variable numbers which is 
-assigned to the array of integer elements [5, 9, 21, 26, 39].
+|number| means block parameter that is number in numbers which is an integer element in an array of integer elements
+[5, 9, 21, 26, 39].
+this means the variable divisible_by_three is assigned the selected integer elements number from the variable numbers 
+which is assigned to the array of integer elements [5, 9, 21, 26, 39].
+number means block parameter that is number in numbers which is an integer element in an array of integer elements
+[5, 9, 21, 26, 39].
+% is modulo which means return the remainder of division.
+3 is an integer.
+== means equal to.
+0 in an integer.
+this means the block parameter that is number in numbers which is an integer element in an array of integer elements
+[5, 9, 21, 26, 39] is returned if the remainder of division by the integer 3 is equal to the integer 0.
 
 This means:
 
@@ -103,8 +124,17 @@ numbers is a variable.
 this means the variable numbers is assigned to the array of integer elements [5, 9, 21, 26, 39].
 .select method is used to select elements from an array and return a new array containing only the selected elements.
 do means open block.
-|number| means block parameter that is number in numbers.
-this means the variable divisible_by_three is assigned the selected elements number from the variable numbers which is 
-assigned to the array of integer elements [5, 9, 21, 26, 39].
+|number| means block parameter that is number in numbers which is an integer element in an array of integer elements
+[5, 9, 21, 26, 39].
+this means the variable divisible_by_three is assigned the selected integer elements number from the variable numbers 
+which is assigned to the array of integer elements [5, 9, 21, 26, 39].
+number means block parameter that is number in numbers which is an integer element in an array of integer elements
+[5, 9, 21, 26, 39].
+% is modulo which means return the remainder of division.
+3 is an integer.
+== means equal to.
+0 in an integer.
+this means the block parameter that is number in numbers which is an integer element in an array of integer elements
+[5, 9, 21, 26, 39] is returned if the remainder of division by the integer 3 is equal to the integer 0.
 
 =end
