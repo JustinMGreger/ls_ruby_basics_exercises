@@ -8,7 +8,12 @@ What does this look like?
 (You don't need to write any code here. Just alter the value shown so it meets the exercise requirements.)
 
 Initial Syntax Given:
+
+['Dave', 7, 'Miranda', 3, 'Jason', 11]
+
 Explanation of Initial Syntax Given:
+this is an array of strings and integers.
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
