@@ -47,7 +47,23 @@ numbers is a variable.
 [5, 9, 21, 26, 39] is an array of integer elements.
 this means the variable numbers is assigned to the array of integer elements [5, 9, 21, 26, 39].
 
+Syntax:
 divisible_by_three = numbers.select do |number|
+
+Explanation:
+divisible_by_three is a variable.
+= means assignment.
+numbers is a variable.
+= means assignment.
+[5, 9, 21, 26, 39] is an array of integer elements.
+this means the variable numbers is assigned to the array of integer elements [5, 9, 21, 26, 39].
+.select method is used to select elements from an array and return a new array containing only the selected elements.
+do means open block.
+|number| means block parameter that is number in numbers.
+this means the variable divisible_by_three is assigned the selected elements number from the variable numbers which is 
+assigned to the array of integer elements [5, 9, 21, 26, 39].
+
+
                        number % 3 == 0
                      end
 
@@ -60,11 +76,35 @@ numbers is a variable.
 [5, 9, 21, 26, 39] is an array of integer elements.
 this means the variable numbers is assigned to the array of integer elements [5, 9, 21, 26, 39].
 
+divisible_by_three is a variable.
+= means assignment.
+numbers is a variable.
+= means assignment.
+[5, 9, 21, 26, 39] is an array of integer elements.
+this means the variable numbers is assigned to the array of integer elements [5, 9, 21, 26, 39].
+.select method is used to select elements from an array and return a new array containing only the selected elements.
+do means open block.
+|number| means block parameter that is number in numbers.
+this means the variable divisible_by_three is assigned the selected elements number from the variable numbers which is 
+assigned to the array of integer elements [5, 9, 21, 26, 39].
+
 This means:
 
 numbers is a variable.
 = means assignment.
 [5, 9, 21, 26, 39] is an array of integer elements.
 this means the variable numbers is assigned to the array of integer elements [5, 9, 21, 26, 39].
+
+divisible_by_three is a variable.
+= means assignment.
+numbers is a variable.
+= means assignment.
+[5, 9, 21, 26, 39] is an array of integer elements.
+this means the variable numbers is assigned to the array of integer elements [5, 9, 21, 26, 39].
+.select method is used to select elements from an array and return a new array containing only the selected elements.
+do means open block.
+|number| means block parameter that is number in numbers.
+this means the variable divisible_by_three is assigned the selected elements number from the variable numbers which is 
+assigned to the array of integer elements [5, 9, 21, 26, 39].
 
 =end
