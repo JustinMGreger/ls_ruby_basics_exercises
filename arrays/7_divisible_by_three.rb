@@ -38,7 +38,14 @@ p divisible_by_three
 
 Explanation of Solution Syntax:
 
+Syntax:
 numbers = [5, 9, 21, 26, 39]
+
+Explanation:
+numbers is a variable.
+= means assignment.
+[5, 9, 21, 26, 39] is an array of integer elements.
+this means the variable numbers is assigned to the array of integer elements [5, 9, 21, 26, 39].
 
 divisible_by_three = numbers.select do |number|
                        number % 3 == 0
@@ -47,5 +54,17 @@ divisible_by_three = numbers.select do |number|
 p divisible_by_three
 
 Summary of Solution Syntax:
+
+numbers is a variable.
+= means assignment.
+[5, 9, 21, 26, 39] is an array of integer elements.
+this means the variable numbers is assigned to the array of integer elements [5, 9, 21, 26, 39].
+
 This means:
+
+numbers is a variable.
+= means assignment.
+[5, 9, 21, 26, 39] is an array of integer elements.
+this means the variable numbers is assigned to the array of integer elements [5, 9, 21, 26, 39].
+
 =end
