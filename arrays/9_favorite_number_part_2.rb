@@ -13,6 +13,12 @@ favorites is a variable.
 this means the favorites variable is assigned the nested array of three arrays of string elements and integer elements 
 [['Dave', 7], ['Miranda', 3], ['Jason', 11]].
 
+Additional Description of Exercise:
+Flatten and print this array. That is, the printed result should not have any subarrays, but should have all of the original strings and numbers from the original array:
+
+Expected output:
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
