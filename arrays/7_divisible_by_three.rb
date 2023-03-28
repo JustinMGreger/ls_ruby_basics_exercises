@@ -24,11 +24,28 @@ Explanation of Additional Intiial Syntax Given:
 this was assigned to the variable divisible_by_three.
 this is an array of integers.
 this was pritned with p.
-the syntax for this is p divisible_by_three 
-
+the syntax for this is p divisible_by_three.
 
 Syntax of Solution:
+
+numbers = [5, 9, 21, 26, 39]
+
+divisible_by_three = numbers.select do |number|
+                       number % 3 == 0
+                     end
+
+p divisible_by_three
+
 Explanation of Solution Syntax:
+
+numbers = [5, 9, 21, 26, 39]
+
+divisible_by_three = numbers.select do |number|
+                       number % 3 == 0
+                     end
+
+p divisible_by_three
+
 Summary of Solution Syntax:
 This means:
 =end
