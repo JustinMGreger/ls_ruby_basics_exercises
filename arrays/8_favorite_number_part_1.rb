@@ -15,7 +15,10 @@ Explanation of Initial Syntax Given:
 this is an array of strings and integers.
 
 Syntax of Solution:
+
+[['Dave', 7], ['Miranda', 3], ['Jason', 11]]
+
 Explanation of Solution Syntax:
-Summary of Solution Syntax:
-This means:
+this is a nested array containing 3 arrays of name string elements and integer elements.
+
 =end
