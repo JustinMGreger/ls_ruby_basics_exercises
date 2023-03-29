@@ -10,7 +10,16 @@ array2 = [1, 9, 5]
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 array1 = [1, 5, 9]
+
+Explanation:
+array1 is a variable.
+= means assignment.
+[1, 5, 9] is an array of integer elements.
+this means the variable array1 is assigned the array of integer elements [1, 5, 9].
+
+
 array2 = [1, 9, 5]
 
 Syntax of Solution:
