@@ -115,35 +115,15 @@ elements [['Dave', 7], ['Miranda', 3], ['Jason', 11]].
 
 This means:
 
-favorites is a variable.
-= means assignment.
-[['Dave', 7], ['Miranda', 3], ['Jason', 11]] is a nested array of three arrays of string elements and integer elements.
-this means the favorites variable is assigned the nested array of three arrays of string elements and integer elements 
+the favorites variable is assigned the nested array of three arrays of string elements and integer elements 
 [['Dave', 7], ['Miranda', 3], ['Jason', 11]].
 
-flat_favorites is a variable.
-= means assignment.
-favorites is a variable.
-= means assignment.
-[['Dave', 7], ['Miranda', 3], ['Jason', 11]] is a nested array of three arrays of string elements and integer elements.
-this means the favorites variable is assigned the nested array of three arrays of string elements and integer elements 
-[['Dave', 7], ['Miranda', 3], ['Jason', 11]].
-.flatten method returns a new array that contains all of the elements.
-this means the variable flat_favorites is assigned the new array that contains all of the elements from the favorites
+the variable flat_favorites is assigned the new array that contains all of the elements from the favorites
 array which is assigned the nested array of three arrays of string elements and integer elements 
 [['Dave', 7], ['Miranda', 3], ['Jason', 11]].
 
-p means output the value on one line.
-flat_favorites is a variable.
-= means assignment.
-favorites is a variable.
-= means assignment.
-[['Dave', 7], ['Miranda', 3], ['Jason', 11]] is a nested array of three arrays of string elements and integer elements.
-this means the favorites variable is assigned the nested array of three arrays of string elements and integer elements 
-[['Dave', 7], ['Miranda', 3], ['Jason', 11]].
-.flatten method returns a new array that contains all of the elements.
-this means output the value on one line for the variable flat_favorites which is assigned the new array that contains all
-of the elements from the favorites array which is assigned the nested array of three arrays of string elements and integer
+output the value on one line for the variable flat_favorites which is assigned the new array that contains all of the 
+elements from the favorites array which is assigned the nested array of three arrays of string elements and integer
 elements [['Dave', 7], ['Miranda', 3], ['Jason', 11]].
 
 =end
