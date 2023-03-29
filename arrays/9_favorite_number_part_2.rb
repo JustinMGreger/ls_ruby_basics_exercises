@@ -9,7 +9,7 @@ favorites = [['Dave', 7], ['Miranda', 3], ['Jason', 11]]
 Explanation of Initial Syntax Given:
 favorites is a variable.
 = means assignment.
-[['Dave', 7], ['Miranda', 3], ['Jason', 11]] is nested array three arrays of string elements and integer elements.
+[['Dave', 7], ['Miranda', 3], ['Jason', 11]] is a nested array of three arrays of string elements and integer elements.
 this means the favorites variable is assigned the nested array of three arrays of string elements and integer elements 
 [['Dave', 7], ['Miranda', 3], ['Jason', 11]].
 
@@ -37,12 +37,35 @@ p flat_favorites
 
 Explanation of Solution Syntax:
 
+Syntax:
 favorites = [['Dave', 7], ['Miranda', 3], ['Jason', 11]]
+
+Explanation:
+favorites is a variable.
+= means assignment.
+[['Dave', 7], ['Miranda', 3], ['Jason', 11]] is a nested array of three arrays of string elements and integer elements.
+this means the favorites variable is assigned the nested array of three arrays of string elements and integer elements 
+[['Dave', 7], ['Miranda', 3], ['Jason', 11]].
+
 
 flat_favorites = favorites.flatten
 
 p flat_favorites
 
 Summary of Solution Syntax:
+
+favorites is a variable.
+= means assignment.
+[['Dave', 7], ['Miranda', 3], ['Jason', 11]] is a nested array of three arrays of string elements and integer elements.
+this means the favorites variable is assigned the nested array of three arrays of string elements and integer elements 
+[['Dave', 7], ['Miranda', 3], ['Jason', 11]].
+
 This means:
+
+favorites is a variable.
+= means assignment.
+[['Dave', 7], ['Miranda', 3], ['Jason', 11]] is a nested array of three arrays of string elements and integer elements.
+this means the favorites variable is assigned the nested array of three arrays of string elements and integer elements 
+[['Dave', 7], ['Miranda', 3], ['Jason', 11]].
+
 =end
