@@ -28,7 +28,21 @@ this was output on one line so p was used.
 the syntax is probably something like p flat_favorites.
 
 Syntax of Solution:
+
+favorites = [['Dave', 7], ['Miranda', 3], ['Jason', 11]]
+
+flat_favorites = favorites.flatten
+
+p flat_favorites
+
 Explanation of Solution Syntax:
+
+favorites = [['Dave', 7], ['Miranda', 3], ['Jason', 11]]
+
+flat_favorites = favorites.flatten
+
+p flat_favorites
+
 Summary of Solution Syntax:
 This means:
 =end
