@@ -32,7 +32,19 @@ Additional Description of Exercise:
 Compare array1 and array2 and print true or false based on whether they match.
 
 Syntax of Solution:
+
+array1 = [1, 5, 9]
+array2 = [1, 9, 5]
+
+puts array1 == array2
+
 Explanation of Solution Syntax:
+
+array1 = [1, 5, 9]
+array2 = [1, 9, 5]
+
+puts array1 == array2
+
 Summary of Solution Syntax:
 This means:
 =end
