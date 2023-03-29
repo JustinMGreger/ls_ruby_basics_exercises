@@ -28,6 +28,9 @@ array2 is a variable.
 [1, 9, 5] is an array of integer elements.
 this means the variable array2 is assigned the array of integer elements [1, 9, 5].
 
+Additional Description of Exercise:
+Compare array1 and array2 and print true or false based on whether they match.
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
