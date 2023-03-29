@@ -23,6 +23,9 @@ Additional Initial Syntax Given:
 ["Dave", 7, "Miranda", 3, "Jason", 11]
 
 Explanation of Additional Initial Syntax Given:
+this is an array of string elments and integer elements that was probably assigned to a variable.
+this was output on one line so p was used.
+the syntax is probably something like p flat_favorites.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
