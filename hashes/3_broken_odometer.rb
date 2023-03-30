@@ -64,9 +64,29 @@ Syntax:
 Explanation:
 this means close the hash data structure that is everything after this line is outside of the hash data structure. 
 
-
 Syntax of Solution:
+
+car = {
+  type:    'sedan',
+  color:   'blue',
+  mileage: 80_000,
+  year:    2003
+}
+
+car.delete(:mileage)
+
 Explanation of Solution Syntax:
+
+
+car = {
+  type:    'sedan',
+  color:   'blue',
+  mileage: 80_000,
+  year:    2003
+}
+
+car.delete(:mileage)
+
 Summary of Solution Syntax:
 This means:
 =end
