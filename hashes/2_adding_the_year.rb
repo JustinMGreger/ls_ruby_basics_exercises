@@ -40,10 +40,14 @@ color: is a symbol and a key.
 , means there are more key value pairs following.
 this means color: is a symbol key that is assigned the 'blue' is a string value.
 
-
-
-
+Syntax:
   mileage: 80_000
+
+Explanation:
+mileage: is a symbol and a key.
+80_000 is a integer and a value.
+this means mileage is a symbol key that is assigned the 80_000 integer value.
+
 }
 
 Syntax of Solution:
