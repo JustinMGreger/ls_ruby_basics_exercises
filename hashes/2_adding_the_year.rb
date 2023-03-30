@@ -31,8 +31,18 @@ type: is a symbol and a key.
 , means there are more key value pairs following.
 this means type: is a symbol key that is assigned the 'sedan' is a string value.
 
-
+Syntax:
   color:   'blue',
+
+Explanation:
+color: is a symbol and a key.
+'blue' is a string and a value.
+, means there are more key value pairs following.
+this means color: is a symbol key that is assigned the 'blue' is a string value.
+
+
+
+
   mileage: 80_000
 }
 
