@@ -106,7 +106,20 @@ Syntax:
 Explanaiton:
 this is the end of the hash data structure that is everything after this is outside of the hash data structure.
 
+Syntax:
 car[:year] = 2003
+
+Explanation:
+car is a variable assigned the hash data structure containing the key value pairs type: which is a symbol key assigned the
+'sedan' string value, color: which is a symbol key that is assigned the 'blue' string value, mileage which is a symbol key
+that is assigned the 80_000 integer value.
+this is the end of the hash data structure that is everything after this is outside of the hash data structure.
+
+
+
+
+
+
 
 Summary of Solution Syntax:
 
