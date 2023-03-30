@@ -29,7 +29,7 @@ Explanation:
 type: is a symbol and a key.
 'sedan' is a string and a value.
 , means there are more key value pairs following.
-this means type: is a symbol key that is assigned the 'sedan' is a string value.
+this means type: is a symbol key that is assigned the 'sedan' string value.
 
 Syntax:
   color:   'blue',
@@ -38,7 +38,7 @@ Explanation:
 color: is a symbol and a key.
 'blue' is a string and a value.
 , means there are more key value pairs following.
-this means color: is a symbol key that is assigned the 'blue' is a string value.
+this means color: is a symbol key that is assigned the 'blue' string value.
 
 Syntax:
   mileage: 80_000
@@ -74,7 +74,15 @@ car is a variable.
 = means assignment.
 { means open hash data structure.
 
+Syntax:
   type:    'sedan',
+
+Explanation:
+type is a symbol key.
+'sedan' is a string value.
+, means there are more key value pairs after this.
+this means type: is a symbol key assigned the 'sedan' string value.
+
   color:   'blue',
   mileage: 80_000
 }
