@@ -83,7 +83,17 @@ type is a symbol key.
 , means there are more key value pairs after this.
 this means type: is a symbol key assigned the 'sedan' string value.
 
+Syntax:
   color:   'blue',
+
+Explanation:
+color: is a symbol and a key.
+'blue' is a string and a value.
+, means there are more key value pairs following.
+this means color: is a symbol key that is assigned the 'blue' string value.
+
+
+
   mileage: 80_000
 }
 
@@ -98,6 +108,10 @@ type is a symbol key.
 'sedan' is a string value.
 , means there are more key value pairs after this.
 this means type: is a symbol key assigned the 'sedan' string value.
+color: is a symbol and a key.
+'blue' is a string and a value.
+, means there are more key value pairs following.
+this means color: is a symbol key that is assigned the 'blue' string value.
 
 This means:
 
@@ -108,5 +122,9 @@ type is a symbol key.
 'sedan' is a string value.
 , means there are more key value pairs after this.
 this means type: is a symbol key assigned the 'sedan' string value.
+color: is a symbol and a key.
+'blue' is a string and a value.
+, means there are more key value pairs following.
+this means color: is a symbol key that is assigned the 'blue' string value.
 
 =end
