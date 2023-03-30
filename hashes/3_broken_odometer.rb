@@ -77,8 +77,17 @@ car.delete(:mileage)
 
 Explanation of Solution Syntax:
 
-
+Syntax:
 car = {
+
+Explanation:
+car is a variable.
+= means assignment.
+{ means open the hash data structure.
+this means the variable car is assigned a hash data structure.
+
+
+
   type:    'sedan',
   color:   'blue',
   mileage: 80_000,
@@ -88,5 +97,17 @@ car = {
 car.delete(:mileage)
 
 Summary of Solution Syntax:
+
+car is a variable.
+= means assignment.
+{ means open the hash data structure.
+this means the variable car is assigned a hash data structure.
+
 This means:
+
+car is a variable.
+= means assignment.
+{ means open the hash data structure.
+this means the variable car is assigned a hash data structure.
+
 =end
