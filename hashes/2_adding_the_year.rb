@@ -188,49 +188,14 @@ this is the end of the hash data structure that is everything after this is outs
 
 This means:
 
-car is a variable.
-= means assignment.
-{ means open hash data structure.
-type is a symbol key.
-'sedan' is a string value.
-, means there are more key value pairs after this.
-this means type: is a symbol key assigned the 'sedan' string value.
-color: is a symbol and a key.
-'blue' is a string and a value.
-, means there are more key value pairs following.
-this means color: is a symbol key that is assigned the 'blue' string value.
-mileage: is a symbol and a key.
-80_000 is a integer and a value.
-this means mileage is a symbol key that is assigned the 80_000 integer value.
+car is a variable that is assigned a hash data structure containing the key value pairs type: is a symbol key assigned the
+'sedan' string value, color: is a symbol key that is assigned the 'blue' string value, mileage is a symbol key that is 
+assigned the 80_000 integer value.
 this is the end of the hash data structure that is everything after this is outside of the hash data structure.
 
-car is a variable.
-= means assignment.
-{ means open hash data structure.
-type is a symbol key.
-'sedan' is a string value.
-, means there are more key value pairs after this.
-this means type: is a symbol key assigned the 'sedan' string value.
-color: is a symbol and a key.
-'blue' is a string and a value.
-, means there are more key value pairs following.
-this means color: is a symbol key that is assigned the 'blue' string value.
-mileage: is a symbol and a key.
-80_000 is a integer and a value.
-this means mileage is a symbol key that is assigned the 80_000 integer value.
-this is the end of the hash data structure that is everything after this is outside of the hash data structure.
-this means car is a variable assigned the hash data structure containing the key value pairs type: which is a symbol key 
-assigned the 'sedan' string value, color: which is a symbol key that is assigned the 'blue' string value, mileage which is
-a symbol key that is assigned the 80_000 integer value.
-this is the end of the hash data structure that is everything after this is outside of the hash data structure.
-the syntax hash[] = is used to add a new key value pair to the hash.
-:year is a symbol key.
-= means assignment.
-2003 is an integer value.
-this means the syntax hash[] = is used to add the new key value pair :year which is a symbol key which is assigned 2003 
+the syntax hash[] = is used to add the new key value pair :year which is a symbol key which is assigned 2003 
 which is an integer value to the car hash where car is a variable assigned the hash data structure containing the key 
 value pairs type: which is a symbol key assigned the 'sedan' string value, color: which is a symbol key that is assigned 
 the 'blue' string value, mileage which is a symbol key that is assigned the 80_000 integer value.
-this is the end of the hash data structure that is everything after this is outside of the hash data structure.
 
 =end
