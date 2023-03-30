@@ -41,8 +41,17 @@ type: is a symbol and a key.
 , indicates additonal key value pairs.
 this means that type: is a symbol key that had the 'sedan' string value assigned to it.
 
-
+Syntax:
   color:   'blue',
+
+Explanation:
+color: is a symbol and a key.
+'blue' is a string and a value.
+, indicates additonal key value pairs.
+this means that color: is a symbol key that had the 'blue' string value assigned to it.
+
+
+
   mileage: 80_000
 }
 
@@ -58,6 +67,11 @@ type: is a symbol and a key.
 , indicates additonal key value pairs.
 this means that type: is a symbol key that had the 'sedan' string value assigned to it.
 
+color: is a symbol and a key.
+'blue' is a string and a value.
+, indicates additonal key value pairs.
+this means that color: is a symbol key that had the 'blue' string value assigned to it.
+
 This means:
 
 car is a variable.
@@ -69,5 +83,10 @@ type: is a symbol and a key.
 'sedan' is a string and a value.
 , indicates additonal key value pairs.
 this means that type: is a symbol key that had the 'sedan' string value assigned to it.
+
+color: is a symbol and a key.
+'blue' is a string and a value.
+, indicates additonal key value pairs.
+this means that color: is a symbol key that had the 'blue' string value assigned to it.
 
 =end
