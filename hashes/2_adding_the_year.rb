@@ -22,8 +22,16 @@ car is a variable.
 { means open hash data structure.
 this means the variable car is assigned to a hash data structure.
 
-
+Syntax:
   type:    'sedan',
+
+Explanation:
+type: is a symbol and a key.
+'sedan' is a string and a value.
+, means there are more key value pairs following.
+this means type: is a symbol key that is assigned the 'sedan' is a string value.
+
+
   color:   'blue',
   mileage: 80_000
 }
