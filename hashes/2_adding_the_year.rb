@@ -100,9 +100,11 @@ mileage: is a symbol and a key.
 80_000 is a integer and a value.
 this means mileage is a symbol key that is assigned the 80_000 integer value.
 
-
-
+Syntax:
 }
+
+Explanaiton:
+this is the end of the hash data structure that is everything after this is outside of the hash data structure.
 
 car[:year] = 2003
 
@@ -122,6 +124,7 @@ this means color: is a symbol key that is assigned the 'blue' string value.
 mileage: is a symbol and a key.
 80_000 is a integer and a value.
 this means mileage is a symbol key that is assigned the 80_000 integer value.
+this is the end of the hash data structure that is everything after this is outside of the hash data structure.
 
 This means:
 
@@ -139,5 +142,6 @@ this means color: is a symbol key that is assigned the 'blue' string value.
 mileage: is a symbol and a key.
 80_000 is a integer and a value.
 this means mileage is a symbol key that is assigned the 80_000 integer value.
+this is the end of the hash data structure that is everything after this is outside of the hash data structure.
 
 =end
