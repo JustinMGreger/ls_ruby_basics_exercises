@@ -23,12 +23,32 @@ car = {
 
 Explanation of Solution Syntax:
 
+Syntax:
 car = {
+
+Explanation:
+car is a variable.
+= means assignment.
+{ means open hash data structure.
+this means the variable car is assigned to a hash data structure.
+
   type:    'sedan',
   color:   'blue',
   mileage: 80_000
 }
 
 Summary of Solution Syntax:
+
+car is a variable.
+= means assignment.
+{ means open hash data structure.
+this means the variable car is assigned to a hash data structure.
+
 This means:
+
+car is a variable.
+= means assignment.
+{ means open hash data structure.
+this means the variable car is assigned to a hash data structure.
+
 =end
