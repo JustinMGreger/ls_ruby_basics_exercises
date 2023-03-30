@@ -66,7 +66,14 @@ car[:year] = 2003
 
 Explanation of Solution Syntax:
 
+Syntax:
 car = {
+
+Explanation:
+car is a variable.
+= means assignment.
+{ means open hash data structure.
+
   type:    'sedan',
   color:   'blue',
   mileage: 80_000
@@ -75,5 +82,15 @@ car = {
 car[:year] = 2003
 
 Summary of Solution Syntax:
+
+car is a variable.
+= means assignment.
+{ means open hash data structure.
+
 This means:
+
+car is a variable.
+= means assignment.
+{ means open hash data structure.
+
 =end
