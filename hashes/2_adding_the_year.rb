@@ -55,7 +55,25 @@ Explanaiton:
 this is the end of the hash data structure that is everything after this is outside of the hash data structure.
 
 Syntax of Solution:
+
+car = {
+  type:    'sedan',
+  color:   'blue',
+  mileage: 80_000
+}
+
+car[:year] = 2003
+
 Explanation of Solution Syntax:
+
+car = {
+  type:    'sedan',
+  color:   'blue',
+  mileage: 80_000
+}
+
+car[:year] = 2003
+
 Summary of Solution Syntax:
 This means:
 =end
