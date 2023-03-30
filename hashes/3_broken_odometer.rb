@@ -1,6 +1,8 @@
 =begin
 Description of Exercise:
 
+Using the following code, delete the key :mileage and its associated value from car.
+
 Initial Syntax Given:
 Explanation of Initial Syntax Given:
 Syntax of Solution:
