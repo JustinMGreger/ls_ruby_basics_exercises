@@ -39,7 +39,7 @@ Explanation:
 type: is a symbol and a key.
 'sedan' is a string and a value.
 , indicates additonal key value pairs.
-this means that type: is a symbol key that had the 'sedan' string value assigned to it.
+this means that type: is a symbol key that has the 'sedan' string value assigned to it.
 
 Syntax:
   color:   'blue',
@@ -48,11 +48,16 @@ Explanation:
 color: is a symbol and a key.
 'blue' is a string and a value.
 , indicates additonal key value pairs.
-this means that color: is a symbol key that had the 'blue' string value assigned to it.
+this means that color: is a symbol key that has the 'blue' string value assigned to it.
 
-
-
+Syntax:
   mileage: 80_000
+
+Explanation:
+mileage: is a symbol and a key.
+80_000 is a integer and a value.
+this means that mileage: is a symbol key that has the 80_000 integer value assigned to it.
+
 }
 
 Summary of Solution Syntax:
@@ -65,12 +70,16 @@ this means the variable car is assigned to a hash data structure.
 type: is a symbol and a key.
 'sedan' is a string and a value.
 , indicates additonal key value pairs.
-this means that type: is a symbol key that had the 'sedan' string value assigned to it.
+this means that type: is a symbol key that has the 'sedan' string value assigned to it.
 
 color: is a symbol and a key.
 'blue' is a string and a value.
 , indicates additonal key value pairs.
-this means that color: is a symbol key that had the 'blue' string value assigned to it.
+this means that color: is a symbol key that has the 'blue' string value assigned to it.
+
+mileage: is a symbol and a key.
+80_000 is a integer and a value.
+this means that mileage: is a symbol key that has the 80_000 integer value assigned to it.
 
 This means:
 
@@ -82,11 +91,15 @@ this means the variable car is assigned to a hash data structure.
 type: is a symbol and a key.
 'sedan' is a string and a value.
 , indicates additonal key value pairs.
-this means that type: is a symbol key that had the 'sedan' string value assigned to it.
+this means that type: is a symbol key that has the 'sedan' string value assigned to it.
 
 color: is a symbol and a key.
 'blue' is a string and a value.
 , indicates additonal key value pairs.
-this means that color: is a symbol key that had the 'blue' string value assigned to it.
+this means that color: is a symbol key that has the 'blue' string value assigned to it.
+
+mileage: is a symbol and a key.
+80_000 is a integer and a value.
+this means that mileage: is a symbol key that has the 80_000 integer value assigned to it.
 
 =end
