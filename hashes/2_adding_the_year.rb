@@ -94,11 +94,19 @@ Summary of Solution Syntax:
 car is a variable.
 = means assignment.
 { means open hash data structure.
+type is a symbol key.
+'sedan' is a string value.
+, means there are more key value pairs after this.
+this means type: is a symbol key assigned the 'sedan' string value.
 
 This means:
 
 car is a variable.
 = means assignment.
 { means open hash data structure.
+type is a symbol key.
+'sedan' is a string value.
+, means there are more key value pairs after this.
+this means type: is a symbol key assigned the 'sedan' string value.
 
 =end
