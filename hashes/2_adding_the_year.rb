@@ -92,9 +92,16 @@ color: is a symbol and a key.
 , means there are more key value pairs following.
 this means color: is a symbol key that is assigned the 'blue' string value.
 
-
-
+Syntax:
   mileage: 80_000
+
+Explanation:
+mileage: is a symbol and a key.
+80_000 is a integer and a value.
+this means mileage is a symbol key that is assigned the 80_000 integer value.
+
+
+
 }
 
 car[:year] = 2003
@@ -112,6 +119,9 @@ color: is a symbol and a key.
 'blue' is a string and a value.
 , means there are more key value pairs following.
 this means color: is a symbol key that is assigned the 'blue' string value.
+mileage: is a symbol and a key.
+80_000 is a integer and a value.
+this means mileage is a symbol key that is assigned the 80_000 integer value.
 
 This means:
 
@@ -126,5 +136,8 @@ color: is a symbol and a key.
 'blue' is a string and a value.
 , means there are more key value pairs following.
 this means color: is a symbol key that is assigned the 'blue' string value.
+mileage: is a symbol and a key.
+80_000 is a integer and a value.
+this means mileage is a symbol key that is assigned the 80_000 integer value.
 
 =end
