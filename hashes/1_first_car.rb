@@ -58,7 +58,11 @@ mileage: is a symbol and a key.
 80_000 is a integer and a value.
 this means that mileage: is a symbol key that has the 80_000 integer value assigned to it.
 
+Syntax:
 }
+
+Explanation:
+this is the end of the hash data structure that is everything after this is outside of the hash data structure.
 
 Summary of Solution Syntax:
 
@@ -66,20 +70,18 @@ car is a variable.
 = means assignment.
 { means open hash data structure.
 this means the variable car is assigned to a hash data structure.
-
 type: is a symbol and a key.
 'sedan' is a string and a value.
 , indicates additonal key value pairs.
 this means that type: is a symbol key that has the 'sedan' string value assigned to it.
-
 color: is a symbol and a key.
 'blue' is a string and a value.
 , indicates additonal key value pairs.
 this means that color: is a symbol key that has the 'blue' string value assigned to it.
-
 mileage: is a symbol and a key.
 80_000 is a integer and a value.
 this means that mileage: is a symbol key that has the 80_000 integer value assigned to it.
+this is the end of the hash data structure that is everything after this is outside of the hash data structure.
 
 This means:
 
@@ -87,19 +89,17 @@ car is a variable.
 = means assignment.
 { means open hash data structure.
 this means the variable car is assigned to a hash data structure.
-
 type: is a symbol and a key.
 'sedan' is a string and a value.
 , indicates additonal key value pairs.
 this means that type: is a symbol key that has the 'sedan' string value assigned to it.
-
 color: is a symbol and a key.
 'blue' is a string and a value.
 , indicates additonal key value pairs.
 this means that color: is a symbol key that has the 'blue' string value assigned to it.
-
 mileage: is a symbol and a key.
 80_000 is a integer and a value.
 this means that mileage: is a symbol key that has the 80_000 integer value assigned to it.
+this is the end of the hash data structure that is everything after this is outside of the hash data structure.
 
 =end
