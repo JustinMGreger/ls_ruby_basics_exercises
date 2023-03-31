@@ -66,7 +66,17 @@ puts car[:color]
 
 Explanation of Solution Syntax:
 
+Syntax:
 car = {
+
+Explanation:
+car is a variable.
+= means assignment.
+{ means open a hash data structure.
+this means the variable car is assigned to a hash data structure.
+
+
+
   type:    'sedan',
   color:   'blue',
   year:    2003
@@ -75,5 +85,17 @@ car = {
 puts car[:color]
 
 Summary of Solution Syntax:
+
+car is a variable.
+= means assignment.
+{ means open a hash data structure.
+this means the variable car is assigned to a hash data structure.
+
 This means:
+
+car is a variable.
+= means assignment.
+{ means open a hash data structure.
+this means the variable car is assigned to a hash data structure.
+
 =end
