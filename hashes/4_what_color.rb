@@ -55,7 +55,25 @@ Explanation:
 this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
 Syntax of Solution:
+
+car = {
+  type:    'sedan',
+  color:   'blue',
+  year:    2003
+}
+
+puts car[:color]
+
 Explanation of Solution Syntax:
+
+car = {
+  type:    'sedan',
+  color:   'blue',
+  year:    2003
+}
+
+puts car[:color]
+
 Summary of Solution Syntax:
 This means:
 =end
