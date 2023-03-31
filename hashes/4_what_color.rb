@@ -107,7 +107,28 @@ Syntax:
 Explanation:
 this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
+Syntax:
 puts car[:color]
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+car is a variable.
+= means assignment.
+{ means open a hash data structure.
+this means the variable car is assigned to a hash data structure.
+type: is a symbol key.
+'sedan' is a string value.
+, means more key value pairs after this.
+this means type: is a symbol key assigned the 'sedan' string value.
+color: is a symbol key.
+'blue' is a string value.
+, means more key value pairs after this.
+this means color: is a symbol key assigned the 'blue' string value.
+year: is a symbol key.
+2003 is a integer value.
+this means year: is a symbol key assigned the 2003 integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
+Hash[] returns the value associated with the given key.
 
 Summary of Solution Syntax:
 
