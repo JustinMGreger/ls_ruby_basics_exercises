@@ -93,7 +93,14 @@ color: is a symbol key.
 , means more key value pairs after this.
 this means color: is a symbol key assigned the 'blue' string value.
 
+Syntax:
   year:    2003
+
+Explanation:
+year: is a symbol key.
+2003 is a integer value.
+this means year: is a symbol key assigned the 2003 integer value.
+
 }
 
 puts car[:color]
@@ -112,6 +119,9 @@ color: is a symbol key.
 'blue' is a string value.
 , means more key value pairs after this.
 this means color: is a symbol key assigned the 'blue' string value.
+year: is a symbol key.
+2003 is a integer value.
+this means year: is a symbol key assigned the 2003 integer value.
 
 This means:
 
@@ -127,5 +137,8 @@ color: is a symbol key.
 'blue' is a string value.
 , means more key value pairs after this.
 this means color: is a symbol key assigned the 'blue' string value.
+year: is a symbol key.
+2003 is a integer value.
+this means year: is a symbol key assigned the 2003 integer value.
 
 =end
