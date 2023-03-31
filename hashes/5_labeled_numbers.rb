@@ -68,7 +68,29 @@ high: is a symbol key assigned 100 which is a integer value.
 the syntax would look like puts "A #{key} number is #{value}."
 
 Syntax of Solution:
+
+numbers = {
+  high:   100,
+  medium: 50,
+  low:    10
+}
+
+numbers.each do |key, value|
+  puts "A #{key} number is #{value}."
+end
+
 Explanation of Solution Syntax:
+
+numbers = {
+  high:   100,
+  medium: 50,
+  low:    10
+}
+
+numbers.each do |key, value|
+  puts "A #{key} number is #{value}."
+end
+
 Summary of Solution Syntax:
 This means:
 =end
