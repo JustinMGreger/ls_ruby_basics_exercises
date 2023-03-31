@@ -55,7 +55,10 @@ this means close the hash data structure that is everything after this line is o
 Additional Description of Exercise:
 Expected output:
 
-
+Additional Initial Syntax Given:
+A high number is 100.
+A medium number is 50.
+A low number is 10.
 
 
 Syntax of Solution:
