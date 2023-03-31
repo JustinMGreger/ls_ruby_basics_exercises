@@ -120,6 +120,10 @@ type: is a symbol key.
 'sedan' is a string value.
 , means more key value pairs after this.
 this means the type: symbol key is assigned the 'sedan' string value.
+color: is a symbol key.
+'blue' is a string value.
+, means more key value pairs after this.
+this means the color: symbol key is assigned the 'blue' string value.
 
 
 This means:
@@ -132,5 +136,9 @@ type: is a symbol key.
 'sedan' is a string value.
 , means more key value pairs after this.
 this means the type: symbol key is assigned the 'sedan' string value.
+color: is a symbol key.
+'blue' is a string value.
+, means more key value pairs after this.
+this means the color: symbol key is assigned the 'blue' string value.
 
 =end
