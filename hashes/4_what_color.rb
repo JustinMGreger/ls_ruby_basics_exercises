@@ -13,7 +13,18 @@ car = {
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 car = {
+
+Explanation:
+car is a variable.
+= means assignment.
+{ means open a hash data structure.
+this means the variable car is assigned to a hash data structure.
+
+
+
+
   type:    'sedan',
   color:   'blue',
   year:    2003
