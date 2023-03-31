@@ -101,7 +101,11 @@ year: is a symbol key.
 2003 is a integer value.
 this means year: is a symbol key assigned the 2003 integer value.
 
+Syntax:
 }
+
+Explanation:
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
 puts car[:color]
 
@@ -122,6 +126,7 @@ this means color: is a symbol key assigned the 'blue' string value.
 year: is a symbol key.
 2003 is a integer value.
 this means year: is a symbol key assigned the 2003 integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
 This means:
 
@@ -140,5 +145,6 @@ this means color: is a symbol key assigned the 'blue' string value.
 year: is a symbol key.
 2003 is a integer value.
 this means year: is a symbol key assigned the 2003 integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
 =end
