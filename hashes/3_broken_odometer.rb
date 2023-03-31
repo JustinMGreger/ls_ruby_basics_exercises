@@ -121,8 +121,11 @@ year: is a symbol key.
 2003 is a integer value.
 this means the year: symbol key is assigned the 2003 integer value.
 
-
+Syntax:
 }
+
+Explanation:
+this means close the hash data structure that is everything after this line is outside of the hash data structure. 
 
 car.delete(:mileage)
 
@@ -147,6 +150,7 @@ this means the mileage: symbol key is assigned the 80_000 integer value.
 year: is a symbol key.
 2003 is a integer value.
 this means the year: symbol key is assigned the 2003 integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure. 
 
 
 This means:
@@ -170,5 +174,6 @@ this means the mileage: symbol key is assigned the 80_000 integer value.
 year: is a symbol key.
 2003 is a integer value.
 this means the year: symbol key is assigned the 2003 integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure. 
 
 =end
