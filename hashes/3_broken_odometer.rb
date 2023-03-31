@@ -113,8 +113,15 @@ mileage: is a symbol key.
 , means more key value pairs after this.
 this means the mileage: symbol key is assigned the 80_000 integer value.
 
-
+Syntax:
   year:    2003
+
+Explanation:
+year: is a symbol key.
+2003 is a integer value.
+this means the year: symbol key is assigned the 2003 integer value.
+
+
 }
 
 car.delete(:mileage)
@@ -137,6 +144,9 @@ mileage: is a symbol key.
 80_000 is a integer value.
 , means more key value pairs after this.
 this means the mileage: symbol key is assigned the 80_000 integer value.
+year: is a symbol key.
+2003 is a integer value.
+this means the year: symbol key is assigned the 2003 integer value.
 
 
 This means:
@@ -157,5 +167,8 @@ mileage: is a symbol key.
 80_000 is a integer value.
 , means more key value pairs after this.
 this means the mileage: symbol key is assigned the 80_000 integer value.
+year: is a symbol key.
+2003 is a integer value.
+this means the year: symbol key is assigned the 2003 integer value.
 
 =end
