@@ -60,6 +60,12 @@ A high number is 100.
 A medium number is 50.
 A low number is 10.
 
+Explanation of Additional Syntax Given:
+this is a string.
+this was printed which means puts which is put s which is put string which means print to the screen the string.
+the syntax would be something like: puts "A high number is 100." this syntax contains string interpolation.
+high: is a symbol key assigned 100 which is a integer value.
+the syntax would look like puts "A #{key} number is #{value}."
 
 Syntax of Solution:
 Explanation of Solution Syntax:
