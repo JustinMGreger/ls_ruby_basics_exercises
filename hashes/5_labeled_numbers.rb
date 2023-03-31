@@ -38,7 +38,15 @@ medium: is a symbol key.
 , means more key value pairs follow this.
 this means medium: is a symbol key assigned 50 which is a integer value.
 
+Syntax:
   low:    10
+
+Explanation:
+low: is a symbol key.
+10 is a integer value.
+this means low: is a symbol key assigned 10 which is a integer value.
+
+
 }
 
 Syntax of Solution:
