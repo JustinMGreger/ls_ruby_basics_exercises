@@ -46,8 +46,11 @@ low: is a symbol key.
 10 is a integer value.
 this means low: is a symbol key assigned 10 which is a integer value.
 
-
+Syntax:
 }
+
+Explanation:
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
