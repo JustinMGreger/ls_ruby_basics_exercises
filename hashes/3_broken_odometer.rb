@@ -104,7 +104,16 @@ color: is a symbol key.
 , means more key value pairs after this.
 this means the color: symbol key is assigned the 'blue' string value.
 
+Syntax:
   mileage: 80_000,
+
+Explanation:
+mileage: is a symbol key.
+80_000 is a integer value.
+, means more key value pairs after this.
+this means the mileage: symbol key is assigned the 80_000 integer value.
+
+
   year:    2003
 }
 
@@ -124,6 +133,10 @@ color: is a symbol key.
 'blue' is a string value.
 , means more key value pairs after this.
 this means the color: symbol key is assigned the 'blue' string value.
+mileage: is a symbol key.
+80_000 is a integer value.
+, means more key value pairs after this.
+this means the mileage: symbol key is assigned the 80_000 integer value.
 
 
 This means:
@@ -140,5 +153,9 @@ color: is a symbol key.
 'blue' is a string value.
 , means more key value pairs after this.
 this means the color: symbol key is assigned the 'blue' string value.
+mileage: is a symbol key.
+80_000 is a integer value.
+, means more key value pairs after this.
+this means the mileage: symbol key is assigned the 80_000 integer value.
 
 =end
