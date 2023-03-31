@@ -153,10 +153,10 @@ this means the year: symbol key is assigned the 2003 integer value.
 this means close the hash data structure that is everything after this line is outside of the hash data structure. 
 .delete() method means remove all occurrences of a specific character.
 :mileage is a symbol key in the car hash data structure.
-this means remove all occurrences of the :mileage symbol key from the car hash data structure which is assigned the 
-variable car is assigned a hash data structure containing: type: symbol key is assigned the 'sedan' string value,
-color: symbol key is assigned the 'blue' string value, mileage: symbol key is assigned the 80_000 integer value,
-year: symbol key is assigned the 2003 integer value.
+this means remove all occurrences of the :mileage symbol key from the variable car which is assigned a hash data structure
+containing: type: symbol key which is assigned the 'sedan' string value, color: symbol key which is assigned the 'blue' 
+string value, mileage: symbol key which is assigned the 80_000 integer value, year: symbol key which is assigned the 2003
+integer value.
 this means close the hash data structure that is everything after this line is outside of the hash data structure. 
 
 Summary of Solution Syntax:
@@ -204,62 +204,20 @@ this means the year: symbol key is assigned the 2003 integer value.
 this means close the hash data structure that is everything after this line is outside of the hash data structure. 
 .delete() method means remove all occurrences of a specific character.
 :mileage is a symbol key in the car hash data structure.
-this means remove all occurrences of the :mileage symbol key from the car hash data structure which is assigned the 
-variable car is assigned a hash data structure containing: type: symbol key is assigned the 'sedan' string value,
-color: symbol key is assigned the 'blue' string value, mileage: symbol key is assigned the 80_000 integer value,
-year: symbol key is assigned the 2003 integer value.
+this means remove all occurrences of the :mileage symbol key from the variable car which is assigned a hash data structure
+containing: type: symbol key which is assigned the 'sedan' string value, color: symbol key which is assigned the 'blue' 
+string value, mileage: symbol key which is assigned the 80_000 integer value, year: symbol key which is assigned the 2003
+integer value.
 this means close the hash data structure that is everything after this line is outside of the hash data structure. 
-
 
 This means:
 
-car is a variable.
-= means assignment.
-{ means open the hash data structure.
-this means the variable car is assigned a hash data structure.
-type: is a symbol key.
-'sedan' is a string value.
-, means more key value pairs after this.
-this means the type: symbol key is assigned the 'sedan' string value.
-color: is a symbol key.
-'blue' is a string value.
-, means more key value pairs after this.
-this means the color: symbol key is assigned the 'blue' string value.
-mileage: is a symbol key.
-80_000 is a integer value.
-, means more key value pairs after this.
-this means the mileage: symbol key is assigned the 80_000 integer value.
-year: is a symbol key.
-2003 is a integer value.
-this means the year: symbol key is assigned the 2003 integer value.
-this means close the hash data structure that is everything after this line is outside of the hash data structure. 
+the variable car is assigned a hash data structure containing: type: symbol key which is assigned the 'sedan' string value, 
+color: symbol key which is assigned the 'blue' string value, mileage: symbol key which is assigned the 80_000 integer value, 
+year: symbol key which is assigned the 2003 integer value.
 
-car is a variable.
-= means assignment.
-{ means open the hash data structure.
-this means the variable car is assigned a hash data structure.
-type: is a symbol key.
-'sedan' is a string value.
-, means more key value pairs after this.
-this means the type: symbol key is assigned the 'sedan' string value.
-color: is a symbol key.
-'blue' is a string value.
-, means more key value pairs after this.
-this means the color: symbol key is assigned the 'blue' string value.
-mileage: is a symbol key.
-80_000 is a integer value.
-, means more key value pairs after this.
-this means the mileage: symbol key is assigned the 80_000 integer value.
-year: is a symbol key.
-2003 is a integer value.
-this means the year: symbol key is assigned the 2003 integer value.
-this means close the hash data structure that is everything after this line is outside of the hash data structure. 
-.delete() method means remove all occurrences of a specific character.
-:mileage is a symbol key in the car hash data structure.
-this means remove all occurrences of the :mileage symbol key from the car hash data structure which is assigned the 
-variable car is assigned a hash data structure containing: type: symbol key is assigned the 'sedan' string value,
-color: symbol key is assigned the 'blue' string value, mileage: symbol key is assigned the 80_000 integer value,
-year: symbol key is assigned the 2003 integer value.
-this means close the hash data structure that is everything after this line is outside of the hash data structure. 
+remove all occurrences of the :mileage symbol key from the variable car which is assigned a hash data structure containing:
+type: symbol key which is assigned the 'sedan' string value, color: symbol key which is assigned the 'blue' string value,
+mileage: symbol key which is assigned the 80_000 integer value, year: symbol key which is assigned the 2003 integer value. 
 
 =end
