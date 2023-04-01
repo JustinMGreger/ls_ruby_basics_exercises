@@ -116,7 +116,11 @@ low: is a symbol key.
 10 is a integer value.
 this means low: is a symbol key assigned 10 which is a integer value.
 
+Syntax:
 }
+
+Explanation:
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
 numbers.each do |key, value|
   puts "A #{key} number is #{value}."
@@ -139,6 +143,7 @@ this means medium: is a symbol key assigned 50 which is a integer value.
 low: is a symbol key.
 10 is a integer value.
 this means low: is a symbol key assigned 10 which is a integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
 This means:
 
@@ -157,5 +162,6 @@ this means medium: is a symbol key assigned 50 which is a integer value.
 low: is a symbol key.
 10 is a integer value.
 this means low: is a symbol key assigned 10 which is a integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
 =end
