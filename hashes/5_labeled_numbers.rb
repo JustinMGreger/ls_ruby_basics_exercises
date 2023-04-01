@@ -145,11 +145,10 @@ this means close the hash data structure that is everything after this line is o
 hash.each method has 2 block parameters the key and value parameters are used to iterate through each element in the hash. 
 do means open block.
 |key, value| are the 2 block parameters that the hash.each method uses.
-
-this means 
-
-
-
+this means the key and value block parameters are used to iterate through each element in the variable numbers which is 
+assigned to a hash data structure containing: high: which is a symbol key assigned 100 which is a integer value, medium: 
+is a symbol key assigned 50 which is a integer value, low: is a symbol key assigned 10 which is a integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
 
 
@@ -176,6 +175,30 @@ low: is a symbol key.
 this means low: is a symbol key assigned 10 which is a integer value.
 this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
+numbers is a variable.
+= means assignment.
+{ means open a hash data structure.
+this means the variable numbers is assigned to a hash data structure.
+high: is a symbol key.
+100 is a integer value.
+, means more key value pairs follow this.
+this means high: is a symbol key assigned 100 which is a integer value.
+medium: is a symbol key.
+50 is a integer value.
+, means more key value pairs follow this.
+this means medium: is a symbol key assigned 50 which is a integer value.
+low: is a symbol key.
+10 is a integer value.
+this means low: is a symbol key assigned 10 which is a integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
+hash.each method has 2 block parameters the key and value parameters are used to iterate through each element in the hash. 
+do means open block.
+|key, value| are the 2 block parameters that the hash.each method uses.
+this means the key and value block parameters are used to iterate through each element in the variable numbers which is 
+assigned to a hash data structure containing: high: which is a symbol key assigned 100 which is a integer value, medium: 
+is a symbol key assigned 50 which is a integer value, low: is a symbol key assigned 10 which is a integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
+
 This means:
 
 numbers is a variable.
@@ -193,6 +216,30 @@ this means medium: is a symbol key assigned 50 which is a integer value.
 low: is a symbol key.
 10 is a integer value.
 this means low: is a symbol key assigned 10 which is a integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
+
+numbers is a variable.
+= means assignment.
+{ means open a hash data structure.
+this means the variable numbers is assigned to a hash data structure.
+high: is a symbol key.
+100 is a integer value.
+, means more key value pairs follow this.
+this means high: is a symbol key assigned 100 which is a integer value.
+medium: is a symbol key.
+50 is a integer value.
+, means more key value pairs follow this.
+this means medium: is a symbol key assigned 50 which is a integer value.
+low: is a symbol key.
+10 is a integer value.
+this means low: is a symbol key assigned 10 which is a integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
+hash.each method has 2 block parameters the key and value parameters are used to iterate through each element in the hash. 
+do means open block.
+|key, value| are the 2 block parameters that the hash.each method uses.
+this means the key and value block parameters are used to iterate through each element in the variable numbers which is 
+assigned to a hash data structure containing: high: which is a symbol key assigned 100 which is a integer value, medium: 
+is a symbol key assigned 50 which is a integer value, low: is a symbol key assigned 10 which is a integer value.
 this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
 =end
