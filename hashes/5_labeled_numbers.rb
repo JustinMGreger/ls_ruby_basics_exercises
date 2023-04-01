@@ -235,53 +235,12 @@ this is the last line of the hash.each method that is everything after this line
 
 This means:
 
-numbers is a variable.
-= means assignment.
-{ means open a hash data structure.
-this means the variable numbers is assigned to a hash data structure.
-high: is a symbol key.
-100 is a integer value.
-, means more key value pairs follow this.
-this means high: is a symbol key assigned 100 which is a integer value.
-medium: is a symbol key.
-50 is a integer value.
-, means more key value pairs follow this.
-this means medium: is a symbol key assigned 50 which is a integer value.
-low: is a symbol key.
-10 is a integer value.
-this means low: is a symbol key assigned 10 which is a integer value.
+the variable numbers is assigned to a hash data structure containing: high: is a symbol key assigned 100 which is a 
+integer value, medium: is a symbol key assigned 50 which is a integer value, low: is a symbol key assigned 10 which is a
+integer value.
 this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
-numbers is a variable.
-= means assignment.
-{ means open a hash data structure.
-this means the variable numbers is assigned to a hash data structure.
-high: is a symbol key.
-100 is a integer value.
-, means more key value pairs follow this.
-this means high: is a symbol key assigned 100 which is a integer value.
-medium: is a symbol key.
-50 is a integer value.
-, means more key value pairs follow this.
-this means medium: is a symbol key assigned 50 which is a integer value.
-low: is a symbol key.
-10 is a integer value.
-this means low: is a symbol key assigned 10 which is a integer value.
-this means close the hash data structure that is everything after this line is outside of the hash data structure.
-hash.each method has 2 block parameters the key and value parameters are used to iterate through each element in the hash. 
-do means open block.
-|key, value| are the 2 block parameters that the hash.each method uses.
-this means the key and value block parameters are used to iterate through each element in the variable numbers which is 
-assigned to a hash data structure containing: high: which is a symbol key assigned 100 which is a integer value, medium: 
-is a symbol key assigned 50 which is a integer value, low: is a symbol key assigned 10 which is a integer value.
-this means close the hash data structure that is everything after this line is outside of the hash data structure.
-puts means put s which is put string which means print to the screen the string.
-"A #{key} number is #{value}." is a string.
-#{key} and #{value} are string interpolation of the key and value block parameters which are used to iterate through each
-element in the variable numbers which is assigned to a hash data structure containing: high: which is a symbol key 
-assigned 100 which is a integer value, medium: is a symbol key assigned 50 which is a integer value, low: is a symbol key
-assigned 10 which is a integer value.
-this means print to the screen the string interpolation "A #{key} number is #{value}." where the key and value block 
+print to the screen the string interpolation "A #{key} number is #{value}." where the key and value block 
 parameters are used to iterate through each element in the variable numbers which is assigned to a hash data structure 
 containing: high: which is a symbol key assigned 100 which is a integer value, medium: is a symbol key assigned 50 which 
 is a integer value, low: is a symbol key assigned 10 which is a integer value.
@@ -289,6 +248,5 @@ this results in the output:
 A high number is 100. 
 A medium number is 50.
 A low number is 10.
-this is the last line of the hash.each method that is everything after this line is outside of the hash.each method.
 
 =end
