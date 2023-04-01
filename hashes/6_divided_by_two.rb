@@ -56,7 +56,8 @@ this means close the hash data structure that is everything after this is outsid
 Additional Description of Exercise:
 Expected output:
 
-
+Additional Initial Syntax Given:
+[50, 25, 5]
 
 
 Syntax of Solution:
