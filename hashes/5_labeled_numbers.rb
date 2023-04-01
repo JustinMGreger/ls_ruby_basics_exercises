@@ -90,8 +90,16 @@ numbers is a variable.
 { means open a hash data structure.
 this means the variable numbers is assigned to a hash data structure.
 
-
+Syntax:
   high:   100,
+
+Explanation:
+high: is a symbol key.
+100 is a integer value.
+, means more key value pairs follow this.
+this means high: is a symbol key assigned 100 which is a integer value.
+
+
   medium: 50,
   low:    10
 }
@@ -106,6 +114,10 @@ numbers is a variable.
 = means assignment.
 { means open a hash data structure.
 this means the variable numbers is assigned to a hash data structure.
+high: is a symbol key.
+100 is a integer value.
+, means more key value pairs follow this.
+this means high: is a symbol key assigned 100 which is a integer value.
 
 This means:
 
@@ -113,5 +125,9 @@ numbers is a variable.
 = means assignment.
 { means open a hash data structure.
 this means the variable numbers is assigned to a hash data structure.
+high: is a symbol key.
+100 is a integer value.
+, means more key value pairs follow this.
+this means high: is a symbol key assigned 100 which is a integer value.
 
 =end
