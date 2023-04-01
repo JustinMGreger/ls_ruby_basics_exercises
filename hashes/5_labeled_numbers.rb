@@ -150,10 +150,27 @@ assigned to a hash data structure containing: high: which is a symbol key assign
 is a symbol key assigned 50 which is a integer value, low: is a symbol key assigned 10 which is a integer value.
 this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
-
-
-
+Syntax:
   puts "A #{key} number is #{value}."
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+"A #{key} number is #{value}." is a string.
+#{key} and #{value} are string interpolation of the key and value block parameters which are used to iterate through each
+element in the variable numbers which is assigned to a hash data structure containing: high: which is a symbol key 
+assigned 100 which is a integer value, medium: is a symbol key assigned 50 which is a integer value, low: is a symbol key
+assigned 10 which is a integer value.
+this means print to the screen the string interpolation "A #{key} number is #{value}." where the key and value block 
+parameters are used to iterate through each element in the variable numbers which is assigned to a hash data structure 
+containing: high: which is a symbol key assigned 100 which is a integer value, medium: is a symbol key assigned 50 which 
+is a integer value, low: is a symbol key assigned 10 which is a integer value.
+this results in the output: 
+A high number is 100. 
+A medium number is 50.
+A low number is 10.
+
+
+
 end
 
 Summary of Solution Syntax:
@@ -198,6 +215,20 @@ this means the key and value block parameters are used to iterate through each e
 assigned to a hash data structure containing: high: which is a symbol key assigned 100 which is a integer value, medium: 
 is a symbol key assigned 50 which is a integer value, low: is a symbol key assigned 10 which is a integer value.
 this means close the hash data structure that is everything after this line is outside of the hash data structure.
+puts means put s which is put string which means print to the screen the string.
+"A #{key} number is #{value}." is a string.
+#{key} and #{value} are string interpolation of the key and value block parameters which are used to iterate through each
+element in the variable numbers which is assigned to a hash data structure containing: high: which is a symbol key 
+assigned 100 which is a integer value, medium: is a symbol key assigned 50 which is a integer value, low: is a symbol key
+assigned 10 which is a integer value.
+this means print to the screen the string interpolation "A #{key} number is #{value}." where the key and value block 
+parameters are used to iterate through each element in the variable numbers which is assigned to a hash data structure 
+containing: high: which is a symbol key assigned 100 which is a integer value, medium: is a symbol key assigned 50 which 
+is a integer value, low: is a symbol key assigned 10 which is a integer value.
+this results in the output: 
+A high number is 100. 
+A medium number is 50.
+A low number is 10.
 
 This means:
 
@@ -241,5 +272,19 @@ this means the key and value block parameters are used to iterate through each e
 assigned to a hash data structure containing: high: which is a symbol key assigned 100 which is a integer value, medium: 
 is a symbol key assigned 50 which is a integer value, low: is a symbol key assigned 10 which is a integer value.
 this means close the hash data structure that is everything after this line is outside of the hash data structure.
+puts means put s which is put string which means print to the screen the string.
+"A #{key} number is #{value}." is a string.
+#{key} and #{value} are string interpolation of the key and value block parameters which are used to iterate through each
+element in the variable numbers which is assigned to a hash data structure containing: high: which is a symbol key 
+assigned 100 which is a integer value, medium: is a symbol key assigned 50 which is a integer value, low: is a symbol key
+assigned 10 which is a integer value.
+this means print to the screen the string interpolation "A #{key} number is #{value}." where the key and value block 
+parameters are used to iterate through each element in the variable numbers which is assigned to a hash data structure 
+containing: high: which is a symbol key assigned 100 which is a integer value, medium: is a symbol key assigned 50 which 
+is a integer value, low: is a symbol key assigned 10 which is a integer value.
+this results in the output: 
+A high number is 100. 
+A medium number is 50.
+A low number is 10.
 
 =end
