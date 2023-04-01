@@ -59,6 +59,11 @@ Expected output:
 Additional Initial Syntax Given:
 [50, 25, 5]
 
+Explanation of Additional Initial Syntax Given:
+the description of the exercise says:
+"Use Enumerable#map to iterate over numbers and return an array containing each number divided by 2.
+ Assign the returned array to a variable named half_numbers and print its value using #p."
+ Since this is the output the syntax that causes this output would be: p half_numbers
 
 Syntax of Solution:
 Explanation of Solution Syntax:
