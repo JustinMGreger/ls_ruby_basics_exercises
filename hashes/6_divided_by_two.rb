@@ -66,6 +66,19 @@ the description of the exercise says:
  Since this is the output the syntax that causes this output would be: p half_numbers
 
 Syntax of Solution:
+
+numbers = {
+  high:   100,
+  medium: 50,
+  low:    10
+}
+
+half_numbers = numbers.map do |key, value|
+                 value / 2
+               end
+
+p half_numbers
+
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
 This means:
