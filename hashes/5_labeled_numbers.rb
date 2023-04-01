@@ -122,7 +122,36 @@ Syntax:
 Explanation:
 this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
+Syntax:
 numbers.each do |key, value|
+
+Explanation:
+numbers is a variable.
+= means assignment.
+{ means open a hash data structure.
+this means the variable numbers is assigned to a hash data structure.
+high: is a symbol key.
+100 is a integer value.
+, means more key value pairs follow this.
+this means high: is a symbol key assigned 100 which is a integer value.
+medium: is a symbol key.
+50 is a integer value.
+, means more key value pairs follow this.
+this means medium: is a symbol key assigned 50 which is a integer value.
+low: is a symbol key.
+10 is a integer value.
+this means low: is a symbol key assigned 10 which is a integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
+
+
+
+
+
+
+
+
+
+
   puts "A #{key} number is #{value}."
 end
 
