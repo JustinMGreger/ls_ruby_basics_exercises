@@ -169,9 +169,11 @@ A high number is 100.
 A medium number is 50.
 A low number is 10.
 
-
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the hash.each method that is everything after this line is outside of the hash.each method.
 
 Summary of Solution Syntax:
 
@@ -229,6 +231,7 @@ this results in the output:
 A high number is 100. 
 A medium number is 50.
 A low number is 10.
+this is the last line of the hash.each method that is everything after this line is outside of the hash.each method.
 
 This means:
 
@@ -286,5 +289,6 @@ this results in the output:
 A high number is 100. 
 A medium number is 50.
 A low number is 10.
+this is the last line of the hash.each method that is everything after this line is outside of the hash.each method.
 
 =end
