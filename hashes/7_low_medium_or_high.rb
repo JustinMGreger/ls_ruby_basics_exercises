@@ -118,7 +118,11 @@ low: is a symbol key.
 10 is a integer value.
 this means low: is a symbol key assigned the 10 integer value.
 
+Syntax:
 }
+
+Explanation:
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
 low_numbers = numbers.select do |key, value|
                  value < 25
@@ -140,6 +144,7 @@ medium: is a symbol key.
 50 is a integer key.
 , means more key value pairs following this.
 this means medium: is a symbol key that is assigned the 50 integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
 This means:
 
@@ -155,5 +160,6 @@ medium: is a symbol key.
 50 is a integer key.
 , means more key value pairs following this.
 this means medium: is a symbol key that is assigned the 50 integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
 =end
