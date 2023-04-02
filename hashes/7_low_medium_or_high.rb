@@ -32,9 +32,17 @@ high: is a symbol key.
 , means more key value pairs following this.
 this means high: is a symbol key that is assigned the 100 integer value.
 
-
-
+Syntax:
   medium: 50,
+
+Explantion:
+medium: is a symbol key.
+50 is a integer key.
+, means more key value pairs following this.
+this means medium: is a symbol key that is assigned the 50 integer value.
+
+
+
   low:    10
 }
 
