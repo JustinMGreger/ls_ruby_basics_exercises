@@ -29,7 +29,14 @@ numbers is a variable.
 = means assignment.
 { means open a hash data structure.
 
+Syntax:
   high:   100,
+
+Explanation:
+high: is a symbol key.
+100 is a integer value.
+, means more key value pairs following this.
+
   medium: 50,
   low:    10
 }
