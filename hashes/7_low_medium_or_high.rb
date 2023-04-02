@@ -143,7 +143,7 @@ medium: is a symbol key.
 , means more key value pairs following this.
 this means medium: is a symbol key that is assigned the 50 integer value.
 this means close the hash data structure that is everything after this line is outside of the hash data structure.
-Hash.select returns a new hash for when the block returns boolean true.
+Hash.select method returns a new hash for when the block returns boolean true.
 do means open block.
 |key, value| are block parameters.
 this means the variable low_numbers is assigned the new hash that is returned when the selected block parameters return
@@ -173,7 +173,7 @@ medium: is a symbol key.
 , means more key value pairs following this.
 this means medium: is a symbol key that is assigned the 50 integer value.
 this means close the hash data structure that is everything after this line is outside of the hash data structure.
-Hash.select returns a new hash for when the block returns boolean true.
+Hash.select method returns a new hash for when the block returns boolean true.
 do means open block.
 |key, value| are block parameters.
 this means the variable low_numbers is assigned the new hash that is returned when value which is a block parameter is 
@@ -184,8 +184,11 @@ the result is that the variable low_numbers is assigned the low: symbol key assi
 than 25 which would be boolean true and returned to be assigned a new hash data structure {low: 10} that is the variable
 low_numbers = {low: 10}
 
-
+Syntax:
                end
+
+Explantion:
+this is the last line of the hash.select method that is everything after this line is outside of the hash.select method.
 
 p low_numbers
 
@@ -223,7 +226,7 @@ medium: is a symbol key.
 , means more key value pairs following this.
 this means medium: is a symbol key that is assigned the 50 integer value.
 this means close the hash data structure that is everything after this line is outside of the hash data structure.
-Hash.select returns a new hash for when the block returns boolean true.
+Hash.select method returns a new hash for when the block returns boolean true.
 do means open block.
 |key, value| are block parameters.
 this means the variable low_numbers is assigned the new hash that is returned when the selected block parameters return
@@ -248,7 +251,7 @@ medium: is a symbol key.
 , means more key value pairs following this.
 this means medium: is a symbol key that is assigned the 50 integer value.
 this means close the hash data structure that is everything after this line is outside of the hash data structure.
-Hash.select returns a new hash for when the block returns boolean true.
+Hash.select method returns a new hash for when the block returns boolean true.
 do means open block.
 |key, value| are block parameters.
 this means the variable low_numbers is assigned the new hash that is returned when value which is a block parameter is 
@@ -258,6 +261,7 @@ assigned the 50 integer value, low: which is a symbol key assigned the 10 intege
 the result is that the variable low_numbers is assigned the low: symbol key assigned the integer 10 value as that is less
 than 25 which would be boolean true and returned to be assigned a new hash data structure {low: 10} that is the variable
 low_numbers = {low: 10}
+this is the last line of the hash.select method that is everything after this line is outside of the hash.select method.
 
 This means:
 
@@ -293,7 +297,7 @@ medium: is a symbol key.
 , means more key value pairs following this.
 this means medium: is a symbol key that is assigned the 50 integer value.
 this means close the hash data structure that is everything after this line is outside of the hash data structure.
-Hash.select returns a new hash for when the block returns boolean true.
+Hash.select method returns a new hash for when the block returns boolean true.
 do means open block.
 |key, value| are block parameters.
 this means the variable low_numbers is assigned the new hash that is returned when the selected block parameters return
@@ -318,7 +322,7 @@ medium: is a symbol key.
 , means more key value pairs following this.
 this means medium: is a symbol key that is assigned the 50 integer value.
 this means close the hash data structure that is everything after this line is outside of the hash data structure.
-Hash.select returns a new hash for when the block returns boolean true.
+Hash.select method returns a new hash for when the block returns boolean true.
 do means open block.
 |key, value| are block parameters.
 this means the variable low_numbers is assigned the new hash that is returned when value which is a block parameter is 
@@ -328,5 +332,6 @@ assigned the 50 integer value, low: which is a symbol key assigned the 10 intege
 the result is that the variable low_numbers is assigned the low: symbol key assigned the integer 10 value as that is less
 than 25 which would be boolean true and returned to be assigned a new hash data structure {low: 10} that is the variable
 low_numbers = {low: 10}
+this is the last line of the hash.select method that is everything after this line is outside of the hash.select method.
 
 =end
