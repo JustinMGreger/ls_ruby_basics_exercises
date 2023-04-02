@@ -116,7 +116,11 @@ low: is a symbol key.
 10 is a integer value.
 this means low: is a symbol key that is assigned the 10 integer value.
 
+Syntax:
 }
+
+Explanation:
+this means close the hash data structure that is everything after this is outside of the hash data structure.
 
 half_numbers = numbers.map do |key, value|
                  value / 2
@@ -141,6 +145,7 @@ this means medium: is a symbol key that is assigned the 50 integer value.
 low: is a symbol key.
 10 is a integer value.
 this means low: is a symbol key that is assigned the 10 integer value.
+this means close the hash data structure that is everything after this is outside of the hash data structure.
 
 This means:
 
@@ -159,5 +164,6 @@ this means medium: is a symbol key that is assigned the 50 integer value.
 low: is a symbol key.
 10 is a integer value.
 this means low: is a symbol key that is assigned the 10 integer value.
+this means close the hash data structure that is everything after this is outside of the hash data structure.
 
 =end
