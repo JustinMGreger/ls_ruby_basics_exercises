@@ -99,7 +99,15 @@ high: is a symbol key.
 , means more key value pairs following this.
 this means high: is a symbol key assigned the 100 integer value.
 
+Syntax:
   medium: 50,
+
+Explanation:
+medium: is a symbol key.
+50 is a integer value.
+, means more key value pairs following this.
+this means medium: is a symbol key that is assigned the 50 integer value.
+
   low:    10
 }
 
@@ -119,6 +127,10 @@ high: is a symbol key.
 100 is a integer value.
 , means more key value pairs following this.
 this means high: is a symbol key assigned the 100 integer value.
+medium: is a symbol key.
+50 is a integer value.
+, means more key value pairs following this.
+this means medium: is a symbol key that is assigned the 50 integer value.
 
 This means:
 
@@ -130,5 +142,9 @@ high: is a symbol key.
 100 is a integer value.
 , means more key value pairs following this.
 this means high: is a symbol key assigned the 100 integer value.
+medium: is a symbol key.
+50 is a integer value.
+, means more key value pairs following this.
+this means medium: is a symbol key that is assigned the 50 integer value.
 
 =end
