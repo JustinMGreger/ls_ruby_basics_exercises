@@ -62,7 +62,10 @@ Additional Initial Syntax Given:
 {:low=>10}
 
 Explantion of Additonal Initial Syntax Given:
-
+the following instructions were previously given:
+"Use Hash#select to iterate over numbers and return a hash containing only key-value pairs where the value is less than 
+25. Assign the returned hash to a variable named low_numbers and print its value using #p."
+this output would then be the result of the syntax: p low_numbers
 
 Syntax of Solution:
 Explanation of Solution Syntax:
