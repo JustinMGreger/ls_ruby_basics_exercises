@@ -23,9 +23,17 @@ numbers is a variable.
 { means open a hash data structure.
 this means the variable numbers is assigned a hash data structure.
 
-
-
+Syntax:
   high:   100,
+
+Explanation:
+high: is a symbol key.
+100 is a integer value.
+, means more key value pairs following this.
+this means high: is a symbol key that is assigned the 100 integer value.
+
+
+
   medium: 50,
   low:    10
 }
