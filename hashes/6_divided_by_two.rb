@@ -166,13 +166,12 @@ variable numbers is assigned a hash data structure containing high: which is a s
 medium: which is a symbol key that is assigned the 50 integer value, low: which is a symbol key that is assigned the 10 
 integer value this is returned as an array.
 
-
-
-
-
-
-
+Syntax:
                end
+              
+Explanation:
+this is the last line of the Enumerable.map method that is everything after this line is outside of the Enumerable.map 
+method.
 
 p half_numbers
 
@@ -230,6 +229,8 @@ parameters which are key and value specifically divide value by 2 where value is
 variable numbers is assigned a hash data structure containing high: which is a symbol key assigned the 100 integer value,
 medium: which is a symbol key that is assigned the 50 integer value, low: which is a symbol key that is assigned the 10 
 integer value this is returned as an array.
+this is the last line of the Enumerable.map method that is everything after this line is outside of the Enumerable.map 
+method.
 
 This means:
 
@@ -285,5 +286,7 @@ parameters which are key and value specifically divide value by 2 where value is
 variable numbers is assigned a hash data structure containing high: which is a symbol key assigned the 100 integer value,
 medium: which is a symbol key that is assigned the 50 integer value, low: which is a symbol key that is assigned the 10 
 integer value this is returned as an array.
+this is the last line of the Enumerable.map method that is everything after this line is outside of the Enumerable.map 
+method.
 
 =end
