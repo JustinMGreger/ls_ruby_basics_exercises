@@ -122,7 +122,18 @@ Syntax:
 Explanation:
 this means close the hash data structure that is everything after this is outside of the hash data structure.
 
+Syntax:
 half_numbers = numbers.map do |key, value|
+
+Explanation:
+half_numbers is a varaible.
+= means assignment.
+
+
+
+
+
+
                  value / 2
                end
 
