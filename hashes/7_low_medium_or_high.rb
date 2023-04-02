@@ -110,8 +110,14 @@ medium: is a symbol key.
 , means more key value pairs following this.
 this means medium: is a symbol key that is assigned the 50 integer value.
 
-
+Syntax:
   low:    10
+
+Explanation:
+low: is a symbol key.
+10 is a integer value.
+this means low: is a symbol key assigned the 10 integer value.
+
 }
 
 low_numbers = numbers.select do |key, value|
