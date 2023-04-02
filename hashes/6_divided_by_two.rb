@@ -144,9 +144,9 @@ low: is a symbol key.
 10 is a integer value.
 this means low: is a symbol key that is assigned the 10 integer value.
 this means close the hash data structure that is everything after this is outside of the hash data structure.
-
-
-
+Enumerable.map accepts two block parameters which are key and value and returns an array.
+do means open block of code.
+|key, value| are the block parameters.
 
 
                  value / 2
