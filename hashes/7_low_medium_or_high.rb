@@ -58,10 +58,10 @@ this means close the hash data structure that is everything after this line is o
 Additional Description of Exercise:
 Expected output:
 
+Additional Initial Syntax Given:
+{:low=>10}
 
-
-
-
+Explantion of Additonal Initial Syntax Given:
 
 
 Syntax of Solution:
