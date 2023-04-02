@@ -124,7 +124,27 @@ Syntax:
 Explanation:
 this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
+Syntax:
 low_numbers = numbers.select do |key, value|
+
+Explanation:
+low_numbers is a variable.
+= means assignment.
+numbers is a variable.
+= means assignment.
+{ means open a hash data structure.
+this means the variable numbers is assigned a hash data structure.
+high: is a symbol key.
+100 is a integer value.
+, means more key value pairs following this.
+this means high: is a symbol key that is assigned the 100 integer value.
+medium: is a symbol key.
+50 is a integer key.
+, means more key value pairs following this.
+this means medium: is a symbol key that is assigned the 50 integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
+Hash.select returns a new hash for when the block returns boolean true.
+
                  value < 25
                end
 
