@@ -55,6 +55,15 @@ Syntax:
 Explanation:
 this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
+Additional Description of Exercise:
+Expected output:
+
+
+
+
+
+
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
