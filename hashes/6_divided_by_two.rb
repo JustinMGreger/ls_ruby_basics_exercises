@@ -128,7 +128,22 @@ half_numbers = numbers.map do |key, value|
 Explanation:
 half_numbers is a varaible.
 = means assignment.
-
+numbers is a variable.
+= means assignment.
+{ means open a hash data structure.
+this means the variable numbers is assigned a hash data structure.
+high: is a symbol key.
+100 is a integer value.
+, means more key value pairs following this.
+this means high: is a symbol key assigned the 100 integer value.
+medium: is a symbol key.
+50 is a integer value.
+, means more key value pairs following this.
+this means medium: is a symbol key that is assigned the 50 integer value.
+low: is a symbol key.
+10 is a integer value.
+this means low: is a symbol key that is assigned the 10 integer value.
+this means close the hash data structure that is everything after this is outside of the hash data structure.
 
 
 
