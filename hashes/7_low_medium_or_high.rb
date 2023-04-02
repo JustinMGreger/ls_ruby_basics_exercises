@@ -151,9 +151,40 @@ boolean true when passed to the variable numbers which is assigned a hash data s
 symbol key that is assigned the 100 integer value, medium: which is a symbol key that is assigned the 50 integer value, 
 low: which is a symbol key assigned the 10 integer value.
 
-
-
+Syntax:
                  value < 25
+
+Explanation:
+value is a block parameter.
+< 25 means less than integer 25.
+this means value which is a block parameter is boolean true when it is less than integer 25.
+low_numbers is a variable.
+= means assignment.
+numbers is a variable.
+= means assignment.
+{ means open a hash data structure.
+this means the variable numbers is assigned a hash data structure.
+high: is a symbol key.
+100 is a integer value.
+, means more key value pairs following this.
+this means high: is a symbol key that is assigned the 100 integer value.
+medium: is a symbol key.
+50 is a integer key.
+, means more key value pairs following this.
+this means medium: is a symbol key that is assigned the 50 integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
+Hash.select returns a new hash for when the block returns boolean true.
+do means open block.
+|key, value| are block parameters.
+this means the variable low_numbers is assigned the new hash that is returned when value which is a block parameter is 
+boolean true when it is less than integer 25 when passed to the variable numbers which is assigned a hash data structure 
+containing: high: which is a symbol key that is assigned the 100 integer value, medium: which is a symbol key that is 
+assigned the 50 integer value, low: which is a symbol key assigned the 10 integer value.
+the result is that the variable low_numbers is assigned the low: symbol key assigned the integer 10 value as that is less
+than 25 which would be boolean true and returned to be assigned a new hash data structure {low: 10} that is the variable
+low_numbers = {low: 10}
+
+
                end
 
 p low_numbers
@@ -199,6 +230,34 @@ this means the variable low_numbers is assigned the new hash that is returned wh
 boolean true when passed to the variable numbers which is assigned a hash data structure containing: high: which is a 
 symbol key that is assigned the 100 integer value, medium: which is a symbol key that is assigned the 50 integer value, 
 low: which is a symbol key assigned the 10 integer value.
+value is a block parameter.
+< 25 means less than integer 25.
+this means value which is a block parameter is boolean true when it is less than integer 25.
+low_numbers is a variable.
+= means assignment.
+numbers is a variable.
+= means assignment.
+{ means open a hash data structure.
+this means the variable numbers is assigned a hash data structure.
+high: is a symbol key.
+100 is a integer value.
+, means more key value pairs following this.
+this means high: is a symbol key that is assigned the 100 integer value.
+medium: is a symbol key.
+50 is a integer key.
+, means more key value pairs following this.
+this means medium: is a symbol key that is assigned the 50 integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
+Hash.select returns a new hash for when the block returns boolean true.
+do means open block.
+|key, value| are block parameters.
+this means the variable low_numbers is assigned the new hash that is returned when value which is a block parameter is 
+boolean true when it is less than integer 25 when passed to the variable numbers which is assigned a hash data structure 
+containing: high: which is a symbol key that is assigned the 100 integer value, medium: which is a symbol key that is 
+assigned the 50 integer value, low: which is a symbol key assigned the 10 integer value.
+the result is that the variable low_numbers is assigned the low: symbol key assigned the integer 10 value as that is less
+than 25 which would be boolean true and returned to be assigned a new hash data structure {low: 10} that is the variable
+low_numbers = {low: 10}
 
 This means:
 
@@ -241,5 +300,33 @@ this means the variable low_numbers is assigned the new hash that is returned wh
 boolean true when passed to the variable numbers which is assigned a hash data structure containing: high: which is a 
 symbol key that is assigned the 100 integer value, medium: which is a symbol key that is assigned the 50 integer value, 
 low: which is a symbol key assigned the 10 integer value.
+value is a block parameter.
+< 25 means less than integer 25.
+this means value which is a block parameter is boolean true when it is less than integer 25.
+low_numbers is a variable.
+= means assignment.
+numbers is a variable.
+= means assignment.
+{ means open a hash data structure.
+this means the variable numbers is assigned a hash data structure.
+high: is a symbol key.
+100 is a integer value.
+, means more key value pairs following this.
+this means high: is a symbol key that is assigned the 100 integer value.
+medium: is a symbol key.
+50 is a integer key.
+, means more key value pairs following this.
+this means medium: is a symbol key that is assigned the 50 integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
+Hash.select returns a new hash for when the block returns boolean true.
+do means open block.
+|key, value| are block parameters.
+this means the variable low_numbers is assigned the new hash that is returned when value which is a block parameter is 
+boolean true when it is less than integer 25 when passed to the variable numbers which is assigned a hash data structure 
+containing: high: which is a symbol key that is assigned the 100 integer value, medium: which is a symbol key that is 
+assigned the 50 integer value, low: which is a symbol key assigned the 10 integer value.
+the result is that the variable low_numbers is assigned the low: symbol key assigned the integer 10 value as that is less
+than 25 which would be boolean true and returned to be assigned a new hash data structure {low: 10} that is the variable
+low_numbers = {low: 10}
 
 =end
