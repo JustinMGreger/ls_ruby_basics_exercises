@@ -68,7 +68,33 @@ the following instructions were previously given:
 this output would then be the result of the syntax: p low_numbers
 
 Syntax of Solution:
+
+numbers = {
+  high:   100,
+  medium: 50,
+  low:    10
+}
+
+low_numbers = numbers.select do |key, value|
+                 value < 25
+               end
+
+p low_numbers
+
 Explanation of Solution Syntax:
+
+numbers = {
+  high:   100,
+  medium: 50,
+  low:    10
+}
+
+low_numbers = numbers.select do |key, value|
+                 value < 25
+               end
+
+p low_numbers
+
 Summary of Solution Syntax:
 This means:
 =end
