@@ -144,12 +144,34 @@ low: is a symbol key.
 10 is a integer value.
 this means low: is a symbol key that is assigned the 10 integer value.
 this means close the hash data structure that is everything after this is outside of the hash data structure.
-Enumerable.map accepts two block parameters which are key and value and returns an array.
+Enumerable.map method accepts two block parameters which are key and value and returns an array.
 do means open block of code.
 |key, value| are the block parameters.
+this means half_numbers is a varaible which is assigned the result of the Enumerable.map method accepting two block 
+parameters which are key and value and returning an array from the variable numbers is assigned a hash data structure 
+containing high: which is a symbol key assigned the 100 integer value, medium: which is a symbol key that is assigned the
+50 integer value, low: which is a symbol key that is assigned the 10 integer value.
+this means close the hash data structure that is everything after this is outside of the hash data structure.
 
-
+Syntax:
                  value / 2
+Explanation:
+value is a block parameter and the value in the key value pairs that make up the variable numbers is assigned a hash data
+structure containing high: which is a symbol key assigned the 100 integer value, medium: which is a symbol key that is 
+assigned the 50 integer value, low: which is a symbol key that is assigned the 10 integer value.
+/ 2 means divide by 2.
+this means half_numbers is a varaible which is assigned the result of the Enumerable.map method accepting two block 
+parameters which are key and value specifically divide value by 2 where value is in the key value pairs that make up the 
+variable numbers is assigned a hash data structure containing high: which is a symbol key assigned the 100 integer value,
+medium: which is a symbol key that is assigned the 50 integer value, low: which is a symbol key that is assigned the 10 
+integer value this is returned as an array.
+
+
+
+
+
+
+
                end
 
 p half_numbers
@@ -173,6 +195,42 @@ low: is a symbol key.
 this means low: is a symbol key that is assigned the 10 integer value.
 this means close the hash data structure that is everything after this is outside of the hash data structure.
 
+half_numbers is a varaible.
+= means assignment.
+numbers is a variable.
+= means assignment.
+{ means open a hash data structure.
+this means the variable numbers is assigned a hash data structure.
+high: is a symbol key.
+100 is a integer value.
+, means more key value pairs following this.
+this means high: is a symbol key assigned the 100 integer value.
+medium: is a symbol key.
+50 is a integer value.
+, means more key value pairs following this.
+this means medium: is a symbol key that is assigned the 50 integer value.
+low: is a symbol key.
+10 is a integer value.
+this means low: is a symbol key that is assigned the 10 integer value.
+this means close the hash data structure that is everything after this is outside of the hash data structure.
+Enumerable.map method accepts two block parameters which are key and value and returns an array.
+do means open block of code.
+|key, value| are the block parameters.
+this means half_numbers is a varaible which is assigned the result of the Enumerable.map method accepting two block 
+parameters which are key and value and returning an array from the variable numbers is assigned a hash data structure 
+containing high: which is a symbol key assigned the 100 integer value, medium: which is a symbol key that is assigned the
+50 integer value, low: which is a symbol key that is assigned the 10 integer value.
+this means close the hash data structure that is everything after this is outside of the hash data structure.
+value is a block parameter and the value in the key value pairs that make up the variable numbers is assigned a hash data
+structure containing high: which is a symbol key assigned the 100 integer value, medium: which is a symbol key that is 
+assigned the 50 integer value, low: which is a symbol key that is assigned the 10 integer value.
+/ 2 means divide by 2.
+this means half_numbers is a varaible which is assigned the result of the Enumerable.map method accepting two block 
+parameters which are key and value specifically divide value by 2 where value is in the key value pairs that make up the 
+variable numbers is assigned a hash data structure containing high: which is a symbol key assigned the 100 integer value,
+medium: which is a symbol key that is assigned the 50 integer value, low: which is a symbol key that is assigned the 10 
+integer value this is returned as an array.
+
 This means:
 
 numbers is a variable.
@@ -191,5 +249,41 @@ low: is a symbol key.
 10 is a integer value.
 this means low: is a symbol key that is assigned the 10 integer value.
 this means close the hash data structure that is everything after this is outside of the hash data structure.
+
+half_numbers is a varaible.
+= means assignment.
+numbers is a variable.
+= means assignment.
+{ means open a hash data structure.
+this means the variable numbers is assigned a hash data structure.
+high: is a symbol key.
+100 is a integer value.
+, means more key value pairs following this.
+this means high: is a symbol key assigned the 100 integer value.
+medium: is a symbol key.
+50 is a integer value.
+, means more key value pairs following this.
+this means medium: is a symbol key that is assigned the 50 integer value.
+low: is a symbol key.
+10 is a integer value.
+this means low: is a symbol key that is assigned the 10 integer value.
+this means close the hash data structure that is everything after this is outside of the hash data structure.
+Enumerable.map method accepts two block parameters which are key and value and returns an array.
+do means open block of code.
+|key, value| are the block parameters.
+this means half_numbers is a varaible which is assigned the result of the Enumerable.map method accepting two block 
+parameters which are key and value and returning an array from the variable numbers is assigned a hash data structure 
+containing high: which is a symbol key assigned the 100 integer value, medium: which is a symbol key that is assigned the
+50 integer value, low: which is a symbol key that is assigned the 10 integer value.
+this means close the hash data structure that is everything after this is outside of the hash data structure.
+value is a block parameter and the value in the key value pairs that make up the variable numbers is assigned a hash data
+structure containing high: which is a symbol key assigned the 100 integer value, medium: which is a symbol key that is 
+assigned the 50 integer value, low: which is a symbol key that is assigned the 10 integer value.
+/ 2 means divide by 2.
+this means half_numbers is a varaible which is assigned the result of the Enumerable.map method accepting two block 
+parameters which are key and value specifically divide value by 2 where value is in the key value pairs that make up the 
+variable numbers is assigned a hash data structure containing high: which is a symbol key assigned the 100 integer value,
+medium: which is a symbol key that is assigned the 50 integer value, low: which is a symbol key that is assigned the 10 
+integer value this is returned as an array.
 
 =end
