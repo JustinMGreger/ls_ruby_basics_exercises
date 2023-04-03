@@ -137,7 +137,14 @@ Syntax:
 Explanation:
 this is the last line of the hash.select method that is everything after this line is outside of the hash.select method.
 
+Syntax:
 p low_numbers
+
+Explanation:
+p means output.
+
+
+
 p numbers
 
 Syntax of Solution:
