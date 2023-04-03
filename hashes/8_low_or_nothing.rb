@@ -173,11 +173,10 @@ return boolean true when block parameters are passed to the variable numbers whi
 containing: high: which is a symbol key that is assigned the 100 integer value, medium: which is a symbol key that is 
 assigned the 50 integer value, low: which is a symbol key that is assigned the 10 integer value.
 this means close the hash data structure that is everything after this line is outside of the hash data structure.
-this means 
-low_numbers is a variable assigned a new hash containing key value pairs from the variable numbers which is assigned
-a hash data structure containing: high: which is a symbol key that is assigned the 100 integer value, medium: which is a 
-symbol key that is assigned the 50 integer value, low: which is a symbol key that is assigned the 10 integer value that 
-return boolean true when values are less than integer 25.
+this means low_numbers is a variable assigned a new hash containing key value pairs from the variable numbers which is 
+assigned a hash data structure containing: high: which is a symbol key that is assigned the 100 integer value, medium: 
+which is a symbol key that is assigned the 50 integer value, low: which is a symbol key that is assigned the 10 integer 
+value that return boolean true when values are less than integer 25.
 the result is low_numbers is assigned a hash containing low: which is a symbol key that is assigned the 10 integer value
 that is low_numbers = {low: 10}
 this means output low_numbers which is a variable assigned a new hash containing key value pairs from the variable numbers
@@ -188,7 +187,30 @@ the result is: low_numbers is assigned a hash containing low: which is a symbol 
 that is low_numbers = {low: 10}.
 the output is: {:low=>10}
 
+Syntax:
 p numbers
+
+Explanation:
+p means output.
+numbers is a variable.
+= means assignment.
+{ means open a hash data structure.
+high: is a symbol key.
+100 is a integer value.
+, means more key value pairs following this.
+this means that high: is a symbol key that is assigned the  100 integer value.
+medium: is a symbol key.
+50 is a integer value.
+, means more key value pairs following this.
+this means that medium: is a symbol key that is assigned the 50 integer value. 
+low: is a symbol key.
+10 is a integer value.
+this means that low: is a symbol key that is assigned the 10 integer value.
+} this means close the hash data structure that is everything after this line is outside of the hash data structure.
+this means output numbers which is a variable which is assigned a hash data structure containing: high: which is a symbol 
+key that is assigned the  100 integer value, medium: which is a symbol key that is assigned the 50 integer value, low: 
+which is a symbol key that is assigned the 10 integer value.
+the output is: {:high=>100, :medium=>50, :low=>10}
 
 Syntax of Solution:
 Explanation of Solution Syntax:
