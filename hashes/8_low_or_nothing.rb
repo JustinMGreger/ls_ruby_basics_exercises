@@ -229,12 +229,36 @@ Modify the code to use #select! instead of #select."
 this means that by using the destructive hash.select! method that the numbers hash data structure was changed instead of 
 low_numbers selecting from the numbers hash data structure to create the new hash data structure that it is assigned.
 
-
-
-
-
 Syntax of Solution:
+
+numbers = {
+  high:   100,
+  medium: 50,
+  low:    10
+}
+
+low_numbers = numbers.select! do |key, value|
+                 value < 25
+               end
+
+p low_numbers
+p numbers
+
 Explanation of Solution Syntax:
+
+numbers = {
+  high:   100,
+  medium: 50,
+  low:    10
+}
+
+low_numbers = numbers.select! do |key, value|
+                 value < 25
+               end
+
+p low_numbers
+p numbers
+
 Summary of Solution Syntax:
 This means:
 =end
