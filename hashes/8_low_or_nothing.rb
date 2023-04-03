@@ -369,7 +369,11 @@ that is assigned the 10 integer value that is numbers = {low: 10}.
 the variable low_numbers is assigned the variable numbers which is assigned a hash data structure has been mutated to 
 contain low: which is a symbol key that is assigned the 10 integer value that is low_numbers = numbers = {low: 10}.
 
+Syntax:
                end
+
+Explanation:
+this is the last line of the hash.select! method that is everything after this line is outside of the hash.select! method.
 
 p low_numbers
 p numbers
@@ -465,7 +469,7 @@ the variable numbers which is assigned a hash data structure has been mutated to
 that is assigned the 10 integer value that is numbers = {low: 10}.
 the variable low_numbers is assigned the variable numbers which is assigned a hash data structure has been mutated to 
 contain low: which is a symbol key that is assigned the 10 integer value that is low_numbers = numbers = {low: 10}.
-
+this is the last line of the hash.select! method that is everything after this line is outside of the hash.select! method.
 
 This means:
 
@@ -558,6 +562,6 @@ the variable numbers which is assigned a hash data structure has been mutated to
 that is assigned the 10 integer value that is numbers = {low: 10}.
 the variable low_numbers is assigned the variable numbers which is assigned a hash data structure has been mutated to 
 contain low: which is a symbol key that is assigned the 10 integer value that is low_numbers = numbers = {low: 10}.
-
+this is the last line of the hash.select! method that is everything after this line is outside of the hash.select! method.
 
 =end
