@@ -219,7 +219,19 @@ Additional Initial Syntax Given:
 {low: 10}
 {low: 10}
 
-Explanation of Initial Syntax Given:
+Explanation of Additional Initial Syntax Given:
+p low_numbers currently has the same output which is {low: 10}
+p numbers currently has the output {:high=>100, :medium=>50, :low=>10}.
+the following instructions were previously given:
+"In the following code, numbers isn't mutated because #select isn't a destructive method. 
+However, there is a destructive version of #select named #select!. 
+Modify the code to use #select! instead of #select."
+this means that by using the destructive hash.select! method that the numbers hash data structure was changed instead of 
+low_numbers selecting from the numbers hash data structure to create the new hash data structure that it is assigned.
+
+
+
+
 
 Syntax of Solution:
 Explanation of Solution Syntax:
