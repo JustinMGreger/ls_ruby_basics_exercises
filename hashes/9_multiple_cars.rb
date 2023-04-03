@@ -22,6 +22,17 @@ Car
 Explanation:
 Car is a hash data structure.
 
+Syntax:
+type	
+sedan	
+
+Explanation:
+type: is a symbol key.
+'sedan' is a string value.
+this means the type: symbol key is assigned the 'sedan' string value.
+
+
+
 
 
 
