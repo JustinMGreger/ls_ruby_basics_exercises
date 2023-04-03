@@ -212,6 +212,9 @@ key that is assigned the  100 integer value, medium: which is a symbol key that 
 which is a symbol key that is assigned the 10 integer value.
 the output is: {:high=>100, :medium=>50, :low=>10}
 
+Additional Description of Exercise:
+Expected output:
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
