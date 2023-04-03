@@ -215,6 +215,12 @@ the output is: {:high=>100, :medium=>50, :low=>10}
 Additional Description of Exercise:
 Expected output:
 
+Additional Initial Syntax Given:
+{low: 10}
+{low: 10}
+
+Explanation of Initial Syntax Given:
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
