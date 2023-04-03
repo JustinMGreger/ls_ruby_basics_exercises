@@ -37,7 +37,14 @@ high: is a symbol key.
 100 is a integer value.
 , means more key value pairs following this.
 
+Syntax:
   medium: 50,
+
+Explanation:
+medium: is a symbol key.
+50 is a integer value.
+, means more key value pairs following this.
+
   low:    10
 }
 
