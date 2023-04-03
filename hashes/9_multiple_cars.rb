@@ -49,9 +49,9 @@ year: is a symbol key.
 this means the year: symbol key is assigned the 2003 integer value.
 
 Summary of Car hash data structure:
-this means the car data structure is assigned a hash data structure containing: type: symbol key which is assigned the 
-'sedan' string value, color: symbol key which is assigned the 'red' string value, year: symbol key which is assigned the 
-1998 integer value.
+this means the Car data structure is assigned a hash data structure containing: type: symbol key which is assigned the 
+'sedan' string value, color: symbol key which is assigned the 'blue' string value, year: symbol key which is assigned the 
+2003 integer value.
 
 Syntax:
 Truck
@@ -85,6 +85,11 @@ Explanaiton:
 year: is a symbol key.
 1998 is a integer value.
 this means the year: symbol key is assigned the 1998 integer value.
+
+Summary of Truck hash data structure:
+this means the Truck data structure is assigned a hash data structure containing: type: symbol key which is assigned the 
+'pickup' string value, color: symbol key which is assigned the 'red' string value, year: symbol key which is assigned the 
+1998 integer value.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
