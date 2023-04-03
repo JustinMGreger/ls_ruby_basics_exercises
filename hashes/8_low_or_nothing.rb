@@ -321,11 +321,10 @@ this means close the hash data structure that is everything after this line is o
 do means open block.
 |key, value| are block parameters and the key value pairs of hash data structure.
 
-
-
-
-
+Syntax:
                  value < 25
+
+Explanation:
                end
 
 p low_numbers
@@ -349,6 +348,37 @@ low: is a symbol key.
 this means that low: is a symbol key that is assigned the 10 integer value.
 this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
+low_numbers is a variable.
+= means assignment.
+numbers is a variable.
+= means assignment.
+{ means open a hash data structure.
+high: is a symbol key.
+100 is a integer value.
+, means more key value pairs following this.
+this means that high: is a symbol key that is assigned the  100 integer value.
+medium: is a symbol key.
+50 is a integer value.
+, means more key value pairs following this.
+this means that medium: is a symbol key that is assigned the 50 integer value.
+low: is a symbol key.
+10 is a integer value.
+this means that low: is a symbol key that is assigned the 10 integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
+hash.select! method mutates the numbers hash data struture and returns a new hash containing key value pairs from the 
+original hash that return boolean true when passed block parameters this results in an alias that is both the numbers and
+low_numbers now point to the same hash data structure.
+do means open block.
+|key, value| are block parameters and the key value pairs of hash data structure.
+this means low_numbers which is a variable assigned a new hash containing key value pairs from the original hash data 
+structure that was mutated that return boolean true when block parameters are passed to the variable numbers which is 
+assigned a hash data structure containing: high: which is a symbol key that is assigned the 100 integer value, medium: 
+which is a symbol key that is assigned the 50 integer value, low: which is a symbol key that is assigned the 10 integer 
+value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
+do means open block.
+|key, value| are block parameters and the key value pairs of hash data structure.
+
 This means:
 
 numbers is a variable.
@@ -366,5 +396,36 @@ low: is a symbol key.
 10 is a integer value.
 this means that low: is a symbol key that is assigned the 10 integer value.
 this means close the hash data structure that is everything after this line is outside of the hash data structure.
+
+low_numbers is a variable.
+= means assignment.
+numbers is a variable.
+= means assignment.
+{ means open a hash data structure.
+high: is a symbol key.
+100 is a integer value.
+, means more key value pairs following this.
+this means that high: is a symbol key that is assigned the  100 integer value.
+medium: is a symbol key.
+50 is a integer value.
+, means more key value pairs following this.
+this means that medium: is a symbol key that is assigned the 50 integer value.
+low: is a symbol key.
+10 is a integer value.
+this means that low: is a symbol key that is assigned the 10 integer value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
+hash.select! method mutates the numbers hash data struture and returns a new hash containing key value pairs from the 
+original hash that return boolean true when passed block parameters this results in an alias that is both the numbers and
+low_numbers now point to the same hash data structure.
+do means open block.
+|key, value| are block parameters and the key value pairs of hash data structure.
+this means low_numbers which is a variable assigned a new hash containing key value pairs from the original hash data 
+structure that was mutated that return boolean true when block parameters are passed to the variable numbers which is 
+assigned a hash data structure containing: high: which is a symbol key that is assigned the 100 integer value, medium: 
+which is a symbol key that is assigned the 50 integer value, low: which is a symbol key that is assigned the 10 integer 
+value.
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
+do means open block.
+|key, value| are block parameters and the key value pairs of hash data structure.
 
 =end
