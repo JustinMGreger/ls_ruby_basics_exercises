@@ -59,9 +59,20 @@ Truck
 Explanation:
 Truck  is a hash data structure.
 
+Syntax:
+type	
+pickup 
 
+Explanation:
+type: is a symbol key.
+'pickup' is a string value.
+this means the type: symbol key is assigned the 'pickup' string value.
 
+color	
+red	
 
+year
+1998
 
 Syntax of Solution:
 Explanation of Solution Syntax:
