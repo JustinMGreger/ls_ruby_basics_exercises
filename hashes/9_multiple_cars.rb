@@ -100,11 +100,24 @@ Syntax of Solution:
 
 Explanation of Solution Syntax:
 
+Syntax:
 {
+
+Explanation:
+open nested hash data structure.
+
+
+
   car:   { type: 'sedan', color: 'blue', year: 2003 },
   truck: { type: 'pickup', color: 'red', year: 1998 }
 }
 
 Summary of Solution Syntax:
+
+open nested hash data structure.
+
 This means:
+
+open nested hash data structure.
+
 =end
