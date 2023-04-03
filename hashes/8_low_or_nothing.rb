@@ -246,7 +246,14 @@ p numbers
 
 Explanation of Solution Syntax:
 
+Syntax:
 numbers = {
+
+Explanation:
+numbers is a variable.
+= means assignment.
+{ means open a hash data structure.
+
   high:   100,
   medium: 50,
   low:    10
@@ -260,5 +267,15 @@ p low_numbers
 p numbers
 
 Summary of Solution Syntax:
+
+numbers is a variable.
+= means assignment.
+{ means open a hash data structure.
+
 This means:
+
+numbers is a variable.
+= means assignment.
+{ means open a hash data structure.
+
 =end
