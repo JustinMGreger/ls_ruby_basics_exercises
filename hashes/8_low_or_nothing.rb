@@ -325,6 +325,16 @@ Syntax:
                  value < 25
 
 Explanation:
+value is block parameter and part of the key value pairs inside of hash data structures.
+< 25 means less that integer 25.
+this means return values less than integer 25 which are boolean true.
+
+
+
+
+
+
+
                end
 
 p low_numbers
