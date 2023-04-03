@@ -16,6 +16,12 @@ pickup red	1998
 
 Explanation of Initial Syntax Given:
 
+Syntax:
+Car
+
+Explanation:
+Car is a hash data structure.
+
 
 
 
