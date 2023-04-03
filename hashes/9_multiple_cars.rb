@@ -92,7 +92,19 @@ this means the Truck data structure is assigned a hash data structure containing
 1998 integer value.
 
 Syntax of Solution:
+
+{
+  car:   { type: 'sedan', color: 'blue', year: 2003 },
+  truck: { type: 'pickup', color: 'red', year: 1998 }
+}
+
 Explanation of Solution Syntax:
+
+{
+  car:   { type: 'sedan', color: 'blue', year: 2003 },
+  truck: { type: 'pickup', color: 'red', year: 1998 }
+}
+
 Summary of Solution Syntax:
 This means:
 =end
