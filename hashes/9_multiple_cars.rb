@@ -1,6 +1,8 @@
 =begin
 Description of Exercise:
 
+Create a nested hash using the following data.
+
 Initial Syntax Given:
 Explanation of Initial Syntax Given:
 Syntax of Solution:
