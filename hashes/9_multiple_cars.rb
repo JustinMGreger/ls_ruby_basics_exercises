@@ -68,8 +68,14 @@ type: is a symbol key.
 'pickup' is a string value.
 this means the type: symbol key is assigned the 'pickup' string value.
 
+Syntax:
 color	
 red	
+
+Explanation:
+color: is a symbol key.
+'red' is a string value.
+this means the color: symbol key is assigned the 'red' string value.
 
 year
 1998
