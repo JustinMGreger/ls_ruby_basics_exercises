@@ -53,8 +53,11 @@ this means the car data structure is assigned a hash data structure containing: 
 'sedan' string value, color: symbol key which is assigned the 'red' string value, year: symbol key which is assigned the 
 1998 integer value.
 
+Syntax:
+Truck
 
-
+Explanation:
+Truck  is a hash data structure.
 
 
 
