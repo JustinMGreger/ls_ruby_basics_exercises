@@ -55,7 +55,11 @@ low: is a symbol key.
 10 is a integer value.
 this means that low: is a symbol key that is assigned the 10 integer value.
 
+Syntax:
 }
+
+Explanation:
+this means close the hash data structure that is everything after this line is outside of the hash data structure.
 
 low_numbers = numbers.select do |key, value|
                  value < 25
