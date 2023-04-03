@@ -31,6 +31,13 @@ type: is a symbol key.
 'sedan' is a string value.
 this means the type: symbol key is assigned the 'sedan' string value.
 
+Syntax:
+color	
+blue	
+
+color: is a symbol key.
+'blue' is a string value.
+this means the color: symbol key is assigned the 'blue' string value.
 
 
 
