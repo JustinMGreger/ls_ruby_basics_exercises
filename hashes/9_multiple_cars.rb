@@ -48,7 +48,10 @@ year: is a symbol key.
 2003 is a integer value.
 this means the year: symbol key is assigned the 2003 integer value.
 
-
+Summary of Car hash data structure:
+this means the car data structure is assigned a hash data structure containing: type: symbol key which is assigned the 
+'sedan' string value, color: symbol key which is assigned the 'red' string value, year: symbol key which is assigned the 
+1998 integer value.
 
 
 
