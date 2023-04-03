@@ -77,8 +77,14 @@ color: is a symbol key.
 'red' is a string value.
 this means the color: symbol key is assigned the 'red' string value.
 
+Syntax:
 year
 1998
+
+Explanaiton:
+year: is a symbol key.
+1998 is a integer value.
+this means the year: symbol key is assigned the 1998 integer value.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
