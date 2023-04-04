@@ -31,9 +31,17 @@ type: is a symbol key.
 , means more key value pairs follow this.
 this means the type: symbol key is assigned the 'sedan' string value.
 
-
-
+Syntax:
   color: 'blue',
+
+Explanation:
+color: is a symbol key.
+'blue' is a string value.
+, means more key value pairs follow this.
+this means the color: symbol key is assigned the 'blue' string value.
+
+
+
   year:  2003
 }
 
