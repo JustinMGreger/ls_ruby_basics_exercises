@@ -64,7 +64,73 @@ Syntax:
 car = [[:type, 'sedan'], [:color, 'blue'], [:year, 2003]]
 
 Explanation:
+car is a variable.
+= means assignment.
+[ means open the nested array.
+[ means open the array.
+:type is a symbol and a element in the array.
+, means seperate the elements in the array.
+'sedan' is a string and a element in the array.
+] means close this array.
+, means more arrays follow this array.
+[ means open the array.
+:color is a symbol and a element in the array.
+, means seperate the elements in the array.
+'blue' is a string and a element in the array.
+] means close this array.
+, means more arrays follow this array.
+[ means open the array.
+:year is a symbol and a element in the array.
+, means seperate the elements in the array.
+2003 is a integer and a element in the array.
+] means close this array.
+] means close this nested array.
 
 Summary of Solution Syntax:
+
+car is a variable.
+= means assignment.
+[ means open the nested array.
+[ means open the array.
+:type is a symbol and a element in the array.
+, means seperate the elements in the array.
+'sedan' is a string and a element in the array.
+] means close this array.
+, means more arrays follow this array.
+[ means open the array.
+:color is a symbol and a element in the array.
+, means seperate the elements in the array.
+'blue' is a string and a element in the array.
+] means close this array.
+, means more arrays follow this array.
+[ means open the array.
+:year is a symbol and a element in the array.
+, means seperate the elements in the array.
+2003 is a integer and a element in the array.
+] means close this array.
+] means close this nested array.
+
 This means:
+
+car is a variable.
+= means assignment.
+[ means open the nested array.
+[ means open the array.
+:type is a symbol and a element in the array.
+, means seperate the elements in the array.
+'sedan' is a string and a element in the array.
+] means close this array.
+, means more arrays follow this array.
+[ means open the array.
+:color is a symbol and a element in the array.
+, means seperate the elements in the array.
+'blue' is a string and a element in the array.
+] means close this array.
+, means more arrays follow this array.
+[ means open the array.
+:year is a symbol and a element in the array.
+, means seperate the elements in the array.
+2003 is a integer and a element in the array.
+] means close this array.
+] means close this nested array.
 =end
