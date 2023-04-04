@@ -158,9 +158,11 @@ contains: type: symbol key which is assigned the 'pickup' string value, color: s
 string value, year: symbol key which is assigned the 1998 integer value.
 } means close hash data structure.
 
-
-
+Syntax:
 }
+
+Explanation:
+close the nested hash data structure that is everything after this line is outside of the nested hash data structure.
 
 Summary of Solution Syntax:
 
@@ -206,6 +208,7 @@ truck: is a symbol key assigned to a hash data structure value { type: 'pickup',
 contains: type: symbol key which is assigned the 'pickup' string value, color: symbol key which is assigned the 'red' 
 string value, year: symbol key which is assigned the 1998 integer value.
 } means close hash data structure.
+close the nested hash data structure that is everything after this line is outside of the nested hash data structure.
 
 This means:
 
@@ -251,5 +254,6 @@ truck: is a symbol key assigned to a hash data structure value { type: 'pickup',
 contains: type: symbol key which is assigned the 'pickup' string value, color: symbol key which is assigned the 'red' 
 string value, year: symbol key which is assigned the 1998 integer value.
 } means close hash data structure.
+close the nested hash data structure that is everything after this line is outside of the nested hash data structure.
 
 =end
