@@ -133,9 +133,33 @@ which contains: type: symbol key which is assigned the 'sedan' string value, col
 } means close hash data structure.
 , means there is another hash data structure following this.
 
-
-
+Syntax:
   truck: { type: 'pickup', color: 'red', year: 1998 }
+
+Explanation:
+truck: is a symbol key.
+{ type: 'pickup', color: 'red', year: 1998 } is a hash data structure value.
+{ means open hash data structure.
+type: is a symbol key.
+'pickup' is a string value.
+this means the type: symbol key is assigned the 'pickup' string value.
+, means there is another key value pair following this.
+color: is a symbol key.
+'red' is a string value.
+this means the color: symbol key is assigned the 'red' string value.
+, means there is another key value pair following this.
+year: is a symbol key.
+1998 is a integer value.
+this means the year: symbol key is assigned the 1998 integer value.
+} means close hash data structure.
+this means:
+truck: is a symbol key assigned to a hash data structure value { type: 'pickup', color: 'red', year: 1998 } which 
+contains: type: symbol key which is assigned the 'pickup' string value, color: symbol key which is assigned the 'red' 
+string value, year: symbol key which is assigned the 1998 integer value.
+} means close hash data structure.
+
+
+
 }
 
 Summary of Solution Syntax:
@@ -162,6 +186,26 @@ which contains: type: symbol key which is assigned the 'sedan' string value, col
 'blue' string value, year: symbol key which is assigned the 2003 integer value.
 } means close hash data structure.
 , means there is another hash data structure following this.
+truck: is a symbol key.
+{ type: 'pickup', color: 'red', year: 1998 } is a hash data structure value.
+{ means open hash data structure.
+type: is a symbol key.
+'pickup' is a string value.
+this means the type: symbol key is assigned the 'pickup' string value.
+, means there is another key value pair following this.
+color: is a symbol key.
+'red' is a string value.
+this means the color: symbol key is assigned the 'red' string value.
+, means there is another key value pair following this.
+year: is a symbol key.
+1998 is a integer value.
+this means the year: symbol key is assigned the 1998 integer value.
+} means close hash data structure.
+this means:
+truck: is a symbol key assigned to a hash data structure value { type: 'pickup', color: 'red', year: 1998 } which 
+contains: type: symbol key which is assigned the 'pickup' string value, color: symbol key which is assigned the 'red' 
+string value, year: symbol key which is assigned the 1998 integer value.
+} means close hash data structure.
 
 This means:
 
@@ -187,5 +231,25 @@ which contains: type: symbol key which is assigned the 'sedan' string value, col
 'blue' string value, year: symbol key which is assigned the 2003 integer value.
 } means close hash data structure.
 , means there is another hash data structure following this.
+truck: is a symbol key.
+{ type: 'pickup', color: 'red', year: 1998 } is a hash data structure value.
+{ means open hash data structure.
+type: is a symbol key.
+'pickup' is a string value.
+this means the type: symbol key is assigned the 'pickup' string value.
+, means there is another key value pair following this.
+color: is a symbol key.
+'red' is a string value.
+this means the color: symbol key is assigned the 'red' string value.
+, means there is another key value pair following this.
+year: is a symbol key.
+1998 is a integer value.
+this means the year: symbol key is assigned the 1998 integer value.
+} means close hash data structure.
+this means:
+truck: is a symbol key assigned to a hash data structure value { type: 'pickup', color: 'red', year: 1998 } which 
+contains: type: symbol key which is assigned the 'pickup' string value, color: symbol key which is assigned the 'red' 
+string value, year: symbol key which is assigned the 1998 integer value.
+} means close hash data structure.
 
 =end
