@@ -55,7 +55,16 @@ Explanation:
 } means close the hash data structure.
 
 Syntax of Solution:
+
+car = [[:type, 'sedan'], [:color, 'blue'], [:year, 2003]]
+
 Explanation of Solution Syntax:
+
+Syntax:
+car = [[:type, 'sedan'], [:color, 'blue'], [:year, 2003]]
+
+Explanation:
+
 Summary of Solution Syntax:
 This means:
 =end
