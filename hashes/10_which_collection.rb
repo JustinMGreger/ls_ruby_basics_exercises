@@ -112,25 +112,10 @@ car is a variable.
 
 This means:
 
-car is a variable.
-= means assignment.
-[ means open the nested array.
-[ means open the array.
-:type is a symbol and a element in the array.
-, means seperate the elements in the array.
-'sedan' is a string and a element in the array.
-] means close this array.
-, means more arrays follow this array.
-[ means open the array.
-:color is a symbol and a element in the array.
-, means seperate the elements in the array.
-'blue' is a string and a element in the array.
-] means close this array.
-, means more arrays follow this array.
-[ means open the array.
-:year is a symbol and a element in the array.
-, means seperate the elements in the array.
-2003 is a integer and a element in the array.
-] means close this array.
-] means close this nested array.
+car is a variable which is assigned the nested array containing: the array containing: :type which is a symbol and a 
+element in the array, 'sedan' which is a string and a element in the array, and the array containing: :color which is a
+symbol and a element in the array, 'blue' which is a string and a element in the array, and the array containing :year 
+which is a symbol and a element in the array, 2003 which is a integer and a element in the array close this array and 
+close this nested array.
+
 =end
