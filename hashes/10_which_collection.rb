@@ -48,9 +48,11 @@ year: is a symbol key.
 2003 is a integer value.
 this means the year: symbol key is assigned the 2003 integer value.
 
-
-
+Syntax:
 }
+
+Explanation:
+} means close the hash data structure.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
