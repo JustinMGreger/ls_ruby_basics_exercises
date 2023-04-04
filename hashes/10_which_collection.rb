@@ -40,9 +40,16 @@ color: is a symbol key.
 , means more key value pairs follow this.
 this means the color: symbol key is assigned the 'blue' string value.
 
-
-
+Syntax:
   year:  2003
+
+Explanation:
+year: is a symbol key.
+2003 is a integer value.
+this means the year: symbol key is assigned the 2003 integer value.
+
+
+
 }
 
 Syntax of Solution:
