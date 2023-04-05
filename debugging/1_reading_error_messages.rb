@@ -24,15 +24,19 @@ def find_first_nonzero_among(numbers)
 
 Explanation:
 def means definition.
-find_first_nonzero_among is a method that accepts the parameter (numbers).
-(numbers) is a parameter.
-this means the method find_first_nonzero_among accepts the parameter (numbers).
+find_first_nonzero_among is a method that accepts the parameter and array (numbers).
+(numbers) is a parameter and an array.
+this means the method find_first_nonzero_among accepts the parameter and array (numbers).
 
 Syntax:
   numbers.each do |n|
 
 Explanation:
-
+numbers is a parameter and array.
+.each method is used for iterating over a collection of elements and executing a block of code for each element.
+do means open a block of code.
+|n| is a block variable that represents each element of the numbers array.
+this means iterate over the collection of |n| elements in the numbers array.
 
 
     return n if n.nonzero?
