@@ -54,10 +54,13 @@ Syntax:
   end
 
 Explanation:
-this is the end of the .nonzero? method that is everything after this line it outside of the .nonzero? method.
+this is the last line of the .nonzero? method that is everything after this line is outside of the .nonzero? method.
 
-
+Syntax:
 end
+
+Explanation:
+this the last line of the .each method that is everything after this line is outside of the .each method.
 
 # Examples
 
