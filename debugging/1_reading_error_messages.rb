@@ -25,12 +25,16 @@ def find_first_nonzero_among(numbers)
 Explanation:
 def means definition.
 find_first_nonzero_among is a method that accepts the argument (numbers).
-(numbers) is a parameter.
+(numbers) is a argument.
 this means the method find_first_nonzero_among accepts the argument (numbers) which accepts parameters.
 
-
-
+Syntax:
   numbers.each do |n|
+
+Explanation:
+
+
+
     return n if n.nonzero?
   end
 end
