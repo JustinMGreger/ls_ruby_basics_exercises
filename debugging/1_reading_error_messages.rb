@@ -44,6 +44,12 @@ Syntax:
 Explanation:
 return means exit the method with the value.
 n is a block variable that represents each element of the parameter numbers array.
+if means do something if boolean true.
+n is a block variable that represents each element of the parameter numbers array.
+.nonzero? is a method used to check if a number is not equal to 0 and returns either nil if the object is 0 or 
+boolean false and returns the original number.
+this means exit the method and return the value of the element if the element is not 0.
+
 
 
   end
