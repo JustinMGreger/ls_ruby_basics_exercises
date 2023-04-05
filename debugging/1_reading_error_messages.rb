@@ -19,7 +19,17 @@ find_first_nonzero_among(1)
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 def find_first_nonzero_among(numbers)
+
+Explanation:
+def means definition.
+find_first_nonzero_among is a method that accepts the argument (numbers).
+(numbers) is a parameter.
+this means the method find_first_nonzero_among accepts the argument (numbers) which accepts parameters.
+
+
+
   numbers.each do |n|
     return n if n.nonzero?
   end
