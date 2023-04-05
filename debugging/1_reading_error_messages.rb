@@ -50,9 +50,13 @@ n is a block variable that represents each element of the parameter numbers arra
 boolean false and returns the original number.
 this means exit the method and return the value of the element if the element is not 0.
 
-
-
+Syntax:
   end
+
+Explanation:
+this is the end of the .nonzero? method that is everything after this line it outside of the .nonzero? method.
+
+
 end
 
 # Examples
