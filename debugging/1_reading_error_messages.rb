@@ -24,9 +24,9 @@ def find_first_nonzero_among(numbers)
 
 Explanation:
 def means definition.
-find_first_nonzero_among is a method that accepts the argument (numbers).
-(numbers) is a argument.
-this means the method find_first_nonzero_among accepts the argument (numbers) which accepts parameters.
+find_first_nonzero_among is a method that accepts the parameter (numbers).
+(numbers) is a parameter.
+this means the method find_first_nonzero_among accepts the parameter (numbers).
 
 Syntax:
   numbers.each do |n|
