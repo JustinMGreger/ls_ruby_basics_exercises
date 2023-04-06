@@ -36,9 +36,21 @@ sunshine is a variable.
 .sample is a method that returns a randomly selected element from the array.
 this means the variable sunshine is assigned the randomly selected string element from the array ['true', 'false'].
 
-
-
+Syntax:
   if sunshine
+
+Explanation:
+if statements mean if boolean true then do something.
+sunshine is a variable.
+= means assignment.
+['true', 'false'] is an array of strings 'true' and 'false'.
+.sample is a method that returns a randomly selected element from the array.
+this means the variable sunshine is assigned the randomly selected string element from the array ['true', 'false'].
+this means:
+if sunshine is boolean true then do something which will always execute because strings are boolean true as the 'true' and
+'false' are strings and not the boolean values true or false.
+
+
     puts "Today's weather will be sunny!"
   else
     puts "Today's weather will be cloudy!"
