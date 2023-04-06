@@ -324,46 +324,13 @@ the result of which is:
 
 This means:
 
-def means definition.
-find_first_nonzero_among is a method that accepts the parameter array (numbers).
-(numbers) is a parameter array.
-this means the method find_first_nonzero_among accepts the parameter array (numbers).
-numbers is a parameter array.
-.each method is used for iterating over a collection of elements and executing a block of code for each element.
-do means open a block of code.
-|n| is a block variable that represents each element of the parameter numbers array.
-this means iterate over the collection of |n| elements in the parameter numbers array.
-return means exit the method with the value.
-n is a block variable that represents each element of the parameter numbers array.
-if means do something if boolean true.
-n is a block variable that represents each element of the parameter numbers array.
-.nonzero? is a method used to check if a number is not equal to 0 and returns either nil if the object is 0 or 
-boolean false and returns the original number.
-this means exit the method and return the value of the element if the element is not 0.
+the method find_first_nonzero_among accepts the parameter array (numbers) to terate over the collection of |n| elements in
+the parameter numbers array and exit the method and return the value of the element if the element is not 0.
 this is the last line of the .nonzero? method that is everything after this line is outside of the .nonzero? method.
 this the last line of the .each method that is everything after this line is outside of the .each method.
 
 this is a comment and a space for examples.
 
-find_first_nonzero_among is a method that accepts the parameter array (numbers).
-(numbers) is a parameter array.
-this means the method find_first_nonzero_among accepts the parameter array (numbers).
-numbers is a parameter array.
-.each method is used for iterating over a collection of elements and executing a block of code for each element.
-do means open a block of code.
-|n| is a block variable that represents each element of the parameter numbers array.
-this means iterate over the collection of |n| elements in the parameter numbers array.
-return means exit the method with the value.
-n is a block variable that represents each element of the parameter numbers array.
-if means do something if boolean true.
-n is a block variable that represents each element of the parameter numbers array.
-.nonzero? is a method used to check if a number is not equal to 0 and returns either nil if the object is 0 or 
-boolean false and returns the original number.
-this means exit the method and return the value of the element if the element is not 0.
-this is the last line of the .nonzero? method that is everything after this line is outside of the .nonzero? method.
-this the last line of the .each method that is everything after this line is outside of the .each method.
-([0, 0, 1, 0, 2, 0]) is an argument array that is passed to find_first_nonzero_among(numbers).
-this means:
 ([0, 0, 1, 0, 2, 0]) is an argument array that is passed to find_first_nonzero_among(numbers) which is a method that 
 accepts the parameter array (numbers) iterate over the collection of elements in the parameter numbers array
 exit the method and return the value of the element if the element is not 0.
@@ -372,25 +339,6 @@ the result of which is:
 0 returns nil.
 1 is boolean false and is returned exiting the .nonzero? method.
 
-find_first_nonzero_among is a method that accepts the parameter array (numbers).
-(numbers) is a parameter array.
-this means the method find_first_nonzero_among accepts the parameter array (numbers).
-numbers is a parameter array.
-.each method is used for iterating over a collection of elements and executing a block of code for each element.
-do means open a block of code.
-|n| is a block variable that represents each element of the parameter numbers array.
-this means iterate over the collection of |n| elements in the parameter numbers array.
-return means exit the method with the value.
-n is a block variable that represents each element of the parameter numbers array.
-if means do something if boolean true.
-n is a block variable that represents each element of the parameter numbers array.
-.nonzero? is a method used to check if a number is not equal to 0 and returns either nil if the object is 0 or 
-boolean false and returns the original number.
-this means exit the method and return the value of the element if the element is not 0.
-this is the last line of the .nonzero? method that is everything after this line is outside of the .nonzero? method.
-this the last line of the .each method that is everything after this line is outside of the .each method.
-([1]) is an argument array that is passed to find_first_nonzero_among(numbers).
-this means:
 ([1]) is an argument array that is passed to find_first_nonzero_among(numbers) which is a method that 
 accepts the parameter array (numbers) iterate over the collection of elements in the parameter numbers array
 exit the method and return the value of the element if the element is not 0.
