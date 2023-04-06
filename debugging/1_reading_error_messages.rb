@@ -181,7 +181,11 @@ end
 Explanation:
 this the last line of the .each method that is everything after this line is outside of the .each method.
 
+Syntax:
 # Examples
+
+Explanation:
+this is a comment and a space for examples.
 
 find_first_nonzero_among([0, 0, 1, 0, 2, 0])
 find_first_nonzero_among([1])
@@ -207,6 +211,8 @@ this means exit the method and return the value of the element if the element is
 this is the last line of the .nonzero? method that is everything after this line is outside of the .nonzero? method.
 this the last line of the .each method that is everything after this line is outside of the .each method.
 
+this is a comment and a space for examples.
+
 This means:
 
 def means definition.
@@ -227,5 +233,7 @@ boolean false and returns the original number.
 this means exit the method and return the value of the element if the element is not 0.
 this is the last line of the .nonzero? method that is everything after this line is outside of the .nonzero? method.
 this the last line of the .each method that is everything after this line is outside of the .each method.
+
+this is a comment and a space for examples.
 
 =end
