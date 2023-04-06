@@ -128,9 +128,18 @@ sunshine is a variable.
 .sample is a method that returns a randomly selected element from the array.
 this means the variable sunshine is assigned the randomly selected boolean element from the array [true, false].
 
-
-
+Syntax:
     puts "Today's weather will be sunny!"
+
+Explanation:
+puts is put s which is put string which is print to the screen the string.
+"Today's weather will be sunny!" is a string.
+this means print to the screen the string "Today's weather will be sunny!".
+
+
+
+
+
   else
     puts "Today's weather will be cloudy!"
   end
@@ -152,6 +161,9 @@ sunshine is a variable.
 [true, false] is a array of boolean values true and false.
 .sample is a method that returns a randomly selected element from the array.
 this means the variable sunshine is assigned the randomly selected boolean element from the array [true, false].
+puts is put s which is put string which is print to the screen the string.
+"Today's weather will be sunny!" is a string.
+this means print to the screen the string "Today's weather will be sunny!".
 
 This means:
 
@@ -169,5 +181,8 @@ sunshine is a variable.
 [true, false] is a array of boolean values true and false.
 .sample is a method that returns a randomly selected element from the array.
 this means the variable sunshine is assigned the randomly selected boolean element from the array [true, false].
+puts is put s which is put string which is print to the screen the string.
+"Today's weather will be sunny!" is a string.
+this means print to the screen the string "Today's weather will be sunny!".
 
 =end
