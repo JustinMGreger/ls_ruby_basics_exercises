@@ -50,8 +50,15 @@ this means:
 if sunshine is boolean true then do something which will always execute because strings are boolean true as the 'true' and
 'false' are strings and not the boolean values true or false.
 
-
+Syntax:
     puts "Today's weather will be sunny!"
+
+Explanation:
+puts is put s which is put string which is print to the screen the string.
+"Today's weather will be sunny!" is a string.
+this means print to the screen the string "Today's weather will be sunny!".
+
+
   else
     puts "Today's weather will be cloudy!"
   end
