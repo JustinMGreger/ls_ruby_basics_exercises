@@ -18,7 +18,16 @@ end
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 def predict_weather
+
+Explantion:
+def means definition.
+predict_weather is a method.
+this means the predict_weather method is defined as follows: 
+
+
+
   sunshine = ['true', 'false'].sample
 
   if sunshine
