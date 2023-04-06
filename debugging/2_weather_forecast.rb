@@ -72,9 +72,13 @@ puts is put s which is put string which is print to the screen the string.
 "Today's weather will be cloudy!" is a string.
 this means print to the screen the string "Today's weather will be cloudy!".
 
-
-
+Syntax:
   end
+
+Explanation:
+this is the last line of the if statement that is everything after this line if outside of the if statement.
+
+
 end
 
 Syntax of Solution:
