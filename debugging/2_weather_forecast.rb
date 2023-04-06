@@ -107,9 +107,15 @@ def means definition.
 predict_weather is a method.
 this means the predict_weather method is defined as follows: 
 
-
-
+Syntax:
   sunshine = [true, false].sample
+
+Explanation:
+sunshine is a variable.
+= means assigned to.
+[true, false] is a array of boolean values true and false.
+.sample is a method that returns a randomly selected element from the array.
+this means the variable sunshine is assigned the randomly selected boolean element from the array [true, false].
 
   if sunshine
     puts "Today's weather will be sunny!"
@@ -123,11 +129,23 @@ Summary of Solution Syntax:
 def means definition.
 predict_weather is a method.
 this means the predict_weather method is defined as follows: 
+sunshine is a variable.
+= means assigned to.
+[true, false] is a array of boolean values true and false.
+.sample is a method that returns a randomly selected element from the array.
+this means the variable sunshine is assigned the randomly selected boolean element from the array [true, false].
+
 
 This means:
 
 def means definition.
 predict_weather is a method.
 this means the predict_weather method is defined as follows: 
+sunshine is a variable.
+= means assigned to.
+[true, false] is a array of boolean values true and false.
+.sample is a method that returns a randomly selected element from the array.
+this means the variable sunshine is assigned the randomly selected boolean element from the array [true, false].
+
 
 =end
