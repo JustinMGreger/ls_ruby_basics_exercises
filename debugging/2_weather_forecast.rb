@@ -26,9 +26,14 @@ def means definition.
 predict_weather is a method.
 this means the predict_weather method is defined as follows: 
 
-
-
+Syntax:
   sunshine = ['true', 'false'].sample
+
+Explanation:
+sunshine is a variable.
+= means assignment.
+
+
 
   if sunshine
     puts "Today's weather will be sunny!"
