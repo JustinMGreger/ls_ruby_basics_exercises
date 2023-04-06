@@ -124,7 +124,31 @@ NoMethodError occurs as the integer 1 is not an array and does not respond to th
 this prevents the rest of the code from being executed.
 
 Syntax of Solution:
+
+def find_first_nonzero_among(numbers)
+  numbers.each do |n|
+    return n if n.nonzero?
+  end
+end
+
+# Examples
+
+find_first_nonzero_among([0, 0, 1, 0, 2, 0])
+find_first_nonzero_among([1])
+
 Explanation of Solution Syntax:
+
+def find_first_nonzero_among(numbers)
+  numbers.each do |n|
+    return n if n.nonzero?
+  end
+end
+
+# Examples
+
+find_first_nonzero_among([0, 0, 1, 0, 2, 0])
+find_first_nonzero_among([1])
+
 Summary of Solution Syntax:
 This means:
 =end
