@@ -99,7 +99,16 @@ end
 
 Explanation of Solution Syntax:
 
+Syntax:
 def predict_weather
+
+Explanation:
+def means definition.
+predict_weather is a method.
+this means the predict_weather method is defined as follows: 
+
+
+
   sunshine = [true, false].sample
 
   if sunshine
@@ -110,5 +119,15 @@ def predict_weather
 end
 
 Summary of Solution Syntax:
+
+def means definition.
+predict_weather is a method.
+this means the predict_weather method is defined as follows: 
+
 This means:
+
+def means definition.
+predict_weather is a method.
+this means the predict_weather method is defined as follows: 
+
 =end
