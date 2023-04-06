@@ -138,7 +138,17 @@ find_first_nonzero_among([1])
 
 Explanation of Solution Syntax:
 
+Syntax:
 def find_first_nonzero_among(numbers)
+
+Explanation:
+def means definition.
+find_first_nonzero_among is a method that accepts the parameter array (numbers).
+(numbers) is a parameter array.
+this means the method find_first_nonzero_among accepts the parameter array (numbers).
+
+
+
   numbers.each do |n|
     return n if n.nonzero?
   end
@@ -150,5 +160,17 @@ find_first_nonzero_among([0, 0, 1, 0, 2, 0])
 find_first_nonzero_among([1])
 
 Summary of Solution Syntax:
+
+def means definition.
+find_first_nonzero_among is a method that accepts the parameter array (numbers).
+(numbers) is a parameter array.
+this means the method find_first_nonzero_among accepts the parameter array (numbers).
+
 This means:
+
+def means definition.
+find_first_nonzero_among is a method that accepts the parameter array (numbers).
+(numbers) is a parameter array.
+this means the method find_first_nonzero_among accepts the parameter array (numbers).
+
 =end
