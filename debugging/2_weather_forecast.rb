@@ -86,7 +86,29 @@ this is the last line of the predict_weather method that is everything after thi
 method.
 
 Syntax of Solution:
+
+def predict_weather
+  sunshine = [true, false].sample
+
+  if sunshine
+    puts "Today's weather will be sunny!"
+  else
+    puts "Today's weather will be cloudy!"
+  end
+end
+
 Explanation of Solution Syntax:
+
+def predict_weather
+  sunshine = [true, false].sample
+
+  if sunshine
+    puts "Today's weather will be sunny!"
+  else
+    puts "Today's weather will be cloudy!"
+  end
+end
+
 Summary of Solution Syntax:
 This means:
 =end
