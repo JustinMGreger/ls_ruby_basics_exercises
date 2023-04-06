@@ -178,6 +178,9 @@ this is the last line of the .nonzero? method that is everything after this line
 Syntax:
 end
 
+Explanation:
+this the last line of the .each method that is everything after this line is outside of the .each method.
+
 # Examples
 
 find_first_nonzero_among([0, 0, 1, 0, 2, 0])
@@ -202,6 +205,7 @@ n is a block variable that represents each element of the parameter numbers arra
 boolean false and returns the original number.
 this means exit the method and return the value of the element if the element is not 0.
 this is the last line of the .nonzero? method that is everything after this line is outside of the .nonzero? method.
+this the last line of the .each method that is everything after this line is outside of the .each method.
 
 This means:
 
@@ -222,5 +226,6 @@ n is a block variable that represents each element of the parameter numbers arra
 boolean false and returns the original number.
 this means exit the method and return the value of the element if the element is not 0.
 this is the last line of the .nonzero? method that is everything after this line is outside of the .nonzero? method.
+this the last line of the .each method that is everything after this line is outside of the .each method.
 
 =end
