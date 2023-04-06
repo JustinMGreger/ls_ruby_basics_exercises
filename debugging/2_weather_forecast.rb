@@ -64,7 +64,16 @@ Syntax:
 Explanation:
 this means if the above was boolean false then execute the following code.
 
+Syntax:
     puts "Today's weather will be cloudy!"
+
+Explanation:
+puts is put s which is put string which is print to the screen the string.
+"Today's weather will be cloudy!" is a string.
+this means print to the screen the string "Today's weather will be cloudy!".
+
+
+
   end
 end
 
