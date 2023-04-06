@@ -32,6 +32,9 @@ Syntax:
 Explanation:
 sunshine is a variable.
 = means assignment.
+['true', 'false'] is an array of strings 'true' and 'false'.
+.sample is a method that returns a randomly selected element from the array.
+this means the variable sunshine is assigned the randomly selected string element from the array ['true', 'false'].
 
 
 
