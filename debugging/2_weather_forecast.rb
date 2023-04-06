@@ -78,8 +78,12 @@ Syntax:
 Explanation:
 this is the last line of the if statement that is everything after this line if outside of the if statement.
 
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the predict_weather method that is everything after this line is outside of the predict_weather
+method.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
