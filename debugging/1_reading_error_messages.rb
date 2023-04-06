@@ -157,9 +157,20 @@ do means open a block of code.
 |n| is a block variable that represents each element of the parameter numbers array.
 this means iterate over the collection of |n| elements in the parameter numbers array.
 
-
-
+Syntax:
     return n if n.nonzero?
+
+Explanation:
+return means exit the method with the value.
+n is a block variable that represents each element of the parameter numbers array.
+if means do something if boolean true.
+n is a block variable that represents each element of the parameter numbers array.
+.nonzero? is a method used to check if a number is not equal to 0 and returns either nil if the object is 0 or 
+boolean false and returns the original number.
+this means exit the method and return the value of the element if the element is not 0.
+
+
+
   end
 end
 
@@ -179,6 +190,13 @@ numbers is a parameter array.
 do means open a block of code.
 |n| is a block variable that represents each element of the parameter numbers array.
 this means iterate over the collection of |n| elements in the parameter numbers array.
+return means exit the method with the value.
+n is a block variable that represents each element of the parameter numbers array.
+if means do something if boolean true.
+n is a block variable that represents each element of the parameter numbers array.
+.nonzero? is a method used to check if a number is not equal to 0 and returns either nil if the object is 0 or 
+boolean false and returns the original number.
+this means exit the method and return the value of the element if the element is not 0.
 
 This means:
 
@@ -191,5 +209,12 @@ numbers is a parameter array.
 do means open a block of code.
 |n| is a block variable that represents each element of the parameter numbers array.
 this means iterate over the collection of |n| elements in the parameter numbers array.
+return means exit the method with the value.
+n is a block variable that represents each element of the parameter numbers array.
+if means do something if boolean true.
+n is a block variable that represents each element of the parameter numbers array.
+.nonzero? is a method used to check if a number is not equal to 0 and returns either nil if the object is 0 or 
+boolean false and returns the original number.
+this means exit the method and return the value of the element if the element is not 0.
 
 =end
