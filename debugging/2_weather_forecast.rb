@@ -117,7 +117,19 @@ sunshine is a variable.
 .sample is a method that returns a randomly selected element from the array.
 this means the variable sunshine is assigned the randomly selected boolean element from the array [true, false].
 
+Syntax:
   if sunshine
+
+Explanation:
+if means if boolean true then execute the following code.
+sunshine is a variable.
+= means assigned to.
+[true, false] is a array of boolean values true and false.
+.sample is a method that returns a randomly selected element from the array.
+this means the variable sunshine is assigned the randomly selected boolean element from the array [true, false].
+
+
+
     puts "Today's weather will be sunny!"
   else
     puts "Today's weather will be cloudy!"
@@ -134,7 +146,12 @@ sunshine is a variable.
 [true, false] is a array of boolean values true and false.
 .sample is a method that returns a randomly selected element from the array.
 this means the variable sunshine is assigned the randomly selected boolean element from the array [true, false].
-
+if means if boolean true then execute the following code.
+sunshine is a variable.
+= means assigned to.
+[true, false] is a array of boolean values true and false.
+.sample is a method that returns a randomly selected element from the array.
+this means the variable sunshine is assigned the randomly selected boolean element from the array [true, false].
 
 This means:
 
@@ -146,6 +163,11 @@ sunshine is a variable.
 [true, false] is a array of boolean values true and false.
 .sample is a method that returns a randomly selected element from the array.
 this means the variable sunshine is assigned the randomly selected boolean element from the array [true, false].
-
+if means if boolean true then execute the following code.
+sunshine is a variable.
+= means assigned to.
+[true, false] is a array of boolean values true and false.
+.sample is a method that returns a randomly selected element from the array.
+this means the variable sunshine is assigned the randomly selected boolean element from the array [true, false].
 
 =end
