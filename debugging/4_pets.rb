@@ -34,10 +34,43 @@ contains: the cat: symbol key which is assigned the 'fluffy' string value, the d
 ['sparky', 'fido'] array of 'sparky' and 'fido' string values, the fish: symbol key which is assigned the 'oscar' string 
 value.
 
-
-
+Syntax:
 pets[:dog] = 'bowser'
 
+Explanation:
+pets is a variable.
+= means assignment.
+{ cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' } is a hash data structure..
+{ means open the hash data structure.
+cat: is a symbol key assigned the 'fluffy' string value.
+dog: is a symbol key assigned the ['sparky', 'fido'] array of 'sparky' and 'fido' string values.
+fish: is a symbol key assigned the 'oscar' string value.
+} means close the hash data structure that is everything after this is outside of the hash data structure.
+this means:
+the pets variable is assigned the { cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' } hash data structure which 
+contains: the cat: symbol key which is assigned the 'fluffy' string value, the dog: symbol key which is assigned the 
+['sparky', 'fido'] array of 'sparky' and 'fido' string values, the fish: symbol key which is assigned the 'oscar' string 
+value.
+[] is used to access the specific symbol key in the hash data structure.
+:dog is a symbol key assigned the ['sparky', 'fido'] array of 'sparky' and 'fido' string values.
+= means assignment.
+'bowser' is a string value
+this means:
+access the dog: symbol key which assigned the ['sparky', 'fido'] array of 'sparky' and 'fido' string values in the pets 
+variable which is assigned the { cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' } hash data structure which 
+contains: the cat: symbol key which is assigned the 'fluffy' string value, the dog: symbol key which is assigned the 
+['sparky', 'fido'] array of 'sparky' and 'fido' string values, the fish: symbol key which is assigned the 'oscar' string 
+value and assign it the 'bowser' string value.
+this results in:
+
+
+
+access the dog: symbol key which assigned the ['sparky', 'fido'] array of 'sparky' and 'fido' string values in the pets 
+variable which is assigned the { cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' } hash data structure which 
+contains: the cat: symbol key which is assigned the 'fluffy' string value, the dog: symbol key which is assigned the 
+['sparky', 'fido'] array of 'sparky' and 'fido' string values, the fish: symbol key which is assigned the 'oscar' string 
+value and assign it the 'bowser' string value.
+=============================================================
 p pets #=> {:cat=>"fluffy", :dog=>"bowser", :fish=>"oscar"}
 
 Syntax of Solution:
