@@ -135,9 +135,17 @@ puts means put s which is put string which is print to the screen the string.
 "Hello! Which number would you like to multiply by 5?" is a string.
 this means print to the screen the string "Hello! Which number would you like to multiply by 5?".
 
-
-
+Syntax:
 number = gets.chomp.to_i
+
+Explanation:
+number is a variable.
+= means assignment.
+gets means get s which is get string which is user input in string form.
+.chomp method means remove new line character at the the end of the string.
+.to_i means convert to an integer.
+this means the variable number is assigned the user input in string form with the new line character at the end of the
+string removed which is then converted to integer form.
 
 puts "The result is #{multiply_by_five(number)}!"
 
@@ -155,6 +163,13 @@ multiply_by_five method.
 puts means put s which is put string which is print to the screen the string.
 "Hello! Which number would you like to multiply by 5?" is a string.
 this means print to the screen the string "Hello! Which number would you like to multiply by 5?".
+number is a variable.
+= means assignment.
+gets means get s which is get string which is user input in string form.
+.chomp method means remove new line character at the the end of the string.
+.to_i means convert to an integer.
+this means the variable number is assigned the user input in string form with the new line character at the end of the
+string removed which is then converted to integer form.
 
 This means:
 
@@ -170,5 +185,12 @@ multiply_by_five method.
 puts means put s which is put string which is print to the screen the string.
 "Hello! Which number would you like to multiply by 5?" is a string.
 this means print to the screen the string "Hello! Which number would you like to multiply by 5?".
+number is a variable.
+= means assignment.
+gets means get s which is get string which is user input in string form.
+.chomp method means remove new line character at the the end of the string.
+.to_i means convert to an integer.
+this means the variable number is assigned the user input in string form with the new line character at the end of the
+string removed which is then converted to integer form.
 
 =end
