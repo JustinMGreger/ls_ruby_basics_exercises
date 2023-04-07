@@ -91,7 +91,27 @@ character at the end of the string removed that is a string which when multiplie
 printed 5 times for example if 10 is enter the output is: The result is 1010101010!
 
 Syntax of Solution:
+
+def multiply_by_five(n)
+  n * 5
+end
+
+puts "Hello! Which number would you like to multiply by 5?"
+number = gets.chomp.to_i
+
+puts "The result is #{multiply_by_five(number)}!"
+
 Explanation of Solution Syntax:
+
+def multiply_by_five(n)
+  n * 5
+end
+
+puts "Hello! Which number would you like to multiply by 5?"
+number = gets.chomp.to_i
+
+puts "The result is #{multiply_by_five(number)}!"
+
 Summary of Solution Syntax:
 This means:
 =end
