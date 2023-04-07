@@ -192,27 +192,9 @@ method.
 
 This means:
 
-def means definition.
-predict_weather is a method.
-this means the predict_weather method is defined as follows: 
-sunshine is a variable.
-= means assigned to.
-[true, false] is a array of boolean values true and false.
-.sample is a method that returns a randomly selected element from the array.
-this means the variable sunshine is assigned the randomly selected boolean element from the array [true, false].
-if means if boolean true then execute the following code.
-sunshine is a variable.
-= means assigned to.
-[true, false] is a array of boolean values true and false.
-.sample is a method that returns a randomly selected element from the array.
-this means the variable sunshine is assigned the randomly selected boolean element from the array [true, false].
-puts is put s which is put string which is print to the screen the string.
-"Today's weather will be sunny!" is a string.
-this means print to the screen the string "Today's weather will be sunny!".
-this means if the above was boolean false then execute the following code.
-puts is put s which is put string which is print to the screen the string.
-"Today's weather will be cloudy!" is a string.
-this means print to the screen the string "Today's weather will be cloudy!".
+the predict_weather method is defined as the variable sunshine is assigned the randomly selected boolean element from the
+array [true, false] if boolean true is selected then print to the screen the string "Today's weather will be sunny!" if
+boolean false is selected then print to the screen the string "Today's weather will be cloudy!".
 this is the last line of the if statement that is everything after this line if outside of the if statement.
 this is the last line of the predict_weather method that is everything after this line is outside of the predict_weather
 method.
