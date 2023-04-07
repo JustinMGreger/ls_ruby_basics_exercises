@@ -103,7 +103,18 @@ puts "The result is #{multiply_by_five(number)}!"
 
 Explanation of Solution Syntax:
 
+Syntax:
 def multiply_by_five(n)
+
+Explanation:
+def means definition.
+multiply_by_five is a method.
+(n) is a parameter.
+this means the multiply_by_five method accepts (n) parameter and is defined as follows:
+
+
+
+
   n * 5
 end
 
@@ -113,5 +124,17 @@ number = gets.chomp.to_i
 puts "The result is #{multiply_by_five(number)}!"
 
 Summary of Solution Syntax:
+
+def means definition.
+multiply_by_five is a method.
+(n) is a parameter.
+this means the multiply_by_five method accepts (n) parameter and is defined as follows:
+
 This means:
+
+def means definition.
+multiply_by_five is a method.
+(n) is a parameter.
+this means the multiply_by_five method accepts (n) parameter and is defined as follows:
+
 =end
