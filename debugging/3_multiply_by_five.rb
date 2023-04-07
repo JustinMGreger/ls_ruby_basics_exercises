@@ -175,13 +175,9 @@ print to the screen the string "The result is #{multiply_by_five(number)}!" whic
 character at the end of the string removed which is then converted to integer form where (number) is the argument passed 
 to the parameter (n) in the multiply_by_five(n) method which is defined as multiply the parameter n by 5.
 which results in:
-
-
-
-
-
-
-
+Hello! Which number would you like to multiply by 5?
+10
+The result is 50!
 
 Summary of Solution Syntax:
 
@@ -194,9 +190,11 @@ n is a parameter.
 this means multiply the parameter n by 5.
 this is the last line of the multiply_by_five method that is everything after this line is outside of the  
 multiply_by_five method.
+
 puts means put s which is put string which is print to the screen the string.
 "Hello! Which number would you like to multiply by 5?" is a string.
 this means print to the screen the string "Hello! Which number would you like to multiply by 5?".
+
 number is a variable.
 = means assignment.
 gets means get s which is get string which is user input in string form.
@@ -204,6 +202,34 @@ gets means get s which is get string which is user input in string form.
 .to_i means convert to an integer.
 this means the variable number is assigned the user input in string form with the new line character at the end of the
 string removed which is then converted to integer form.
+
+puts is put s which is put string which is print to the screen the string.
+"The result is #{multiply_by_five(number)}!" is a string.
+#{multiply_by_five(number)} is string interpolation of the multiply_by_five method that accepts (n) parameter where 
+(number) is the argument passed to the parameter (n).
+def means definition.
+multiply_by_five is a method.
+(n) is a parameter.
+this means the multiply_by_five method accepts (n) parameter and is defined as follows:
+n is a parameter.
+* 5 means multiply by 5.
+this means multiply the parameter n by 5.
+number is a variable.
+= means assignment.
+gets means get s which is get string which is user input in string form.
+.chomp method means remove new line character at the the end of the string.
+.to_i means convert to an integer.
+this means the variable number is assigned the user input in string form with the new line character at the end of the
+string removed which is then converted to integer form.
+this means: 
+print to the screen the string "The result is #{multiply_by_five(number)}!" which is the string interpolation 
+#{multiply_by_five(number)} where the variable number is assigned the user input in string form with the new line 
+character at the end of the string removed which is then converted to integer form where (number) is the argument passed 
+to the parameter (n) in the multiply_by_five(n) method which is defined as multiply the parameter n by 5.
+which results in:
+Hello! Which number would you like to multiply by 5?
+10
+The result is 50!
 
 This means:
 
@@ -216,9 +242,11 @@ n is a parameter.
 this means multiply the parameter n by 5.
 this is the last line of the multiply_by_five method that is everything after this line is outside of the  
 multiply_by_five method.
+
 puts means put s which is put string which is print to the screen the string.
 "Hello! Which number would you like to multiply by 5?" is a string.
 this means print to the screen the string "Hello! Which number would you like to multiply by 5?".
+
 number is a variable.
 = means assignment.
 gets means get s which is get string which is user input in string form.
@@ -226,5 +254,33 @@ gets means get s which is get string which is user input in string form.
 .to_i means convert to an integer.
 this means the variable number is assigned the user input in string form with the new line character at the end of the
 string removed which is then converted to integer form.
+
+puts is put s which is put string which is print to the screen the string.
+"The result is #{multiply_by_five(number)}!" is a string.
+#{multiply_by_five(number)} is string interpolation of the multiply_by_five method that accepts (n) parameter where 
+(number) is the argument passed to the parameter (n).
+def means definition.
+multiply_by_five is a method.
+(n) is a parameter.
+this means the multiply_by_five method accepts (n) parameter and is defined as follows:
+n is a parameter.
+* 5 means multiply by 5.
+this means multiply the parameter n by 5.
+number is a variable.
+= means assignment.
+gets means get s which is get string which is user input in string form.
+.chomp method means remove new line character at the the end of the string.
+.to_i means convert to an integer.
+this means the variable number is assigned the user input in string form with the new line character at the end of the
+string removed which is then converted to integer form.
+this means: 
+print to the screen the string "The result is #{multiply_by_five(number)}!" which is the string interpolation 
+#{multiply_by_five(number)} where the variable number is assigned the user input in string form with the new line 
+character at the end of the string removed which is then converted to integer form where (number) is the argument passed 
+to the parameter (n) in the multiply_by_five(n) method which is defined as multiply the parameter n by 5.
+which results in:
+Hello! Which number would you like to multiply by 5?
+10
+The result is 50!
 
 =end
