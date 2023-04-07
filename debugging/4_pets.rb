@@ -62,15 +62,12 @@ contains: the cat: symbol key which is assigned the 'fluffy' string value, the d
 ['sparky', 'fido'] array of 'sparky' and 'fido' string values, the fish: symbol key which is assigned the 'oscar' string 
 value and assign it the 'bowser' string value.
 this results in:
+the pets variable which is assigned the { cat: 'fluffy', dog: 'bowser', fish: 'oscar' } hash data structure which 
+contains: the cat: symbol key which is assigned the 'fluffy' string value, the dog: symbol key which is assigned 
+the 'bowser' string value, the fish: symbol key which is assigned the 'oscar' string value.
 
 
 
-access the dog: symbol key which assigned the ['sparky', 'fido'] array of 'sparky' and 'fido' string values in the pets 
-variable which is assigned the { cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' } hash data structure which 
-contains: the cat: symbol key which is assigned the 'fluffy' string value, the dog: symbol key which is assigned the 
-['sparky', 'fido'] array of 'sparky' and 'fido' string values, the fish: symbol key which is assigned the 'oscar' string 
-value and assign it the 'bowser' string value.
-=============================================================
 p pets #=> {:cat=>"fluffy", :dog=>"bowser", :fish=>"oscar"}
 
 Syntax of Solution:
