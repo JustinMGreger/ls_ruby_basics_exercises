@@ -16,7 +16,17 @@ puts "The result is #{multiply_by_five(number)}!"
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 def multiply_by_five(n)
+
+Explanation:
+def means definition.
+multiply_by_five is a method.
+(n) is a parameter.
+this means the multiply_by_five method accepts (n) parameter and is defined as follows:
+
+
+
   n * 5
 end
 
