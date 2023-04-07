@@ -48,11 +48,19 @@ puts means put s which is put string which is print to the screen the string.
 "Hello! Which number would you like to multiply by 5?" is a string.
 this means print to the screen the string "Hello! Which number would you like to multiply by 5?".
 
-
-
-
-
+Syntax:
 number = gets.chomp
+
+Explanation:
+number is a variable.
+= means assignment.
+gets means get s which is get string which is user input in string form.
+.chomp method means remove new line character at the the end of the string.
+this means the variable number is assigned the user input in string form with the new line character at the end of the
+string removed.
+
+
+
 
 puts "The result is #{multiply_by_five(number)}!"
 
