@@ -33,9 +33,12 @@ n is a parameter.
 * 5 means multiply by 5.
 this means multiply the parameter n by 5.
 
-
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the multiply_by_five method that is everything after this line is outside of the  
+multiply_by_five method.
 
 puts "Hello! Which number would you like to multiply by 5?"
 number = gets.chomp
