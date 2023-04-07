@@ -112,10 +112,19 @@ multiply_by_five is a method.
 (n) is a parameter.
 this means the multiply_by_five method accepts (n) parameter and is defined as follows:
 
-
-
-
+Syntax:
   n * 5
+
+Explanaiton:
+n is a parameter.
+* 5 means multiply by 5.
+this means multiply the parameter n by 5.
+
+
+
+
+
+
 end
 
 puts "Hello! Which number would you like to multiply by 5?"
@@ -129,6 +138,9 @@ def means definition.
 multiply_by_five is a method.
 (n) is a parameter.
 this means the multiply_by_five method accepts (n) parameter and is defined as follows:
+n is a parameter.
+* 5 means multiply by 5.
+this means multiply the parameter n by 5.
 
 This means:
 
@@ -136,5 +148,8 @@ def means definition.
 multiply_by_five is a method.
 (n) is a parameter.
 this means the multiply_by_five method accepts (n) parameter and is defined as follows:
+n is a parameter.
+* 5 means multiply by 5.
+this means multiply the parameter n by 5.
 
 =end
