@@ -115,12 +115,62 @@ p pets #=> {:cat=>"fluffy", :dog=>["sparky", "fido", "bowser"], :fish=>"oscar"}
 
 Explanation of Solution Syntax:
 
+Syntax:
 pets = { cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' }
+
+Explanation:
+pets is a variable.
+= means assignment.
+{ cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' } is a hash data structure..
+{ means open the hash data structure.
+cat: is a symbol key assigned the 'fluffy' string value.
+dog: is a symbol key assigned the ['sparky', 'fido'] array of 'sparky' and 'fido' string values.
+fish: is a symbol key assigned the 'oscar' string value.
+} means close the hash data structure that is everything after this is outside of the hash data structure.
+this means:
+the pets variable is assigned the { cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' } hash data structure which 
+contains: the cat: symbol key which is assigned the 'fluffy' string value, the dog: symbol key which is assigned the 
+['sparky', 'fido'] array of 'sparky' and 'fido' string values, the fish: symbol key which is assigned the 'oscar' string 
+value.
+
+
+
+
 
 pets[:dog].push('bowser')
 
 p pets #=> {:cat=>"fluffy", :dog=>["sparky", "fido", "bowser"], :fish=>"oscar"}
 
 Summary of Solution Syntax:
+
+pets is a variable.
+= means assignment.
+{ cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' } is a hash data structure..
+{ means open the hash data structure.
+cat: is a symbol key assigned the 'fluffy' string value.
+dog: is a symbol key assigned the ['sparky', 'fido'] array of 'sparky' and 'fido' string values.
+fish: is a symbol key assigned the 'oscar' string value.
+} means close the hash data structure that is everything after this is outside of the hash data structure.
+this means:
+the pets variable is assigned the { cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' } hash data structure which 
+contains: the cat: symbol key which is assigned the 'fluffy' string value, the dog: symbol key which is assigned the 
+['sparky', 'fido'] array of 'sparky' and 'fido' string values, the fish: symbol key which is assigned the 'oscar' string 
+value.
+
 This means:
+
+pets is a variable.
+= means assignment.
+{ cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' } is a hash data structure..
+{ means open the hash data structure.
+cat: is a symbol key assigned the 'fluffy' string value.
+dog: is a symbol key assigned the ['sparky', 'fido'] array of 'sparky' and 'fido' string values.
+fish: is a symbol key assigned the 'oscar' string value.
+} means close the hash data structure that is everything after this is outside of the hash data structure.
+this means:
+the pets variable is assigned the { cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' } hash data structure which 
+contains: the cat: symbol key which is assigned the 'fluffy' string value, the dog: symbol key which is assigned the 
+['sparky', 'fido'] array of 'sparky' and 'fido' string values, the fish: symbol key which is assigned the 'oscar' string 
+value.
+
 =end
