@@ -156,11 +156,12 @@ Syntax:
 Explanation:
 this is the last line of the if statement that is everything after this line if outside of the if statement.
 
-
-
-
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the predict_weather method that is everything after this line is outside of the predict_weather
+method.
 
 Summary of Solution Syntax:
 
@@ -186,6 +187,8 @@ puts is put s which is put string which is print to the screen the string.
 "Today's weather will be cloudy!" is a string.
 this means print to the screen the string "Today's weather will be cloudy!".
 this is the last line of the if statement that is everything after this line if outside of the if statement.
+this is the last line of the predict_weather method that is everything after this line is outside of the predict_weather
+method.
 
 This means:
 
@@ -211,5 +214,7 @@ puts is put s which is put string which is print to the screen the string.
 "Today's weather will be cloudy!" is a string.
 this means print to the screen the string "Today's weather will be cloudy!".
 this is the last line of the if statement that is everything after this line if outside of the if statement.
+this is the last line of the predict_weather method that is everything after this line is outside of the predict_weather
+method.
 
 =end
