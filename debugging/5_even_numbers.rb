@@ -107,14 +107,50 @@ p even_numbers #=> [2, 6, 8]
 
 Explanation of Solution Syntax:
 
+Syntax:
 numbers = [5, 2, 9, 6, 3, 1, 8]
 
+Explanation:
+numbers is a variable.
+= means assignment.
+[5, 2, 9, 6, 3, 1, 8] is an array of integers.
+this means the variable numbers is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
+
+Syntax:
 even_numbers = numbers.select do |n|
+
+Explanation:
+even_numbers is a variable.
+= means assignment.
+numbers is a variable.
+= means assignment.
+[5, 2, 9, 6, 3, 1, 8] is an array of integers.
+this means the variable numbers is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
+.select method filters elements in the array for a condition that returns boolean true.
+
+
+
+
+
+
   n.even?
 end
 
 p even_numbers #=> [2, 6, 8]
 
 Summary of Solution Syntax:
+
+numbers is a variable.
+= means assignment.
+[5, 2, 9, 6, 3, 1, 8] is an array of integers.
+this means the variable numbers is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
+
 This means:
+
+numbers is a variable.
+= means assignment.
+[5, 2, 9, 6, 3, 1, 8] is an array of integers.
+this means the variable numbers is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
+
+
 =end
