@@ -287,38 +287,11 @@ is assigned the 'oscar' string value.
 
 This means:
 
-pets is a variable.
-= means assignment.
-{ cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' } is a hash data structure..
-{ means open the hash data structure.
-cat: is a symbol key assigned the 'fluffy' string value.
-dog: is a symbol key assigned the ['sparky', 'fido'] array of 'sparky' and 'fido' string values.
-fish: is a symbol key assigned the 'oscar' string value.
-} means close the hash data structure that is everything after this is outside of the hash data structure.
-this means:
 the pets variable is assigned the { cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' } hash data structure which 
 contains: the cat: symbol key which is assigned the 'fluffy' string value, the dog: symbol key which is assigned the 
 ['sparky', 'fido'] array of 'sparky' and 'fido' string values, the fish: symbol key which is assigned the 'oscar' string 
 value.
 
-pets is a variable.
-= means assignment.
-{ cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' } is a hash data structure..
-{ means open the hash data structure.
-cat: is a symbol key assigned the 'fluffy' string value.
-dog: is a symbol key assigned the ['sparky', 'fido'] array of 'sparky' and 'fido' string values.
-fish: is a symbol key assigned the 'oscar' string value.
-} means close the hash data structure that is everything after this is outside of the hash data structure.
-this means:
-the pets variable is assigned the { cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' } hash data structure which 
-contains: the cat: symbol key which is assigned the 'fluffy' string value, the dog: symbol key which is assigned the 
-['sparky', 'fido'] array of 'sparky' and 'fido' string values, the fish: symbol key which is assigned the 'oscar' string 
-value.
-[] is used to access the specific symbol key in the hash data structure.
-:dog is a symbol key assigned the ['sparky', 'fido'] array of 'sparky' and 'fido' string values.
-.push method appends a element to the end of the array.
-('bowser') is a string value.
-this means:
 access the :dog symbol key which is assigned the ['sparky', 'fido'] array of 'sparky' and 'fido' string values in the pets
 variable is assigned the { cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' } hash data structure which contains: the
 cat: symbol key which is assigned the 'fluffy' string value, the dog: symbol key which is assigned the ['sparky', 'fido'] 
@@ -330,36 +303,6 @@ which contains: the cat: symbol key which is assigned the 'fluffy' string value,
 ['sparky', 'fido', 'bowser'] array of 'sparky', 'fido' and 'bowser' string values, the fish: symbol key which is assigned
 the 'oscar' string value.
 
-p means output.
-pets is a variable.
-= means assignment.
-{ cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' } is a hash data structure..
-{ means open the hash data structure.
-cat: is a symbol key assigned the 'fluffy' string value.
-dog: is a symbol key assigned the ['sparky', 'fido'] array of 'sparky' and 'fido' string values.
-fish: is a symbol key assigned the 'oscar' string value.
-} means close the hash data structure that is everything after this is outside of the hash data structure.
-this means:
-the pets variable is assigned the { cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' } hash data structure which 
-contains: the cat: symbol key which is assigned the 'fluffy' string value, the dog: symbol key which is assigned the 
-['sparky', 'fido'] array of 'sparky' and 'fido' string values, the fish: symbol key which is assigned the 'oscar' string 
-value.
-[] is used to access the specific symbol key in the hash data structure.
-:dog is a symbol key assigned the ['sparky', 'fido'] array of 'sparky' and 'fido' string values.
-.push method appends a element to the end of the array.
-('bowser') is a string value.
-this means:
-access the :dog symbol key which is assigned the ['sparky', 'fido'] array of 'sparky' and 'fido' string values in the pets
-variable is assigned the { cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' } hash data structure which contains: the
-cat: symbol key which is assigned the 'fluffy' string value, the dog: symbol key which is assigned the ['sparky', 'fido'] 
-array of 'sparky' and 'fido' string values, the fish: symbol key which is assigned the 'oscar' string value and append the
-'bowser' string value element to the end of the array.
-this results in:
-the pets variable is assigned the { cat: 'fluffy', dog: ['sparky', 'fido', bowser], fish: 'oscar' } hash data structure 
-which contains: the cat: symbol key which is assigned the 'fluffy' string value, the dog: symbol key which is assigned the
-['sparky', 'fido', 'bowser'] array of 'sparky', 'fido' and 'bowser' string values, the fish: symbol key which is assigned
-the 'oscar' string value.
-this means: 
 output the pets variable is assigned the { cat: 'fluffy', dog: ['sparky', 'fido', bowser], fish: 'oscar' } hash data 
 structure which contains: the cat: symbol key which is assigned the 'fluffy' string value, the dog: symbol key which is 
 assigned the ['sparky', 'fido', 'bowser'] array of 'sparky', 'fido' and 'bowser' string values, the fish: symbol key which
