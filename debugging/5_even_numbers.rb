@@ -42,9 +42,19 @@ this means:
 the variable even_numbers is assigned the new array that is returned from transforming each element in the variable 
 numbers which is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
 
-
-
+Syntax:
   n if n.even?
+
+Explanation:
+n is the block parameter.
+if statements mean if boolean true then execute the code.
+n is the block parameter.
+.even? means if the integer is even then boolean true and no instructions are given if false so the default return value
+is nil.
+this means:
+return n which is the block parameter if n which is the block parameter is even otherwise return nil.
+
+
 end
 
 p even_numbers # expected output: [2, 6, 8]
