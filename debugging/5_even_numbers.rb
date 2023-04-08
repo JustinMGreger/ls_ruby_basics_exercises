@@ -25,8 +25,25 @@ numbers is a variable.
 [5, 2, 9, 6, 3, 1, 8] is an array of integers.
 this means the variable numbers is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
 
-
+Syntax:
 even_numbers = numbers.map do |n|
+
+Explanation:
+even_numbers is a variable.
+= means assignment.
+numbers is a variable.
+= means assignment.
+[5, 2, 9, 6, 3, 1, 8] is an array of integers.
+this means the variable numbers is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
+.map method transforms each element of an enumerable object and returns a new array with the transformed elements.
+do means open block.
+|n| is the block parameter.
+this means:
+the variable even_numbers is assigned the new array that is returned from transforming each element in the variable 
+numbers which is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
+
+
+
   n if n.even?
 end
 
