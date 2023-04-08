@@ -54,8 +54,11 @@ is nil.
 this means:
 return n which is the block parameter if n which is the block parameter is even otherwise return nil.
 
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the .map method that is everything after this is outside of the .map method.
 
 p even_numbers # expected output: [2, 6, 8]
 
