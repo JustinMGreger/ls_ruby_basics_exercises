@@ -96,7 +96,25 @@ the output of which is:
 [nil, 2, nil, 6, nil, nil, 8]
 
 Syntax of Solution:
+
+numbers = [5, 2, 9, 6, 3, 1, 8]
+
+even_numbers = numbers.select do |n|
+  n.even?
+end
+
+p even_numbers #=> [2, 6, 8]
+
 Explanation of Solution Syntax:
+
+numbers = [5, 2, 9, 6, 3, 1, 8]
+
+even_numbers = numbers.select do |n|
+  n.even?
+end
+
+p even_numbers #=> [2, 6, 8]
+
 Summary of Solution Syntax:
 This means:
 =end
