@@ -60,7 +60,40 @@ end
 Explanation:
 this is the last line of the .map method that is everything after this is outside of the .map method.
 
+Syntax:
 p even_numbers # expected output: [2, 6, 8]
+
+Explanation:
+p means output.
+even_numbers is a variable.
+= means assignment.
+numbers is a variable.
+= means assignment.
+[5, 2, 9, 6, 3, 1, 8] is an array of integers.
+this means the variable numbers is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
+.map method transforms each element of an enumerable object and returns a new array with the transformed elements.
+do means open block.
+|n| is the block parameter.
+this means:
+the variable even_numbers is assigned the new array that is returned from transforming each element in the variable 
+numbers which is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
+n is the block parameter.
+if statements mean if boolean true then execute the code.
+n is the block parameter.
+.even? means if the integer is even then boolean true and no instructions are given if false so the default return value
+is nil.
+this means:
+return n which is the block parameter if n which is the block parameter is even otherwise return nil.
+this is the last line of the .map method that is everything after this is outside of the .map method.
+this means:
+output the variable even_numbers which is assigned the new array that is returned from transforming each element in the 
+variable numbers which is assigned the array of integers [5, 2, 9, 6, 3, 1, 8] by returning n which is the block parameter
+if n which is the block parameter is even otherwise return nil.
+this is the last line of the .map method that is everything after this is outside of the .map method.
+the result of which is:
+the variable even_numbers is assigned the new array of integers [nil, 2, nil, 6, nil, nil, 8].
+the output of which is: 
+[nil, 2, nil, 6, nil, nil, 8]
 
 Syntax of Solution:
 Explanation of Solution Syntax:
