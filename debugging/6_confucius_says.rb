@@ -73,8 +73,13 @@ Syntax:
 
 Explanation:
  'I hear and I forget. I see and I remember. I do and I understand.' is a string.
-  
+
+Syntax:
   end
+
+Explanation:
+this is the last line in the if statement that is everything after this line is outside of the if statement.
+
 
   if person == 'Einstein'
     'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.'
