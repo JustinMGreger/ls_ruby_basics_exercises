@@ -27,7 +27,16 @@ puts '"' + get_quote('Confucius') + '"'
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 def get_quote(person)
+
+Explanation:
+def means definition.
+get_quote is a method.
+(person) is a parameter.
+this means the get_quote method accepts the parameter (person) and is defined as the following:
+
+
   if person == 'Yoda'
     'Do. Or do not. There is no try.'
   end
