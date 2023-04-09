@@ -224,9 +224,15 @@ person is a parameter.
 'Yoda' is a string.
 this means if the parameter is equal to the string 'Yoda' then execute the code.
 
-
-
+Syntax:
     'Do. Or do not. There is no try.'
+
+Explanation:
+'Do. Or do not. There is no try.' is a string.
+
+
+
+
   elsif person == 'Confucius'
     'I hear and I forget. I see and I remember. I do and I understand.'
   elsif person == 'Einstein'
@@ -245,6 +251,7 @@ person is a parameter.
 == means equal to.
 'Yoda' is a string.
 this means if the parameter is equal to the string 'Yoda' then execute the code.
+'Do. Or do not. There is no try.' is a string.
 
 
 This means:
@@ -258,6 +265,7 @@ person is a parameter.
 == means equal to.
 'Yoda' is a string.
 this means if the parameter is equal to the string 'Yoda' then execute the code.
+'Do. Or do not. There is no try.' is a string.
 
 
 =end
