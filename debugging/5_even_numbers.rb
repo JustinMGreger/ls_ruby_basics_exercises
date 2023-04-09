@@ -127,9 +127,10 @@ numbers is a variable.
 [5, 2, 9, 6, 3, 1, 8] is an array of integers.
 this means the variable numbers is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
 .select method filters elements in the array for a condition that returns boolean true.
-
-
-
+do means open block.
+|n| is a block parameter.
+this means the variable even_numbers is assigned the filtered elmenents that return boolean true in the variable numbers 
+which is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
 
 
 
