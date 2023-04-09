@@ -268,7 +268,11 @@ Syntax:
 Explanation:
 this is the last line in the if statement that is everything after this line is outside of the if statement.
 
+Syntax:
 end
+
+Explanation:
+this is the last line of the get_quote method that is everything after this line is outside of the get_quote method.
 
 Summary of Solution Syntax:
 
@@ -295,6 +299,7 @@ person is a parameter.
 this means if the above is not boolean true then if the parameter is equal to the string 'Einstein' then execute the code.
 'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.' is a string.
 this is the last line in the if statement that is everything after this line is outside of the if statement.
+this is the last line of the get_quote method that is everything after this line is outside of the get_quote method.
 
 This means:
 
@@ -321,5 +326,6 @@ person is a parameter.
 this means if the above is not boolean true then if the parameter is equal to the string 'Einstein' then execute the code.
 'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.' is a string.
 this is the last line in the if statement that is everything after this line is outside of the if statement.
+this is the last line of the get_quote method that is everything after this line is outside of the get_quote method.
 
 =end
