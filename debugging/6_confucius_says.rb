@@ -205,8 +205,27 @@ end
 
 Explanation of Solution Syntax:
 
+Syntax:
 def get_quote(person)
+
+Explanation:
+def means definition.
+get_quote is a method.
+(person) is a parameter.
+this means the get_quote method accepts the parameter (person) and is defined as the following:
+
+Syntax:
   if person == 'Yoda'
+
+Explanation:
+if statements mean if condition returns boolean true then execute the code.
+person is a parameter.
+== means equal to.
+'Yoda' is a string.
+this means if the parameter is equal to the string 'Yoda' then execute the code.
+
+
+
     'Do. Or do not. There is no try.'
   elsif person == 'Confucius'
     'I hear and I forget. I see and I remember. I do and I understand.'
@@ -216,5 +235,29 @@ def get_quote(person)
 end
 
 Summary of Solution Syntax:
+
+def means definition.
+get_quote is a method.
+(person) is a parameter.
+this means the get_quote method accepts the parameter (person) and is defined as the following:
+if statements mean if condition returns boolean true then execute the code.
+person is a parameter.
+== means equal to.
+'Yoda' is a string.
+this means if the parameter is equal to the string 'Yoda' then execute the code.
+
+
 This means:
+
+def means definition.
+get_quote is a method.
+(person) is a parameter.
+this means the get_quote method accepts the parameter (person) and is defined as the following:
+if statements mean if condition returns boolean true then execute the code.
+person is a parameter.
+== means equal to.
+'Yoda' is a string.
+this means if the parameter is equal to the string 'Yoda' then execute the code.
+
+
 =end
