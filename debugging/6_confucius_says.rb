@@ -116,8 +116,67 @@ puts means put s which is put string which means print to the screen the string.
 'Confucius says:' is a string.
 this means print to the screen the string 'Confucius says:'
 
+Syntax:
 puts '"' + get_quote('Confucius') + '"'
 
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+'"' + get_quote('Confucius') + '"' is a string with interpolation.
+def means definition.
+get_quote is a method.
+(person) is a parameter.
+this means the get_quote method accepts the parameter (person) and is defined as the following:
+if statements mean if condition returns boolean true then execute the code.
+person is a parameter.
+== means equal to.
+'Yoda' is a string.
+this means if the parameter is equal to the string 'Yoda' then execute the code.
+'Do. Or do not. There is no try.' is a string.
+this is the last line in the if statement that is everything after this line is outside of the if statement.
+if statements mean if condition returns boolean true then execute the code.
+person is a parameter.
+== means equal to.
+'Confucius' is a string.
+this means if the parameter is equal to the string 'Confucius' then execute the code.
+ 'I hear and I forget. I see and I remember. I do and I understand.' is a string.
+this is the last line in the if statement that is everything after this line is outside of the if statement.
+if statements mean if condition returns boolean true then execute the code.
+person is a parameter.
+== means equal to.
+'Einstein' is a string.
+this means if the parameter is equal to the string 'Einstein' then execute the code.
+'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.' is a string.
+this is the last line in the if statement that is everything after this line is outside of the if statement.
+this is the last line of the get_quote method that is everything after this line is outside of the get_quote method.
+" means start double quotations.
++ concatenate the string.
+('Confucius') is the argument that the parameter person accepts in the get_quote method.
++ concatenate the string.
+" means close the double quotations.
+========================================
+this means:
+print to the screen the string the string interpolation '"' + get_quote('Confucius') + '"'
+which is open double quotations concatenate the string with the get_quote method accepts the parameter (person) and is 
+defined as the following: if the parameter is equal to the string 'Yoda' then execute the code: 'Do. Or do not. There is 
+no try.' nothing is explicitly coded to happen.
+this is the last line in the if statement that is everything after this line is outside of the if statement.
+
+if the parameter is equal to the string 'Confucius' then execute the code: 'I hear and I forget. I see and I remember. I 
+do and I understand.' nothing is explicitly coded to happen.
+this is the last line in the if statement that is everything after this line is outside of the if statement.
+
+if the parameter is equal to the string 'Einstein' then execute the code: 'Do not worry about your difficulties in 
+Mathematics. I can assure you mine are still greater.' nothing is explicitly coded to happen.
+this is the last line in the if statement that is everything after this line is outside of the if statement.
+this is the last line of the get_quote method that is everything after this line is outside of the get_quote method.
+('Confucius') is the argument that the parameter person accepts in the get_quote method.
++ concatenate the string.
+" means close the double quotations.
+
+this results in:
+
+
+==========================
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
