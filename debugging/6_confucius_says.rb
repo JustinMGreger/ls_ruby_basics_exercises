@@ -80,8 +80,17 @@ Syntax:
 Explanation:
 this is the last line in the if statement that is everything after this line is outside of the if statement.
 
-
+Syntax:
   if person == 'Einstein'
+
+Explanation:
+if statements mean if condition returns boolean true then execute the code.
+person is a parameter.
+== means equal to.
+'Einstein' is a string.
+this means if the parameter is equal to the string 'Einstein' then execute the code.
+
+
     'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.'
   end
 end
