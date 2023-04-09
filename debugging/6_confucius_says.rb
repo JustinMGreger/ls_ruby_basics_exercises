@@ -96,7 +96,13 @@ Syntax:
 Explanation:
 'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.' is a string.
 
+Syntax:
   end
+
+Explanation:
+this is the last line in the if statement that is everything after this line is outside of the if statement.
+
+
 end
 
 puts 'Confucius says:'
