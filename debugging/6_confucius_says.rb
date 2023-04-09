@@ -68,8 +68,12 @@ person is a parameter.
 'Confucius' is a string.
 this means if the parameter is equal to the string 'Confucius' then execute the code.
 
-
+Syntax:
     'I hear and I forget. I see and I remember. I do and I understand.'
+
+Explanation:
+ 'I hear and I forget. I see and I remember. I do and I understand.' is a string.
+  
   end
 
   if person == 'Einstein'
