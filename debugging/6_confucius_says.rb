@@ -230,10 +230,20 @@ Syntax:
 Explanation:
 'Do. Or do not. There is no try.' is a string.
 
-
-
-
+Syntax:
   elsif person == 'Confucius'
+
+Explanation:
+if the above is not boolean true then if the following code returns boolean true then execute the code that follows this.
+person is a parameter.
+== means equal to.
+'Confucius' is a string.
+this means if the above is not boolean true then if the parameter is equal to the string 'Confucius' then execute the code.
+
+
+
+
+
     'I hear and I forget. I see and I remember. I do and I understand.'
   elsif person == 'Einstein'
     'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.'
@@ -252,6 +262,12 @@ person is a parameter.
 'Yoda' is a string.
 this means if the parameter is equal to the string 'Yoda' then execute the code.
 'Do. Or do not. There is no try.' is a string.
+if the above is not boolean true then if the following code returns boolean true then execute the code that follows this.
+person is a parameter.
+== means equal to.
+'Confucius' is a string.
+this means if the above is not boolean true then if the parameter is equal to the string 'Confucius' then execute the code.
+
 
 
 This means:
@@ -266,6 +282,12 @@ person is a parameter.
 'Yoda' is a string.
 this means if the parameter is equal to the string 'Yoda' then execute the code.
 'Do. Or do not. There is no try.' is a string.
+if the above is not boolean true then if the following code returns boolean true then execute the code that follows this.
+person is a parameter.
+== means equal to.
+'Confucius' is a string.
+this means if the above is not boolean true then if the parameter is equal to the string 'Confucius' then execute the code.
+
 
 
 =end
