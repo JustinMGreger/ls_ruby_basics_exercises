@@ -46,8 +46,12 @@ person is a parameter.
 'Yoda' is a string.
 this means if the parameter is equal to the string 'Yoda' then execute the code.
 
-
+Syntax:
     'Do. Or do not. There is no try.'
+
+Explanation:
+'Do. Or do not. There is no try.' is a string.
+
   end
 
   if person == 'Confucius'
