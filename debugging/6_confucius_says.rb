@@ -153,18 +153,15 @@ this is the last line of the get_quote method that is everything after this line
 ('Confucius') is the argument that the parameter person accepts in the get_quote method.
 + concatenate the string.
 " means close the double quotations.
-========================================
 this means:
 print to the screen the string the string interpolation '"' + get_quote('Confucius') + '"'
 which is open double quotations concatenate the string with the get_quote method accepts the parameter (person) and is 
 defined as the following: if the parameter is equal to the string 'Yoda' then execute the code: 'Do. Or do not. There is 
 no try.' nothing is explicitly coded to happen.
 this is the last line in the if statement that is everything after this line is outside of the if statement.
-
 if the parameter is equal to the string 'Confucius' then execute the code: 'I hear and I forget. I see and I remember. I 
 do and I understand.' nothing is explicitly coded to happen.
 this is the last line in the if statement that is everything after this line is outside of the if statement.
-
 if the parameter is equal to the string 'Einstein' then execute the code: 'Do not worry about your difficulties in 
 Mathematics. I can assure you mine are still greater.' nothing is explicitly coded to happen.
 this is the last line in the if statement that is everything after this line is outside of the if statement.
@@ -172,11 +169,28 @@ this is the last line of the get_quote method that is everything after this line
 ('Confucius') is the argument that the parameter person accepts in the get_quote method.
 + concatenate the string.
 " means close the double quotations.
-
 this results in:
+print to the screen the string the string interpolation '"' + get_quote('Confucius') + '"'
+which is open double quotations concatenate the string with the get_quote method accepts the parameter (person) and is 
+defined as the following: if the parameter is equal to the string 'Yoda' then execute the code: 'Do. Or do not. There is 
+no try.' nothing is explicitly coded to happen.
+this is the last line in the if statement that is everything after this line is outside of the if statement.
+if the parameter is equal to the string 'Confucius' then execute the code: 'I hear and I forget. I see and I remember. I 
+do and I understand.' nothing is explicitly coded to happen.
+this is the last line in the if statement that is everything after this line is outside of the if statement.
+if the parameter is equal to the string 'Einstein' then execute the code: 'Do not worry about your difficulties in 
+Mathematics. I can assure you mine are still greater.' nothing is explicitly coded to happen.
+this is the last line in the if statement that is everything after this line is outside of the if statement.
+this is the last line of the get_quote method that is everything after this line is outside of the get_quote method.
+('Confucius') is the argument that the parameter person accepts in the get_quote method.
+'Confucius' is there is nothing is explicitly coded to happen when the 'Confucius' argument is passed as the parameter to 
+the get_quote method. 
+the 'Confucius' parameter is equal to the string 'Confucius' which then executes the code: 'I hear and I forget. I see and
+I remember. I do and I understand.' nothing is explicitly coded to happen at this point which means the code continues to
+run and the return value is the evaluated result of the last line executed.
+the last line executed checks if the parameter is equal to the string 'Einstein' which it is not which evaluates to nil
+which is not converted to a string which is a type error which end the running of the code.  
 
-
-==========================
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
