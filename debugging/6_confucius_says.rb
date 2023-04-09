@@ -36,8 +36,17 @@ get_quote is a method.
 (person) is a parameter.
 this means the get_quote method accepts the parameter (person) and is defined as the following:
 
-
+Syntax:
   if person == 'Yoda'
+
+Explanation:
+if statements mean if condition returns boolean true then execute the code.
+person is a parameter.
+== means equal to.
+'Yoda' is a string.
+this means if the parameter is equal to the string 'Yoda' then execute the code.
+
+
     'Do. Or do not. There is no try.'
   end
 
