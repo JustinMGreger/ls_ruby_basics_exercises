@@ -7,7 +7,43 @@ no implicit conversion of nil into String (TypeError).
 What is the problem and how can you fix it?
 
 Initial Syntax Given:
+
+def get_quote(person)
+  if person == 'Yoda'
+    'Do. Or do not. There is no try.'
+  end
+
+  if person == 'Confucius'
+    'I hear and I forget. I see and I remember. I do and I understand.'
+  end
+
+  if person == 'Einstein'
+    'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.'
+  end
+end
+
+puts 'Confucius says:'
+puts '"' + get_quote('Confucius') + '"'
+
 Explanation of Initial Syntax Given:
+
+def get_quote(person)
+  if person == 'Yoda'
+    'Do. Or do not. There is no try.'
+  end
+
+  if person == 'Confucius'
+    'I hear and I forget. I see and I remember. I do and I understand.'
+  end
+
+  if person == 'Einstein'
+    'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.'
+  end
+end
+
+puts 'Confucius says:'
+puts '"' + get_quote('Confucius') + '"'
+
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
