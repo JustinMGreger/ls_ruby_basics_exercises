@@ -192,7 +192,29 @@ the last line executed checks if the parameter is equal to the string 'Einstein'
 which is not converted to a string which is a type error which end the running of the code.  
 
 Syntax of Solution:
+
+def get_quote(person)
+  if person == 'Yoda'
+    'Do. Or do not. There is no try.'
+  elsif person == 'Confucius'
+    'I hear and I forget. I see and I remember. I do and I understand.'
+  elsif person == 'Einstein'
+    'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.'
+  end
+end
+
 Explanation of Solution Syntax:
+
+def get_quote(person)
+  if person == 'Yoda'
+    'Do. Or do not. There is no try.'
+  elsif person == 'Confucius'
+    'I hear and I forget. I see and I remember. I do and I understand.'
+  elsif person == 'Einstein'
+    'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.'
+  end
+end
+
 Summary of Solution Syntax:
 This means:
 =end
