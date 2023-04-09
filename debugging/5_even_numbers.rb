@@ -140,8 +140,11 @@ n is a block parameter.
 .even? returns a boolean value true if the integer is even.
 this means return boolean true if the block paramter integer is even.
 
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the .select method that is everything after this line is outside of the .select method.
 
 p even_numbers #=> [2, 6, 8]
 
@@ -166,6 +169,7 @@ which is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
 n is a block parameter.
 .even? returns a boolean value true if the integer is even.
 this means return boolean true if the block paramter integer is even.
+this is the last line of the .select method that is everything after this line is outside of the .select method.
 
 
 This means:
@@ -189,7 +193,6 @@ which is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
 n is a block parameter.
 .even? returns a boolean value true if the integer is even.
 this means return boolean true if the block paramter integer is even.
-
-
+this is the last line of the .select method that is everything after this line is outside of the .select method.
 
 =end
