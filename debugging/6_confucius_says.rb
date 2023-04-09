@@ -58,8 +58,17 @@ Syntax:
 Explanation:
 this is the last line in the if statement that is everything after this line is outside of the if statement.
 
-
+Syntax:
   if person == 'Confucius'
+
+Explanation:
+if statements mean if condition returns boolean true then execute the code.
+person is a parameter.
+== means equal to.
+'Confucius' is a string.
+this means if the parameter is equal to the string 'Confucius' then execute the code.
+
+
     'I hear and I forget. I see and I remember. I do and I understand.'
   end
 
