@@ -108,7 +108,14 @@ end
 Explanation:
 this is the last line of the get_quote method that is everything after this line is outside of the get_quote method.
 
+Syntax:
 puts 'Confucius says:'
+
+Explanation:
+puts means put s which is put string which means print to the screen the string.
+'Confucius says:' is a string.
+this means print to the screen the string 'Confucius says:'
+
 puts '"' + get_quote('Confucius') + '"'
 
 Syntax of Solution:
