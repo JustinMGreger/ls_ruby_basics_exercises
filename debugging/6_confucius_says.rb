@@ -256,9 +256,14 @@ person is a parameter.
 'Einstein' is a string.
 this means if the above is not boolean true then if the parameter is equal to the string 'Einstein' then execute the code.
 
-
-
+Syntax:
     'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.'
+
+Explanation:
+'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.' is a string.
+
+
+
   end
 end
 
@@ -285,6 +290,7 @@ person is a parameter.
 == means equal to.
 'Einstein' is a string.
 this means if the above is not boolean true then if the parameter is equal to the string 'Einstein' then execute the code.
+'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.' is a string.
 
 
 This means:
@@ -310,6 +316,7 @@ person is a parameter.
 == means equal to.
 'Einstein' is a string.
 this means if the above is not boolean true then if the parameter is equal to the string 'Einstein' then execute the code.
+'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.' is a string.
 
 
 =end
