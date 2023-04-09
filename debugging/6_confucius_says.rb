@@ -90,8 +90,12 @@ person is a parameter.
 'Einstein' is a string.
 this means if the parameter is equal to the string 'Einstein' then execute the code.
 
-
+Syntax:
     'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.'
+
+Explanation:
+'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.' is a string.
+
   end
 end
 
