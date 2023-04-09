@@ -72,7 +72,7 @@ Syntax:
     'I hear and I forget. I see and I remember. I do and I understand.'
 
 Explanation:
- 'I hear and I forget. I see and I remember. I do and I understand.' is a string.
+'I hear and I forget. I see and I remember. I do and I understand.' is a string.
 
 Syntax:
   end
@@ -240,11 +240,16 @@ person is a parameter.
 'Confucius' is a string.
 this means if the above is not boolean true then if the parameter is equal to the string 'Confucius' then execute the code.
 
-
-
-
-
+Syntax:
     'I hear and I forget. I see and I remember. I do and I understand.'
+
+Explanation:
+'I hear and I forget. I see and I remember. I do and I understand.' is a string.
+
+
+
+
+
   elsif person == 'Einstein'
     'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.'
   end
@@ -267,7 +272,7 @@ person is a parameter.
 == means equal to.
 'Confucius' is a string.
 this means if the above is not boolean true then if the parameter is equal to the string 'Confucius' then execute the code.
-
+'I hear and I forget. I see and I remember. I do and I understand.' is a string.
 
 
 This means:
@@ -287,7 +292,7 @@ person is a parameter.
 == means equal to.
 'Confucius' is a string.
 this means if the above is not boolean true then if the parameter is equal to the string 'Confucius' then execute the code.
-
+'I hear and I forget. I see and I remember. I do and I understand.' is a string.
 
 
 =end
