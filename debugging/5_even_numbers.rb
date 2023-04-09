@@ -225,44 +225,15 @@ the output is:
 
 This means:
 
-numbers is a variable.
-= means assignment.
-[5, 2, 9, 6, 3, 1, 8] is an array of integers.
-this means the variable numbers is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
+the variable numbers is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
 
-even_numbers is a variable.
-= means assignment.
-numbers is a variable.
-= means assignment.
-[5, 2, 9, 6, 3, 1, 8] is an array of integers.
-this means the variable numbers is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
-.select method filters elements in the array for a condition that returns boolean true.
-do means open block.
-|n| is a block parameter.
-this means the variable even_numbers is assigned the filtered elmenents that return boolean true in the variable numbers 
-which is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
+the variable even_numbers is assigned the filtered elmenents that return boolean true in the variable numbers which is 
+assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
 n is a block parameter.
 .even? returns a boolean value true if the integer is even.
 this means return boolean true if the block paramter integer is even.
 this is the last line of the .select method that is everything after this line is outside of the .select method.
 
-p means output.
-even_numbers is a variable.
-= means assignment.
-numbers is a variable.
-= means assignment.
-[5, 2, 9, 6, 3, 1, 8] is an array of integers.
-this means the variable numbers is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
-.select method filters elements in the array for a condition that returns boolean true.
-do means open block.
-|n| is a block parameter.
-this means the variable even_numbers is assigned the filtered elmenents that return boolean true in the variable numbers 
-which is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
-n is a block parameter.
-.even? returns a boolean value true if the integer is even.
-this means return boolean true if the block paramter integer is even.
-this is the last line of the .select method that is everything after this line is outside of the .select method.
-this means:
 output the variable even_numbers which is assigned the filtered elmenents that return boolean true if the integers are 
 even in the variable numbers which is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
 this is the last line of the .select method that is everything after this line is outside of the .select method.
