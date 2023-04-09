@@ -132,9 +132,15 @@ do means open block.
 this means the variable even_numbers is assigned the filtered elmenents that return boolean true in the variable numbers 
 which is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
 
-
-
+Syntax:
   n.even?
+
+Explanation:
+n is a block parameter.
+.even? returns a boolean value true if the integer is even.
+this means return boolean true if the block paramter integer is even.
+
+
 end
 
 p even_numbers #=> [2, 6, 8]
@@ -146,12 +152,44 @@ numbers is a variable.
 [5, 2, 9, 6, 3, 1, 8] is an array of integers.
 this means the variable numbers is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
 
+even_numbers is a variable.
+= means assignment.
+numbers is a variable.
+= means assignment.
+[5, 2, 9, 6, 3, 1, 8] is an array of integers.
+this means the variable numbers is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
+.select method filters elements in the array for a condition that returns boolean true.
+do means open block.
+|n| is a block parameter.
+this means the variable even_numbers is assigned the filtered elmenents that return boolean true in the variable numbers 
+which is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
+n is a block parameter.
+.even? returns a boolean value true if the integer is even.
+this means return boolean true if the block paramter integer is even.
+
+
 This means:
 
 numbers is a variable.
 = means assignment.
 [5, 2, 9, 6, 3, 1, 8] is an array of integers.
 this means the variable numbers is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
+
+even_numbers is a variable.
+= means assignment.
+numbers is a variable.
+= means assignment.
+[5, 2, 9, 6, 3, 1, 8] is an array of integers.
+this means the variable numbers is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
+.select method filters elements in the array for a condition that returns boolean true.
+do means open block.
+|n| is a block parameter.
+this means the variable even_numbers is assigned the filtered elmenents that return boolean true in the variable numbers 
+which is assigned the array of integers [5, 2, 9, 6, 3, 1, 8].
+n is a block parameter.
+.even? returns a boolean value true if the integer is even.
+this means return boolean true if the block paramter integer is even.
+
 
 
 =end
