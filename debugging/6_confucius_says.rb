@@ -52,7 +52,12 @@ Syntax:
 Explanation:
 'Do. Or do not. There is no try.' is a string.
 
+Syntax:
   end
+
+Explanation:
+this is the last line in the if statement that is everything after this line is outside of the if statement.
+
 
   if person == 'Confucius'
     'I hear and I forget. I see and I remember. I do and I understand.'
