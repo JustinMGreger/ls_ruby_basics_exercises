@@ -102,8 +102,11 @@ Syntax:
 Explanation:
 this is the last line in the if statement that is everything after this line is outside of the if statement.
 
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the get_quote method that is everything after this line is outside of the get_quote method.
 
 puts 'Confucius says:'
 puts '"' + get_quote('Confucius') + '"'
