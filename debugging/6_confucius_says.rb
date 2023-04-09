@@ -262,9 +262,12 @@ Syntax:
 Explanation:
 'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.' is a string.
 
-
-
+Syntax:
   end
+
+Explanation:
+this is the last line in the if statement that is everything after this line is outside of the if statement.
+
 end
 
 Summary of Solution Syntax:
@@ -291,7 +294,7 @@ person is a parameter.
 'Einstein' is a string.
 this means if the above is not boolean true then if the parameter is equal to the string 'Einstein' then execute the code.
 'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.' is a string.
-
+this is the last line in the if statement that is everything after this line is outside of the if statement.
 
 This means:
 
@@ -317,6 +320,6 @@ person is a parameter.
 'Einstein' is a string.
 this means if the above is not boolean true then if the parameter is equal to the string 'Einstein' then execute the code.
 'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.' is a string.
-
+this is the last line in the if statement that is everything after this line is outside of the if statement.
 
 =end
