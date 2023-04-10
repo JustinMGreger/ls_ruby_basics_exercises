@@ -49,7 +49,14 @@ Explanation of Initial Syntax Given:
 
 # Financially, you started the year with a clean slate.
 
+Syntax:
 balance = 0
+
+Explanation:
+balance is a variable.
+= means assignment.
+0 is a integer.
+this means the variable balance is assigned the integer 0.
 
 # Here's what you earned and spent during the first three months.
 
