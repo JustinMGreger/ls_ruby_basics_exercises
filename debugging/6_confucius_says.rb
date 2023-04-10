@@ -303,28 +303,11 @@ this is the last line of the get_quote method that is everything after this line
 
 This means:
 
-def means definition.
-get_quote is a method.
-(person) is a parameter.
-this means the get_quote method accepts the parameter (person) and is defined as the following:
-if statements mean if condition returns boolean true then execute the code.
-person is a parameter.
-== means equal to.
-'Yoda' is a string.
-this means if the parameter is equal to the string 'Yoda' then execute the code.
-'Do. Or do not. There is no try.' is a string.
-if the above is not boolean true then if the following code returns boolean true then execute the code that follows this.
-person is a parameter.
-== means equal to.
-'Confucius' is a string.
-this means if the above is not boolean true then if the parameter is equal to the string 'Confucius' then execute the code.
-'I hear and I forget. I see and I remember. I do and I understand.' is a string.
-if the above is not boolean true then if the following code returns boolean true then execute the code that follows this.
-person is a parameter.
-== means equal to.
-'Einstein' is a string.
-this means if the above is not boolean true then if the parameter is equal to the string 'Einstein' then execute the code.
-'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.' is a string.
+the get_quote method accepts the parameter (person) and is defined as the following: if the parameter is equal to the 
+string 'Yoda' then execute the code: 'Do. Or do not. There is no try.', if the above is not boolean true then if the 
+parameter is equal to the string 'Confucius' then execute the code: 'I hear and I forget. I see and I remember. I do and I
+understand.', if the above is not boolean true then if the parameter is equal to the string 'Einstein' then execute the 
+code: 'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.' 
 this is the last line in the if statement that is everything after this line is outside of the if statement.
 this is the last line of the get_quote method that is everything after this line is outside of the get_quote method.
 
