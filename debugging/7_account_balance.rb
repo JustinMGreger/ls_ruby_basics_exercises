@@ -92,7 +92,19 @@ Syntax:
 Explanation:
 this means close the hash data structure that is everything after this is outside of the hash data structure.
 
+Syntax:
 february = {
+
+Explanation:
+february is a variable.
+= means assignment.
+{ means open the hash data structure.
+this means the variable february is assigned the hash data structure that contains:
+
+
+
+
+
   income: [ 1200 ],
   expenses: [ 650, 140, 320, 46.7, 122.5 ]
 }
