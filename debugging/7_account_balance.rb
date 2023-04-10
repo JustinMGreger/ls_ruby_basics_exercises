@@ -233,13 +233,59 @@ Syntax:
 [january, february, march].each do |month|
 
 Explanation:
-[january, february, march] is an array of hash data structures.
-
-
-
-
-
-
+[january, february, march] is an array of hash data structures containing:
+january is a variable.
+= means assignment.
+{ means open the hash data structure.
+this means the variable january is assigned the hash data structure that contains:
+income: is a symbol key.
+[ 1200, 75 ] is a array of float values.
+, means more key value pairs follow this.
+this means the income: symbol key is assigned the [ 1200, 75 ] array of float values.
+expenses: is a symbol key.
+[ 650, 140, 33.2, 100, 26.9, 78 ] is a array of float values.
+this means the expenses: symbol key is assigned the [ 650, 140, 33.2, 100, 26.9, 78 ] array of float values.
+this means close the hash data structure that is everything after this is outside of the hash data structure.
+february is a variable.
+= means assignment.
+{ means open the hash data structure.
+this means the variable february is assigned the hash data structure that contains:
+income: is a symbol key.
+[ 1200 ] is a array of float values.
+, means more key value pairs follow this.
+this means the income: symbol key is assigned the [ 1200 ] array of float values.
+expenses: is a symbol key.
+[ 650, 140, 320, 46.7, 122.5 ] is a array of float values.
+this means the expenses: symbol key is assigned the [ 650, 140, 320, 46.7, 122.5 ] array of float values.
+this means close the hash data structure that is everything after this is outside of the hash data structure.
+march is a variable.
+= means assignment.
+{ means open a hash data structure.
+this means the variable march is assigned the hash data structure that contains:
+income: is a symbol key.
+[ 1200, 10, 75 ] is a array of float values.
+, means more key value pairs follow this.
+this means the income: symbol key is assigned the [ 1200, 10, 75 ] array of float values.
+expenses: is a symbol key.
+[ 650, 140, 350, 12, 59.9, 2.5 ] is a array of float values.
+this means the expenses: symbol key is assigned the [ 650, 140, 350, 12, 59.9, 2.5 ] array of float values.
+this means close the hash data structure that is everything after this is outside of the hash data structure.
+.each method allows you to iterate over a collection of elements and perform a block of code for each element 
+in the collection.
+do means open the block.
+|month| is a parameter.
+this means:
+accept the |month| parameter and iterate over a collection of elements and perform a block of code for each element in the
+collection [january, february, march] which is a array of hash data structures containing: the variable array element 
+january which is assigned the hash data structure that contains: the income: symbol key is assigned the [ 1200, 75 ] array
+of float values, the expenses: symbol key is assigned the [ 650, 140, 33.2, 100, 26.9, 78 ] array of float values and 
+close the hash data structure that is everything after this is outside of the hash data structure, the variable array 
+element february which is assigned the hash data structure that contains: the income: symbol key is assigned the [ 1200 ]
+array of float values, the expenses: symbol key is assigned the [ 650, 140, 320, 46.7, 122.5 ] array of float values and 
+close the hash data structure that is everything after this is outside of the hash data structure, the variable array 
+element march is assigned the hash data structure that contains: the income: symbol key is assigned the [ 1200, 10, 75 ] 
+array of float values, the expenses: symbol key is assigned the [ 650, 140, 350, 12, 59.9, 2.5 ] array of float values and
+close the hash data structure that is everything after this is outside of the hash data structure.
 
   balance = calculate_balance(month)
 end
