@@ -60,7 +60,16 @@ this means the variable balance is assigned the integer 0.
 
 # Here's what you earned and spent during the first three months.
 
+Syntax:
 january = {
+
+Explanation:
+january is a variable.
+= means assignment.
+{ means open the hash data structure.
+this means the variable january is assigned the hash data structure that contains:
+
+
   income: [ 1200, 75 ],
   expenses: [ 650, 140, 33.2, 100, 26.9, 78 ]
 }
