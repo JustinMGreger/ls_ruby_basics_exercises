@@ -229,8 +229,18 @@ Explanation:
 this is the last line of the calculate_balance method that is everything after this is outside of the calculate_balance 
 method.
 
-
+Syntax:
 [january, february, march].each do |month|
+
+Explanation:
+[january, february, march] is an array of hash data structures.
+
+
+
+
+
+
+
   balance = calculate_balance(month)
 end
 
