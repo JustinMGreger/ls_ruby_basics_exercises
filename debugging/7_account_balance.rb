@@ -142,9 +142,15 @@ income: is a symbol key.
 , means more key value pairs follow this.
 this means the income: symbol key is assigned the [ 1200, 10, 75 ] array of float values.
 
-
-
+Syntax:
   expenses: [ 650, 140, 350, 12, 59.9, 2.5 ]
+
+Explanation:
+expenses: is a symbol key.
+[ 650, 140, 350, 12, 59.9, 2.5 ] is a array of float values.
+this means the expenses: symbol key is assigned the [ 650, 140, 350, 12, 59.9, 2.5 ] array of float values.
+
+
 }
 
 # Let's see how much you've got now...
