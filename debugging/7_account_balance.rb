@@ -69,8 +69,17 @@ january is a variable.
 { means open the hash data structure.
 this means the variable january is assigned the hash data structure that contains:
 
-
+Syntax:
   income: [ 1200, 75 ],
+
+Explanation:
+income: is a symbol key.
+[ 1200, 75 ] is a array of integer values.
+, means more key value pairs follow this.
+this means the income: symbol key is assigned the [ 1200, 75 ] array of integer values.
+
+
+
   expenses: [ 650, 140, 33.2, 100, 26.9, 78 ]
 }
 
