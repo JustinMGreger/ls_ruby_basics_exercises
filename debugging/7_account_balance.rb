@@ -133,10 +133,17 @@ march is a variable.
 { means open a hash data structure.
 this means the variable march is assigned the hash data structure that contains:
 
-
-
-
+Syntax:
   income: [ 1200, 10, 75 ],
+
+Explanation:
+income: is a symbol key.
+[ 1200, 10, 75 ] is a array of float values.
+, means more key value pairs follow this.
+this means the income: symbol key is assigned the [ 1200, 10, 75 ] array of float values.
+
+
+
   expenses: [ 650, 140, 350, 12, 59.9, 2.5 ]
 }
 
