@@ -176,14 +176,24 @@ plus is a variable.
 = means assignment.
 month is a parameter.
 :income is a symbol key that is assigned an array of float values.
-.sum sums the elements of an array.
+.sum adds up the elements of an array.
 this means the variable plus is assigned the sum of the elements of the array of float values that the symbol key 
 [:income] is assigned within the hash data structure that is selected by the parameter month that is the argument passed 
 to the calculate_balance method.
 
-
-
+Syntax:
   minus = month[:expenses].sum
+
+Explanation:
+minus is a variable.
+= means assignment.
+month is a parameter.
+:expenses is a symbol key that is assigned an array of float values.
+.sum adds up the elements of an array.
+this means the variable minus is assigned the sum of the elements of the array of float values that the symbol key 
+[:expenses] is assigned within the hash data structure that is selected by the parameter month that is the argument passed 
+to the calculate_balance method.
+
 
   plus - minus
 end
