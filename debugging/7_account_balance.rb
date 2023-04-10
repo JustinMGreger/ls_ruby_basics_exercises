@@ -159,7 +159,16 @@ this means close the hash data structure that is everything after this is outsid
 
 # Let's see how much you've got now...
 
+Syntax:
 def calculate_balance(month)
+
+Explanation:
+def means definition.
+calculate_balance is a method.
+(month) is a parameter.
+this means the calculate_balance method accepts the parameter (month) and is defined as follows:
+
+
   plus  = month[:income].sum
   minus = month[:expenses].sum
 
