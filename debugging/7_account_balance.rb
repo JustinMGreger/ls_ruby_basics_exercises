@@ -168,8 +168,21 @@ calculate_balance is a method.
 (month) is a parameter.
 this means the calculate_balance method accepts the parameter (month) and is defined as follows:
 
-
+Syntax:
   plus  = month[:income].sum
+
+Explanation:
+plus is a variable.
+= means assignment.
+month is a parameter.
+:income is a symbol key that is assigned an array of float values.
+.sum sums the elements of an array.
+this means the variable plus is assigned the sum of the elements of the array of float values that the symbol key 
+[:income] is assigned within the hash data structure that is selected by the parameter month that is the argument passed 
+to the calculate_balance method.
+
+
+
   minus = month[:expenses].sum
 
   plus - minus
