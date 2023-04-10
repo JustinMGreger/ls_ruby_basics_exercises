@@ -150,8 +150,12 @@ expenses: is a symbol key.
 [ 650, 140, 350, 12, 59.9, 2.5 ] is a array of float values.
 this means the expenses: symbol key is assigned the [ 650, 140, 350, 12, 59.9, 2.5 ] array of float values.
 
-
+Syntax:
 }
+
+Explanation:
+this means close the hash data structure that is everything after this is outside of the hash data structure.
+
 
 # Let's see how much you've got now...
 
