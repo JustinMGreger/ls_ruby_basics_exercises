@@ -118,9 +118,14 @@ expenses: is a symbol key.
 [ 650, 140, 320, 46.7, 122.5 ] is a array of float values.
 this means the expenses: symbol key is assigned the [ 650, 140, 320, 46.7, 122.5 ] array of float values.
 
-
-
+Syntax:
 }
+
+Explanation:
+this means close the hash data structure that is everything after this is outside of the hash data structure.
+
+
+
 
 march = {
   income: [ 1200, 10, 75 ],
