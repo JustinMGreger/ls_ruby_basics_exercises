@@ -124,10 +124,18 @@ Syntax:
 Explanation:
 this means close the hash data structure that is everything after this is outside of the hash data structure.
 
-
-
-
+Syntax:
 march = {
+
+Explanation:
+march is a variable.
+= means assignment.
+{ means open a hash data structure.
+this means the variable march is assigned the hash data structure that contains:
+
+
+
+
   income: [ 1200, 10, 75 ],
   expenses: [ 650, 140, 350, 12, 59.9, 2.5 ]
 }
