@@ -725,11 +725,19 @@ balance is a variable.
 0 is a integer.
 this means the variable balance is assigned the integer 0.
 
-
-
-
-
+Syntax:
 january = {
+
+Explanation:
+january is a variable.
+= means assignment.
+{ means open the hash data structure.
+this means the variable january is assigned the hash data structure that contains:
+
+
+
+
+
   income: [ 1200, 75 ],
   expenses: [ 650, 140, 33.2, 100, 26.9, 78 ]
 }
@@ -758,15 +766,29 @@ end
 puts balance
 
 Summary of Solution Syntax:
+
 balance is a variable.
 = means assignment.
 0 is a integer.
 this means the variable balance is assigned the integer 0.
 
+january is a variable.
+= means assignment.
+{ means open the hash data structure.
+this means the variable january is assigned the hash data structure that contains:
+
+
 This means:
+
 balance is a variable.
 = means assignment.
 0 is a integer.
 this means the variable balance is assigned the integer 0.
+
+january is a variable.
+= means assignment.
+{ means open the hash data structure.
+this means the variable january is assigned the hash data structure that contains:
+
 
 =end
