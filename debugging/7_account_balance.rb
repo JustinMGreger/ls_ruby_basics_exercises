@@ -716,7 +716,18 @@ puts balance
 
 Explanation of Solution Syntax:
 
+Syntax:
 balance = 0
+
+Explanation:
+balance is a variable.
+= means assignment.
+0 is a integer.
+this means the variable balance is assigned the integer 0.
+
+
+
+
 
 january = {
   income: [ 1200, 75 ],
@@ -747,7 +758,15 @@ end
 puts balance
 
 Summary of Solution Syntax:
+balance is a variable.
+= means assignment.
+0 is a integer.
+this means the variable balance is assigned the integer 0.
 
 This means:
+balance is a variable.
+= means assignment.
+0 is a integer.
+this means the variable balance is assigned the integer 0.
 
 =end
