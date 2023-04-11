@@ -757,15 +757,19 @@ Syntax:
 Explanation:
 this means close the hash data structure that is everything after this is outside of the hash data structure.
 
-
-
-
-
-
-
-
-
+Syntax:
 february = {
+
+Explanation:
+february is a variable.
+= means assignment.
+{ means open the hash data structure.
+this means the variable february is assigned the hash data structure that contains:
+
+
+
+
+
   income: [ 1200 ],
   expenses: [ 650, 140, 320, 46.7, 122.5 ]
 }
@@ -808,6 +812,10 @@ expenses: is a symbol key.
 this means the expenses: symbol key is assigned the [ 650, 140, 33.2, 100, 26.9, 78 ] array of float values.
 this means close the hash data structure that is everything after this is outside of the hash data structure.
 
+february is a variable.
+= means assignment.
+{ means open the hash data structure.
+this means the variable february is assigned the hash data structure that contains:
 
 This means:
 
@@ -829,5 +837,9 @@ expenses: is a symbol key.
 this means the expenses: symbol key is assigned the [ 650, 140, 33.2, 100, 26.9, 78 ] array of float values.
 this means close the hash data structure that is everything after this is outside of the hash data structure.
 
+february is a variable.
+= means assignment.
+{ means open the hash data structure.
+this means the variable february is assigned the hash data structure that contains:
 
 =end
