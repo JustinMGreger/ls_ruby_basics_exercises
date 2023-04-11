@@ -451,7 +451,11 @@ information from the previous month the hash data structure was reassigned that 
 assigned value of the variable balance is the same as the hash data structure march being passed to the calculate_balance
 method as the parameter month instead of an accumulation that is a sum of the previous hash data structures.
 
+Syntax:
 end
+
+Explanation:
+this is the last line of the .each method that is everything after this line is outside of the .each method.
 
 puts balance
 
