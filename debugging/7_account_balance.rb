@@ -441,9 +441,16 @@ which is assigned the [ 1200, 10, 75 ] array of float values which is 1285 from 
 sum of the elements of the array of float values that the symbol key [:expenses] which is assigned the 
 [ 650, 140, 350, 12, 59.9, 2.5 ] array of float values which is 1214.4 which is 1285 - 1214.4 that is 70.59999999999991 is
 what the variable balance is reassigned to.
+The answer to the question:
+The output of the code below tells you that you have around $70. However, you expected your bank account to have about 
+$238. What did we do wrong?
+is: 
+the variable balance was reassigned everytime the .each method passed a element of the [january, february, march] which is
+a array of hash data structures as an argument to the calculate_balance method as the parameter month that is the 
+information from the previous month the hash data structure was reassigned that is overwritten which means the final 
+assigned value of the variable balance is the same as the hash data structure march being passed to the calculate_balance
+method as the parameter month instead of an accumulation that is a sum of the previous hash data structures.
 
-
-==================================================
 end
 
 puts balance
