@@ -395,10 +395,25 @@ close the hash data structure that is everything after this is outside of the ha
 element march is assigned the hash data structure that contains: the income: symbol key is assigned the [ 1200, 10, 75 ] 
 array of float values, the expenses: symbol key is assigned the [ 650, 140, 350, 12, 59.9, 2.5 ] array of float values and
 close the hash data structure that is everything after this is outside of the hash data structure.
-
+===========================================
 this means:
-
-
+the variable balance is assigned the integer 0 and then reassigned to the result of the calculate_balance method accepting 
+the parameter (month) and is defined as follows: subtract the variable plus which is assigned the sum of the elements of 
+the array of float values that the symbol key [:income] is assigned within the hash data structure that is selected by the
+parameter month that is the argument passed to the calculate_balance method from the variable minus which is assigned the
+sum of the elements of the array of float values that the symbol key [:expenses] is assigned within the hash data 
+structure that is selected by the parameter month that is the argument passed to the calculate_balance method and iterate 
+over a collection of elements and perform a block of code for each element in the collection [january, february, march] 
+which is a array of hash data structures containing: the variable array element january which is assigned the hash data 
+structure that contains: the income: symbol key is assigned the [ 1200, 75 ] array of float values, the expenses: symbol 
+key is assigned the [ 650, 140, 33.2, 100, 26.9, 78 ] array of float values and close the hash data structure that is 
+everything after this is outside of the hash data structure, the variable array element february which is assigned the 
+hash data structure that contains: the income: symbol key is assigned the [ 1200 ] array of float values, the expenses: 
+symbol key is assigned the [ 650, 140, 320, 46.7, 122.5 ] array of float values and close the hash data structure that is 
+everything after this is outside of the hash data structure, the variable array element march is assigned the hash data 
+structure that contains: the income: symbol key is assigned the [ 1200, 10, 75 ] array of float values, the expenses: 
+symbol key is assigned the [ 650, 140, 350, 12, 59.9, 2.5 ] array of float values and close the hash data structure that 
+is everything after this is outside of the hash data structure.
 
 
 
