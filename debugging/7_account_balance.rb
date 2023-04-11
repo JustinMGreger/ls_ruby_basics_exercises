@@ -734,11 +734,19 @@ january is a variable.
 { means open the hash data structure.
 this means the variable january is assigned the hash data structure that contains:
 
-
-
-
-
+Syntax:
   income: [ 1200, 75 ],
+
+Explanation:
+income: is a symbol key.
+[ 1200, 75 ] is a array of float values.
+, means more key value pairs follow this.
+this means the income: symbol key is assigned the [ 1200, 75 ] array of float values.
+
+
+
+
+
   expenses: [ 650, 140, 33.2, 100, 26.9, 78 ]
 }
 
@@ -776,6 +784,10 @@ january is a variable.
 = means assignment.
 { means open the hash data structure.
 this means the variable january is assigned the hash data structure that contains:
+income: is a symbol key.
+[ 1200, 75 ] is a array of float values.
+, means more key value pairs follow this.
+this means the income: symbol key is assigned the [ 1200, 75 ] array of float values.
 
 
 This means:
@@ -789,6 +801,10 @@ january is a variable.
 = means assignment.
 { means open the hash data structure.
 this means the variable january is assigned the hash data structure that contains:
+income: is a symbol key.
+[ 1200, 75 ] is a array of float values.
+, means more key value pairs follow this.
+this means the income: symbol key is assigned the [ 1200, 75 ] array of float values.
 
 
 =end
