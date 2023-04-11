@@ -431,28 +431,16 @@ subtract the variable plus which is assigned the sum of the elements of the arra
 [:income] which is assigned the [ 1200 ] array of float values which is 1200 from the variable minus which is assigned the
 sum of the elements of the array of float values that the symbol key [:expenses] which is assigned the 
 [ 650, 140, 320, 46.7, 122.5 ] array of float values which is 1279.2 which is 1200 - 1279.2 that is -79.20000000000005 is
-what the variable balance is reassigned.
-
-
-===============================================
-to then the variable balance is reassigned to the result 
-the variable array element march
-
-
-the variable balance is assigned the integer 0 and then reassigned to the result of [january, february, march] which is a 
-array of hash data structures containing: 
-
-
-the variable array element march is assigned the hash data structure 
-that contains: the income: symbol key is assigned the [ 1200, 10, 75 ] array of float values, the expenses: symbol key is 
-assigned the [ 650, 140, 350, 12, 59.9, 2.5 ] array of float values and close the hash data structure that is everything 
-after this is outside of the hash data structure and that is passed to the the calculate_balance method which accepts 
-the parameter (month) and is defined as follows: subtract the variable plus which is assigned the sum of the elements of 
-the array of float values that the symbol key [:income] is assigned within the hash data structure that is selected by the
-parameter month that is the argument passed to the calculate_balance method from the variable minus which is assigned the
-sum of the elements of the array of float values that the symbol key [:expenses] is assigned within the hash data 
-structure that is selected by the parameter month that is the argument passed to the calculate_balance method.
-
+what the variable balance is reassigned to then the variable balance is reassigned to the result 
+the variable array element march which is assigned the hash data structure that contains: the income: symbol key which is 
+assigned the [ 1200, 10, 75 ] array of float values, the expenses: symbol key which is assigned the 
+[ 650, 140, 350, 12, 59.9, 2.5 ] array of float values and close the hash data structure that is everything after this is 
+outside of the hash data structure and that is passed to the the calculate_balance method is defined as follows: subtract
+the variable plus which is assigned the sum of the elements of the array of float values that the symbol key [:income] 
+which is assigned the [ 1200, 10, 75 ] array of float values which is 1285 from the variable minus which is assigned the
+sum of the elements of the array of float values that the symbol key [:expenses] which is assigned the 
+[ 650, 140, 350, 12, 59.9, 2.5 ] array of float values which is 1214.4 which is 1285 - 1214.4 that is 70.59999999999991 is
+what the variable balance is reassigned to.
 
 
 ==================================================
