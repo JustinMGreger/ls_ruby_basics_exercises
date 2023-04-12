@@ -1109,8 +1109,15 @@ variable balance which is then added to the previous float value that the variab
 167.70000000000005 that is 70.59999999999991 + 167.70000000000005 results in the float value 238.29999999999995 which is
 is the reassigned float value for the variable balance.
 
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the .each method that is everything after this line is outside of the .each method.
+
+
+
+
 
 puts balance
 
@@ -1415,6 +1422,7 @@ float values which is 1214.4 which is 1285 - 1214.4 that is 70.59999999999991 is
 variable balance which is then added to the previous float value that the variable balance was reassigned to which is 
 167.70000000000005 that is 70.59999999999991 + 167.70000000000005 results in the float value 238.29999999999995 which is
 is the reassigned float value for the variable balance.
+this is the last line of the .each method that is everything after this line is outside of the .each method.
 
 
 
@@ -1719,6 +1727,7 @@ float values which is 1214.4 which is 1285 - 1214.4 that is 70.59999999999991 is
 variable balance which is then added to the previous float value that the variable balance was reassigned to which is 
 167.70000000000005 that is 70.59999999999991 + 167.70000000000005 results in the float value 238.29999999999995 which is
 is the reassigned float value for the variable balance.
+this is the last line of the .each method that is everything after this line is outside of the .each method.
 
 
 
