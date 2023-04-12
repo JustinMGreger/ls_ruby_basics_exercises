@@ -775,12 +775,17 @@ income: is a symbol key.
 , means more key value pairs follow this.
 this means the income: symbol key is assigned the [ 1200 ] array of float values.
 
-
-
-
-
-
+Syntax:
   expenses: [ 650, 140, 320, 46.7, 122.5 ]
+
+Explanation:
+expenses: is a symbol key.
+[ 650, 140, 320, 46.7, 122.5 ] is a array of float values.
+this means the expenses: symbol key is assigned the [ 650, 140, 320, 46.7, 122.5 ] array of float values.
+
+
+
+
 }
 
 march = {
@@ -829,6 +834,9 @@ income: is a symbol key.
 [ 1200 ] is a array of float values.
 , means more key value pairs follow this.
 this means the income: symbol key is assigned the [ 1200 ] array of float values.
+expenses: is a symbol key.
+[ 650, 140, 320, 46.7, 122.5 ] is a array of float values.
+this means the expenses: symbol key is assigned the [ 650, 140, 320, 46.7, 122.5 ] array of float values.
 
 
 This means:
@@ -859,6 +867,9 @@ income: is a symbol key.
 [ 1200 ] is a array of float values.
 , means more key value pairs follow this.
 this means the income: symbol key is assigned the [ 1200 ] array of float values.
+expenses: is a symbol key.
+[ 650, 140, 320, 46.7, 122.5 ] is a array of float values.
+this means the expenses: symbol key is assigned the [ 650, 140, 320, 46.7, 122.5 ] array of float values.
 
 
 =end
