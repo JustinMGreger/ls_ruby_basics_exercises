@@ -815,12 +815,13 @@ expenses: is a symbol key.
 [ 650, 140, 350, 12, 59.9, 2.5 ] is a array of float values.
 this means the expenses: symbol key is assigned the [ 650, 140, 350, 12, 59.9, 2.5 ] array of float values.
 
-
-
-
-
-
+Syntax:
 }
+
+Explanation:
+this means close the hash data structure that is everything after this is outside of the hash data structure.
+
+
 
 def calculate_balance(month)
   plus  = month[:income].sum
@@ -879,6 +880,7 @@ this means the income: symbol key is assigned the [ 1200, 10, 75 ] array of floa
 expenses: is a symbol key.
 [ 650, 140, 350, 12, 59.9, 2.5 ] is a array of float values.
 this means the expenses: symbol key is assigned the [ 650, 140, 350, 12, 59.9, 2.5 ] array of float values.
+this means close the hash data structure that is everything after this is outside of the hash data structure.
 
 
 
@@ -926,6 +928,7 @@ this means the income: symbol key is assigned the [ 1200, 10, 75 ] array of floa
 expenses: is a symbol key.
 [ 650, 140, 350, 12, 59.9, 2.5 ] is a array of float values.
 this means the expenses: symbol key is assigned the [ 650, 140, 350, 12, 59.9, 2.5 ] array of float values.
+this means close the hash data structure that is everything after this is outside of the hash data structure.
 
 
 
