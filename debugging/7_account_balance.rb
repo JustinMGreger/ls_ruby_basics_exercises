@@ -821,9 +821,19 @@ Syntax:
 Explanation:
 this means close the hash data structure that is everything after this is outside of the hash data structure.
 
-
-
+Syntax:
 def calculate_balance(month)
+
+Explanation:
+def means definition.
+calculate_balance is a method.
+(month) is a parameter.
+this means the calculate_balance method accepts the parameter (month) and is defined as follows:
+
+
+
+
+
   plus  = month[:income].sum
   minus = month[:expenses].sum
 
@@ -882,6 +892,10 @@ expenses: is a symbol key.
 this means the expenses: symbol key is assigned the [ 650, 140, 350, 12, 59.9, 2.5 ] array of float values.
 this means close the hash data structure that is everything after this is outside of the hash data structure.
 
+def means definition.
+calculate_balance is a method.
+(month) is a parameter.
+this means the calculate_balance method accepts the parameter (month) and is defined as follows:
 
 
 This means:
@@ -930,6 +944,10 @@ expenses: is a symbol key.
 this means the expenses: symbol key is assigned the [ 650, 140, 350, 12, 59.9, 2.5 ] array of float values.
 this means close the hash data structure that is everything after this is outside of the hash data structure.
 
+def means definition.
+calculate_balance is a method.
+(month) is a parameter.
+this means the calculate_balance method accepts the parameter (month) and is defined as follows:
 
 
 =end
