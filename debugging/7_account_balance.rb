@@ -1115,11 +1115,22 @@ end
 Explanation:
 this is the last line of the .each method that is everything after this line is outside of the .each method.
 
-
-
-
-
+Syntax:
 puts balance
+
+Explanation:
+puts means put s which is put string which is print to the screen the string.
+
+
+
+
+
+
+
+
+
+
+
 
 Summary of Solution Syntax:
 
