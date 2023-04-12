@@ -789,14 +789,19 @@ Syntax:
 Explanation:
 this means close the hash data structure that is everything after this is outside of the hash data structure.
 
-
-
-
-
-
-
-
+Syntax:
 march = {
+
+Explanation:
+march is a variable.
+= means assignment.
+{ means open a hash data structure.
+this means the variable march is assigned the hash data structure that contains:
+
+
+
+
+
   income: [ 1200, 10, 75 ],
   expenses: [ 650, 140, 350, 12, 59.9, 2.5 ]
 }
@@ -847,6 +852,11 @@ expenses: is a symbol key.
 this means the expenses: symbol key is assigned the [ 650, 140, 320, 46.7, 122.5 ] array of float values.
 this means close the hash data structure that is everything after this is outside of the hash data structure.
 
+march is a variable.
+= means assignment.
+{ means open a hash data structure.
+this means the variable march is assigned the hash data structure that contains:
+
 
 This means:
 
@@ -880,6 +890,11 @@ expenses: is a symbol key.
 [ 650, 140, 320, 46.7, 122.5 ] is a array of float values.
 this means the expenses: symbol key is assigned the [ 650, 140, 320, 46.7, 122.5 ] array of float values.
 this means close the hash data structure that is everything after this is outside of the hash data structure.
+
+march is a variable.
+= means assignment.
+{ means open a hash data structure.
+this means the variable march is assigned the hash data structure that contains:
 
 
 =end
