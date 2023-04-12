@@ -884,19 +884,21 @@ to the calculate_balance method from the variable minus which is assigned the su
 values that the symbol key [:expenses] is assigned within the hash data structure that is selected by the parameter month
 that is the argument passed to the calculate_balance method.
 
-
-
-
-
-
-
-
-
-
-
-
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the calculate_balance method that is everything after this is outside of the calculate_balance 
+method.
+
+
+
+
+
+
+
+
+
 
 [january, february, march].each do |month|
   balance += calculate_balance(month)
@@ -993,6 +995,10 @@ subtract the variable plus which is assigned the sum of the elements of the arra
 to the calculate_balance method from the variable minus which is assigned the sum of the elements of the array of float 
 values that the symbol key [:expenses] is assigned within the hash data structure that is selected by the parameter month
 that is the argument passed to the calculate_balance method.
+this is the last line of the calculate_balance method that is everything after this is outside of the calculate_balance 
+method.
+
+
 
 
 This means:
@@ -1084,6 +1090,11 @@ subtract the variable plus which is assigned the sum of the elements of the arra
 to the calculate_balance method from the variable minus which is assigned the sum of the elements of the array of float 
 values that the symbol key [:expenses] is assigned within the hash data structure that is selected by the parameter month
 that is the argument passed to the calculate_balance method.
+this is the last line of the calculate_balance method that is everything after this is outside of the calculate_balance 
+method.
+
+
+
 
 
 =end
