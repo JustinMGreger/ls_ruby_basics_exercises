@@ -430,13 +430,15 @@ randomized order of the variable things which is assigned the array of string el
 [i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
 loop which is string concatenated to '.' which is a string period.
 
-
-
-
-
-
-
+Syntax:
   else
+
+Explanation:
+if the above are boolean false then execute the following.
+
+
+
+ 
     puts 'And a ' + colors[i] + ' ' + things[i] + '.'
   end
 
@@ -544,7 +546,7 @@ randomized order of the variable things which is assigned the array of string el
 ['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] which is accessed by the index number
 [i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
 loop which is string concatenated to '.' which is a string period.
-
+if the above are boolean false then execute the following.
 
 This means:
 
@@ -647,6 +649,6 @@ randomized order of the variable things which is assigned the array of string el
 ['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] which is accessed by the index number
 [i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
 loop which is string concatenated to '.' which is a string period.
-
+if the above are boolean false then execute the following.
 
 =end
