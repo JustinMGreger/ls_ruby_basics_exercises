@@ -343,10 +343,13 @@ i is a variable.
 0 is a integer.
 this means the variable i is assigned the integer 0.
 
-
-
-
+Syntax:
 loop do
+
+Explanation:
+begin loop.
+
+
   break if i > things.length - 1
 
   if i == 0
@@ -392,6 +395,7 @@ i is a variable.
 = means assignment.
 0 is a integer.
 this means the variable i is assigned the integer 0.
+begin loop.
 
 This means:
 
@@ -427,5 +431,6 @@ i is a variable.
 = means assignment.
 0 is a integer.
 this means the variable i is assigned the integer 0.
+begin loop.
 
 =end
