@@ -220,9 +220,19 @@ Syntax:
 Explanation:
 this is the last line of the if statement that is everything after this is outside of the if statement.
 
-
-
+Syntax:
   i += 1
+
+Explanation:
+i is a variable.
+= means assignment.
+0 is a integer.
+this means the variable i is assigned the integer 0.
+variable += 1 means variable is reassigned to variable + 1.
+1 is a integer.
+this means the variable i which is assigned the integer 0 is reassigned to i + 1.
+
+
 end
 
 Syntax of Solution:
