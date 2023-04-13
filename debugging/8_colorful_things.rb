@@ -214,13 +214,13 @@ randomized order of the variable things which is assigned the array of string el
 [i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
 loop which is string concatenated to '.' which is a string period.
 
-
-
-
-
-
-
+Syntax:
   end
+
+Explanation:
+this is the last line of the if statement that is everything after this is outside of the if statement.
+
+
 
   i += 1
 end
