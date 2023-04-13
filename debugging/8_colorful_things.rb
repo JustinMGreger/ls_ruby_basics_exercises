@@ -232,8 +232,11 @@ variable += 1 means variable is reassigned to variable + 1.
 1 is a integer.
 this means the variable i which is assigned the integer 0 is reassigned to i + 1.
 
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the loop that is everything after this is outside of the loop.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
