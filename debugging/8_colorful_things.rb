@@ -288,7 +288,19 @@ end
 
 Explanation of Solution Syntax:
 
+Syntax:
 colors = ['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black']
+
+Explanation:
+colors is a variable.
+= means assignment.
+['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'] is a array of string elements.
+the variable colors is assigned the array of string elements 
+['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'].
+
+
+
+
 things = ['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook']
 
 colors.shuffle!
@@ -308,5 +320,19 @@ loop do
 end
 
 Summary of Solution Syntax:
+
+colors is a variable.
+= means assignment.
+['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'] is a array of string elements.
+the variable colors is assigned the array of string elements 
+['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'].
+
 This means:
+
+colors is a variable.
+= means assignment.
+['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'] is a array of string elements.
+the variable colors is assigned the array of string elements 
+['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'].
+
 =end
