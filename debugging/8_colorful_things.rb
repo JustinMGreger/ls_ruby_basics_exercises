@@ -477,11 +477,19 @@ randomized order of the variable things which is assigned the array of string el
 [i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
 loop which is string concatenated to '.' which is a string period.
 
- 
-
-
-
+Syntax:
   end
+
+Explanation:
+this is the last line of the if statement that is everything after this is outside of the if statement.
+
+
+
+
+
+
+
+
 
   i += 1
 end
@@ -624,6 +632,8 @@ randomized order of the variable things which is assigned the array of string el
 ['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] which is accessed by the index number
 [i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
 loop which is string concatenated to '.' which is a string period.
+this is the last line of the if statement that is everything after this is outside of the if statement.
+
 
 
 This means:
@@ -764,6 +774,7 @@ randomized order of the variable things which is assigned the array of string el
 ['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] which is accessed by the index number
 [i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
 loop which is string concatenated to '.' which is a string period.
+this is the last line of the if statement that is everything after this is outside of the if statement.
 
 
 =end
