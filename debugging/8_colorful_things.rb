@@ -651,32 +651,14 @@ this is the last line of the loop that is everything after this is outside of th
 
 This means:
 
-colors is a variable.
-= means assignment.
-['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'] is a array of string elements.
 the variable colors is assigned the array of string elements 
 ['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'].
-things is a variable.
-= means assignment.
-['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] is a array of string elements.
 the variable things is assigned the array of string elements 
 ['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'].
 
-colors is a variable.
-= means assignment.
-['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'] is a array of string elements.
-the variable colors is assigned the array of string elements 
+permanently randomize the order of the variable colors which is assigned the array of string elements 
 ['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'].
-.shuffle! method means permanently randomize the order of elements in the array.
-this means permanently randomize the order of the variable colors which is assigned the array of string elements 
-['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'].
-things is a variable.
-= means assignment.
-['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] is a array of string elements.
-the variable things is assigned the array of string elements 
-['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'].
-.shuffle! method means permanently randomize the order of elements in the array.
-this means permanently randomize the order of the variable things which is assigned the array of string elements 
+permanently randomize the order of the variable things which is assigned the array of string elements 
 ['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'].
 
 i is a variable.
