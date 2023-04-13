@@ -249,16 +249,21 @@ the permanently randomized order of the variable things which is assigned the ar
 both colors and things are accessed by the [i] which is the variable i which is assigned the integer 0 and is used to 
 track the index of the current iteration in the loop and since in every iteration of the loop the variable i which is 
 originally assigned the integer 0 is reassigned to i + 1 
-this results in:
-[i] = 0 'red'
-[i] = 0 + 1 = 1  'yellow'
-[i] = 1 + 1 = 2  , 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black']
-[i] = 2 + 1 = 3
-[i] = 3 + 1 = 4
-[i] = 4 + 1 = 5
-[i] = 5 + 1 = 6
-[i] = 6 + 1 = 7 error as this the 8th element 
 
+example of what this results in:
+[i] = 0 which means colors[i] = 'red' which means things[i] = 'pen'
+[i] = 0 + 1 = 1  which means colors[i] = 'yellow' which means things[i] = 'mouse pad'
+[i] = 1 + 1 = 2  which means colors[i] =  'purple' which means things[i] = 'coffee mug'
+[i] = 2 + 1 = 3  which means colors[i] = 'green'  which means things[i] = 'sofa'
+[i] = 3 + 1 = 4  which means colors[i] = 'dark blue' which means things[i] = 'surf board'
+[i] = 4 + 1 = 5  which means colors[i] = 'turquoise' which means things[i] = 'training mat'
+[i] = 5 + 1 = 6  which means colors[i] = 'silver'     which means things[i] = 'notebook'
+[i] = 6 + 1 = 7 error as this the 8th element which means colors[i] = 'black' which means things[i] = missing things 
+string element which results in nil. 
+
+the error message says:  no implicit conversion of nil into String (TypeError)
+which means this nil message was not converted to string form.
+a solution could be to break out of the loop before running out of elements.
 
 Syntax of Solution:
 Explanation of Solution Syntax:
