@@ -81,8 +81,12 @@ i is a variable.
 0 is a integer.
 this means the variable i is assigned the integer 0.
 
-
+Syntax:
 loop do
+
+Explanation:
+begin loop.
+
   break if i > colors.length
 
   if i == 0
