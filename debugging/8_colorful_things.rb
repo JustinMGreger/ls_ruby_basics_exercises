@@ -72,12 +72,16 @@ the variable things is assigned the array of string elements
 this means permanently randomize the order of the variable things which is assigned the array of string elements 
 ['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'].
 
-
-
-
-
-
+Syntax:
 i = 0
+
+Explanation:
+i is a variable.
+= means assignment.
+0 is a integer.
+this means the variable i is assigned the integer 0.
+
+
 loop do
   break if i > colors.length
 
