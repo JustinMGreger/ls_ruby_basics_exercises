@@ -112,15 +112,24 @@ exit the loop if the variable i which is assigned the integer 0 is greater than 
 permanently randomized order of the variable colors which is assigned the array of string elements 
 ['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'] then execute the code:
 
-
-
-
-
-
-
-
-
+Syntax:
   if i == 0
+
+Explanation:
+if statements mean if boolean true then execute the code.
+i is a variable.
+= means assignment.
+0 is a integer.
+this means the variable i is assigned the integer 0.
+== means equal to.
+0 is a integer.
+this means:
+if the variable i which is assigned the integer 0 is equal to the integer 0 then execute the code:
+
+
+
+
+
     puts 'I have a ' + colors[i] + ' ' + things[i] + '.'
   else
     puts 'And a ' + colors[i] + ' ' + things[i] + '.'
