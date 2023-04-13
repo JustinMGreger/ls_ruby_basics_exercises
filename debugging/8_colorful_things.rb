@@ -266,7 +266,47 @@ which means this nil message was not converted to string form.
 a solution could be to break out of the loop before running out of elements.
 
 Syntax of Solution:
+
+colors = ['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black']
+things = ['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook']
+
+colors.shuffle!
+things.shuffle!
+
+i = 0
+loop do
+  break if i > things.length - 1
+
+  if i == 0
+    puts 'I have a ' + colors[i] + ' ' + things[i] + '.'
+  else
+    puts 'And a ' + colors[i] + ' ' + things[i] + '.'
+  end
+
+  i += 1
+end
+
 Explanation of Solution Syntax:
+
+colors = ['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black']
+things = ['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook']
+
+colors.shuffle!
+things.shuffle!
+
+i = 0
+loop do
+  break if i > things.length - 1
+
+  if i == 0
+    puts 'I have a ' + colors[i] + ' ' + things[i] + '.'
+  else
+    puts 'And a ' + colors[i] + ' ' + things[i] + '.'
+  end
+
+  i += 1
+end
+
 Summary of Solution Syntax:
 This means:
 =end
