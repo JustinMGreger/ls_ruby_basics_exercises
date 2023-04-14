@@ -88,7 +88,22 @@ the original string form of the parameter str_num into individual character stri
 the transformed values then transform to integer form each of those string elements and returns a new array with the 
 transformed values and execute a block of code for each element.
 
+Syntax:
     product *= digit
+
+Explanation:
+product is a variable.
+= means assignment.
+0 is a integer.
+this means the variable product is assigned the integer 0.
+*= means varialbe *= means variable = that is assigned to variable * variable that is variable is reassigned to variable
+multiplied by variable.
+this means:
+the variable product is reassigned to product * product.
+
+
+
+
   end
 
   product
