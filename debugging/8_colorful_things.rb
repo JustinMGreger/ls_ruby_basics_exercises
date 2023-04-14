@@ -660,69 +660,13 @@ permanently randomize the order of the variable colors which is assigned the arr
 ['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'].
 permanently randomize the order of the variable things which is assigned the array of string elements 
 ['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'].
-
-i is a variable.
-= means assignment.
-0 is a integer.
-this means the variable i is assigned the integer 0.
+=================================================
+the variable i is assigned the integer 0.
 begin loop.
-exit the loop.
-if statements mean if boolean true then execute the code.
-i is a variable.
-= means assignment.
-0 is a integer.
-this means the variable i is assigned the integer 0.
-> means greater than.
-colors is a variable.
-= means assignment.
-['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'] is a array of string elements.
-the variable colors is assigned the array of string elements 
-['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'].
-.shuffle! method means permanently randomize the order of elements in the array.
-this means permanently randomize the order of the variable colors which is assigned the array of string elements 
-['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'].
-.length method returns the length that is the number of characters of that string or array.
-- 1 means subtract 1.
-this means:
 exit the loop if the variable i which is assigned the integer 0 is greater than the number of characters inside of the 
 permanently randomized order of the variable colors which is assigned the array of string elements 
 ['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'] which is then subtracted by 1.
-if statements mean if boolean true then execute the code.
-i is a variable.
-= means assignment.
-0 is a integer.
-this means the variable i is assigned the integer 0.
-== means equal to.
-0 is a integer.
-this means:
-if the variable i which is assigned the integer 0 is equal to the integer 0 then execute the code:
-puts means put s which is put string which means print to the screen the string.
-'I have a ' is a string.
-+ means string concatenation.
-colors is a variable.
-= means assignment.
-['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'] is a array of string elements.
-the variable colors is assigned the array of string elements 
-['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'].
-.shuffle! method means permanently randomize the order of elements in the array.
-this means permanently randomize the order of the variable colors which is assigned the array of string elements 
-['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'].
-[i] is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the loop. 
-+ means string concatenation.
-' ' means string space.
-+ means string concatenation.
-things is a variable.
-= means assignment.
-['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] is a array of string elements.
-the variable things is assigned the array of string elements 
-['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'].
-.shuffle! method means permanently randomize the order of elements in the array.
-this means permanently randomize the order of the variable things which is assigned the array of string elements 
-['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'].
-[i] is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the loop. 
-+ means string concatenation.
-'.' is a string period.
-this means:
+if the variable i which is assigned the integer 0 is equal to the integer 0 then 
 print to the screen the string 'I have a ' which is string concatenated to the permanently randomized order of the 
 variable colors which is assigned the array of string elements 
 ['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'] which is accessed by the index number
@@ -732,6 +676,10 @@ randomized order of the variable things which is assigned the array of string el
 ['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] which is accessed by the index number
 [i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
 loop which is string concatenated to '.' which is a string period.
+
+
+
+
 if the above are boolean false then execute the following.
 puts means put s which is put string which means print to the screen the string.
 'And a 'is a string.
