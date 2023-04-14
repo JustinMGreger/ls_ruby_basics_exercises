@@ -214,6 +214,15 @@ method.
 ('12345') is the argument passed to the digit_product method which accepts the parameter (str_num).
 
 this means:
+output the return the value of the variable product which is the result of ('12345') passed to the digit_product method 
+which accepts the parameter (str_num) and is defined as follows: iterate over the variable digits which is assigned the 
+parameter str_num which the digit_product method accepts that is split the original string form of the parameter str_num 
+into individual character string elements and create a new array with the transformed values then transform to integer 
+form each of those string elements and returns a new array with the transformed values and reassign the variable product 
+by multiplying the variable product which is assigned the integer 0 by the integer form of each of those string elements 
+that were individual character string elements that were split up from the original string.
+
+the result of which is:
 
 
 
