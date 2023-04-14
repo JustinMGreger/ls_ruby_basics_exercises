@@ -125,6 +125,8 @@ the variable product is reassigned to product * digit.
 the result of which is error:
 since the variable product is assigned the integer 0 this will result in product = 0 * digit which results in 0.
 this is why the actual return value is 0 instead of the expected return value of 120.
+this means:
+return the value of the variable product.
 
 Syntax:
 end
