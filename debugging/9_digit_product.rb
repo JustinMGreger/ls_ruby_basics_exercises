@@ -101,10 +101,14 @@ multiplied by variable.
 this means:
 the variable product is reassigned to product * product.
 
-
-
-
+Syntax:
   end
+
+Explanation:
+this is the last line of the .each method that is everything after this is outside of the .each method.
+
+
+
 
   product
 end
