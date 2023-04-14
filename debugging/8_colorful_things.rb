@@ -360,31 +360,21 @@ i is a variable.
 0 is a integer.
 this means the variable i is assigned the integer 0.
 > means greater than.
-
-things syntax
-
-
-
+things is a variable.
+= means assignment.
+['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] is a array of string elements.
+the variable things is assigned the array of string elements 
+['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'].
+.shuffle! method means permanently randomize the order of elements in the array.
+this means permanently randomize the order of the variable things which is assigned the array of string elements 
+['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'].
 .length method returns the length that is the number of characters of that string or array.
 - 1 means subtract 1.
 this means:
 exit the loop if the variable i which is assigned the integer 0 is greater than the number of characters inside of the 
 permanently randomized order of the variable things which is assigned the array of string elements 
-['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] which is then subtracted by 1.
-
-this means:
-the permanently randomized order of the variable things which is assigned the array of string elements 
-['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] has 7 elements.
-
-
-
-
-
-
-
-
-
-
+['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] which is 7 elements which is then 
+subtracted by 1 the result of which is exit the loop if the variable i is greater than 6.
 
 Syntax:
   if i == 0
@@ -554,24 +544,21 @@ i is a variable.
 0 is a integer.
 this means the variable i is assigned the integer 0.
 > means greater than.
-
-things syntax
-
-
-
-
-
-
-
-
+things is a variable.
+= means assignment.
+['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] is a array of string elements.
+the variable things is assigned the array of string elements 
+['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'].
+.shuffle! method means permanently randomize the order of elements in the array.
+this means permanently randomize the order of the variable things which is assigned the array of string elements 
+['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'].
 .length method returns the length that is the number of characters of that string or array.
 - 1 means subtract 1.
 this means:
 exit the loop if the variable i which is assigned the integer 0 is greater than the number of characters inside of the 
 permanently randomized order of the variable things which is assigned the array of string elements 
-['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] which is then subtracted by 1.
-
-
+['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] which is 7 elements which is then 
+subtracted by 1 the result of which is exit the loop if the variable i is greater than 6.
 if statements mean if boolean true then execute the code.
 i is a variable.
 = means assignment.
@@ -679,8 +666,9 @@ permanently randomize the order of the variable things which is assigned the arr
 the variable i is assigned the integer 0.
 begin loop.
 exit the loop if the variable i which is assigned the integer 0 is greater than the number of characters inside of the 
-permanently randomized order of the variable colors which is assigned the array of string elements 
-['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'] which is then subtracted by 1.
+permanently randomized order of the variable things which is assigned the array of string elements 
+['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] which is 7 elements which is then 
+subtracted by 1 the result of which is exit the loop if the variable i is greater than 6.
 if the variable i which is assigned the integer 0 is equal to the integer 0 then 
 print to the screen the string 'I have a ' which is string concatenated to the permanently randomized order of the 
 variable colors which is assigned the array of string elements 
