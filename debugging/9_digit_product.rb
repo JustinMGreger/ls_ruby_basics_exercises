@@ -43,6 +43,9 @@ digits is a variable.
 = means assignment.
 str_num is a parameter.
 .chars method splits the original string into individual character strings and creates an array of those strings.
+.map method applies a block of code to each element and returns a new array with the transformed values.
+
+
 
 
   product = 0
