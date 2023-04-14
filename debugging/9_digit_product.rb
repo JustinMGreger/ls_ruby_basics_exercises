@@ -26,7 +26,17 @@ p digit_product('12345')
 
 Explanation of Initial Syntax Given:
 
+Syntax:
 def digit_product(str_num)
+
+Explanation:
+def means definition.
+digit_product is a method.  
+(str_num) is a parameter.
+this means the digit_product method accepts the (str_num) parameter and is defined as follows:
+
+
+
   digits = str_num.chars.map { |n| n.to_i }
   product = 0
 
