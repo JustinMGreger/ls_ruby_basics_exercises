@@ -114,7 +114,17 @@ Syntax:
   product
 
 Explanation:
-
+product is a variable.
+= means assignment.
+0 is a integer.
+this means the variable product is assigned the integer 0.
+*= means varialbe *= means variable = that is assigned to variable * variable that is variable is reassigned to variable
+multiplied by variable.
+this means:
+the variable product is reassigned to product * digit.
+the result of which is error:
+since the variable product is assigned the integer 0 this will result in product = 0 * digit which results in 0.
+this is why the actual return value is 0 instead of the expected return value of 120.
 
 end
 
