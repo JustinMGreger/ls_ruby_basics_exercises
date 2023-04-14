@@ -686,19 +686,8 @@ randomized order of the variable things which is assigned the array of string el
 ['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] which is accessed by the index number
 [i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
 loop which is string concatenated to '.' which is a string period.
-
-
-
-
-
 this is the last line of the if statement that is everything after this is outside of the if statement.
-i is a variable.
-= means assignment.
-0 is a integer.
-this means the variable i is assigned the integer 0.
-variable += 1 means variable is reassigned to variable + 1.
-1 is a integer.
-this means the variable i which is assigned the integer 0 is reassigned to i + 1.
+the variable i which is assigned the integer 0 is reassigned to i + 1.
 this is the last line of the loop that is everything after this is outside of the loop.
 
 =end
