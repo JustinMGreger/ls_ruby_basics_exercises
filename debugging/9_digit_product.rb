@@ -104,18 +104,18 @@ the result of which is error:
 since the variable product is assigned the integer 0 this will result in product = 0 * digit which results in 0.
 this is why the actual return value is 0 instead of the expected return value of 120.
 
-
-
 Syntax:
   end
 
 Explanation:
 this is the last line of the .each method that is everything after this is outside of the .each method.
 
-
-
-
+Syntax:
   product
+
+Explanation:
+
+
 end
 
 
