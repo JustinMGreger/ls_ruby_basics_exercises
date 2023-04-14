@@ -62,7 +62,32 @@ product is a variable.
 0 is a integer.
 this means the variable product is assigned the integer 0.
 
+Syntax:
   digits.each do |digit|
+
+Explanation:
+digits is a variable.
+= means assignment.
+str_num is a parameter.
+.chars method splits the original string into individual character strings and creates an array of those strings.
+.map method applies a block of code to each element and returns a new array with the transformed values.
+{ |n| n.to_i } is a hash.
+|n| is a block parameter.
+|n| is a block parameter.
+.to_i means transform to integer form.
+this means: 
+the variable digits is assigned the parameter str_num which the digit_product method accepts that is split the original 
+string form of the parameter str_num into individual character string elements and create a new array with the transformed
+values then transform to integer form each of those string elements and returns a new array with the transformed values.
+.each method means iterate over a data structure and execute a block of code for each element.
+do means open the block.
+|digit| is the block parameter.
+this means:
+iterate over the variable digits is assigned the parameter str_num which the digit_product method accepts that is split 
+the original string form of the parameter str_num into individual character string elements and create a new array with 
+the transformed values then transform to integer form each of those string elements and returns a new array with the 
+transformed values and execute a block of code for each element.
+
     product *= digit
   end
 
