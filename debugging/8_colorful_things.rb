@@ -494,7 +494,26 @@ i is a variable.
 this means the variable i is assigned the integer 0.
 variable += 1 means variable is reassigned to variable + 1.
 1 is a integer.
-this means the variable i which is assigned the integer 0 is reassigned to i + 1.
+this means: 
+the variable i which is assigned the integer 0 which prints to the screen the string 'I have a ' which is string 
+concatenated to the permanently randomized order of the variable colors which is assigned the array of string elements 
+['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'] which is accessed by the index number
+[i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
+loop which is string concatenated to ' ' which means string space which is string concatenated to the permanently 
+randomized order of the variable things which is assigned the array of string elements 
+['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] which is accessed by the index number
+[i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
+loop which is string concatenated to '.' which is a string period and then the variable i is reassigned to i + 1 every 
+time the loop runs which prints to the screen the string 'And a ' which is string concatenated to the permanently 
+randomized order of the variable colors which is assigned the array of string elements 
+['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'] which is accessed by the index number
+[i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
+loop which is string concatenated to ' ' which means string space which is string concatenated to the permanently 
+randomized order of the variable things which is assigned the array of string elements 
+['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] which is accessed by the index number
+[i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
+loop which is string concatenated to '.' which is a string period until the variable i is greater than 6 then the loop 
+will break.
 
 Syntax:
 end
@@ -648,7 +667,26 @@ i is a variable.
 this means the variable i is assigned the integer 0.
 variable += 1 means variable is reassigned to variable + 1.
 1 is a integer.
-this means the variable i which is assigned the integer 0 is reassigned to i + 1.
+this means: 
+the variable i which is assigned the integer 0 which prints to the screen the string 'I have a ' which is string 
+concatenated to the permanently randomized order of the variable colors which is assigned the array of string elements 
+['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'] which is accessed by the index number
+[i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
+loop which is string concatenated to ' ' which means string space which is string concatenated to the permanently 
+randomized order of the variable things which is assigned the array of string elements 
+['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] which is accessed by the index number
+[i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
+loop which is string concatenated to '.' which is a string period and then the variable i is reassigned to i + 1 every 
+time the loop runs which prints to the screen the string 'And a ' which is string concatenated to the permanently 
+randomized order of the variable colors which is assigned the array of string elements 
+['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'] which is accessed by the index number
+[i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
+loop which is string concatenated to ' ' which means string space which is string concatenated to the permanently 
+randomized order of the variable things which is assigned the array of string elements 
+['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] which is accessed by the index number
+[i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
+loop which is string concatenated to '.' which is a string period until the variable i is greater than 6 then the loop 
+will break.
 this is the last line of the loop that is everything after this is outside of the loop.
 
 This means:
@@ -690,7 +728,25 @@ randomized order of the variable things which is assigned the array of string el
 [i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
 loop which is string concatenated to '.' which is a string period.
 this is the last line of the if statement that is everything after this is outside of the if statement.
-the variable i which is assigned the integer 0 is reassigned to i + 1.
+the variable i which is assigned the integer 0 which prints to the screen the string 'I have a ' which is string 
+concatenated to the permanently randomized order of the variable colors which is assigned the array of string elements 
+['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'] which is accessed by the index number
+[i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
+loop which is string concatenated to ' ' which means string space which is string concatenated to the permanently 
+randomized order of the variable things which is assigned the array of string elements 
+['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] which is accessed by the index number
+[i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
+loop which is string concatenated to '.' which is a string period and then the variable i is reassigned to i + 1 every 
+time the loop runs which prints to the screen the string 'And a ' which is string concatenated to the permanently 
+randomized order of the variable colors which is assigned the array of string elements 
+['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'] which is accessed by the index number
+[i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
+loop which is string concatenated to ' ' which means string space which is string concatenated to the permanently 
+randomized order of the variable things which is assigned the array of string elements 
+['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'] which is accessed by the index number
+[i] which is the variable i which is assigned the integer 0 and is used to track the index of the current iteration in the
+loop which is string concatenated to '.' which is a string period until the variable i is greater than 6 then the loop 
+will break.
 this is the last line of the loop that is everything after this is outside of the loop.
 
 =end
