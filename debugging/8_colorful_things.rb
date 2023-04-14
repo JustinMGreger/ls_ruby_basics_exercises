@@ -660,7 +660,7 @@ permanently randomize the order of the variable colors which is assigned the arr
 ['red', 'yellow', 'purple', 'green', 'dark blue', 'turquoise', 'silver', 'black'].
 permanently randomize the order of the variable things which is assigned the array of string elements 
 ['pen', 'mouse pad', 'coffee mug', 'sofa', 'surf board', 'training mat', 'notebook'].
-=================================================
+
 the variable i is assigned the integer 0.
 begin loop.
 exit the loop if the variable i which is assigned the integer 0 is greater than the number of characters inside of the 
