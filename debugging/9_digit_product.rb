@@ -126,7 +126,12 @@ the result of which is error:
 since the variable product is assigned the integer 0 this will result in product = 0 * digit which results in 0.
 this is why the actual return value is 0 instead of the expected return value of 120.
 
+Syntax:
 end
+
+Explanation:
+this is the last line of the digit_product method that is everything after this line is outisde of the digit_product 
+method.
 
 
 p digit_product('12345')
