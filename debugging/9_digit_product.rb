@@ -44,7 +44,11 @@ digits is a variable.
 str_num is a parameter.
 .chars method splits the original string into individual character strings and creates an array of those strings.
 .map method applies a block of code to each element and returns a new array with the transformed values.
-
+{ |n| n.to_i } is a hash.
+|n| is a block parameter.
+|n| is a block parameter.
+.to_i means transform to integer form.
+this means the variable digits is assigned the parameter str_num which the digit_product method accepts 
 
 
 
