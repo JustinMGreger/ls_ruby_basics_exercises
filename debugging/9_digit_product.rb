@@ -332,8 +332,21 @@ Syntax:
 Explanation:
 this is the last line of the .each method that is everything after this is outside of the .each method.
 
-
+Syntax:
   product
+
+Explanation:
+return the value of product.
+product is a variable.
+= means assignment.
+1 is a integer.
+this means the variable product is assigned the integer 1.
+*= means varialbe *= means variable = that is assigned to variable * variable that is variable is reassigned to variable
+multiplied by variable.
+this means:
+return the value of the variable product which is assigned the integer 1 and then reassigned to product * digit.
+
+
 end
 
 p digit_product('12345')
@@ -389,8 +402,17 @@ this means the variable product is assigned the integer 1.
 *= means varialbe *= means variable = that is assigned to variable * variable that is variable is reassigned to variable
 multiplied by variable.
 this means:
-the variable product is reassigned to product * digit.
+the variable product is assigned the integer 1 and then reassigned to product * digit.
 this is the last line of the .each method that is everything after this is outside of the .each method.
+return the value of product.
+product is a variable.
+= means assignment.
+1 is a integer.
+this means the variable product is assigned the integer 1.
+*= means varialbe *= means variable = that is assigned to variable * variable that is variable is reassigned to variable
+multiplied by variable.
+this means:
+return the value of the variable product which is assigned the integer 1 and then reassigned to product * digit.
 
 This means:
 
@@ -443,7 +465,16 @@ this means the variable product is assigned the integer 1.
 *= means varialbe *= means variable = that is assigned to variable * variable that is variable is reassigned to variable
 multiplied by variable.
 this means:
-the variable product is reassigned to product * digit.
+the variable product is assigned the integer 1 and then reassigned to product * digit.
 this is the last line of the .each method that is everything after this is outside of the .each method.
+return the value of product.
+product is a variable.
+= means assignment.
+1 is a integer.
+this means the variable product is assigned the integer 1.
+*= means varialbe *= means variable = that is assigned to variable * variable that is variable is reassigned to variable
+multiplied by variable.
+this means:
+return the value of the variable product which is assigned the integer 1 and then reassigned to product * digit.
 
 =end
