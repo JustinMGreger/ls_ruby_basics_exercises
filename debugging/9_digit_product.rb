@@ -221,12 +221,21 @@ into individual character string elements and create a new array with the transf
 form each of those string elements and returns a new array with the transformed values and reassign the variable product 
 by multiplying the variable product which is assigned the integer 0 by the integer form of each of those string elements 
 that were individual character string elements that were split up from the original string.
-
 the result of which is:
+output the return the value of the variable product which is the result of ('12345') passed to the digit_product method 
+which accepts the parameter (str_num) and is defined as follows: iterate over the variable digits which is assigned the 
+parameter str_num which the digit_product method accepts that is split the original string form of the parameter str_num 
+into individual character string elements that is '12345' becomes "1" "2" 3" "4" "5" and create a new array with the 
+transformed values which would be ["1", "2", "3", "4", "5"] then transform to integer form each of those string elements 
+and returns a new array with the transformed values which would be [1, 2, 3, 4, 5] and reassign the variable product by 
+multiplying the variable product which is assigned the integer 0 by the integer form of each of those string elements 
+that were individual character string elements that were split up from the original string which would be the variable 
+product is reassigned 0 * 1 which is 0 and then the variable product is reassigned 0 * 2 which is 0 and then the variable 
+product is reassigned 0 * 3 which is 0 and then the variable product is reassigned 0 * 4 which is 0 and then the variable 
+product is reassigned 0 * 5 which is 0 that is the return value of the variable product is 0.
+the output of which is:
+0
 
-
-
-=======================================================
 Syntax of Solution:
 Explanation of Solution Syntax:
 Summary of Solution Syntax:
