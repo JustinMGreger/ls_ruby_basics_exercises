@@ -62,17 +62,21 @@ character_classes is a variable.
 { means open the outer hash data structure.
 this means the character_classes variable is assigned the outer hash data structure which contains:
 
-
-
-
-
-
-
-
-
-
-
+Syntax:
   warrior: { strength:  20 },
+
+Explanation:
+warrior: is a symbol key.
+{ strength:  20 } is a hash data structure of a symbol key integer value pair that is inside of a hash data structure which
+means this is a nested hash data structure.
+, means more symbol key nested hash data structure value pairs after this.
+this means:
+warrior: is a symbol key assigned { strength:  20 } which is a hash data structure of a symbol key integer value pair that is inside of a hash data structure which
+means this is a nested hash data structure.
+
+
+
+
   thief:   { dexterity: 20 },
   scout:   { stamina:   20 },
   mage:    { charisma:  20 }
