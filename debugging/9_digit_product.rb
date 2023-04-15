@@ -211,7 +211,6 @@ return the value of the variable product.
 this is the last line of the digit_product method that is everything after this line is outisde of the digit_product 
 method.
 ('12345') is the argument passed to the digit_product method which accepts the parameter (str_num).
-
 this means:
 output the return the value of the variable product which is the result of ('12345') passed to the digit_product method 
 which accepts the parameter (str_num) and is defined as follows: iterate over the variable digits which is assigned the 
@@ -247,6 +246,8 @@ def digit_product(str_num)
 
   product
 end
+
+p digit_product('12345')
 
 Explanation of Solution Syntax:
 
@@ -312,13 +313,25 @@ the original string form of the parameter str_num into individual character stri
 the transformed values then transform to integer form each of those string elements and returns a new array with the 
 transformed values and execute a block of code for each element.
 
+Syntax:
+product *= digit
+product is a variable.
+= means assignment.
+1 is a integer.
+this means the variable product is assigned the integer 1.
+*= means varialbe *= means variable = that is assigned to variable * variable that is variable is reassigned to variable
+multiplied by variable.
+this means:
+the variable product is reassigned to product * digit.
 
 
-    product *= digit
+
   end
 
   product
 end
+
+p digit_product('12345')
 
 Summary of Solution Syntax:
 
