@@ -19,7 +19,6 @@ def digit_product(str_num)
   product
 end
 
-
 p digit_product('12345')
 # expected return value: 120
 # actual return value: 0
@@ -260,10 +259,28 @@ digit_product is a method.
 (str_num) is a parameter.
 this means the digit_product method accepts the (str_num) parameter and is defined as follows:
 
-
-
-
+Syntax:
   digits = str_num.chars.map { |n| n.to_i }
+
+Explanation:
+digits is a variable.
+= means assignment.
+str_num is a parameter.
+.chars method splits the original string into individual character strings and creates an array of those strings.
+.map method applies a block of code to each element and returns a new array with the transformed values.
+{ |n| n.to_i } is a hash.
+|n| is a block parameter.
+|n| is a block parameter.
+.to_i means transform to integer form.
+this means: 
+the variable digits is assigned the parameter str_num which the digit_product method accepts that is split the original 
+string form of the parameter str_num into individual character string elements and create a new array with the transformed
+values then transform to integer form each of those string elements and returns a new array with the transformed values.
+
+
+
+
+
   product = 1
 
   digits.each do |digit|
