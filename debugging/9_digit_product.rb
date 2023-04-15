@@ -346,8 +346,12 @@ multiplied by variable.
 this means:
 return the value of the variable product which is assigned the integer 1 and then reassigned to product * digit.
 
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the digit_product method that is everything after this line is outisde of the digit_product 
+method.
 
 p digit_product('12345')
 
