@@ -237,7 +237,31 @@ the output of which is:
 0
 
 Syntax of Solution:
+
+def digit_product(str_num)
+  digits = str_num.chars.map { |n| n.to_i }
+  product = 1
+
+  digits.each do |digit|
+    product *= digit
+  end
+
+  product
+end
+
 Explanation of Solution Syntax:
+
+def digit_product(str_num)
+  digits = str_num.chars.map { |n| n.to_i }
+  product = 1
+
+  digits.each do |digit|
+    product *= digit
+  end
+
+  product
+end
+
 Summary of Solution Syntax:
 This means:
 =end
