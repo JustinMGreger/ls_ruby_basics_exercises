@@ -326,9 +326,12 @@ multiplied by variable.
 this means:
 the variable product is reassigned to product * digit.
 
-
-
+Syntax:
   end
+
+Explanation:
+this is the last line of the .each method that is everything after this is outside of the .each method.
+
 
   product
 end
@@ -387,6 +390,7 @@ this means the variable product is assigned the integer 1.
 multiplied by variable.
 this means:
 the variable product is reassigned to product * digit.
+this is the last line of the .each method that is everything after this is outside of the .each method.
 
 This means:
 
@@ -440,5 +444,6 @@ this means the variable product is assigned the integer 1.
 multiplied by variable.
 this means:
 the variable product is reassigned to product * digit.
+this is the last line of the .each method that is everything after this is outside of the .each method.
 
 =end
