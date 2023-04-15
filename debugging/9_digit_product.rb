@@ -277,11 +277,14 @@ the variable digits is assigned the parameter str_num which the digit_product me
 string form of the parameter str_num into individual character string elements and create a new array with the transformed
 values then transform to integer form each of those string elements and returns a new array with the transformed values.
 
-
-
-
-
+Syntax:
   product = 1
+
+Explanation:
+product is a variable.
+= means assignment.
+1 is a integer.
+this means the variable product is assigned the integer 1.
 
   digits.each do |digit|
     product *= digit
