@@ -315,6 +315,8 @@ transformed values and execute a block of code for each element.
 
 Syntax:
 product *= digit
+
+Explanation:
 product is a variable.
 = means assignment.
 1 is a integer.
@@ -377,7 +379,14 @@ iterate over the variable digits is assigned the parameter str_num which the dig
 the original string form of the parameter str_num into individual character string elements and create a new array with 
 the transformed values then transform to integer form each of those string elements and returns a new array with the 
 transformed values and execute a block of code for each element.
-
+product is a variable.
+= means assignment.
+1 is a integer.
+this means the variable product is assigned the integer 1.
+*= means varialbe *= means variable = that is assigned to variable * variable that is variable is reassigned to variable
+multiplied by variable.
+this means:
+the variable product is reassigned to product * digit.
 
 This means:
 
@@ -423,6 +432,13 @@ iterate over the variable digits is assigned the parameter str_num which the dig
 the original string form of the parameter str_num into individual character string elements and create a new array with 
 the transformed values then transform to integer form each of those string elements and returns a new array with the 
 transformed values and execute a block of code for each element.
-
+product is a variable.
+= means assignment.
+1 is a integer.
+this means the variable product is assigned the integer 1.
+*= means varialbe *= means variable = that is assigned to variable * variable that is variable is reassigned to variable
+multiplied by variable.
+this means:
+the variable product is reassigned to product * digit.
 
 =end
