@@ -421,18 +421,28 @@ return the value of the variable product which is assigned the integer 1 and the
 this is the last line of the digit_product method that is everything after this line is outisde of the digit_product 
 method.
 ('12345') is the argument passed to the digit_product method which accepts the parameter (str_num).
-
 this means:
-
-
-
-
-
-
-
-
-
-
+output the return the value of the variable product which is the result of ('12345') passed to the digit_product method 
+which accepts the parameter (str_num) and is defined as follows: iterate over the variable digits which is assigned the 
+parameter str_num which the digit_product method accepts that is split the original string form of the parameter str_num 
+into individual character string elements and create a new array with the transformed values then transform to integer 
+form each of those string elements and returns a new array with the transformed values and reassign the variable product 
+by multiplying the variable product which is assigned the integer 1 by the integer form of each of those string elements 
+that were individual character string elements that were split up from the original string.
+the result of which is:
+output the return the value of the variable product which is the result of ('12345') passed to the digit_product method 
+which accepts the parameter (str_num) and is defined as follows: iterate over the variable digits which is assigned the 
+parameter str_num which the digit_product method accepts that is split the original string form of the parameter str_num 
+into individual character string elements that is '12345' becomes "1" "2" 3" "4" "5" and create a new array with the 
+transformed values which would be ["1", "2", "3", "4", "5"] then transform to integer form each of those string elements 
+and returns a new array with the transformed values which would be [1, 2, 3, 4, 5] and reassign the variable product by 
+multiplying the variable product which is assigned the integer 1 by the integer form of each of those string elements 
+that were individual character string elements that were split up from the original string which would be the variable 
+product is reassigned 1 * 1 which is 1 and then the variable product is reassigned 1 * 2 which is 2 and then the variable 
+product is reassigned 2 * 3 which is 6 and then the variable product is reassigned 6 * 4 which is 24 and then the variable 
+product is reassigned 24 * 5 which is 120 that is the return value of the variable product is 120.
+the output of which is:
+120
 
 Summary of Solution Syntax:
 
@@ -499,6 +509,93 @@ return the value of the variable product which is assigned the integer 1 and the
 this is the last line of the digit_product method that is everything after this line is outisde of the digit_product 
 method.
 
+p means output.
+def means definition.
+digit_product is a method.  
+(str_num) is a parameter.
+this means the digit_product method accepts the (str_num) parameter and is defined as follows:
+digits is a variable.
+= means assignment.
+str_num is a parameter.
+.chars method splits the original string into individual character strings and creates an array of those strings.
+.map method applies a block of code to each element and returns a new array with the transformed values.
+{ |n| n.to_i } is a hash.
+|n| is a block parameter.
+|n| is a block parameter.
+.to_i means transform to integer form.
+this means: 
+the variable digits is assigned the parameter str_num which the digit_product method accepts that is split the original 
+string form of the parameter str_num into individual character string elements and create a new array with the transformed
+values then transform to integer form each of those string elements and returns a new array with the transformed values.
+product is a variable.
+= means assignment.
+1 is a integer.
+this means the variable product is assigned the integer 1.
+digits is a variable.
+= means assignment.
+str_num is a parameter.
+.chars method splits the original string into individual character strings and creates an array of those strings.
+.map method applies a block of code to each element and returns a new array with the transformed values.
+{ |n| n.to_i } is a hash.
+|n| is a block parameter.
+|n| is a block parameter.
+.to_i means transform to integer form.
+this means: 
+the variable digits is assigned the parameter str_num which the digit_product method accepts that is split the original 
+string form of the parameter str_num into individual character string elements and create a new array with the transformed
+values then transform to integer form each of those string elements and returns a new array with the transformed values.
+.each method means iterate over a data structure and execute a block of code for each element.
+do means open the block.
+|digit| is the block parameter.
+this means:
+iterate over the variable digits is assigned the parameter str_num which the digit_product method accepts that is split 
+the original string form of the parameter str_num into individual character string elements and create a new array with 
+the transformed values then transform to integer form each of those string elements and returns a new array with the 
+transformed values and execute a block of code for each element.
+product is a variable.
+= means assignment.
+1 is a integer.
+this means the variable product is assigned the integer 1.
+*= means varialbe *= means variable = that is assigned to variable * variable that is variable is reassigned to variable
+multiplied by variable.
+this means:
+the variable product is assigned the integer 1 and then reassigned to product * digit.
+this is the last line of the .each method that is everything after this is outside of the .each method.
+return the value of product.
+product is a variable.
+= means assignment.
+1 is a integer.
+this means the variable product is assigned the integer 1.
+*= means varialbe *= means variable = that is assigned to variable * variable that is variable is reassigned to variable
+multiplied by variable.
+this means:
+return the value of the variable product which is assigned the integer 1 and then reassigned to product * digit.
+this is the last line of the digit_product method that is everything after this line is outisde of the digit_product 
+method.
+('12345') is the argument passed to the digit_product method which accepts the parameter (str_num).
+this means:
+output the return the value of the variable product which is the result of ('12345') passed to the digit_product method 
+which accepts the parameter (str_num) and is defined as follows: iterate over the variable digits which is assigned the 
+parameter str_num which the digit_product method accepts that is split the original string form of the parameter str_num 
+into individual character string elements and create a new array with the transformed values then transform to integer 
+form each of those string elements and returns a new array with the transformed values and reassign the variable product 
+by multiplying the variable product which is assigned the integer 1 by the integer form of each of those string elements 
+that were individual character string elements that were split up from the original string.
+the result of which is:
+output the return the value of the variable product which is the result of ('12345') passed to the digit_product method 
+which accepts the parameter (str_num) and is defined as follows: iterate over the variable digits which is assigned the 
+parameter str_num which the digit_product method accepts that is split the original string form of the parameter str_num 
+into individual character string elements that is '12345' becomes "1" "2" 3" "4" "5" and create a new array with the 
+transformed values which would be ["1", "2", "3", "4", "5"] then transform to integer form each of those string elements 
+and returns a new array with the transformed values which would be [1, 2, 3, 4, 5] and reassign the variable product by 
+multiplying the variable product which is assigned the integer 1 by the integer form of each of those string elements 
+that were individual character string elements that were split up from the original string which would be the variable 
+product is reassigned 1 * 1 which is 1 and then the variable product is reassigned 1 * 2 which is 2 and then the variable 
+product is reassigned 2 * 3 which is 6 and then the variable product is reassigned 6 * 4 which is 24 and then the variable 
+product is reassigned 24 * 5 which is 120 that is the return value of the variable product is 120.
+the output of which is:
+120
+
 This means:
 
 def means definition.
@@ -563,5 +660,92 @@ this means:
 return the value of the variable product which is assigned the integer 1 and then reassigned to product * digit.
 this is the last line of the digit_product method that is everything after this line is outisde of the digit_product 
 method.
+
+p means output.
+def means definition.
+digit_product is a method.  
+(str_num) is a parameter.
+this means the digit_product method accepts the (str_num) parameter and is defined as follows:
+digits is a variable.
+= means assignment.
+str_num is a parameter.
+.chars method splits the original string into individual character strings and creates an array of those strings.
+.map method applies a block of code to each element and returns a new array with the transformed values.
+{ |n| n.to_i } is a hash.
+|n| is a block parameter.
+|n| is a block parameter.
+.to_i means transform to integer form.
+this means: 
+the variable digits is assigned the parameter str_num which the digit_product method accepts that is split the original 
+string form of the parameter str_num into individual character string elements and create a new array with the transformed
+values then transform to integer form each of those string elements and returns a new array with the transformed values.
+product is a variable.
+= means assignment.
+1 is a integer.
+this means the variable product is assigned the integer 1.
+digits is a variable.
+= means assignment.
+str_num is a parameter.
+.chars method splits the original string into individual character strings and creates an array of those strings.
+.map method applies a block of code to each element and returns a new array with the transformed values.
+{ |n| n.to_i } is a hash.
+|n| is a block parameter.
+|n| is a block parameter.
+.to_i means transform to integer form.
+this means: 
+the variable digits is assigned the parameter str_num which the digit_product method accepts that is split the original 
+string form of the parameter str_num into individual character string elements and create a new array with the transformed
+values then transform to integer form each of those string elements and returns a new array with the transformed values.
+.each method means iterate over a data structure and execute a block of code for each element.
+do means open the block.
+|digit| is the block parameter.
+this means:
+iterate over the variable digits is assigned the parameter str_num which the digit_product method accepts that is split 
+the original string form of the parameter str_num into individual character string elements and create a new array with 
+the transformed values then transform to integer form each of those string elements and returns a new array with the 
+transformed values and execute a block of code for each element.
+product is a variable.
+= means assignment.
+1 is a integer.
+this means the variable product is assigned the integer 1.
+*= means varialbe *= means variable = that is assigned to variable * variable that is variable is reassigned to variable
+multiplied by variable.
+this means:
+the variable product is assigned the integer 1 and then reassigned to product * digit.
+this is the last line of the .each method that is everything after this is outside of the .each method.
+return the value of product.
+product is a variable.
+= means assignment.
+1 is a integer.
+this means the variable product is assigned the integer 1.
+*= means varialbe *= means variable = that is assigned to variable * variable that is variable is reassigned to variable
+multiplied by variable.
+this means:
+return the value of the variable product which is assigned the integer 1 and then reassigned to product * digit.
+this is the last line of the digit_product method that is everything after this line is outisde of the digit_product 
+method.
+('12345') is the argument passed to the digit_product method which accepts the parameter (str_num).
+this means:
+output the return the value of the variable product which is the result of ('12345') passed to the digit_product method 
+which accepts the parameter (str_num) and is defined as follows: iterate over the variable digits which is assigned the 
+parameter str_num which the digit_product method accepts that is split the original string form of the parameter str_num 
+into individual character string elements and create a new array with the transformed values then transform to integer 
+form each of those string elements and returns a new array with the transformed values and reassign the variable product 
+by multiplying the variable product which is assigned the integer 1 by the integer form of each of those string elements 
+that were individual character string elements that were split up from the original string.
+the result of which is:
+output the return the value of the variable product which is the result of ('12345') passed to the digit_product method 
+which accepts the parameter (str_num) and is defined as follows: iterate over the variable digits which is assigned the 
+parameter str_num which the digit_product method accepts that is split the original string form of the parameter str_num 
+into individual character string elements that is '12345' becomes "1" "2" 3" "4" "5" and create a new array with the 
+transformed values which would be ["1", "2", "3", "4", "5"] then transform to integer form each of those string elements 
+and returns a new array with the transformed values which would be [1, 2, 3, 4, 5] and reassign the variable product by 
+multiplying the variable product which is assigned the integer 1 by the integer form of each of those string elements 
+that were individual character string elements that were split up from the original string which would be the variable 
+product is reassigned 1 * 1 which is 1 and then the variable product is reassigned 1 * 2 which is 2 and then the variable 
+product is reassigned 2 * 3 which is 6 and then the variable product is reassigned 6 * 4 which is 24 and then the variable 
+product is reassigned 24 * 5 which is 120 that is the return value of the variable product is 120.
+the output of which is:
+120
 
 =end
