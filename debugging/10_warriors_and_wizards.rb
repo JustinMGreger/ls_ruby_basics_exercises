@@ -177,10 +177,139 @@ stamina: is a symbol key.
 10 is a integer value.
 this means the stamina: symbol key is assigned the 10 integer value.
 } means close the hash data structure that is everything after this is outside of the hash data structure.
+.merge method combines hash data structures into a new hash without duplicates.
+(character_classes[input]) means access the value of the key input in the character_classes outer hash data structure.
+character_classes is a variable.
+= means assignment.
+{ means open the outer hash data structure.
+this means the character_classes variable is assigned the outer hash data structure which contains:
+warrior: is a symbol key.
+{ strength:  20 } is a hash data structure of a symbol key integer value pair that is inside of a hash data structure which
+means this is a nested hash data structure.
+strength: is a symbol key.
+20 is a integer value.
+, means more symbol key nested hash data structure value pairs after this.
+this means:
+warrior: is a symbol key assigned { strength:  20 } which is a hash data structure of a symbol key integer value pair that 
+is inside of a hash data structure which means this is a nested hash data structure which contains the strength: symbol 
+key which is assigned the 20 integer value.
+thief: is a symbol key.
+{ dexterity: 20 } is a hash data structure of a symbol key integer value pair that is inside of a hash data structure 
+which means this is a nested hash data structure.
+dexterity: is a symbol key.
+20 is a integer value.
+, means more symbol key nested hash data structure value pairs after this.
+this means:
+thief: is a symbol key assigned { dexterity: 20 } which is a hash data structure of a symbol key integer value pair that 
+is inside of a hash data structure which means this is a nested hash data structure which contains the dexterity: symbol 
+key which is assigned the 20 integer value.
+scout: is a symbol key.
+{ stamina:  20 } is a hash data structure of a symbol key integer value pair that is inside of a hash data structure 
+which means this is a nested hash data structure.
+stamina: is a symbol key.
+20 is a integer value.
+, means more symbol key nested hash data structure value pairs after this.
+this means:
+scout: is a symbol key assigned { stamina: 20 } which is a hash data structure of a symbol key integer value pair that is 
+inside of a hash data structure which means this is a nested hash data structure which contains the stamina: symbol key 
+which is assigned the 20 integer value.
+mage: is a symbol key.
+{ charisma:  20 } is a hash data structure of a symbol key integer value pair that is inside of a hash data structure 
+which means this is a nested hash data structure.
+charisma: is a symbol key.
+20 is a integer value.
+this means:
+mage: is a symbol key assigned { charisma: 20 } which is a hash data structure of a symbol key integer value pair that is 
+inside of a hash data structure which means this is a nested hash data structure which contains the charisma: symbol key 
+which is assigned the 20 integer value.
+} means close the character_classes outer hash data structure.
+this means everything after this line is outside of the character_classes outer hash data structure.
+input is a variable.
+= means assignment.
+gets is get s which is get string which is get user input in string form.
+.chomp method removes the new line character at the end of the string.
+.downcase method converts all upcase letters in a string to the lowercase version of the letters.
+this means:
+input is a variable assigned the user input in string form then remove the new line character at the end of the string 
+then convert all the upcase letters in the string to the lowercase version of the letters.
+this means:
+player is a variable.
+= means assignment.
+{ strength: 10, dexterity: 10, charisma: 10, stamina: 10 } is a hash data structure of symbol key integer value pairs.
+{ means open the hash data structure.
+strength: is a symbol key.
+10 is a integer value.
+, means more symbol key integer value pairs after this.
+this means the strength: symbol key is assigned the 10 integer value.
+dexterity: is a symbol key.
+10 is a integer value.
+this means the dexterity: symbol key is assigned the 10 integer value.
+, means more symbol key integer value pairs after this.
+charisma: is a symbol key.
+10 is a integer value.
+, means more symbol key integer value pairs after this.
+this means the charisma: symbol key is assigned the 10 integer value.
+stamina: is a symbol key.
+10 is a integer value.
+this means the stamina: symbol key is assigned the 10 integer value.
+} means close the hash data structure that is everything after this is outside of the hash data structure.
+.merge method combines hash data structures into a new hash without duplicates.
+(character_classes[input]) means access the value of the key input in the character_classes outer hash data structure.
+character_classes is a variable.
+= means assignment.
+{ means open the outer hash data structure.
+this means the character_classes variable is assigned the outer hash data structure which contains:
+warrior: is a symbol key.
+{ strength:  20 } is a hash data structure of a symbol key integer value pair that is inside of a hash data structure which
+means this is a nested hash data structure.
+strength: is a symbol key.
+20 is a integer value.
+, means more symbol key nested hash data structure value pairs after this.
+this means:
+warrior: is a symbol key assigned { strength:  20 } which is a hash data structure of a symbol key integer value pair that 
+is inside of a hash data structure which means this is a nested hash data structure which contains the strength: symbol 
+key which is assigned the 20 integer value.
+thief: is a symbol key.
+{ dexterity: 20 } is a hash data structure of a symbol key integer value pair that is inside of a hash data structure 
+which means this is a nested hash data structure.
+dexterity: is a symbol key.
+20 is a integer value.
+, means more symbol key nested hash data structure value pairs after this.
+this means:
+thief: is a symbol key assigned { dexterity: 20 } which is a hash data structure of a symbol key integer value pair that 
+is inside of a hash data structure which means this is a nested hash data structure which contains the dexterity: symbol 
+key which is assigned the 20 integer value.
+scout: is a symbol key.
+{ stamina:  20 } is a hash data structure of a symbol key integer value pair that is inside of a hash data structure 
+which means this is a nested hash data structure.
+stamina: is a symbol key.
+20 is a integer value.
+, means more symbol key nested hash data structure value pairs after this.
+this means:
+scout: is a symbol key assigned { stamina: 20 } which is a hash data structure of a symbol key integer value pair that is 
+inside of a hash data structure which means this is a nested hash data structure which contains the stamina: symbol key 
+which is assigned the 20 integer value.
+mage: is a symbol key.
+{ charisma:  20 } is a hash data structure of a symbol key integer value pair that is inside of a hash data structure 
+which means this is a nested hash data structure.
+charisma: is a symbol key.
+20 is a integer value.
 
-
-
-
+this means:
+mage: is a symbol key assigned { charisma: 20 } which is a hash data structure of a symbol key integer value pair that is 
+inside of a hash data structure which means this is a nested hash data structure which contains the charisma: symbol key 
+which is assigned the 20 integer value.
+} means close the character_classes outer hash data structure.
+this means everything after this line is outside of the character_classes outer hash data structure.
+input is a variable.
+= means assignment.
+gets is get s which is get string which is get user input in string form.
+.chomp method removes the new line character at the end of the string.
+.downcase method converts all upcase letters in a string to the lowercase version of the letters.
+this means:
+input is a variable assigned the user input in string form then remove the new line character at the end of the string 
+then convert all the upcase letters in the string to the lowercase version of the letters.
+===========================================================
 puts 'Your character stats:'
 puts player
 
