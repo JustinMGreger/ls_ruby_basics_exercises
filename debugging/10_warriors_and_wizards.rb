@@ -132,12 +132,19 @@ Explanation:
 } means close the character_classes outer hash data structure.
 this means everything after this line is outside of the character_classes outer hash data structure.
 
-
-
-
-
-
+Syntax:
 puts 'Please type your class (warrior, thief, scout, mage):'
+
+Explanation:
+puts is put s which is put string which means print to the screen the string.
+'Please type your class (warrior, thief, scout, mage):' is a string.
+this means print to the screen the string  'Please type your class (warrior, thief, scout, mage):'.
+
+
+
+
+
+
 input = gets.chomp.downcase
 
 player.merge(character_classes[input])
