@@ -42,6 +42,10 @@ strength: is a symbol key.
 10 is a integer value.
 , means more symbol key integer value pairs after this.
 this means the strength: symbol key is assigned the 10 integer value.
+dexterity: is a symbol key.
+10 is a integer value.
+this means the dexterity: symbol key is assigned the 10 integer value.
+, means more symbol key integer value pairs after this.
 charisma: is a symbol key.
 10 is a integer value.
 , means more symbol key integer value pairs after this.
@@ -81,8 +85,16 @@ Explanation:
 thief: is a symbol key.
 { dexterity: 20 } is a hash data structure of a symbol key integer value pair that is inside of a hash data structure 
 which means this is a nested hash data structure.
+dexterity:
+20
+
+
+
+
 , means more symbol key nested hash data structure value pairs after this.
 this means:
+
+
 thief: is a symbol key assigned { dexterity: 20 } which is a hash data structure of a symbol key integer value pair that 
 is inside of a hash data structure which means this is a nested hash data structure.
 
