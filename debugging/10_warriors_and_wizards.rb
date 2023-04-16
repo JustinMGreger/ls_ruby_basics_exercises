@@ -140,12 +140,20 @@ puts is put s which is put string which means print to the screen the string.
 'Please type your class (warrior, thief, scout, mage):' is a string.
 this means print to the screen the string  'Please type your class (warrior, thief, scout, mage):'.
 
-
-
-
-
-
+Syntax:
 input = gets.chomp.downcase
+
+Explanation:
+input is a variable.
+= means assignment.
+gets is get s which is get string which is get user input in string form.
+.chomp method removes the new line character at the end of the string.
+.downcase method converts all upcase letters in a string to the lowercase version of the letters.
+this means:
+input is a variable assigned the user input in string form then remove the new line character at the end of the string 
+then convert all the upcase letters in the string to the lowercase version of the letters.
+
+
 
 player.merge(character_classes[input])
 
