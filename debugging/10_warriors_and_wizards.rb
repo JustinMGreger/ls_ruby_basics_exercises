@@ -111,11 +111,26 @@ scout: is a symbol key assigned { stamina: 20 } which is a hash data structure o
 inside of a hash data structure which means this is a nested hash data structure which contains the stamina: symbol key 
 which is assigned the 20 integer value.
 
-
-
-
-
+Syntax:
   mage:    { charisma:  20 }
+
+Explanation:
+mage: is a symbol key.
+{ charisma:  20 } is a hash data structure of a symbol key integer value pair that is inside of a hash data structure 
+which means this is a nested hash data structure.
+charisma: is a symbol key.
+20 is a integer value.
+this means:
+mage: is a symbol key assigned { charisma: 20 } which is a hash data structure of a symbol key integer value pair that is 
+inside of a hash data structure which means this is a nested hash data structure which contains the charisma: symbol key 
+which is assigned the 20 integer value.
+
+
+
+
+
+
+
 }
 
 puts 'Please type your class (warrior, thief, scout, mage):'
