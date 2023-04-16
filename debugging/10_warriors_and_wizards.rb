@@ -238,7 +238,7 @@ structure of symbol key integer value pairs which contains: the strength: symbol
 value, the dexterity: symbol key which is assigned the 10 integer value, the charisma: symbol key which is assigned the 10
 integer value, the stamina: symbol key which is assigned the 10 integer value and close the hash data structure that is 
 everything after this is outside of the hash data structure with the accessed value of the key input in the 
-character_classes outer hash data structure into a new hash without duplicates where input is a variable assigned the user 
+character_classes outer hash data structure into a new hash without duplicates where input is a variable assigned the user
 input in string form which then removes the new line character at the end of the string and then converts all the upcase 
 letters in the string to the lowercase version of the letters and where the character_classes variable is assigned the 
 outer hash data structure which contains: the symbol key warrior: which is assigned { strength:  20 } which is a hash data
@@ -250,37 +250,17 @@ the 20 integer value, the scout: symbol key which is assigned { stamina: 20 } wh
 key integer value pair that is inside of a hash data structure which means this is a nested hash data structure which 
 contains the stamina: symbol key which is assigned the 20 integer value, the mage: symbol key which is assigned 
 { charisma: 20 } which is a hash data structure of a symbol key integer value pair that is inside of a hash data structure
-which means this is a nested hash data structure which contains the charisma: symbol key which is assigned the 20 integer 
+which means this is a nested hash data structure which contains the charisma: symbol key which is assigned the 20 integer
 value and close the character_classes outer hash data structure which means everything after this line is outside of the 
 character_classes outer hash data structure.
+the result of which is: 
+the error is that input is in string form and not symbol form which is what the character_classes outer hash data 
+structure uses which means it is not accessible that is it doesn't exist and the result of which is nil.
+the error is that the result of the merge method does not mutate the original data and is not assigned to a variable which
+means that the transformed new hash data structure is not accessible.
 
 
 
-
-the error is that input is in string form and not symbol form.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-===========================================================
 puts 'Your character stats:'
 puts player
 
