@@ -153,9 +153,33 @@ this means:
 input is a variable assigned the user input in string form then remove the new line character at the end of the string 
 then convert all the upcase letters in the string to the lowercase version of the letters.
 
-
-
+Syntax:
 player.merge(character_classes[input])
+
+Explanation:
+player is a variable.
+= means assignment.
+{ strength: 10, dexterity: 10, charisma: 10, stamina: 10 } is a hash data structure of symbol key integer value pairs.
+{ means open the hash data structure.
+strength: is a symbol key.
+10 is a integer value.
+, means more symbol key integer value pairs after this.
+this means the strength: symbol key is assigned the 10 integer value.
+dexterity: is a symbol key.
+10 is a integer value.
+this means the dexterity: symbol key is assigned the 10 integer value.
+, means more symbol key integer value pairs after this.
+charisma: is a symbol key.
+10 is a integer value.
+, means more symbol key integer value pairs after this.
+this means the charisma: symbol key is assigned the 10 integer value.
+stamina: is a symbol key.
+10 is a integer value.
+this means the stamina: symbol key is assigned the 10 integer value.
+} means close the hash data structure that is everything after this is outside of the hash data structure.
+
+
+
 
 puts 'Your character stats:'
 puts player
