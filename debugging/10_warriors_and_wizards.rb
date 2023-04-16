@@ -71,13 +71,22 @@ warrior: is a symbol key.
 means this is a nested hash data structure.
 , means more symbol key nested hash data structure value pairs after this.
 this means:
-warrior: is a symbol key assigned { strength:  20 } which is a hash data structure of a symbol key integer value pair that is inside of a hash data structure which
-means this is a nested hash data structure.
+warrior: is a symbol key assigned { strength:  20 } which is a hash data structure of a symbol key integer value pair that 
+is inside of a hash data structure which means this is a nested hash data structure.
 
-
-
-
+Syntax:
   thief:   { dexterity: 20 },
+
+Explanation:
+thief: is a symbol key.
+{ dexterity: 20 } is a hash data structure of a symbol key integer value pair that is inside of a hash data structure 
+which means this is a nested hash data structure.
+, means more symbol key nested hash data structure value pairs after this.
+this means:
+thief: is a symbol key assigned { dexterity: 20 } which is a hash data structure of a symbol key integer value pair that 
+is inside of a hash data structure which means this is a nested hash data structure.
+
+
   scout:   { stamina:   20 },
   mage:    { charisma:  20 }
 }
