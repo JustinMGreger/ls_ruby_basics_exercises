@@ -452,7 +452,6 @@ stamina: is a symbol key.
 this means the stamina: symbol key is assigned the 10 integer value.
 } means close the hash data structure that is everything after this is outside of the hash data structure.
 
-
 # Then she picks a character class and gets an upgrade accordingly.
 
 Syntax:
@@ -530,9 +529,19 @@ Explanation:
 } means close the character_classes outer hash data structure.
 this means everything after this line is outside of the character_classes outer hash data structure.
 
-
-
+Syntax:
 puts 'Please type your class (warrior, thief, scout, mage):'
+
+Explanation:
+puts is put s which is put string which means print to the screen the string.
+'Please type your class (warrior, thief, scout, mage):' is a string.
+this means print to the screen the string  'Please type your class (warrior, thief, scout, mage):'.
+
+
+
+
+
+
 input = gets.chomp.downcase
 
 player = player.merge(character_classes[input.to_sym])
@@ -609,6 +618,10 @@ which is assigned the 20 integer value.
 } means close the character_classes outer hash data structure.
 this means everything after this line is outside of the character_classes outer hash data structure.
 
+puts is put s which is put string which means print to the screen the string.
+'Please type your class (warrior, thief, scout, mage):' is a string.
+this means print to the screen the string  'Please type your class (warrior, thief, scout, mage):'.
+
 This means:
 
 player is a variable.
@@ -677,5 +690,9 @@ inside of a hash data structure which means this is a nested hash data structure
 which is assigned the 20 integer value.
 } means close the character_classes outer hash data structure.
 this means everything after this line is outside of the character_classes outer hash data structure.
+
+puts is put s which is put string which means print to the screen the string.
+'Please type your class (warrior, thief, scout, mage):' is a string.
+this means print to the screen the string  'Please type your class (warrior, thief, scout, mage):'.
 
 =end
