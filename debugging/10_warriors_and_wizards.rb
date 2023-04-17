@@ -663,7 +663,6 @@ puts is put s which is put string which means print to the screen the string.
 'Your character stats:' is a string.
 this means print to the screen the string 'Your character stats:'.
 
-
 Syntax:
 puts player
 
@@ -1103,26 +1102,11 @@ outside of the character_classes outer hash data structure.
 
 This means:
 
-player is a variable.
-= means assignment.
-{ strength: 10, dexterity: 10, charisma: 10, stamina: 10 } is a hash data structure of symbol key integer value pairs.
-{ means open the hash data structure.
-strength: is a symbol key.
-10 is a integer value.
-, means more symbol key integer value pairs after this.
-this means the strength: symbol key is assigned the 10 integer value.
-dexterity: is a symbol key.
-10 is a integer value.
-this means the dexterity: symbol key is assigned the 10 integer value.
-, means more symbol key integer value pairs after this.
-charisma: is a symbol key.
-10 is a integer value.
-, means more symbol key integer value pairs after this.
-this means the charisma: symbol key is assigned the 10 integer value.
-stamina: is a symbol key.
-10 is a integer value.
-this means the stamina: symbol key is assigned the 10 integer value.
-} means close the hash data structure that is everything after this is outside of the hash data structure.
+the variable player is assigned the { strength: 10, dexterity: 10, charisma: 10, stamina: 10 } hash data structure of 
+symbol key integer value pairs containing: the strength: symbol key which is assigned the 10 integer value, the 
+dexterity: symbol key which is assigned the 10 integer value, the charisma: symbol key which is assigned the 10 integer 
+value, the stamina: symbol key which is assigned the 10 integer value and close the hash data structure that is 
+everything after this is outside of the hash data structure.
 
 character_classes is a variable.
 = means assignment.
