@@ -479,11 +479,27 @@ warrior: is a symbol key assigned { strength:  20 } which is a hash data structu
 is inside of a hash data structure which means this is a nested hash data structure which contains the strength: symbol 
 key which is assigned the 20 integer value.
 
-
-
-
-
+Syntax:
   thief:   { dexterity: 20 },
+
+Explanation:
+thief: is a symbol key.
+{ dexterity: 20 } is a hash data structure of a symbol key integer value pair that is inside of a hash data structure 
+which means this is a nested hash data structure.
+dexterity: is a symbol key.
+20 is a integer value.
+, means more symbol key nested hash data structure value pairs after this.
+this means:
+thief: is a symbol key assigned { dexterity: 20 } which is a hash data structure of a symbol key integer value pair that 
+is inside of a hash data structure which means this is a nested hash data structure which contains the dexterity: symbol 
+key which is assigned the 20 integer value.
+
+
+
+
+
+
+
   scout:   { stamina:   20 },
   mage:    { charisma:  20 }
 }
@@ -533,6 +549,16 @@ this means:
 warrior: is a symbol key assigned { strength:  20 } which is a hash data structure of a symbol key integer value pair that 
 is inside of a hash data structure which means this is a nested hash data structure which contains the strength: symbol 
 key which is assigned the 20 integer value.
+thief: is a symbol key.
+{ dexterity: 20 } is a hash data structure of a symbol key integer value pair that is inside of a hash data structure 
+which means this is a nested hash data structure.
+dexterity: is a symbol key.
+20 is a integer value.
+, means more symbol key nested hash data structure value pairs after this.
+this means:
+thief: is a symbol key assigned { dexterity: 20 } which is a hash data structure of a symbol key integer value pair that 
+is inside of a hash data structure which means this is a nested hash data structure which contains the dexterity: symbol 
+key which is assigned the 20 integer value.
 
 This means:
 
@@ -570,6 +596,16 @@ strength: is a symbol key.
 this means:
 warrior: is a symbol key assigned { strength:  20 } which is a hash data structure of a symbol key integer value pair that 
 is inside of a hash data structure which means this is a nested hash data structure which contains the strength: symbol 
+key which is assigned the 20 integer value.
+thief: is a symbol key.
+{ dexterity: 20 } is a hash data structure of a symbol key integer value pair that is inside of a hash data structure 
+which means this is a nested hash data structure.
+dexterity: is a symbol key.
+20 is a integer value.
+, means more symbol key nested hash data structure value pairs after this.
+this means:
+thief: is a symbol key assigned { dexterity: 20 } which is a hash data structure of a symbol key integer value pair that 
+is inside of a hash data structure which means this is a nested hash data structure which contains the dexterity: symbol 
 key which is assigned the 20 integer value.
 
 =end
