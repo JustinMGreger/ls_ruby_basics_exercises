@@ -523,13 +523,14 @@ mage: is a symbol key assigned { charisma: 20 } which is a hash data structure o
 inside of a hash data structure which means this is a nested hash data structure which contains the charisma: symbol key 
 which is assigned the 20 integer value.
 
-
-
-
-
-
-
+Syntax:
 }
+
+Explanation:
+} means close the character_classes outer hash data structure.
+this means everything after this line is outside of the character_classes outer hash data structure.
+
+
 
 puts 'Please type your class (warrior, thief, scout, mage):'
 input = gets.chomp.downcase
@@ -605,6 +606,8 @@ this means:
 mage: is a symbol key assigned { charisma: 20 } which is a hash data structure of a symbol key integer value pair that is 
 inside of a hash data structure which means this is a nested hash data structure which contains the charisma: symbol key 
 which is assigned the 20 integer value.
+} means close the character_classes outer hash data structure.
+this means everything after this line is outside of the character_classes outer hash data structure.
 
 This means:
 
@@ -672,5 +675,7 @@ this means:
 mage: is a symbol key assigned { charisma: 20 } which is a hash data structure of a symbol key integer value pair that is 
 inside of a hash data structure which means this is a nested hash data structure which contains the charisma: symbol key 
 which is assigned the 20 integer value.
+} means close the character_classes outer hash data structure.
+this means everything after this line is outside of the character_classes outer hash data structure.
 
 =end
