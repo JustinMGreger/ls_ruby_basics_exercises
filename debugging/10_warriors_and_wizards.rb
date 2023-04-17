@@ -400,9 +400,52 @@ structure uses which means it is not accessible that is it doesn't exist and the
 the error is that the result of the merge method does not mutate the original data and is not assigned to a variable which
 means that the transformed new hash data structure is not accessible.
 
-
 Syntax of Solution:
+
+# Each player starts with the same basic stats.
+
+player = { strength: 10, dexterity: 10, charisma: 10, stamina: 10 }
+
+# Then she picks a character class and gets an upgrade accordingly.
+
+character_classes = {
+  warrior: { strength:  20 },
+  thief:   { dexterity: 20 },
+  scout:   { stamina:   20 },
+  mage:    { charisma:  20 }
+}
+
+puts 'Please type your class (warrior, thief, scout, mage):'
+input = gets.chomp.downcase
+
+player = player.merge(character_classes[input.to_sym])
+
+puts 'Your character stats:'
+puts player
+
 Explanation of Solution Syntax:
+
+# Each player starts with the same basic stats.
+
+player = { strength: 10, dexterity: 10, charisma: 10, stamina: 10 }
+
+# Then she picks a character class and gets an upgrade accordingly.
+
+character_classes = {
+  warrior: { strength:  20 },
+  thief:   { dexterity: 20 },
+  scout:   { stamina:   20 },
+  mage:    { charisma:  20 }
+}
+
+puts 'Please type your class (warrior, thief, scout, mage):'
+input = gets.chomp.downcase
+
+player = player.merge(character_classes[input.to_sym])
+
+puts 'Your character stats:'
+puts player
+
 Summary of Solution Syntax:
 This means:
 =end
