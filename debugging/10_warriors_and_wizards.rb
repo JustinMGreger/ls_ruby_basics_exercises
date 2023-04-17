@@ -455,7 +455,18 @@ this means the stamina: symbol key is assigned the 10 integer value.
 
 # Then she picks a character class and gets an upgrade accordingly.
 
+Syntax:
 character_classes = {
+
+Explanation:
+character_classes is a variable.
+= means assignment.
+{ means open the outer hash data structure.
+this means the character_classes variable is assigned the outer hash data structure which contains:
+
+
+
+
   warrior: { strength:  20 },
   thief:   { dexterity: 20 },
   scout:   { stamina:   20 },
@@ -493,6 +504,11 @@ stamina: is a symbol key.
 this means the stamina: symbol key is assigned the 10 integer value.
 } means close the hash data structure that is everything after this is outside of the hash data structure.
 
+character_classes is a variable.
+= means assignment.
+{ means open the outer hash data structure.
+this means the character_classes variable is assigned the outer hash data structure which contains:
+
 This means:
 
 player is a variable.
@@ -516,5 +532,9 @@ stamina: is a symbol key.
 this means the stamina: symbol key is assigned the 10 integer value.
 } means close the hash data structure that is everything after this is outside of the hash data structure.
 
+character_classes is a variable.
+= means assignment.
+{ means open the outer hash data structure.
+this means the character_classes variable is assigned the outer hash data structure which contains:
 
 =end
