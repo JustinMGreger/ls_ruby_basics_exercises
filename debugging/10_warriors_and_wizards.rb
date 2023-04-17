@@ -655,13 +655,16 @@ is a nested hash data structure which contains the charisma: symbol key which is
 the character_classes outer hash data structure which means everything after this line is outside of the character_classes 
 outer hash data structure.
 
-
-
-
-
-
-
+Syntax:
 puts 'Your character stats:'
+
+Explanaiton:
+puts is put s which is put string which means print to the screen the string.
+'Your character stats:' is a string.
+this means print to the screen the string 'Your character stats:'.
+
+
+
 puts player
 
 Summary of Solution Syntax:
@@ -846,6 +849,10 @@ is a nested hash data structure which contains the charisma: symbol key which is
 the character_classes outer hash data structure which means everything after this line is outside of the character_classes 
 outer hash data structure.
 
+puts is put s which is put string which means print to the screen the string.
+'Your character stats:' is a string.
+this means print to the screen the string 'Your character stats:'.
+
 This means:
 
 player is a variable.
@@ -1027,5 +1034,9 @@ which is a hash data structure of a symbol key integer value pair that is inside
 is a nested hash data structure which contains the charisma: symbol key which is assigned the 20 integer value and close 
 the character_classes outer hash data structure which means everything after this line is outside of the character_classes 
 outer hash data structure.
+
+puts is put s which is put string which means print to the screen the string.
+'Your character stats:' is a string.
+this means print to the screen the string 'Your character stats:'.
 
 =end
