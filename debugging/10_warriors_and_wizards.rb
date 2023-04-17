@@ -259,9 +259,15 @@ structure uses which means it is not accessible that is it doesn't exist and the
 the error is that the result of the merge method does not mutate the original data and is not assigned to a variable which
 means that the transformed new hash data structure is not accessible.
 
-
-
+Syntax:
 puts 'Your character stats:'
+
+Explanaiton:
+puts is put s which is put string which means print to the screen the string.
+'Your character stats:' is a string.
+this means print to the screen the string 'Your character stats:'.
+
+
 puts player
 
 Syntax of Solution:
