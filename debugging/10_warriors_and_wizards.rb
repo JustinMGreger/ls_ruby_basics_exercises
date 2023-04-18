@@ -1120,16 +1120,8 @@ value, the mage: symbol key assigned { charisma: 20 } which is a hash data struc
 that is inside of a hash data structure which means this is a nested hash data structure which contains the charisma: 
 symbol key which is assigned the 20 integer value and close the character_classes outer hash data structure which means 
 everything after this line is outside of the character_classes outer hash data structure.
-====================================
-print to the screen the string.
-'Please type your class (warrior, thief, scout, mage):' is a string.
-this means print to the screen the string  'Please type your class (warrior, thief, scout, mage):'.
-input is a variable.
-= means assignment.
-gets is get s which is get string which is get user input in string form.
-.chomp method removes the new line character at the end of the string.
-.downcase method converts all upcase letters in a string to the lowercase version of the letters.
-this means:
+
+print to the screen the string  'Please type your class (warrior, thief, scout, mage):'.
 input is a variable assigned the user input in string form then remove the new line character at the end of the string 
 then convert all the upcase letters in the string to the lowercase version of the letters.
 ======================================
