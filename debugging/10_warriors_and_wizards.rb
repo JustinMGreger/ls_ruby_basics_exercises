@@ -1147,9 +1147,8 @@ is a nested hash data structure which contains the charisma: symbol key which is
 the character_classes outer hash data structure which means everything after this line is outside of the character_classes 
 outer hash data structure.
 =====================================
-puts is put s which is put string which means print to the screen the string.
-'Your character stats:' is a string.
-this means print to the screen the string 'Your character stats:'.
+print to the screen the string 'Your character stats:'.
+
 puts is put s which is put string which means print to the screen the string.
 player is a variable.
 = means assignment.
